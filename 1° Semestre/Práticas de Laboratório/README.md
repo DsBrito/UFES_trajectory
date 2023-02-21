@@ -6,7 +6,7 @@ Sobre a Disciplina
   * Ministrada pelo professor Carlos Alberto Dalarmelina (currículo lattes abaixo)
   
 <div align="center">
-    <a href="http://lattes.cnpq.br/4370076834892764" target="_blank"
+    <a href="http://lattes.cnpq.br/6311438909116976" target="_blank"
       ><img
         src="https://img.shields.io/badge/-Currículo Lattes-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
         target="_blank"
