@@ -8,3 +8,4 @@ Bem Vindo ao meu primeiro semestre, aqui se encontra as seguintes disciplinas:
 * Programação II
 * Cálculo I
 * Álgebra Linear
+* Química A
