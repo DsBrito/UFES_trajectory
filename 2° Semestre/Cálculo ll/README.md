@@ -5,7 +5,7 @@
 Sobre a Disciplina
   * Contém notas de aula (p1, p2 e p3).
   * Contém livros.
-  * Contém Tabelas (integral e derivada)
+  * Contém Tabelas (integral e derivada).
   * Ministrada pelo professor Vinicius Bassi Coswosck (currículo lattes abaixo)
   
 <div align="center">
