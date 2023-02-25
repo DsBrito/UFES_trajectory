@@ -4,6 +4,7 @@
 Sobre a Disciplina
   * Contém apostilas. 
   * Contém aulas.
+  * Contém livros.
   * Contém Exercícios.
   * Contém 2 trabalhos (Netmap e Árvore Binária de Expressões Aritmética).
   * Ministrada pela professora Patricia Dockhorn Costa (currículo lattes abaixo).
