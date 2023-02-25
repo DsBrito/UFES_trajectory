@@ -8,4 +8,4 @@ Bem Vindo ao meu terceiro semestre, aqui se encontra as seguintes disciplinas:
 * Física Experimental 
 * Programação III
 * Cálculo III A
-* Termodinâmica e Transmissão de Calo
+* Termodinâmica e Transmissão de Calor
