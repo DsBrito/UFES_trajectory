@@ -8,7 +8,7 @@ Sobre a Disciplina
   * Contém listas de exercícios.
   * Contém Tabelas (integral e derivada)
   * Contém livros.
-  * Contém material de EDOF
+  * Contém material de EDO
   * Ministrada pela professora Santina de Fátima Arantes (currículo lattes abaixo)
   
 <div align="center">
