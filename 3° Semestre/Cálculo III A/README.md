@@ -4,12 +4,12 @@
 
 Sobre a Disciplina
   * Contém apostlas.
-  * Contém softwares para auxiliar na resolução dos exercícios
+  * Contém softwares para auxiliar na resolução dos exercícios.
   * Contém listas de exercícios.
-  * Contém Tabelas (integral e derivada)
+  * Contém Tabelas (integral e derivada).
   * Contém livros.
-  * Contém material de EDO
-  * Ministrada pela professora Santina de Fátima Arantes (currículo lattes abaixo)
+  * Contém material de EDO.
+  * Ministrada pela professora Santina de Fátima Arantes (currículo lattes abaixo).
   
 <div align="center">
     <a href="http://lattes.cnpq.br/0862910163544421" target="_blank"
