@@ -1,0 +1,44 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=-144,-15,1324,948,0.909657,0,0>
+  <Grid=10,10,0>
+  <DataSet=graficoDiodo.dat>
+  <DataDisplay=graficoDiodo.sch>
+  <OpenDisplay=1>
+  <Script=graficoDiodo.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 720 370 556 345 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"Vin.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 720 740 557 334 3 #c0c0c0 1 00 1 0 0.001 0.003 1 -12 1 12 1 -1 0.5 1 315 0 225 "" "" "">
+	<"Vout.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 320 640 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"ID" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 320 850 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"VD" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect -30 640 240 160 3 #c0c0c0 1 00 0 0 0.2 1 1 -0.000922824 0.005 0.0116511 1 -1 1 1 315 0 225 "Tensão no diodo (VD)" "Corrente no diodo (ID)" "">
+	<"y" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 30 376 508 336 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"Vin.Vt" #0000ff 0 3 0 0 0>
+	<"Vout.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

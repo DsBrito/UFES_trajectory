@@ -1,0 +1,31 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=0,23,873,888,0.620921,0,120>
+  <Grid=10,10,0>
+  <DataSet=RC.dat>
+  <DataDisplay=RC.sch>
+  <OpenDisplay=1>
+  <Script=RC.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 87 364 749 321 3 #c0c0c0 1 10 1 0.1 1 10000 1 -63.6485 10 5.50452 1 -1 0.5 1 315 0 225 "w [rad/s]" "|H(jw)|dB" "">
+	<"d1" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 80 749 761 314 3 #c0c0c0 1 10 1 0 1000 10000 1 -104.316 20 68.6791 1 -1 0.5 1 315 0 225 "w [rad/s]" "Theta(jw) [°]" "">
+	<"d2" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

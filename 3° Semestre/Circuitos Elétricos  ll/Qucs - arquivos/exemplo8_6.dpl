@@ -1,0 +1,33 @@
+<Qucs Schematic 0.0.18>
+<Properties>
+  <View=-61,0,800,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=exemplo8_6.dat>
+  <DataDisplay=exemplo8_6.sch>
+  <OpenDisplay=1>
+  <Script=exemplo8_6.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 84 339 635 298 3 #c0c0c0 1 00 1 0 5e-05 0.0005 1 -0.00501914 0.01 0.0266365 1 -1 0.5 1 315 0 225 "Tempo [s]" "" "">
+	<"IL.It" #0000ff 0 3 0 0 0>
+	<"IC.It" #ff0000 0 3 0 0 0>
+	<"IR.It" #ff00ff 0 3 0 0 0>
+  </Rect>
+  <Rect 80 515 642 125 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"Vp.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

@@ -1,0 +1,11 @@
+# Qucs 0.0.18  /home/andrefer/.qucs/LAB2_EA20172_prj/LAB2_EA20172.sch
+
+Vdc:V1 _net0 gnd U="10 V"
+Vdc:V2 _net1 gnd U="10 V"
+.DC:DC1 Temp="26.85" reltol="0.001" abstol="1 pA" vntol="1 uV" saveOPs="no" MaxIter="150" saveAll="no" convHelper="none" Solver="CroutLU"
+R:R3 _net2 gnd R="180 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R1 _net3 _net4 R="280 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+R:R2 _net3 _net5 R="560 Ohm" Temp="26.85" Tc1="0.0" Tc2="0.0" Tnom="26.85"
+IProbe:Pr2 _net5 _net0
+IProbe:Pr3 _net3 _net2
+IProbe:Pr1 _net1 _net4
