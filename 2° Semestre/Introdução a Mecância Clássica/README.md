@@ -9,7 +9,7 @@ Sobre a Disciplina
   * Contém artigos.
   * Contém aulas.
   * Contém notas de aula.
-  * Ministrada pelo professor Rodrigo Dias Pereira (currículo lattes abaixo)
+  * Ministrada pelo professor Rodrigo Dias Pereira (currículo lattes abaixo).
   
 <div align="center">
     <a href="http://lattes.cnpq.br/3414799692619699" target="_blank"
