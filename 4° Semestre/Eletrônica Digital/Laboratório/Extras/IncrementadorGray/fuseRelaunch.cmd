@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/IncrementadorGray/g_inc_tb_isim_beh.exe" -prj "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/IncrementadorGray/g_inc_tb_beh.prj" "work.g_inc_tb" 

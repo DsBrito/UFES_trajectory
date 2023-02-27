@@ -1,0 +1,2 @@
+vhdl work "gray_inc.vhd"
+vhdl work "g_inc_tb.vhd"
