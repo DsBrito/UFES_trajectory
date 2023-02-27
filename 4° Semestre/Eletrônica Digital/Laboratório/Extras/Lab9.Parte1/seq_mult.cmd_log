@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Lab9.Parte1/seq_mult.xst" -ofn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Lab9.Parte1/seq_mult.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 "seq_mult.ngc" seq_mult.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o seq_mult_map.ncd seq_mult.ngd seq_mult.pcf 
+par -w -intstyle ise -ol high -t 1 seq_mult_map.ncd seq_mult.ncd seq_mult.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seq_mult.twx seq_mult.ncd -o seq_mult.twr seq_mult.pcf 
+bitgen -intstyle ise -f seq_mult.ut seq_mult.ncd 
+xst -intstyle ise -ifn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Lab9.Parte1/seq_mult.xst" -ofn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Lab9.Parte1/seq_mult.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 "seq_mult.ngc" seq_mult.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o seq_mult_map.ncd seq_mult.ngd seq_mult.pcf 
+par -w -intstyle ise -ol high -t 1 seq_mult_map.ncd seq_mult.ncd seq_mult.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seq_mult.twx seq_mult.ncd -o seq_mult.twr seq_mult.pcf 
+bitgen -intstyle ise -f seq_mult.ut seq_mult.ncd 
+xst -intstyle ise -ifn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Lab9.Parte1/seq_mult.xst" -ofn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Lab9.Parte1/seq_mult.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 "seq_mult.ngc" seq_mult.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o seq_mult_map.ncd seq_mult.ngd seq_mult.pcf 
+par -w -intstyle ise -ol high -t 1 seq_mult_map.ncd seq_mult.ncd seq_mult.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seq_mult.twx seq_mult.ncd -o seq_mult.twr seq_mult.pcf 
+bitgen -intstyle ise -f seq_mult.ut seq_mult.ncd 
