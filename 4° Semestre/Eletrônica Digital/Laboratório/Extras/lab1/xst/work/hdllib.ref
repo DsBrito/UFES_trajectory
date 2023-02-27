@@ -1,0 +1,6 @@
+AR my_xor2 beh_arch "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab1/list_0204_xor.vhd" sub00/vhpl01 1600967079
+EN even_detector NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab1/list_02_even_all.vhd" sub00/vhpl04 1600967082
+EN my_xor2 NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab1/list_0204_xor.vhd" sub00/vhpl00 1600967078
+AR not1 beh_arch "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab1/list_0204_xor.vhd" sub00/vhpl03 1600967081
+EN not1 NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab1/list_0204_xor.vhd" sub00/vhpl02 1600967080
+AR even_detector str_arch "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab1/list_02_even_all.vhd" sub00/vhpl05 1600967083
