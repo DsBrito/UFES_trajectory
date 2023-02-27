@@ -1,0 +1,462 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: garage_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "garage_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "garage_top"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-4-fg320
+
+---- Source Options
+Top Module Name                    : garage_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_door_ctrl.vhd" in Library work.
+Architecture behavioral of Entity garage_door_ctrl is up to date.
+Compiling vhdl file "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/motor_ctrl.vhd" in Library work.
+Architecture behavioral of Entity motor_ctrl is up to date.
+Compiling vhdl file "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/timer.vhd" in Library work.
+Architecture behavioral of Entity timer is up to date.
+Compiling vhdl file "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_top.vhd" in Library work.
+Architecture behavioral of Entity garage_top is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <garage_top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <garage_door_ctrl> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <motor_ctrl> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <timer> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <garage_top> in library <work> (Architecture <behavioral>).
+Entity <garage_top> analyzed. Unit <garage_top> generated.
+
+Analyzing Entity <garage_door_ctrl> in library <work> (Architecture <Behavioral>).
+Entity <garage_door_ctrl> analyzed. Unit <garage_door_ctrl> generated.
+
+Analyzing Entity <motor_ctrl> in library <work> (Architecture <Behavioral>).
+Entity <motor_ctrl> analyzed. Unit <motor_ctrl> generated.
+
+Analyzing Entity <timer> in library <work> (Architecture <Behavioral>).
+Entity <timer> analyzed. Unit <timer> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <garage_door_ctrl>.
+    Related source file is "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_door_ctrl.vhd".
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 5                                              |
+    | Transitions        | 13                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | fechado                                        |
+    | Power Up State     | aberto                                         |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <garage_door_ctrl> synthesized.
+
+
+Synthesizing Unit <motor_ctrl>.
+    Related source file is "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/motor_ctrl.vhd".
+    Found 4-bit adder for signal <count_next$addsub0000> created at line 73.
+    Found 4-bit register for signal <count_reg>.
+    Found 4-bit 4-to-1 multiplexer for signal <count_reg$mux0000>.
+    Found 2-bit register for signal <count_sec_reg>.
+    Found 2-bit 4-to-1 multiplexer for signal <count_sec_reg$mux0000>.
+    Found 2-bit addsub for signal <count_sec_reg$share0000>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   6 Multiplexer(s).
+Unit <motor_ctrl> synthesized.
+
+
+Synthesizing Unit <timer>.
+    Related source file is "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/timer.vhd".
+    Found 4-bit adder for signal <count_next$addsub0000> created at line 79.
+    Found 4-bit register for signal <count_reg>.
+    Found 2-bit register for signal <count_sec_reg>.
+    Found 2-bit adder for signal <count_sec_reg$addsub0000> created at line 76.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <timer> synthesized.
+
+
+Synthesizing Unit <garage_top>.
+    Related source file is "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_top.vhd".
+WARNING:Xst:646 - Signal <pos> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <garage_top> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 2-bit adder                                           : 1
+ 2-bit addsub                                          : 1
+ 4-bit adder                                           : 2
+# Registers                                            : 4
+ 2-bit register                                        : 2
+ 4-bit register                                        : 2
+# Multiplexers                                         : 2
+ 2-bit 4-to-1 multiplexer                              : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <garage_door_unit/state_reg/FSM> on signal <state_reg[1:3]> with user encoding.
+----------------------
+ State    | Encoding
+----------------------
+ aberto   | 000
+ abrindo  | 001
+ fechado  | 010
+ fechando | 011
+ tempo    | 100
+----------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 4
+ 2-bit adder                                           : 1
+ 2-bit addsub                                          : 1
+ 4-bit adder                                           : 2
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+# Multiplexers                                         : 2
+ 2-bit 4-to-1 multiplexer                              : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <garage_top> ...
+
+Optimizing unit <motor_ctrl> ...
+
+Optimizing unit <timer> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block garage_top, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 15
+ Flip-Flops                                            : 15
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : garage_top.ngr
+Top Level Output File Name         : garage_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 9
+
+Cell Usage :
+# BELS                             : 44
+#      LUT2                        : 6
+#      LUT2_L                      : 2
+#      LUT3                        : 12
+#      LUT3_L                      : 1
+#      LUT4                        : 16
+#      LUT4_D                      : 2
+#      LUT4_L                      : 4
+#      MUXF5                       : 1
+# FlipFlops/Latches                : 15
+#      FDC                         : 12
+#      FDCE                        : 2
+#      FDP                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 8
+#      IBUF                        : 4
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-4 
+
+ Number of Slices:                       23  out of   8672     0%  
+ Number of Slice Flip Flops:             15  out of  17344     0%  
+ Number of 4 input LUTs:                 43  out of  17344     0%  
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    250     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 15    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 15    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.854ns (Maximum Frequency: 206.016MHz)
+   Minimum input arrival time before clock: 5.181ns
+   Maximum output required time after clock: 7.215ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.854ns (frequency: 206.016MHz)
+  Total number of paths / destination ports: 123 / 17
+-------------------------------------------------------------------------
+Delay:               4.854ns (Levels of Logic = 3)
+  Source:            motor_unit/count_sec_reg_1 (FF)
+  Destination:       garage_door_unit/state_reg_FSM_FFd3 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: motor_unit/count_sec_reg_1 to garage_door_unit/state_reg_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              9   0.591   0.995  motor_unit/count_sec_reg_1 (motor_unit/count_sec_reg_1)
+     LUT2:I0->O            1   0.704   0.424  motor_unit/A_and00002_SW0 (N21)
+     LUT4:I3->O            1   0.704   0.424  garage_door_unit/state_reg_FSM_FFd3-In14 (garage_door_unit/state_reg_FSM_FFd3-In14)
+     LUT4:I3->O            1   0.704   0.000  garage_door_unit/state_reg_FSM_FFd3-In42 (garage_door_unit/state_reg_FSM_FFd3-In)
+     FDC:D                     0.308          garage_door_unit/state_reg_FSM_FFd3
+    ----------------------------------------
+    Total                      4.854ns (3.011ns logic, 1.843ns route)
+                                       (62.0% logic, 38.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 16 / 3
+-------------------------------------------------------------------------
+Offset:              5.181ns (Levels of Logic = 4)
+  Source:            SI (PAD)
+  Destination:       garage_door_unit/state_reg_FSM_FFd2 (FF)
+  Destination Clock: clk rising
+
+  Data Path: SI to garage_door_unit/state_reg_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             6   1.218   0.844  SI_IBUF (SI_IBUF)
+     LUT2:I0->O            1   0.704   0.595  motor_unit/F_and00001_SW1 (N25)
+     LUT4_L:I0->LO         1   0.704   0.104  garage_door_unit/state_reg_FSM_FFd2-In10 (garage_door_unit/state_reg_FSM_FFd2-In10)
+     LUT4:I3->O            1   0.704   0.000  garage_door_unit/state_reg_FSM_FFd2-In39 (garage_door_unit/state_reg_FSM_FFd2-In)
+     FDP:D                     0.308          garage_door_unit/state_reg_FSM_FFd2
+    ----------------------------------------
+    Total                      5.181ns (3.638ns logic, 1.543ns route)
+                                       (70.2% logic, 29.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 21 / 4
+-------------------------------------------------------------------------
+Offset:              7.215ns (Levels of Logic = 3)
+  Source:            motor_unit/count_reg_3 (FF)
+  Destination:       F (PAD)
+  Source Clock:      clk rising
+
+  Data Path: motor_unit/count_reg_3 to F
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.591   0.762  motor_unit/count_reg_3 (motor_unit/count_reg_3)
+     LUT4_D:I0->O          4   0.704   0.762  motor_unit/A_and000011 (motor_unit/N111)
+     LUT3:I0->O            1   0.704   0.420  motor_unit/F_and00001 (F_OBUF)
+     OBUF:I->O                 3.272          F_OBUF (F)
+    ----------------------------------------
+    Total                      7.215ns (5.271ns logic, 1.944ns route)
+                                       (73.1% logic, 26.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 15.18 secs
+ 
+--> 
+
+Total memory usage is 4513128 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,43 @@
+ISim log file
+Running: C:\Users\diona\OneDrive\Documentos\Projetos Xilinx\PPLAB2.garage_door_ctrl\garage_door_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_door_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /garage_door_tb/garage_top_unit/motor_unit/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /garage_door_tb/garage_top_unit/motor_unit/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /garage_door_tb/garage_top_unit/timer_unit/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /garage_door_tb/garage_top_unit/timer_unit/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+at 0 ps, Instance /garage_door_tb/garage_top_unit/timer_unit/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+# run all
+
+** Failure:Simulation Completed
+User(VHDL) Code Called Simulation Stop
+In process garage_door_tb.vhd:47 
+ 
+INFO: Simulator is stopped.
+# run all
+INFO: Simulator is stopped.
+# restart
+# restart
+# run all
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /garage_door_tb/garage_top_unit/motor_unit/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /garage_door_tb/garage_top_unit/motor_unit/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /garage_door_tb/garage_top_unit/timer_unit/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+at 0 ps, Instance /garage_door_tb/garage_top_unit/timer_unit/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+at 0 ps, Instance /garage_door_tb/garage_top_unit/timer_unit/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+
+** Failure:Simulation Completed
+User(VHDL) Code Called Simulation Stop
+In process garage_door_tb.vhd:47 
+ 
+INFO: Simulator is stopped.

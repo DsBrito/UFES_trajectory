@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/xst"
+elaborate
+-ifn garage_door_ctrl.prj
+-ifmt mixed

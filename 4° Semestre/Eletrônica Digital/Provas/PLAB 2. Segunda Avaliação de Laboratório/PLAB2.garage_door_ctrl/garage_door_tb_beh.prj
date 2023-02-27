@@ -1,0 +1,5 @@
+vhdl work "timer.vhd"
+vhdl work "motor_ctrl.vhd"
+vhdl work "garage_door_ctrl.vhd"
+vhdl work "garage_top.vhd"
+vhdl work "garage_door_tb.vhd"

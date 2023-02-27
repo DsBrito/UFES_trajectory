@@ -1,0 +1,5 @@
+vhdl isim_temp "timer.vhd"
+vhdl isim_temp "motor_ctrl.vhd"
+vhdl isim_temp "garage_door_ctrl.vhd"
+vhdl isim_temp "garage_top.vhd"
+vhdl isim_temp "garage_door_tb.vhd"
