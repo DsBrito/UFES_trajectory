@@ -1,0 +1,42 @@
+Command line:
+   mult_seq_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65375
+
+Fri Dec 04 23:14:33 2020
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.28 Meg
+
+ Total Signals          : 28
+ Total Nets             : 128
+ Total Signal Drivers   : 20
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 8
+ Total Traceable Variables  : 17
+ Total Scalar Nets and Variables : 615
+Total Line Count : 54
+
+** Failure:Simulation Completed
+User(VHDL) Code Called Simulation Stop
+In process mult_seq_v2_tb.vhd:45 
+ 
+
+Total Line Count : 54
+
+** Failure:Simulation Completed
+User(VHDL) Code Called Simulation Stop
+In process mult_seq_v2_tb.vhd:45 
+ 
+
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 4678.42 Meg
+
+Sat Dec 05 15:10:00 2020
+
