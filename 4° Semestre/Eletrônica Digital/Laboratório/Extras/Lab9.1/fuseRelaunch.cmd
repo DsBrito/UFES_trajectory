@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Lab9.1/seq_mult_isim_beh.exe" -prj "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Lab9.1/seq_mult_beh.prj" "work.seq_mult" 

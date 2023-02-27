@@ -1,0 +1,8 @@
+V3 3
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Lab9.1/seq_mult_v1.vhd" 2020/11/25.15:59:40 P.20131013
+EN work/seq_mult 1607125647 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Lab9.1/seq_mult_v1.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/seq_mult/shift_add_arch 1607125648 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Lab9.1/seq_mult_v1.vhd" \
+      EN work/seq_mult 1607125647
