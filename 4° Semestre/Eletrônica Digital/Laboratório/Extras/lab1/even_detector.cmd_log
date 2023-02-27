@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab1/even_detector.xst" -ofn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab1/even_detector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 "even_detector.ngc" even_detector.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o even_detector_map.ncd even_detector.ngd even_detector.pcf 
+par -w -intstyle ise -ol high -t 1 even_detector_map.ncd even_detector.ncd even_detector.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml even_detector.twx even_detector.ncd -o even_detector.twr even_detector.pcf 
+xst -intstyle ise -ifn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab1/even_detector.xst" -ofn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab1/even_detector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 "even_detector.ngc" even_detector.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o even_detector_map.ncd even_detector.ngd even_detector.pcf 
+par -w -intstyle ise -ol high -t 1 even_detector_map.ncd even_detector.ncd even_detector.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml even_detector.twx even_detector.ncd -o even_detector.twr even_detector.pcf 
+bitgen -intstyle ise -f even_detector.ut even_detector.ncd 

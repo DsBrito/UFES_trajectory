@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab1/even_detector_testbench_isim_beh.exe" -prj "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab1/even_detector_testbench_beh.prj" "work.even_detector_testbench" 
