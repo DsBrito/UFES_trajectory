@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab3/chave2por2/chave2por2.xst" -ofn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab3/chave2por2/chave2por2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 "chave2por2.ngc" chave2por2.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o chave2por2_map.ncd chave2por2.ngd chave2por2.pcf 
+par -w -intstyle ise -ol high -t 1 chave2por2_map.ncd chave2por2.ncd chave2por2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml chave2por2.twx chave2por2.ncd -o chave2por2.twr chave2por2.pcf 
+bitgen -intstyle ise -f chave2por2.ut chave2por2.ncd 
+xst -intstyle ise -ifn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab3/chave2por2/chave2por2.xst" -ofn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab3/chave2por2/chave2por2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 "chave2por2.ngc" chave2por2.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o chave2por2_map.ncd chave2por2.ngd chave2por2.pcf 
+par -w -intstyle ise -ol high -t 1 chave2por2_map.ncd chave2por2.ncd chave2por2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml chave2por2.twx chave2por2.ncd -o chave2por2.twr chave2por2.pcf 
+xst -intstyle ise -ifn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab3/chave2por2/chave2por2.xst" -ofn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab3/chave2por2/chave2por2.syr" 

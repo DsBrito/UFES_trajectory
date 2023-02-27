@@ -1,0 +1,2 @@
+vhdl isim_temp "chave2por2.vhd"
+vhdl isim_temp "chave2por2_tb.vhd"

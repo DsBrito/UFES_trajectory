@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab3/chave2por2/chave2por2_tb_isim_beh.exe" -prj "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab3/chave2por2/chave2por2_tb_beh.prj" "work.chave2por2_tb" 
