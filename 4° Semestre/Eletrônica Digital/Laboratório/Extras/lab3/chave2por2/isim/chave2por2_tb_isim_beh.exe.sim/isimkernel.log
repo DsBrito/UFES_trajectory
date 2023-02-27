@@ -1,0 +1,29 @@
+Command line:
+   chave2por2_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63665
+
+Fri Oct 09 11:21:34 2020
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5150.1 Meg
+
+ Total Signals          : 6
+ Total Nets             : 6
+ Total Signal Drivers   : 3
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 366
+Total Line Count : 59
+
+ Total Simulation Time: 0.625 sec
+
+ Current Memory Usage: 4992.81 Meg
+
+Fri Oct 09 11:23:46 2020
+

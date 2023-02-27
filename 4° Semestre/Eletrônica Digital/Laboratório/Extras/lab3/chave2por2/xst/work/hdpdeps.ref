@@ -1,0 +1,11 @@
+V3 6
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab3/chave2por2/chave2por2.vhd" 2020/10/05.18:38:56 P.20131013
+EN work/chave2por2 1602253220 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab3/chave2por2/chave2por2.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/chave2por2/if_arch 1602253221 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab3/chave2por2/chave2por2.vhd" \
+      EN work/chave2por2 1602253220
+AR work/chave2por2/case_arch 1602253222 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab3/chave2por2/chave2por2.vhd" \
+      EN work/chave2por2 1602253220
