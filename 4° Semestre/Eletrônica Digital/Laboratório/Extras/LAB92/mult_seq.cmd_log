@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/LAB92/mult_seq.xst" -ofn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/LAB92/mult_seq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 "mult_seq.ngc" mult_seq.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o mult_seq_map.ncd mult_seq.ngd mult_seq.pcf 
+par -w -intstyle ise -ol high -t 1 mult_seq_map.ncd mult_seq.ncd mult_seq.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mult_seq.twx mult_seq.ncd -o mult_seq.twr mult_seq.pcf 
+bitgen -intstyle ise -f mult_seq.ut mult_seq.ncd 
+xst -intstyle ise -ifn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/LAB92/mult_seq.xst" -ofn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/LAB92/mult_seq.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 "mult_seq.ngc" mult_seq.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o mult_seq_map.ncd mult_seq.ngd mult_seq.pcf 
+par -w -intstyle ise -ol high -t 1 mult_seq_map.ncd mult_seq.ncd mult_seq.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mult_seq.twx mult_seq.ncd -o mult_seq.twr mult_seq.pcf 
+bitgen -intstyle ise -f mult_seq.ut mult_seq.ncd 

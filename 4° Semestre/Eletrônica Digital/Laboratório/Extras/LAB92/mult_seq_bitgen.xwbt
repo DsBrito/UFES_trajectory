@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\diona\OneDrive\Documentos\Projetos Xilinx\LAB92\mult_seq.ncd
+OUTFILE=C:\Users\diona\OneDrive\Documentos\Projetos Xilinx\LAB92\mult_seq.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=C:\Users\diona\OneDrive\Documentos\Projetos Xilinx\LAB92
+LICENSE=WebPack
+USER_INFO=212039260_0_0_713
