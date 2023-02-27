@@ -1,0 +1,5 @@
+vhdl work "timer.vhd"
+vhdl work "fsm_top.vhd"
+vhdl work "decod2_4_n.vhd"
+vhdl work "ascii_sseg.vhd"
+vhdl work "top_level_lab7.vhd"

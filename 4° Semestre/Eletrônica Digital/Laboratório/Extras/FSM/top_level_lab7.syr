@@ -1,0 +1,423 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: top_level_lab7.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top_level_lab7.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top_level_lab7"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-4-fg320
+
+---- Source Options
+Top Module Name                    : top_level_lab7
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/timer.vhd" in Library work.
+Architecture behavioral of Entity timer is up to date.
+Compiling vhdl file "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/fsm_top.vhd" in Library work.
+Architecture behavioral of Entity fsm is up to date.
+Compiling vhdl file "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/decod2_4_n.vhd" in Library work.
+Architecture behavioral of Entity decod2_4_n is up to date.
+Compiling vhdl file "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/ascii_sseg.vhd" in Library work.
+Architecture behavioral of Entity ascii_sseg is up to date.
+Compiling vhdl file "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/top_level_lab7.vhd" in Library work.
+Architecture behavioral of Entity top_level_lab7 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <top_level_lab7> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <timer> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <fsm> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <decod2_4_n> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <ascii_sseg> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <top_level_lab7> in library <work> (Architecture <behavioral>).
+Entity <top_level_lab7> analyzed. Unit <top_level_lab7> generated.
+
+Analyzing Entity <timer> in library <work> (Architecture <Behavioral>).
+Entity <timer> analyzed. Unit <timer> generated.
+
+Analyzing Entity <fsm> in library <work> (Architecture <Behavioral>).
+Entity <fsm> analyzed. Unit <fsm> generated.
+
+Analyzing Entity <decod2_4_n> in library <work> (Architecture <Behavioral>).
+Entity <decod2_4_n> analyzed. Unit <decod2_4_n> generated.
+
+Analyzing Entity <ascii_sseg> in library <work> (Architecture <Behavioral>).
+Entity <ascii_sseg> analyzed. Unit <ascii_sseg> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <timer>.
+    Related source file is "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/timer.vhd".
+    Found 16-bit down counter for signal <count_reg>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <timer> synthesized.
+
+
+Synthesizing Unit <fsm>.
+    Related source file is "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/fsm_top.vhd".
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 10                                             |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <fsm> synthesized.
+
+
+Synthesizing Unit <decod2_4_n>.
+    Related source file is "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/decod2_4_n.vhd".
+    Found 1-of-4 decoder for signal <s>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <decod2_4_n> synthesized.
+
+
+Synthesizing Unit <ascii_sseg>.
+    Related source file is "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/ascii_sseg.vhd".
+Unit <ascii_sseg> synthesized.
+
+
+Synthesizing Unit <top_level_lab7>.
+    Related source file is "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/top_level_lab7.vhd".
+Unit <top_level_lab7> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 16-bit down counter                                   : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <fsm_unit/state_reg/FSM> on signal <state_reg[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ s0    | 00
+ s1    | 01
+ s2    | 10
+ s3    | 11
+-------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Counters                                             : 1
+ 16-bit down counter                                   : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <top_level_lab7> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top_level_lab7, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 18
+ Flip-Flops                                            : 18
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : top_level_lab7.ngr
+Top Level Output File Name         : top_level_lab7
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 64
+#      GND                         : 1
+#      INV                         : 15
+#      LUT1                        : 1
+#      LUT2                        : 9
+#      LUT3                        : 1
+#      LUT4                        : 4
+#      LUT4_L                      : 1
+#      MUXCY                       : 15
+#      VCC                         : 1
+#      XORCY                       : 16
+# FlipFlops/Latches                : 18
+#      FDC                         : 2
+#      FDP                         : 16
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 1
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-4 
+
+ Number of Slices:                       16  out of   8672     0%  
+ Number of Slice Flip Flops:             18  out of  17344     0%  
+ Number of 4 input LUTs:                 31  out of  17344     0%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    250     5%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 18    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.658ns (Maximum Frequency: 214.684MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.071ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.658ns (frequency: 214.684MHz)
+  Total number of paths / destination ports: 171 / 18
+-------------------------------------------------------------------------
+Delay:               4.658ns (Levels of Logic = 3)
+  Source:            timer_unit/count_reg_4 (FF)
+  Destination:       fsm_unit/state_reg_FSM_FFd2 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: timer_unit/count_reg_4 to fsm_unit/state_reg_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              2   0.591   0.622  timer_unit/count_reg_4 (timer_unit/count_reg_4)
+     LUT4:I0->O            1   0.704   0.499  timer_unit/timer_tick_cmp_eq000025 (timer_unit/timer_tick_cmp_eq000025)
+     LUT4:I1->O            2   0.704   0.526  timer_unit/timer_tick_cmp_eq000076 (timer_tick)
+     LUT2:I1->O            1   0.704   0.000  fsm_unit/state_reg_FSM_FFd2-In1 (fsm_unit/state_reg_FSM_FFd2-In)
+     FDC:D                     0.308          fsm_unit/state_reg_FSM_FFd2
+    ----------------------------------------
+    Total                      4.658ns (3.011ns logic, 1.647ns route)
+                                       (64.6% logic, 35.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 20 / 10
+-------------------------------------------------------------------------
+Offset:              6.071ns (Levels of Logic = 2)
+  Source:            fsm_unit/state_reg_FSM_FFd2 (FF)
+  Destination:       sseg<6> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: fsm_unit/state_reg_FSM_FFd2 to sseg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             10   0.591   1.057  fsm_unit/state_reg_FSM_FFd2 (fsm_unit/state_reg_FSM_FFd2)
+     LUT2:I0->O            2   0.704   0.447  ascii_sseg_unit/sseg_cmp_eq00351 (sseg_6_OBUF)
+     OBUF:I->O                 3.272          sseg_6_OBUF (sseg<6>)
+    ----------------------------------------
+    Total                      6.071ns (4.567ns logic, 1.504ns route)
+                                       (75.2% logic, 24.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.70 secs
+ 
+--> 
+
+Total memory usage is 4513120 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

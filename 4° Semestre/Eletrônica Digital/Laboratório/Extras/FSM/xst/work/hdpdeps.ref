@@ -1,0 +1,38 @@
+V3 15
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/ascii_sseg.vhd" 2020/11/22.19:46:59 P.20131013
+EN work/ascii_sseg 1606095207 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/ascii_sseg.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ascii_sseg/Behavioral 1606095208 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/ascii_sseg.vhd" \
+      EN work/ascii_sseg 1606095207
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/decod2_4_n.vhd" 2020/11/22.19:47:06 P.20131013
+EN work/decod2_4_n 1606095205 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/decod2_4_n.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/decod2_4_n/Behavioral 1606095206 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/decod2_4_n.vhd" \
+      EN work/decod2_4_n 1606095205
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/fsm_top.vhd" 2020/11/22.22:32:48 P.20131013
+EN work/fsm 1606095203 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/fsm_top.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/fsm/Behavioral 1606095204 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/fsm_top.vhd" \
+      EN work/fsm 1606095203
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/timer.vhd" 2020/11/22.22:25:37 P.20131013
+EN work/timer 1606095201 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/timer.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/timer/Behavioral 1606095202 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/timer.vhd" \
+      EN work/timer 1606095201
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/top_level_lab7.vhd" 2020/11/22.19:47:24 P.20131013
+EN work/top_level_lab7 1606095209 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/top_level_lab7.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/top_level_lab7/Behavioral 1606095210 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/top_level_lab7.vhd" \
+      EN work/top_level_lab7 1606095209 AR work/timer/Behavioral 1606095202 \
+      AR work/fsm/Behavioral 1606095204 AR work/decod2_4_n/Behavioral 1606095206 \
+      AR work/ascii_sseg/Behavioral 1606095208

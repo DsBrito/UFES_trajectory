@@ -1,0 +1,2 @@
+vhdl work "timer.vhd"
+vhdl work "fsm_top.vhd"

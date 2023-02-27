@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/xst"
+elaborate
+-ifn fsm.prj
+-ifmt mixed

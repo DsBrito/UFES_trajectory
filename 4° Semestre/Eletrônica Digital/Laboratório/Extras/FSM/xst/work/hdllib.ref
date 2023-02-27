@@ -1,0 +1,11 @@
+EN top_level_lab7 NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/top_level_lab7.vhd" sub00/vhpl09 1606095209
+AR top_level_lab7 behavioral "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/top_level_lab7.vhd" sub00/vhpl10 1606095210
+EN decod2_4_n NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/decod2_4_n.vhd" sub00/vhpl05 1606095205
+AR decod2_4_n behavioral "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/decod2_4_n.vhd" sub00/vhpl06 1606095206
+AR fsm behavioral "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/fsm_top.vhd" sub00/vhpl04 1606095204
+EN ascii_sseg NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/ascii_sseg.vhd" sub00/vhpl07 1606095207
+AR timer behavioral "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/timer.vhd" sub00/vhpl01 1606095202
+AR ascii_sseg behavioral "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/ascii_sseg.vhd" sub00/vhpl08 1606095208
+EN fsm NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/fsm_top.vhd" sub00/vhpl03 1606095203
+EN fsm_top NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/fsm_top.vhd" sub00/vhpl02 1606085422
+EN timer NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/timer.vhd" sub00/vhpl00 1606095201

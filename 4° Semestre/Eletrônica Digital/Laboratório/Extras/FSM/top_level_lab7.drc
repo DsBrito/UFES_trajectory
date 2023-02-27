@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun Nov 22 22:35:06 2020
+
+drc -z top_level_lab7.ncd top_level_lab7.pcf
+
+DRC detected 0 errors and 0 warnings.

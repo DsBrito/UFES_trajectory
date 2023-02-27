@@ -1,0 +1,8 @@
+[Inputs]
+timer_tick
+clk
+reset
+[Outputs]
+=letter[7:0]=
+=dig[1:0]=
+[BiDir]

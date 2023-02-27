@@ -1,0 +1,2 @@
+vhdtdtfi -lib work fsm_top.vhd -prj FSM -o fsm.spl -module fsm -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e fsm.spl {C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab5/FSM/fsm.sym} 
