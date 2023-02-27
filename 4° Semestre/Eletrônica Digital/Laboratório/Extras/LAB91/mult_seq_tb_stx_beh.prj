@@ -1,0 +1,2 @@
+vhdl isim_temp "seq_mult_v1.vhd"
+vhdl isim_temp "seq_mult_v1_tb.vhd"
