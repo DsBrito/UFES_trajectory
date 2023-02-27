@@ -1,0 +1,42 @@
+Command line:
+   garage_door_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49418
+
+Fri Dec 11 21:50:16 2020
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5150.24 Meg
+
+ Total Signals          : 55
+ Total Nets             : 45
+ Total Signal Drivers   : 25
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 17
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 537
+Total Line Count : 127
+
+** Failure:Simulation Completed
+User(VHDL) Code Called Simulation Stop
+In process garage_door_tb.vhd:47 
+ 
+
+Total Line Count : 127
+
+** Failure:Simulation Completed
+User(VHDL) Code Called Simulation Stop
+In process garage_door_tb.vhd:47 
+ 
+
+
+ Total Simulation Time: 1.35938 sec
+
+ Current Memory Usage: 4678.38 Meg
+
+Fri Dec 11 22:00:06 2020
+

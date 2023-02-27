@@ -1,0 +1,8 @@
+AR garage_top behavioral "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_top.vhd" sub00/vhpl07 1607734083
+AR garage_door_ctrl behavioral "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_door_ctrl.vhd" sub00/vhpl01 1607734077
+AR motor_ctrl behavioral "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/motor_ctrl.vhd" sub00/vhpl03 1607734079
+AR timer behavioral "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/timer.vhd" sub00/vhpl05 1607734081
+EN motor_ctrl NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/motor_ctrl.vhd" sub00/vhpl02 1607734078
+EN garage_door_ctrl NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_door_ctrl.vhd" sub00/vhpl00 1607734076
+EN timer NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/timer.vhd" sub00/vhpl04 1607734080
+EN garage_top NULL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_top.vhd" sub00/vhpl06 1607734082

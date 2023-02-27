@@ -1,0 +1,30 @@
+V3 12
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_door_ctrl.vhd" 2020/12/11.21:47:41 P.20131013
+EN work/garage_door_ctrl 1607734076 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_door_ctrl.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/garage_door_ctrl/Behavioral 1607734077 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_door_ctrl.vhd" \
+      EN work/garage_door_ctrl 1607734076
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_top.vhd" 2020/12/11.21:12:38 P.20131013
+EN work/garage_top 1607734082 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_top.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/garage_top/Behavioral 1607734083 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/garage_top.vhd" \
+      EN work/garage_top 1607734082 AR work/garage_door_ctrl/Behavioral 1607734077 \
+      AR work/motor_ctrl/Behavioral 1607734079 AR work/timer/Behavioral 1607734081
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/motor_ctrl.vhd" 2020/12/11.21:12:43 P.20131013
+EN work/motor_ctrl 1607734078 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/motor_ctrl.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/motor_ctrl/Behavioral 1607734079 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/motor_ctrl.vhd" \
+      EN work/motor_ctrl 1607734078
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/timer.vhd" 2020/12/11.21:12:36 P.20131013
+EN work/timer 1607734080 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/timer.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/timer/Behavioral 1607734081 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/PPLAB2.garage_door_ctrl/timer.vhd" \
+      EN work/timer 1607734080
