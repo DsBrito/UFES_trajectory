@@ -1,0 +1,17 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab4/CodificadordePrioridadeProgramavel/testbench_isim_beh.exe" -prj "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab4/CodificadordePrioridadeProgramavel/testbench_beh.prj" "work.testbench" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab4/CodificadordePrioridadeProgramavel/prog_prior_encoder.vhd" into library work
+Parsing VHDL file "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab4/CodificadordePrioridadeProgramavel/prog_prior_encoder_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity prog_prior_encoder [prog_prior_encoder_default]
+Compiling architecture behavior_tb of entity testbench
+Time Resolution for simulation is 1ps.
+ERROR:Simulator:904 - Unable to remove previous simulation file isim/testbench_isim_beh.exe.sim/testbench_isim_beh.exe. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: boost::filesystem::remove: Acesso negado: "isim\testbench_isim_beh.exe.sim\testbench_isim_beh.exe"
+ERROR:Simulator:861 - Failed to link the design

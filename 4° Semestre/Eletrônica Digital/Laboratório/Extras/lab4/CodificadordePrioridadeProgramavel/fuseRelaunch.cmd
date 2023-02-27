@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab4/CodificadordePrioridadeProgramavel/testbench_isim_beh.exe" -prj "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/lab4/CodificadordePrioridadeProgramavel/testbench_beh.prj" "work.testbench" 

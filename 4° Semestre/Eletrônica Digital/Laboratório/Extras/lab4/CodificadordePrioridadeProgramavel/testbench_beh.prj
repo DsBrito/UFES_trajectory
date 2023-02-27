@@ -1,0 +1,2 @@
+vhdl work "prog_prior_encoder.vhd"
+vhdl work "prog_prior_encoder_tb.vhd"

@@ -1,0 +1,2 @@
+vhdl isim_temp "prog_prior_encoder.vhd"
+vhdl isim_temp "prog_prior_encoder_tb.vhd"
