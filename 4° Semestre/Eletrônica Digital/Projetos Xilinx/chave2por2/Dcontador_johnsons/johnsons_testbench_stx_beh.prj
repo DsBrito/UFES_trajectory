@@ -1,0 +1,2 @@
+vhdl isim_temp "johnsons_counter_8bits.vhd"
+vhdl isim_temp "johnsons_testbench.vhd"

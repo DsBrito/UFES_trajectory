@@ -1,0 +1,2 @@
+vhdl work "johnsons_counter_8bits.vhd"
+vhdl work "johnsons_testbench.vhd"

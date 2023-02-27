@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Dcontador_johnsons/johnsons_counter_8bits.xst" -ofn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Dcontador_johnsons/johnsons_counter_8bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 "johnsons_counter_8bits.ngc" johnsons_counter_8bits.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o johnsons_counter_8bits_map.ncd johnsons_counter_8bits.ngd johnsons_counter_8bits.pcf 
+par -w -intstyle ise -ol high -t 1 johnsons_counter_8bits_map.ncd johnsons_counter_8bits.ncd johnsons_counter_8bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml johnsons_counter_8bits.twx johnsons_counter_8bits.ncd -o johnsons_counter_8bits.twr johnsons_counter_8bits.pcf 
+bitgen -intstyle ise -f johnsons_counter_8bits.ut johnsons_counter_8bits.ncd 
+xst -intstyle ise -ifn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Dcontador_johnsons/johnsons_counter_8bits.xst" -ofn "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/Dcontador_johnsons/johnsons_counter_8bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1200e-fg320-4 "johnsons_counter_8bits.ngc" johnsons_counter_8bits.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o johnsons_counter_8bits_map.ncd johnsons_counter_8bits.ngd johnsons_counter_8bits.pcf 
+par -w -intstyle ise -ol high -t 1 johnsons_counter_8bits_map.ncd johnsons_counter_8bits.ncd johnsons_counter_8bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml johnsons_counter_8bits.twx johnsons_counter_8bits.ncd -o johnsons_counter_8bits.twr johnsons_counter_8bits.pcf 
+bitgen -intstyle ise -f johnsons_counter_8bits.ut johnsons_counter_8bits.ncd 
