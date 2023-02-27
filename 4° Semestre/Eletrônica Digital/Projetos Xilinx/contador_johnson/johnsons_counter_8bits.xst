@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/contador_johnson/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/contador_johnson/xst"
+elaborate
+-ifn johnsons_counter_8bits.prj
+-ifmt mixed

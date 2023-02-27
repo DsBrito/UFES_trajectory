@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="1015" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/contador_johnson/tb.vhd</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. Wait for statement unsupported.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1015" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/contador_johnson/tb.vhd</arg>&quot; Line <arg fmt="%d" index="2">54</arg>. Wait for statement unsupported.
+</msg>
+
+</messages>
+

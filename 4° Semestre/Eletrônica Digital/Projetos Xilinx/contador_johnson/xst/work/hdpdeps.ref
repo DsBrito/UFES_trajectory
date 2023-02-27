@@ -1,0 +1,16 @@
+V3 6
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/contador_johnson/johnsons_counter_8bits (2).vhd" 2020/11/26.20:08:52 P.20131013
+EN work/johnsons_counter_8bits 1606433713 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/contador_johnson/johnsons_counter_8bits (2).vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/johnsons_counter_8bits/Behavioral 1606433714 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/contador_johnson/johnsons_counter_8bits (2).vhd" \
+      EN work/johnsons_counter_8bits 1606433713
+FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/contador_johnson/tb.vhd" 2020/11/26.20:24:08 P.20131013
+EN work/johnsons_testbench 1606433057 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/contador_johnson/tb.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/johnsons_testbench/Behavioral 1606433058 \
+      FL "C:/Users/diona/OneDrive/Documentos/Projetos Xilinx/contador_johnson/tb.vhd" \
+      EN work/johnsons_testbench 1606433057 \
+      AR work/johnsons_counter_8bits/Behavioral 1606433714
