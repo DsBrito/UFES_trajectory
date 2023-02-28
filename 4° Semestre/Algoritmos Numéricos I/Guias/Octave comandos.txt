@@ -1,0 +1,47 @@
+>> clc 		(limpar a janela de comandos " clean ")
+>> +,-,*,/,^	(operadores)
+
+[Ordem de Precedência]
+1-> parênteses internos 
+2-> exponenciaçãp
+3-> multiplicação e divisão
+4-> adição e subtração
+
+[Formatação de dados Numericos]
+>> format bank		(deixa com 2 digitos após a virgula)
+>> format short 	(deixa com 4 digitos após a virgula)
+>> format long		(deixa com 14 digitos após a virgula)
+>> format short e 	(deixa com 4 digitos após a virgula e com exponencial 10°)
+>> format long e	(deixa com 15 digitos após a virgula e com exponencial 10°)
+>> format short g	(deixa com 5 digitos apenas)
+>> format long g	(deixa co 16 nuemros apenas)
+
+[Variaveis Pré definidas]
+>>ans	(padrao de local de memoria da resposta)
+>>pi	(numero pi)
+>>e	(numero de euler)
+>>inf	(infinito)
+>>i/j	(parte imaginaria)
+>>NaN	(Indeterminação-Nao consegue representar)
+ 
+[Comandos Úteis para Variaveis]
+>> clear	(apaga todas as variaveis)
+>> clear a	(apaga a variavel a)
+>> who		(listas de todas as variaveis ativas/declaradas)
+>> whos		(lista com todas as variaveis ativas/declaradas com o tamanho e classe)
+
+
+[Criando Vetor]
+>> vetor= [1,2,3,4,5,6]
+
+
+
+
+
+[Escrevendo codigo]
+
+entradaDeDados...............=input(texto)			(testo com espera de dados)
+saida........................disp(variavel de saida)		(devolve o resultado)
+ImpressaoNaTela..............disp(texto)			(apenas texto na tela)
+ImpressaoNaTela..............fprintf('texto %1.2var',Variavel)	(Imprime o texto com dado da variavel)
+
