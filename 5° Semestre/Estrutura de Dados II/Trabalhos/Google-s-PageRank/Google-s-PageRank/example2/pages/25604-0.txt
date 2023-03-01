@@ -1,0 +1,500 @@
+MALAYENGLISH DICTIONARY By R J WILKINSON 4to 19013 Unbound
+A2 10s bound A3 3s The Malay words are printed in Arabic and
+in Roman characters
+ENGLISHMALAY VOCABULARY By F A SWETTENHAM Fifth Edition 245 and
+xxxii pages 8vo cloth 1905 8s 6d net
+MALAYENGLISH VOCABULARY By F A SWETTENHAM New edition in
+preparation a Malay words printed both in Arabic and Roman
+characters
+TRAVELLERaS MALAY PRONOUNCING HANDBOOK for the Use of Travellers and
+Newcomers to Singapore Seventh Edition 317 and xxvi pages 12mo
+cloth 1904 5s
+Printed in Roman characters only
+LONDON KEGAN PAUL TRENCH TRABNER  CO LTD
+Dryden House Gerrard Street W
+A MANUAL
+of the
+MALAY LANGUAGE
+with
+An Introductory Sketch of the
+Sanskrit Element in Malay
+by
+WILLIAM EDWARD MAXWELL
+of the Inner Temple BarristerAtLaw
+Assistant Resident Perak Malay Peninsula
+EIGHTH EDITION
+LONDON
+KEGAN PAUL TRENCH TRABNER  CO Ltd
+Dryden House Gerrard Street W
+1907
+Je naen refuis aulcune de phrases qui sausent emmy les rues
+ceux qui veulent combattre lausage par la grammaire se mocquent
+MONTAIGNE
+PREFACE
+The language which I have endeavoured to illustrate in the following
+pages is the Malay of the British Settlements in the Straits of Malacca
+some knowledge of which I have had the opportunity of acquiring during
+sixteen yearsa service in Penang Province Wellesley Malacca
+Singapore and Perak
+Dialectical peculiarities are so abundant in Malay that it is impossible
+to teach the colloquial language of the people without imparting to the
+lesson the distinct marks of a particular locality In parts of India it
+is said proverbially that in every twelve kos there is a variation in
+the language1 and very much the same might be said of the Malay
+Peninsula and adjacent islands The construction of the language and the
+general body of words remain of course the same but in every state or
+subdivision of a state there are peculiar words and expressions and
+variations of accent and pronunciation which belong distinctively to it
+Words common in one district sound strangely in another or it may be
+they convey different meanings in the two places Even words of such
+constant occurrence as the personal pronouns aIa and ayoua vary
+according to locality The Kedah accent is easily distinguished from
+that of Patani and that again from the speech of Trengganu and Pahang
+Certain expressions common in Penang are almost unintelligible in
+Malacca and Singapore and vice versA In Perak it is not difficult to
+say whether a man comes from the upper or lower reaches of the river by
+merely noting particular words in his conversation Even individual
+villages and districts have their peculiar twang or their tricks of
+expression not found elsewhere In Java Sumatra and other islands
+eastward in which Malay is spoken the pronunciation and character of
+the language are much influenced by the other languages current there
+Malay is only spoken in perfection in places where the natives speak no
+other tongue
+Footnote 1 Beames Comparative Grammar of the Aryan Languages
+p 101
+Native pedantry has endeavoured to classify various styles of speaking
+as the court style bahasa dalam the wellbred style bahasa
+bangsawan the traderas language bahasa dagang and the mixed
+language bahasa kachaukan but all that can be correctly said is
+that a limited number of words are used exclusively in intercourse with
+royal personages that persons of good birth and education in the
+Eastern Archipelago as elsewhere select their expressions more
+carefully than the lower classes and that the vocabulary of commerce
+does not trouble itself with the graces of style and the copious use of
+Arabic words which commend themselves to native writers
+The written language is more stilted and less terse and idiomatic than
+the colloquial dialect and even where pure Malay is employed the
+influence of Arabic compositions is very marked Whole sentences
+sometimes though clothed in excellent Malay are unacknowledged
+translations of Arabic phrases This may be verified by any one well
+acquainted with Malay literary compositions who will look into a really
+good translation of an Arabic work for instance Laneas translation of
+the aThousand and One Nightsa The Malay speaks much better than he
+writes and has at his command quantities of words which never find
+their way into his literature and therefore but rarely into
+dictionaries compiled by Europeans
+The spelling of Malay words in the native character is hardly yet fixed
+though the PersoArabic alphabet has been in use since the thirteenth
+century and those follow but a vain shadow who seek to prescribe exact
+modes of spelling words regarding which even native authorities are not
+agreed and of which the pronunciation may vary according to locality
+The experience of Crawfurd sufficiently proves this there are words in
+his dictionary which are transliterated in as many as four different
+ways
+Two classes of works in his own language have hitherto been at the
+service of the English student of Malaygrammars more or less
+scientifically arranged and vocabularies and books of dialogues which
+presuppose some knowledge of grammatical construction
+The Malay Grammar of Marsden is an admirable work of unquestionable
+utility to the advanced student but it contains more than the beginner
+wants to know Crawfurdas Malay Grammar too is hardly a work to put
+into the hands of a beginner
+Mere vocabularies on the other hand teach nothing but words and
+sentences and throw no light upon forms of construction
+It has been my aim to supply a work which will be at once an elementary
+grammar and a compendium of words and sentences which will teach the
+colloquial dialect and yet explain grammatical rules and for this I
+have taken as my model the Hindustani Manual of the late Professor
+Forbes
+The language is not ennobled by having been the speech of men who have
+made their mark in the worldas history The islands of Indonesia have
+never startled the Eastern world with an Akbar or charmed it with a
+Hafiz or a Chand Receptivity not originality is the characteristic of
+the Malay races But the importance of Malay when the traveller heads
+eastward from the Bay of Bengal has been recognised by Europeans since
+the sixteenth century when Magellanas Malay interpreter was found to be
+understood from one end of the Archipelago to the other It is the
+strong and growing language of an interesting people and in the words
+of a recent writer on Eastern languages afor Malay as for Hindustani
+a magnificent future may be anticipated among the great speechmedia of
+Asia and of the world They manifest that capacity for the absorption
+and assimilation of foreign elements which we recognise as making
+English the greatest vernacular that the world has ever seena2
+Footnote 2 Cust Modern Languages of the East Indies 150
+W E M
+THE RESIDENCY LARUT PERAK
+July 1 1881
+INTRODUCTION
+The interest of Englishmen in the Malay language began with the early
+ventures of the East India Company in the Far East in the first years
+of the seventeenth century It was the language of commerce everywhere
+east of the Bay of Bengal and our earliest adventurers found it spoken
+at the trading ports which they visited The Portuguese had preceded
+them by a century and the Dutch had been a little earlier in the same
+field Our countrymen seem to have been indebted to the latter for their
+first Malay vocabulary The minutes of the East India Company record
+how on the 22d January 1614 aa book of dialogues heretofore
+translated into Latin by the Hollanders and printed with the Malacca
+tongue Mr Hakluyt having now turned the Latin into English and
+supposed very fit for the factors to learn was ordered to be printed
+before the departure of the shipsa1
+Footnote 1 Calendar of State Papers Colonial Series East
+Indies p 272
+At present the use of Malay as far as Englishmen are concerned is
+chiefly confined to the officers of the Colonial Government in the
+British possessions in the Straits of Malacca and in the native states
+adjoining them and to other residents in those parts and in the Dutch
+settlements in the East To these may be added the English communities
+of Labuan and Sarawak and merchants traders and seamen all over the
+Eastern Archipelago The limited extent of our Malay possessions when
+they are compared with the magnificent islands which make up Netherlands
+India excuse us no doubt for the secondary place which we occupy in
+all researches connected with the language and literature of the Malays
+To the Dutch their colonies in the Eastern seas are what our Indian
+Empire is to us and with them the study of Malay Javanese Kawi c
+takes the place of Persian Hindustani Tamil Sanskrit c which
+occupy our civilians in India The extent and value of Dutch works on
+Malay subjects is however but little known to Englishmen in the East
+owing to their general ignorance of the Dutch language It is not too
+much to say that any one aiming at a thorough knowledge of the language
+literature and history of the Malay people should commence his task by
+learning Dutch
+Malay is the language not of a nation but of tribes and communities
+widely scattered in the East and is probably spoken with greatest
+purity in the states of Kedah and Perak on the west coast of the Malay
+Peninsula It is spoken in all the states of the Peninsula in Sumatra
+Sunda Java Borneo Celebes Flores Timor and Timor Laut the
+Moluccas and the Philippines Traces of it are found among the numerous
+Polynesian dialects and in the language of the islanders of Formosa
+Siam proper has a large Malay population descendants mainly of captives
+taken in war and the language is therefore in use there in places it
+is found also here and there on the coasts and rivers of Anam and
+CochinChina No other language of the Eastern Archipelago is understood
+over such an extensive area and it is the common means of communication
+between the numerous tribes and races of the Malay family whose
+languages and dialects differ
+Logan supposes that the earliest inhabitants of the Archipelago were
+tribes of AfricoIndian origin who peopled the Eastern islands as well
+as the more accessible portions of the Continent descendants of whom he
+recognises in the negro and quasinegro tribes that are still preserved
+in some of the mountains of the Malay Peninsula Siam and Anam To
+these succeeded immigrant tribes from MidAsia by way of the Irawadi
+whom Logan designates by the term of the TibetoAnam family all the
+races and languages from Tibet to Anam being included under it aBy a
+longcontinued influx this family spread itself over the Peninsula
+Sumatra Java Borneo and Celebes but its farther progress over the
+many islands to the north and east appears to have been checked by the
+older races It was probably only by slow steps and by settling at many
+points that it gained a firm footing even in the western islands and a
+long period must have elapsed before its tribes became so populous and
+spread so far into the interior as to enable them to absorb and destroy
+the earlier occupantsa2 The variety which exists among the languages
+and dialects in the region affected by these movements is thus accounted
+for by Logan aThe languages imported by the TibetoAnamese settlers
+differed as did those of the natives and the combinations formed in
+different places from the contact of the two families varied in the
+proportions of each which entered into them But the structures of the
+native tongues had strong affinities amongst themselves and
+predominated in all these new combinationsa3
+Footnote 2 Journ Ind Arch iv 311
+Footnote 3 Idem p 315
+The idea presented by this sketch of the origin of the aboriginal Malay
+language is that of a mixed dialect borrowing something from the
+TibetoAnam languages the influence of which would be more apparent in
+the western settlements and gradually approaching the AfricoIndian
+forms farther east4 aLastlya Logan supposes aa later Indian
+influence belonging to a far more advanced civilisation flowed in a
+great stream into the Western Archipelago and cut off that of the
+Irawadi before its linguistic operation had made much progressa5 It
+is to this epoch that we must ascribe the introduction of the Sanskrit
+element into the Malay language
+Footnote 4 Journ Ind Arch v p 569
+Footnote 5 Idem
+Malay is mainly dissyllabic but there are not wanting evidences of a
+former monosyllabic tendency The syllable bu bun or bung for
+instance occurs in a considerable number of words conveying an idea of
+roundness
+Bulan      the moon
+Bulat      round
+Buah       fruit
+Buyong     a jar
+Butir      a grain globule
+Busar      an arch
+Bukit      a hill
+Busut      an anthill
+Buntar     round
+Bunting    pregnant
+Bunchit    potbellied
+Buntut    the buttocks
+Buntoh     a numeral affix implying rotundity
+cf lAon Burmese used with such
+words as chinchin a ring and kail
+a fishhook
+Bungkok    humpbacked
+Bungkus    a bundle
+Many others might be cited6
+Footnote 6 These remarks do not of course affect foreign
+words such as bumi and bujang derived from the Sanskrit
+bhumi and bhujangga
+Another characteristic list of words might be made compounded with the
+monosyllable tang which in Sakai and Semang means ahanda and
+conveying an idea of seizing or holding
+Tangan      the hand
+Tangkap     to seize
+Tangkei     a stalk
+Tanggong    to support
+Tanggal     to drop off having left hold
+Tongkat     a walkingstick c
+The history of the Malay people is to be discovered in the language
+itself for no authentic records of preMuhammadan times exist Just as
+an insight into the early history of our own nation may be obtained by
+analysing the component parts of the English tongue and assigning to
+each of the languages which have contributed to make it what it is their
+due proportion of influence so by resolving the Malay language into
+its separate elements of which native Sanskrit and Arabic are the
+chief and by examining the words contributed by each it is possible to
+follow with some approach to historical accuracy the successive advances
+which the Malay people have made on the path of civilisation
+The aboriginal dialect prior to the admixture of Sanskrit must have
+been but the poor vocabulary of men hardly raised above savage life The
+purely native element in Malay furnishes all the necessary terms to
+express the physical objects surrounding men leading a primitive life in
+the forest and all that has to do with their food dwellings
+agriculture fishing hunting and domestic affairs
+The use of a Sanskrit word for aplougha seems to record a revolution in
+agriculture The primitive cultivation of the Malays was carried on by
+clearing and burning the hillsides a system still largely adopted in
+native states where land is plentiful and timber valueless and the
+cultivation of the wet ricefields of the plains which necessitates the
+use of the plough would thus seem to have been resorted to only after
+the arrival of the Hindus
+As soon as the analysis reaches moral ideas or objects requiring some
+advance in civilisation it is found that they are expressed by words of
+foreign origin These are for the most part Sanskrit or Arabic The
+latter require no notice here for they are of comparatively recent
+introduction For the most part they consist of terms incidental to the
+ethical and religious teaching of the Muhammadans The Arabic element in
+Malay is not accurately determinable for new expressions are constantly
+being introduced
+A sketch of the Sanskrit element in Malay is all that there is space for
+here
+A careful classification of the principal Sanskrit words which are found
+in Malay helps to indicate what must have been the condition of society
+when the Aryan came into contact with the islanders of Sumatra It
+shows independently of other proof that Hindu colonisation must have
+gradually introduced the Malay races to institutions ideas pursuits
+and wants to which they had hitherto been strangers Many of the
+incidents of commerce most of the metals and precious stones the pomp
+and ceremony of royalty and the use of the elephant are shown by the
+Sanskrit nomenclature employed in describing them to be of Hindu
+importation From this it is not difficult to infer the primitive
+condition of a people to whom all these things were unknown So the
+Sanskrit names of many weapons indicate a period when the rude weapons
+of savage Malay tribesblowpipes spears cwere supplemented by
+arms of a more formidable character for which they were indebted to
+India Other groups of words show independently of other proof that
+the Hindu religion was successfully planted among the Malays and
+flourished for a time and that the monarchical form of government was
+introduced in Malay countries by Hindu settlers and rulers
+The word arulersa is used advisedly for the theory of Marsden as to the
+manner of the introduction of Hinduism seems to possess greater claims
+to general acceptance than that advocated by certain other writers
+notably Leyden and Crawfurd Crawfurd asserted that the Sanskrit words
+adopted in Malay came originally through the Hindu priesthood and that
+the priests through whom this was effected belonged to the Telugu race
+this in his opinion being the people who commencing by trading with
+the Malays proceeded to partial settlement in their country and ended
+by converting them to Hinduism and introducing the language and
+literature of the Hindus He entirely discountenances the idea that
+Sanskrit could have been introduced by a people of whom it was the
+vernacular language7 He admits however that in Southern India
+Sanskrit was itself a foreign tongue that Sanskrit has found its way
+into Javanese and Malay in a state of comparative purity and not
+intermixed with Telugu and that there is no trace whatever of any
+extensive settlement of the Telugus in the Malay Archipelago
+Footnote 7 Crawfurd Malay Grammar Dissertation xxxix xliii
+Marsdenas contention on the other hand points to Gujarat as the
+quarter from which Hindu civilisation penetrated to the far East and to
+conquest as the mode in which the way was cleared for its
+introduction8
+Footnote 8 aInnovations of such magnitude we shall venture to
+say could not have been produced otherwise than by the entire
+domination and possession of these islands by some ancient Hindu
+power and by the continuance of its sway during several ages Of
+the period when this state of things existed we at present know
+nothing and judging of their principles of action by what we
+witness in these days we are at a loss to conceive under what
+circumstances they could have exerted an influence in distant
+countries of the nature here described The spirit of foreign
+conquest does not appear to have distinguished their character and
+zeal for the conversion of others to their own religious faith
+seems to be incompatible with their tenets We may however be
+deceived by forming our opinion from the contemplation of modern
+India and should recollect that previously to the Mohametan
+irruptions into the upper provinces which first took place about
+the year 1000 and until the progressive subjugation of the
+country by Persians and Moghuls there existed several powerful
+and opulent Hindu states of whose maritime relations we are
+entirely ignorant at present and can only cherish the hope of
+future discoveries from the laudable spirit of research that
+pervades and does so much honour to our Indian establishmentsa
+Marsden Malay Grammar xxxii
+Before proceeding to classify some of the Sanskrit words which are found
+in Malay and to deduce any theories from their presence it is
+necessary in order to avoid misconception to notice several
+difficulties which cannot be overlooked
+In the first place it is not meant to be asserted that the Malays have
+obtained all the words enumerated further on direct from the people of
+India All theories founded upon the presence of Sanskrit words in Malay
+must apply with equal force to Javanese which contains a larger
+proportion of Sanskrit words than Malay aSanskrit words are found in
+greatest purity in the Javanese and next to it in the Malay their
+corruption increasing as we recede from Java and Sumatraa9 It may be
+assumed therefore that in addition to the influence which Hinduism
+exerted among the Malays of Sumatra by means of direct intercourse with
+India there was also a second source from which the Malays derived a
+great portion of their Hindu nomenclature namely the ancient Hindu
+kingdoms of Java10
+Footnote 9 Crawfurd See also Marsden Malay Grammar xxxiii
+Footnote 10 aThe Hindu religion and Sanskrit language were in
+all probability earliest introduced in the western part of
+Sumatra the nearest part of the Archipelago to the continent of
+India Java however became eventually the favourite abode of
+Hinduism and its language the chief recipient of Sanskrit
+Through the Javanese and Malays Sanskrit appears to have been
+disseminated over the rest of the Archipelago and even to the
+Philippine Islands This is to be inferred from the greater number
+of Sanskrit words in Javanese and Malayespecially in the first
+of thesethan in the other cultivated languages from their
+existing in greater purity in the Javanese and Malay and from the
+errors of these two languages both as to sense and orthography
+having been copied by all the other tongues An approximation to
+the proportions of Sanskrit existing in some of the principal
+languages will show that the amount constantly diminishes as we
+recede from Java and Sumatra until all vestiges of it disappear
+in the dialects of Polynesia In the ordinary written language of
+Java the proportion is about 110 in 1000 in Malay 50 in the
+Sunda of Java 40 in the Bugis the principal language of
+Celebes 17 and in the Tagala one of the principal languages of
+the Philippines about one and a halfa Crawfurd Malay
+Grammar Dissertation xlvii Sed quAre as to the total absence
+of Sanskrit in the Polynesian dialects Ellisa aPolynesian
+Researchesa i 116
+These remarks may be illustrated by reference to the fourth column of
+the lists of words which follow
+Again some of the Sanskrit words in the following lists are synonyms
+merely there being native or Arabic words or both in common use to
+express the same object
+In some instances too the words quoted are not often heard in the
+colloquial dialect but occur in books to which in many cases they have
+been transplanted from Javanese romances
+All these circumstances seriously modify the possibility of drawing
+general conclusions from an analysis of the body of Sanskrit vocables
+found in Malay The questions to be decided seem to be 1 whether it is
+possible that such a mass of terms for common objects for they are by
+no means confined to words incident to the Hindu religion could have
+been imported into Malay by any means except by oral communication with
+a Sanskritspeaking people 2 supposing that this could have been
+effected through some later Indian dialect itself largely tinged with
+Sanskrit as the Latin words in English came to us with the Norman
+speech what dialect was this Telugu as Crawfurd thinks Gujarati to
+which Marsden inclines or what
+It is in order to contribute to the settlement of such questions as
+these that a classification of some of the Sanskrit terms in Malay has
+been attempted in this Introduction11 It is hoped that the subject
+may attract the attention of those more competent to deal with it and
+that the researches of Sanskrit scholars may facilitate a decision which
+there is no pretension to pronounce here
+Footnote 11 A selection of words only is given There are
+numbers of Sanskrit words in Malay which have no place in these
+lists
+The centre of Hindu influence in Malay states would seem to have been
+the court From the governing classes the use of Sanskrit expressions
+would gradually spread among the people To this day there are certain
+Sanskrit words which are applied to royalty alone there being native
+equivalents when the nonprivileged classes are intended The words
+putra and putrA afford an instance in point Meaning simply asona
+and adaughtera in Sanskrit they have from the fact of Sanskrit
+nomenclature having been affected at Malay courts come to mean
+aprincea and aprincessa and are applied only to the sons and
+daughters of rajas
+At the chief seats of Hindu government there must have been Brahmans
+conversant with the sacred writings whose teaching would gradually be
+the means of introducing a taste for Hindu learning and literature
+Bacha to read from bach to speak is Sanskrit but tulis to
+write is a native word12 and surat a writing is Arabic
+Language therefore in this instance does not throw much light on the
+progress made by the Malays in the art of writing in the preMuhammadan
+stage of their history Rockinscriptions found in Province Wellesley
+and Singapore prove however that at some remote period an ancient
+Indian character was known on the Peninsula13 though it was probably
+confined to religious purposes
+Footnote 12 Unless the Sansk root likh to write may be
+detected in the second syllable
+Footnote 13 Journal Royal As Soc Bengal vi 680 xvii part
+i 154 and 232 Idem part ii 62 66
+Crawfurd writing in 1852 stated that Malay can be written or spoken
+without the least difficulty without a word of Sanskrit or Arabic and
+described the foreign elements in Malay as aextrinsic and
+unessentiala14 But several words of the first necessity are Sanskrit
+It would be difficult to speak Malay intelligibly while avoiding the
+use of the relative pronouns yang Sansk yas ya yat who
+which and mana Sansk mAna measure or of the common auxiliary
+sudah Sansk Auddha15 pure acquitted which denotes the past
+tense A long list might be made of common words not included in any of
+the following groups which are almost pure Sanskrit such as bawa to
+bring vaha bearing carrying kata to say kath to tell
+talk biasa accustomed abhyAsa reflection langkah to step
+stride langh to stride over kelahi to fight kalaha
+quarrel and niala to blaze to burn jval Nor is the influence
+of Sanskrit in Malay confined to words which have been adopted in
+comparative purity An extension of the sphere of research reveals whole
+groups of Malay words which seem to be formed from some Sanskrit root
+and to retain to some extent its signification Thus the Sanskrit root
+ju to push on impel may perhaps be detected in such words as
+juwang to rush against jungur prominent a beak jungang
+prominent of teeth juring sharp pointed jurus to pull
+course direction juluk to thrust upwards julir a kind of
+harpoon julur to wag to wriggle c
+Footnote 14 Malay Grammar Dissertation vi
+Footnote 15 This is the derivation given in Favreas Dictionary
+Another from soa ha borne undergone might perhaps be
+suggested with equal probability
+Ap is a common termination of Malay words eg tangkap to seize
+chakap to speak silap to mistake c The presence of the
+Sanskrit root Ap to attain obtain is not indeed to be assumed in
+every case but it is difficult to resist the conviction that it does
+form a part of many Malay derivations Dapat to obtain rapat to
+approach asap smoke cf vyApta awap steam tangkap to
+seize grasp alapJav to take are instances which among others
+might be cited
+Gal Sansk to drop to distil percolate to fall is another root
+which seems to enter into the composition of Malay words eg
+tanggal to fall off to drop out tinggal to leave forsake
+tunggal solitary panggal to chop off a portion chopped off
+Compare also gali to dig tenggalam to sink tugal to sow rice
+by putting seeds into holes made with a sharp stick galah a pole
+galagala pitch
+If it be correct to assign a Sanskrit origin to all or any of these
+words they belong to a much earlier epoch than the comparatively pure
+Sanskrit words the importation of which into Malay is the subject now
+under discussion
+The presence of Sanskrit words in the Malay language was first remarked
+by Sir William Jones16 and the subject received more attention at the
+hands of Marsden who gives a short list of fifteen words ataken with
+little pains in the selection from a Malayan dictionarya17 Many of
+the Sanskrit words are as Marsden observes asuch as the progress of
+civilisation must soon have rendered necessary being frequently
+expressive of the feelings of the mind or denoting those ordinary modes
+of thought which result from the social habits of mankind or from the
+evils that tend to interrupt thema This assertion might have been put
+in more forcible terms had it occurred to the author to include not only
+words expressive of thought and feelings but even some signifying
+natural objects though doubtless most of these are expressed by
+aboriginal words Hari day is clearly identical with the Sanskrit
+hari athe suna which is also used as a name of Vishnu or Krishna
+Matahari the sun Malay is thus athe eye of Haria and is a
+compound formed of the native word mata and the Sanskrit hari
+Halilintar a thunderbolt seems to be compounded similarly of hari
+and lontar to hurl ahurled by Haria Here the r has been softened
+into l The Sanskrit kapala has almost entirely superseded the use
