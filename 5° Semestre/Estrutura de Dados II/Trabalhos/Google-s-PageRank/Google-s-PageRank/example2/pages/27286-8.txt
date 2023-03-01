@@ -1,0 +1,500 @@
+list of common engine troubles and their remedies I have thought it
+better to endeavour to explain thoroughly the fundamental principles and
+essentials of good running so that should any difficulty arise the
+engine attendant will be able to reason out for himself the cause of the
+trouble and will thus know the proper remedy to apply This will give
+him a command over his engine which should render him equal to any
+emergency
+WALTER C RUNCIMAN
+LONDON EC
+GAS AND OIL ENGINES
+SIMPLY EXPLAINED
+CHAPTER I
+INTRODUCTORY
+The history of the gas engine goes back a long way and the history of
+the internal combustion engine proper further still It will be
+interesting to recount the main points in the history of the development
+of the class of engine we shall deal with in the following pages in
+order to show what huge strides were made soon after the correct and
+most workable theory had been formulated
+In 1678 Abbe Hautefeuille explained how a machine could be constructed
+to work with gunpowder as fuel His arrangement was to explode the
+gunpowder in a closed vessel provided with valves and cool the products
+of combustion and so cause a partial vacuum to be formed By the aid of
+such a machine water could be raised This inventor however does not
+seem to have carried out any experiments
+In 1685 Huyghens designed another powder machine and Papin in 1688
+described a similar machine which was provided with regular valves as
+devised by himself in the Proceedings of the Leipsic Academy 1688
+From this time until 1791 when John Barber took out a patent for the
+production of force by the combustion of hydrocarbon in air practically
+no advancement was made The latter patent curiously enough comprised
+a very primitive form of rotary engine Barber proposed to turn coal
+oil or other combustible stuff into gas by means of external firing
+and then to mix the gases so produced with air in a vessel called the
+exploder This mixture was then ignited as it issued from the vessel
+and the ensuing flash caused a paddlewheel to rotate Mention is also
+made that it was an object to inject a little water into the exploder
+in order to strengthen the force of the flash
+Robert Streets patent of 1794 mentions a piston engine in the cylinder
+of which coal tar spirit or turpentine was vaporised the gases being
+ignited by a light burning outside the cylinder The piston in this
+engine was thrown upwards this in turn forcing a pump piston down which
+did work in raising water This was the first real gas engine though it
+was crude and very imperfectly arranged
+In 1801 Franzose Lebon described a machine to be driven by means of
+coalgas Two pumps were used to compress air and gas and the mixture
+was fired as recommended by the inventor by an electric spark and
+drove a piston in a doubleworking cylinder
+The atmospheric engine of Samuel Brown 1823 had a piston working in a
+cylinder into which gas was introduced and the latter being ignited
+expanded the air in cylinder whilst burning like a flame The flywheel
+carried the piston up to the top of its stroke then water was used to
+cool the burnt gases which also escaped through valves the latter
+closing when the piston had reached the top of its stroke A partial
+vacuum was formed and the atmospheric pressure did work on the piston
+on its down stroke A number of cylinders were required in this engine
+three being shown in the specification all connected to the same
+crankshaft According to the Mechanics Magazine such an engine with
+a complete gas generating plant was fitted to a boat which ran as an
+experiment upon the Thames
+A twocylinder engine working on to a beam was built in Paris but no
+useful results were obtained
+Wrights engine of 1833 used a mixture of combustible gas and air which
+operated like steam in a steam engine This engine had a waterjacket
+centrifugal governor and flame ignition In 1838 Barnett applied the
+principle of compression to a singleacting engine He also employed a
+gas and air pump which were placed respectively on either side of the
+engine cylinder communication being established between the receiver
+into which the pumps delivered and the working cylinder as the charge
+was fired The doubleacting engines which Barnett devised later were
+not so successful
+From this time to about 1860 very few practical developments are
+recorded A number of French and English patents were taken out
+referring to hydrogen motors but are not of much practical value
+Lenoirs patent dating from 24th January 1860 refers to a form of
+engine which received considerable commercial support and consequently
+became very popular A manufacturer named Marinoni built several of
+these engines which were set to work in Paris in a short time Then
+due to sudden demand the Lenoir Company was formed to undertake the
+manufacture of these engines It was claimed that a 4horsepower engine
+could be run at a cost of 34 shillings per day or just one half the
+cost of a steam engine using 99 pounds of coal per horsepower per
+hour Many similar exaggerated accounts of their economy in consumption
+were circulated and the public on the strength of these figures
+bought
+It was understood that 176 cubic ft of gas were required per
+horsepower per hour but it was found that as much as 105 cubic ft
+were often consumed The discrepancy between the stated figures and the
+actual performance of the engine was a disappointment to the using
+public and as a result the Lenoir engine got a bad name
+Hugon director of the Parisian gasworks who together with Reithmann
+a watchmaker of Munich hotly contested Lenoirs priority to this
+invention brought out a modification of this engine He cooled the
+cylinder by injecting water as well as using a waterjacket and used
+flame instead of electric ignition The consumption was now brought down
+to 875 cubic ft
+At the second Parisian International Exhibition 1867 an atmospheric
+engine invented by Otto  Langen about this time was shown In this
+engine a free piston was used in a vertical cylinder the former being
+thrown up by the force of the explosion The only work done on the
+upstroke was that to overcome the weight of the piston and piston rod
+and the latter being made in the form of a rack engaged with a toothed
+wheel on the axle as the piston descended causing the flywheel and
+pulley to rotate
+Barsanti and Matteucci were engaged in devising and experimenting with
+an engine very similar to this some years before but Otto  Langen no
+doubt worked quite independently Barsantis engine never became a
+commercial article while Otto  Langens firm it is said held their
+own for ten years and turned out about 4000 engines In 1862 the French
+engineer Beau de Rochas laid down the necessary conditions which must
+prevail in order to obtain maximum efficiency His patent says there are
+four conditions for perfectly utilising the force of expansion of gas in
+an engine
+1 Largest possible cylinder volume contained by a minimum of surface
+2 The highest possible speed of working
+3 Maximum expansion
+4 Maximum pressure at beginning of expansion
+These are the conditions and principles briefly stated that combine to
+form the now wellknown cycle upon which most gas engines work at the
+present time
+It was not until 1876 fifteen years after these principles had been
+enumerated that Otto carried them into practical effect when he brought
+out a new type of engine with compression before ignition higher
+piston speed more rapid expansion and a general reduction of
+dimensions for a given power Due to this achievement the cycle above
+referred to has always been termed the Otto cycle
+CHAPTER II
+THE COMPONENT PARTS OF AN ENGINE
+Having recounted very briefly the chief points in the development of the
+gas engine from its beginning we may proceed to deal with matters of
+perhaps more practical interest to those who we are assuming have had
+little or no actual experience in making or working internal combustion
+engines
+The modern gas engine comprises comparatively few parts Apart from the
+two main castingsthe bed and cylindera small engine generally
+speaking consists of four fundamental members viz the valves and
+their operating mechanism the cams and levers the ignition device for
+firing the charge and the governing mechanism for regulating the supply
+and admission of the explosive charge There are innumerable designs of
+each one of these parts and no two makes are precisely alike in detail
+as every maker employs his own method of achieving the same end namely
+the production of an engine which comprises maximum efficiency with a
+minimum of wear and tear and attention
+Therefore before dealing with each of these primary parts in an
+arbitrary manner and with the cycle of operations in detail we propose
+to make the reader familiar with the general arrangement and method of
+working which usually obtains in the smaller power engines In the
+following illustrations these parts are shown A fig 1 is the
+ignition device which carries the ignition tube to fire the charge H
+and I fig 2 are the main valves and GC fig 1 is the gascock
+The side or cam shaft N sometimes called the 2 to 1 shaft the cams
+which move the levers M the latter in turn operating the valves and
+causing them to open and close at the proper time are shown in fig 11
+A bracket bolted up to the side of cylinder forms a bearing for one end
+of the side shaft and also carries a spindle at its lower end on which
+the levers oscillate transmitting the motion imparted to them by the
+cams to the valves The main cylinder casting and the bed need no
+description In some cases the bed is in two portions though now a
+great many makers are discarding the lower portion altogether having
+found that it is cheaper and quite as satisfactory to use a builtup
+foundation instead and if necessary to cut a trough for the flywheel
+to run it This arrangement however only obtains where larger engines
+are concerned A halfcompression handle by which the exhaust cam is
+moved laterally on the side shaft as required is not needed on very
+small engines
+Illustration FIG 1General Arrangement of a Gas Engine and
+Accessories
+Further reference will be made to this in another chapter and
+although this is not a necessity on a small engine it is always
+employed on engines over 2 BHP In fig 1 HW is the cooling water
+outlet and CW the inlet A small drain cock is shown at DC through
+which the water in the cylinder waterjacket may be drawn off when
+required The pipes leading to the inlet and outlet of this supply are
+connected to the cooling water tank by means of a couple of broad flat
+nuts and lead washers one inside and the other outside the tank the
+latter when clamped up well making a perfectly watertight joint The
+outlet pipe making an acute angle with the side of tank the washers
+used there should be wedgeshape in section It is also desirable to fit
+a stopcock SC so that the pipes can be disconnected from the engine
+entirely or the waterjacket emptied without running the whole of the
+water out of the tank The exhaust pipe EP is made up of gasbarrel It
+should lead from the engine to the silencer or exhaust box if one is
+found to be necessary as directly as possible ie with no more
+bends than are needed and what there are should not be acute The
+silencer can be inside or outside the engineroom whichever is most
+convenient but both it and the exhaust piping should be kept from all
+direct contact with woodwork and at the same time in a readily
+accessible position
+Beyond the exhaustpipe and box and the watertank the gas bag GB and
+gas meter where small powers are concerned the ordinary house or
+workshop lighting meter may be used without inconvenience are the only
+other accessories which are included in a small installation
+Illustration FIG 2A Section of a Gas Engine
+Fig 2 gives a sectional view showing the cylinder and liner The
+latter is a very desirable feature in any type of gas engine but
+especially in the larger sizes for at any future time should it be
+found necessary to rebore the liner it can be removed with comparative
+ease and is moreover more readily dealt with in the lathe than the
+whole cylinder casting would be
+The liner is virtually a castiron tube with a specially shaped flange
+at either end At the back end the joint between it and the cylinder
+casting has to be very carefully made This is a water and explosion
+joint hence it has not only to prevent water entering the cylinder from
+the waterjacket but also to be sufficiently strong to withstand the
+pressure generated in the cylinder when the charge is fired For this
+purpose specially prepared coppered asbestos rings are used which will
+stand both water and intense heat Sometimes a copper ring alone is
+employed to make the joint At the front end the liner is just a good
+fit and enters the bed easily and a couple of bolts fitted in
+corresponding lugs on the liner pass through the back end of cylinder
+casting so that by tightening up these the joint at back end is made
+secure A small groove is cut on a flange and a rubber ring of about
+14in sectional diameter is inserted here when the liner is fitted
+into the cylinder casting This makes the waterjacket joint at the
+front end
+Illustration FIG 3
+Illustration FIG 5
+Illustration FIG 4
+Lugs are provided on the bed and cylinder castings and are bored to
+receive steel boltsthree are sufficient provided the metal in and
+around these lugs is not pinched In some cases a continuous flange is
+provided on both bed and cylinder and a number of bolts inserted all
+the way round This however is unnecessary and has a somewhat clumsy
+appearance When these bolts are tightened up the cylinder and liner
+are clamped firmly to the bed but the liner being free at the open end
+can expand longitudinally without causing stresses in the cylinder
+casting
+The combustion chamber K is virtually part of the cylinder and has
+approximately equal to onefourth the total volume of the cylinder The
+shape varies somewhat in different makes of engines in some it is
+rectangular with all the corners well rounded off in others it is
+practically a continuation of the cylinder ie it is circular in
+crosssection with the back end more or less spherical while again
+it is made slightly oval in crosssection but in every case the corners
+should be well curved and rounded off so that there is no one part
+which is liable to become heated disproportionately with the rest of the
+casting in fact in the whole cylinder casting there should be no
+sudden change but a uniformity in the thickness of the metal employed
+This point should be carefully remembered although it applies more
+particularly to those parts of the casting subjected to higher
+temperatures than the rest
+The main bearings are usually of brass or gunmetal and are adjusted
+for running in the same manner as any steam or other engines would be
+The brasses are in halves and are held down by the castiron caps as
+shown in fig 1
+These bearings require extremely little attention and do not show the
+wear and tear of running nearly so soon as the connectingrod brasses
+These too are usually of brass or gunmetal but there are various
+forms of construction employed in connection with the back end or piston
+pin bearings On very small engines the connecting rod is swollen at the
+back end in the forging and then machined up and drilled as shown in
+fig 3 In this hole the brasses are inserted after being scraped up to
+a good fit on the piston pin
+A flat is cut on one of the brasses and a set screw is fitted as
+shown to prevent any movement of the latter after the final adjustment
+has been made A lock nut should be used in conjunction with this set
+screw Another method and one more generally used on larger engines is
+shown in fig 4 In this case the brasses are larger than in the former
+where they are virtually a split bush here they have holes drilled in
+them to take the bolts the latter usually and preferably being turned
+up to the shape shown in fig 5
+CHAPTER III
+HOW A GAS ENGINE WORKS
+The gas engine of the present day although from a structural point of
+view is very different to the early engine or even that of fifteen
+years ago is in respect to the principle upon which it works very
+similar The greater number of smaller power engines in use in this
+country work on what is known as the Otto or fourcycle principle and
+it is with this class of engine we propose to deal
+Reference to the various diagrams in the text will help considerably
+and make it an easy matter for any reader hitherto totally unacquainted
+with such engines to see why and how they work
+Coalgas consists primarily of five other gases mixed together in
+certain proportions these proportions varying slightly in different
+parts of the countryHydrogen H 50 marsh gas CH4 38
+carbonmonoxide 4 olefines C6H4 4 nitrogen N 4
+Gas alone is not explosive and before any practical use can be made
+of it a considerable quantity of air has to be added diluting it down
+to approximately ten parts air to one of pure gas This mixture is now
+highly explosive
+The reader will do well to bear these facts constantly in mind
+especially when he is repairing adjusting or experimenting with a gas
+engine We wish to emphasise this at the outset because a consideration
+of these facts will keep cropping up throughout all our dealings with
+the gas engine and if once a fairly clear conception is obtained of how
+gas will behave under certain and various conditions half or even more
+than half our troubles will disappear the cry that the gas engine
+has gone wrong will be heard less often and users would soon learn
+that the gas engine is in reality as worthy of their confidence as any
+other form of power generator in common use
+But to revert to the explanation of the cycle of operations The cycle
+is completed in four strokes of the piston ie two revolutions of
+the crank shaft
+At the commencement of the first outstroke the charging or suction
+stroke gas and air are admitted to the cylinder through the respective
+valves fig 6 and continue to be drawn in by what may be termed the
+sucking action of the piston until the completion of this stroke the
+precise position of the closing and opening of the valves will be
+referred to later on The next stroke fig 7 is the compression
+stroke All the valves are closed whilst the piston moves inwards
+compressing the gases until at the end of this stroke and at the
+instant of maximum compression the highly explosive charge is fired by
+means of the hot tube or an electric spark as the case may be The
+ensuing strokethe second outstroke of the cycleis the result of the
+explosion the expanding gases driving the piston rapidly before them
+this then is the expansion or working stroke fig 8
+Illustration FIG 6Commencement of first outstroke suction or
+charging stroke Gas and air valve about to open
+Illustration FIG 7Compression stroke during which all valves
+remain closed
+During the lastthe second inwardstroke fig 9 the exhaust valve is
+opened and the returning piston sweeps all the burnt gases the product
+of combustion out into the exhaust pipe and so into the atmosphere
+This completes the cycle and the piston crank and valves are in the
+same relative positions as formerly and the same series of operations
+is repeated again and again Of course it is not always the case that
+both air and gas valve are opened on the charging stroke that depends
+upon the method employed to govern the speed of the engine Supposing
+it were governed on the hit and miss principle to be explained
+hereafter the gas valve would be allowed to remain closed during the
+charging stroke and air alone would be drawn into the cylinder then
+compressed but not being explosive would simply expand again on the
+working stroke giving back nearly all the energy which was absorbed in
+compressing it and finally be exhausted in the same manner as the burnt
+gases are
+Illustration FIG 8Second out stroke showing position of valves
+during working stroke
+Illustration FIG 9Second inward stroke showing position of valves
+during the exhaust stroke
+Illustration FIG 10First outstroke showing position of valves
+during the charging stroke
+Fig 10 shows diagrammatically the position of crank piston and
+valves during the charging stroke
+Illustration FIG 11Cross Section of Cylinder
+In figs 1 and 2 we gave drawings of two gas engines which are typical
+examples of modern practice Huge strides have been made in recent years
+in gasengine work as regards both workmanship and efficiency so that
+today we have in the gas engine a machine whose mechanical efficiency
+compares favourably with that of any other power generator and whose
+thermal efficiency is very much greater
+Illustration FIG 12Longitudinal Section of Cylinder
+Figs 11 and 12 show respectively a sectional end and side elevation of
+the cylinder from which it will not be difficult for the reader
+however unacquainted he may be with gasengine work to see how the
+various requirements and peculiarities of the engine should be
+considered and provided for
+A most important desideratum in any machine or engine is that it shall
+be as simple in construction as ever possible complicated mechanism
+should only be introduced when such addition or complication compensates
+adequately for what must necessarily be a higher first cost and
+incidentally the greater wear and tear and attention involved Figs 11
+and 12 show what has been done to simplify the construction of the gas
+engine in recent years The main feature in this case is the very
+getatable position of the two main valvesthe air valve F and the
+exhaust E These valves as may be seen from the drawing are capable of
+withdrawal after the cover of the combustion chamber has been removed
+The latter is an iron casting shaped and faced up to make an absolutely
+tight joint no asbestos or any packing is used to make this jointand
+is held in place by four studs as shown Thus all that is necessary is
+to remove the four nuts lift the cover off then pull out the pins
+which keep the spiral springs in position and withdraw the valves The
+latter are seated direct on to the metal of the cylinder casting the
+gunmetal bushes A and B acting as guides Further reference to A the
+mixer which serves a twofold purpose will be made later on
+The gas valve and cock are mounted in a separate casting which is
+carried by a couple of studs the joint between this and cylinder being
+made with a piece of rubber insertion The gas enters at the gascock
+passes through the valve and port G and round the annular space in the
+bush or mixer A previously mentioned and thence through a number of
+small holes in same immediately below the seat of the air valve F At
+the same time pure air is drawn in via the air box as explained
+hereafter through port L fig 11 and thence up the centre of bush A
+and over the small holes through which the gas is flowing The two then
+thoroughly mix and enter the combustion chamber together as the air
+valve F is opened This device produces a perfectly homogeneous mixture
+which conduces in no small measure to perfect combustion when the
+explosion takes place and upon which to a very great extent depends
+the efficiency of the engine Besides possible loss in this direction
+however there is another source of waste which cannot be eliminated
+and that is the heat taken away by the cooling water which surrounds the
+cylinder As this loss is inevitable the best thing we can do is to
+make it as small as possible Theoretically it would be no small
+advantage if we could work at very much higher temperatures than we do
+at the present time and it is only certain mechanical difficulties
+which bar the way and so effectually prevent the already high thermal
+efficiency of the engine being greatly increased
+It is no easy matter to overcome these difficulties completely but
+improvements in this direction are continually being made so that
+troubles which attended the gasengine user years ago no longer exist
+All that we require of the cooling water is that it shall keep certain
+working parts of the engine at a reasonable temperature for instance
+the cylinder must not be so hot as to deprive the lubricating oil of its
+property to lubricate neither must the exhaust valve become so hot as
+to cause it to seize in the bush and stick up but beyond such
+considerations as these the higher the temperature is at the
+commencement of each explosion the more efficient will the engine be
+The object then is to do as little cooling as possible and to apply
+the cooling effect at the right parts hence the passages and chambers
+through which the cooling water circulates should be so arranged that
+those which require to be kept at a low temperature are in close
+proximity to the cooling water On some of the engines of days gone by
+the exhaust valve was carried in a large iron casting this in turn
+being bolted to the cylinder casting and communicating with the
+combustion chamber by means of a port Such an arrangement was found to
+be not only clumsy but inefficient the water passages were small and
+difficult to get at they readily furred up and moreover the joint
+between this casting and the cylinder was necessarily a water and
+explosion joint and the fewer we have of these the better
+The methodif it may be called a methodof overcoming or preventing
+the exhaust valve becoming too hot is in the case of figs 11 and 12
+simply one of judicious arrangement and design The cooling water enters
+by the inlet K fig 11 and circulates round the exhaust valve port X
+and valve E immediately before becoming heated thus keeping the
+hottest of the working parts of the engine at a suitable temperature
+and the valve seat being in direct metallic communication with the cold
+water does not become burnt or pitted On the other side of the exhaust
+valve we have the air valve and its passages through which cool air is
+continually being drawn this also helps to keep the exhaust valve cool
+From this then we may conclude that overheating of the cylinder will
+not occur under normal conditions given an engine of good design but
+if this trouble does arise we may safely look first of all for some
+defect in the cooling water circulation Some waters contain a greater
+amount of impurities than others and consequently the water space may
+furr up more rapidly in one district than in another But this deposit
+even under the worst conditions accumulates very slowly and the
+operation of cleaning out the waterjacket is a very infrequent
+necessity The exhaust valve however may become overheated if it is
+allowed to get into bad condition ie leaky Its seat should be
+well looked after or the hot gases will blow past when it is
+presumably shut and if this defect slight though it may be to begin
+with is allowed to develop both the seat the valve head and the
+spindle will become burnt away and pitted perhaps badly due to the
+excessive heat
+CHAPTER IV
+IGNITION DEVICES
+The ignition devices commonly employed may be divided into three main
+classesthe metal tube the porcelain tube and the electric ignition
+These again may be subdivided The first being either iron or nickel
+hecknum as they are sometimes called the second are of two
+kindssingleended and doubleended and the third takes many forms
+which many of my readers are possibly well acquainted with such as the
+magneto the induction coil and trembler and the hightension magneto
+ignition the latter device having been used successfully on various
+occasions though not yet universally adopted
+The firstnamed have one or two advantages over the nickel tube They
+are very inexpensive and are easily heated to the required temperature
+moreover they can be made at home should occasion demand On the other
+hand they are not so durable have a very uncertain life and
+consequently need renewing frequentlytheir average life being not
+more than 60 working hours Fig 13 gives an outline drawing of an iron
+tube with its burner and chimney fixed in position The tube is very
+similar to a piece of 14in gasbarrel closed up at one end and a
+taper thread 14in gas cut on the other in fact gasbarrel may be
+used for making these tubes at homeand measure about 7 or 8 in over
+all It is screwed into a firing block which in turn is screwed into the
+combustion chamber end so that when right home it is in such position
+that the tube stands quite vertical The section of the tube fig 13
+shows the condition it gets into after having been in use some time The
+bore it will be seen has become almost completely closed up so that
+there is practically no communication between the hot part of the tube
+and the combustion chamber This closing up of the bore is very gradual
+and it is in the early stages of this process that erratic firing is
+likely to occur sometimes the charge will be successfully fired and
+sometimes not It may be as well to mention here that the length of the
+tube although to a certain extent immaterial should neither be
+excessively long nor abnormally short the precise length varying with
+the size of the engine A 14in tube 8 ins long may be used
+successfully on engines ranging from 12 to 6 horsepower provided a
+suitable burner is fitted enabling the tube to be heated at any required
+spot After the first charge has been fired and the exhaust takes
+place practically all the burnt gases are cleared out of the cylinder
+but a small amount of these will generally remain in the tube and the
+bore of the firing block On the ensuing compression stroke these inert
+gases are compressed to the far end of the tube thus making way for the
+explosive mixture to reach the hot portion and explode thus sending a
+jet of flame into the main volume of the mixture which is immediately
+ignited Hence there is no advantage in having a tube too long while
+on the other hand it must not be too short
+Illustration FIG 13
+Illustration FIG 14
+Illustration FIG 15
+The asbestos lining shown in fig 13 may be of various thicknesses
+according to the size of the chimney and the tube the reason for this
+will be apparent to many but being a most important factor in the
+heating of the tube and consequently the working of the engine it will
+be advisable to deal with this point more fully
+Due mainly to the peculiar behaviour of iron tubes under heat and
+internal pressure it is always advisable to look to them first of all
+when the engine shows signs of missing fire and to always examine the
+bore of a fresh one and ascertain that it is perfectly clear before
+putting it in The adjustment of the ignition tube although one of the
+most important and necessary to be made on the whole engine is in
+itself a perfectly simple matter It must be understood that the
+ignition tube cannot with the ordinary means at our disposal be kept
+at too high a temperature but it must not be assumed that either the
+size of the flame or the time the flame has been alight is
+conclusive evidence that the tube is or ought to be sufficiently hot
+to fire the charge successfully It is an uncommon thing to hear a man
+exclaimafter it has been pointed out that his tube is practically
+coldWhy its been alight for hours

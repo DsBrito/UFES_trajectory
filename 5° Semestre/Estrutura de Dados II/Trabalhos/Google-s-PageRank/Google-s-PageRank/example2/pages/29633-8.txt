@@ -1,0 +1,500 @@
+1 From 1870 through 1907 Bessemer production accounted for
+not less than 50 percent of United States steel production From
+1880 through 1895 80 percent of all steel came from this source
+Historical Statistics of the United States 17891945 Washington
+US Department of Commerce Bureau of the Census 1949 Tables
+J 165170 at p 187
+The process consists in forcing through molten cast iron held in a
+vessel called a converter a stream of cold air under pressure The
+combination of the oxygen in the air with the silicon and carbon in the
+metal raises the temperature of the latter in a spectacular way and
+after blowing for a certain period eliminates the carbon from the
+metal Since steel of various qualities demands the inclusion of from
+015 to 170 percent of carbon the blow has to be terminated before
+the elimination of the whole carbon content or if the carbon content
+has been eliminated the appropriate percentage of carbon has to be put
+back This latter operation is carried out by adding a precise quantity
+of manganiferous pigiron spiegeleisen or ferromanganese the
+manganese serving to remove the oxygen which has combined with the
+iron during the blow
+The controversy which surrounded its development concerned two aspects
+of the process The use of the cold air blast to raise the temperature
+of the molten metal and the application of manganese to overcome the
+problem of control of the carbon and oxygen content
+Bessemer who began his experiments in the making of iron and steel in
+1854 secured his first patent in Great Britain in January 1855 and
+was persuaded to present information about his discovery to a meeting
+of the British Association for the Advancement of Science held at
+Cheltenham Gloucestershire in August 1856 His title The Manufacture
+of Iron without Fuel was given wide publicity in Great Britain and in
+the United States Among those who wrote to the papers to contest
+Bessemers theories were several claimants to priority of invention
+Two men claimed that they had anticipated Bessemer in the invention of
+a method of treating molten metal with airblasts for the purpose of
+purifying or decarbonizing iron Both were Americans Joseph Gilbert
+Martien of Newark New Jersey who at the time of Bessemers address
+was working at the plant of the Ebbw Vale Iron Works in South Wales
+secured a provisional patent a few days before Bessemer obtained one of
+his series of patents for making cast steel a circumstance which
+provided ammunition for those who wished to dispute Bessemers somewhat
+spectacular claims William Kelly an ironmaster of Eddyville
+Kentucky brought into action by an American report of Bessemers
+British Association paper opposed the granting of a United States
+patent to Bessemer and substantiated to the satisfaction of the
+Commissioner of Patents his claim to priority in the air boiling
+process
+A third man this one a Scot resident in England intervened to claim
+that he had devised the means whereby Martiens and Bessemers ideas
+could be made practical He was Robert Mushet of Coleford
+Gloucestershire a metallurgist and selfappointed sage of the
+British iron and steel industry who also was associated with the Ebbw
+Vale Iron Works as a consultant He like his American contemporaries
+has become established in the public mind as one upon whom Henry
+Bessemer was dependent for the origin and success of his process Since
+Bessemer was the only one of the group to make money from the expansion
+of the steel industry consequent upon the introduction of the new
+technique the suspicion has remained that he exploited the inventions
+of the others if indeed he did not steal them
+In this study based largely upon the contemporary discussion in the
+technical press the relation of the four men to each other is
+reexamined and an attempt is made to place the controversy of
+18551865 in focus The necessity for a reappraisal arises from the
+fact that todays references to the origin of Bessemer steel2 often
+contain chronological and other inaccuracies arising in many cases from
+a dependence on secondary and sometimes unreliable sources As a
+result Kellys contribution has perhaps been overemphasized with
+the effect of derogating from the work of another American Alexander
+Lyman Holley who more than any man is entitled to credit for
+establishing Bessemer steel in America3
+2 See especially material distributed by the American Iron and
+Steel Institute in connection with its celebration of the
+centennial of Steel Steel centennial 1957 press
+information prepared by Hill and Knowlton Inc and released
+by the Institute as of May 1 1957
+3 Holleys work is outside the scope of this paper Belatedly
+his biography is now being written It can hardly fail to
+substantiate the contention that during his short life
+18321882 Holley who negotiated the purchase of the American
+rights to Bessemers process also adapted his methods to the
+American scene and laid a substantial part of the foundation for
+the modern American steel industry
+Steel Before the 1850s
+In spite of a rapid increase in the use of machines and the
+overwhelming demand for iron products for the expanding railroads the
+use of steel had expanded little prior to 1855 The methods of
+production were still largely those of a century earlier Slow
+preparation of the steel by cementation or in crucibles meant a
+disproportionate consumption of fuel and a resulting high cost
+Production in small quantities prevented the adoption of steel in uses
+which required large initial masses of metal Steel was in fact a
+luxury product
+The work of Reaumur and especially of Huntsman whose development of
+cast steel after 1740 secured an international reputation for
+Sheffield had established the cementation and crucible processes as
+the primary source of cast steel for nearly 100 years Josiah Marshall
+Heaths patents of 1839 were the first developments in the direction
+of cheaper steel his process leading to a reduction of from 30 to 40
+percent in the price of good steel in the Sheffield market4 Heaths
+secret was the addition to the charge of from 1 to 3 percent of
+carburet of manganese5 as a deoxidizer Heaths failure to word his
+patent so as to cover also his method of producing carburet of
+manganese led to the effective breakdown of that patent and to the
+general adoption of his process without payment of license or royalty
+In spite of this reduction in the cost of its production steel
+remained until after the midpoint of the century an insignificant
+item in the output of the iron and steel industry being used
+principally in the manufacture of cutlery and edge tools
+4 Andrew Ure Dictionary of arts manufactures and mines New
+York 1856 p 735
+5 See abridgement of British patent 8021 of 1839 quoted by
+James S Jeans Steel London 1880 p 28 ff It is not clear
+that Heath was aware of the precise chemical effect of the use of
+manganese in this way
+The stimulus towards new methods of making steel and indeed of making
+new steels came curiously enough from outside the established industry
+from a man who was not an ironmasterHenry Bessemer The way in which
+Bessemer challenged the trade was itself unusual There are few cases
+in which a stranger to an industry has taken the risk of giving a
+description of a new process in a public forum like a meeting of the
+British Association for the Advancement of Science He challenged the
+trade not only to attack his theories but to produce evidence from
+their own plants that they could provide an alternative means of
+satisfying an emergent demand Whether or not Bessemer is entitled to
+claim priority of invention one can but agree with the ironmaster who
+said6 Mr Bessemer has raised such a spirit of enquiry throughout
+the land as must lead to an improved system of manufacture
+6 Mining Journal 1857 vol 27 p 465
+Bessemer and his Competitors
+Henry Bessemer 18131898 an Englishman of French extraction was the
+son of a mechanical engineer with a special interest in metallurgy His
+environment and his unusual ability to synthesize his observation and
+experience enabled Bessemer to begin a career of invention by
+registering his first patent at the age of 25 His active experimenting
+continued until his death although the public record of his results
+ended with a patent issued on the day before his seventieth birthday A
+total of 117 British patents7 bear his name not all of them by any
+means successful in the sense of producing a substantial income
+Curiously Bessemers financial stability was assured by the success of
+an invention he did not patent This was a process of making bronze
+powder and gold paint until the 1830s a secret held in Germany
+Bessemers substitute for an expensive imported product in the then
+state of the patent laws would have failed to give him an adequate
+reward if he had been unable to keep his process secret To assure this
+reward he had to design assemble and organize a plant capable of
+operation with a minimum of hired labor and with close security
+control The fact that he kept the method secret for 40 years suggests
+that his machinery8 Bessemer describes it as virtually automatic in
+operation represented an appreciation of coordinated design greatly in
+advance of his time His experience must have directly contributed to
+his conception of his steel process not as a metallurgical trick but as
+an industrial process for when the time came Bessemer patented his
+discovery as a process rather than as a formula
+7 Sir Henry Bessemer FRS an autobiography London 1905
+p 332
+8 Ibid p 59 ff
+In the light of subsequent developments it is necessary to consider
+Bessemers attitude toward the patent privilege He describes his
+secret gold paint as an example of what the public has had to pay for
+not being able to give  security to the inventor in a situation
+where the production of the material could not be identified as having
+been made by any particular form of mechanism9 The inability to
+obtain a patent over the method of production meant that the disclosure
+of his formula necessary for patent specification would openly invite
+competitors including the Germans to evolve their own techniques
+Bessemer concludes10
+Had the invention been patented it would have become public
+property in fourteen years from the date of the patent after which
+period the public would have been able to buy bronze powder at its
+present ie ca 1890 market price viz from two shillings
+and three pence to two shillings and nine pence per pound But this
+important secret was kept for about thirtyfive years and the
+public had to pay excessively high prices for twentyone years
+longer than they would have done had the invention become public
+property in fourteen years as it would have been if patented Even
+this does not represent all the disadvantages resulting from secret
+manufacture While every detail of production was a profound
+secret there were no improvements made by the outside public in
+any one of the machines employed during the whole thirtyfive
+years whereas during the fourteen years if the invention had been
+patented there would in all probability have been many improved
+machines invented and many novel features applied to totally
+different manufactures
+9 Ibid p 82
+10 Ibid p 83
+While these words to some extent were the rationalizations of an old
+man Bessemers career showed that his philosophy had a practical
+foundation and if this was indeed his belief the episode explains in
+large measure Bessemers later insistence on the legal niceties of the
+patent procedure The effect of this will be seen
+Bessemers intervention in the field of iron and steel was preceded by
+a period of experiments in the manufacture of glass Here Bessemer
+claims to have made glass for the first time in the open hearth of a
+reverberatory furnace11 His work in glass manufacture at least gave
+him considerable experience in the problems of fusion under high
+temperatures and provided some support for his later claim that in
+applying the reverberatory furnace to the manufacture of malleable iron
+as described in his first patent of January 1855 he had in some manner
+anticipated the work of C W Siemens and Emil Martin12
+11 Ibid p 108 ff
+12 Ibid p 141 Bessemers assertion that he had approached
+within measurable distance of anticipating the SiemensMartin
+process made in a paper presented at a meeting of the American
+Society of Mechanical Engineers Transactions of the American
+Society of Mechanical Engineers 1897 vol 28 p 459 evoked
+strong criticism of Bessemers lack of generosity ibid p
+482 One commentator friendly to Bessemer put it that
+Bessemers relation to the openhearth process was very much
+like Kellys to the Bessemer process Although he was
+measurably near to the openhearth process he did not follow it
+up and make it a commercial success ibid p 491
+The general interest in problems of ordnance and armor stimulated by
+the Crimean War 18541856 was shared by Bessemer whose ingenuity
+soon produced a design for a projectile which could provide its own
+rotation when fired from a smoothbore gun13 Bessemers failure to
+interest the British War Office in the idea led him to submit his
+design to the Emperor Napoleon III Trials made with the encouragement
+of the Emperor showed the inadequacy of the castiron guns of the
+period to deal with the heavier shot and Bessemer was presented with a
+new problem which with the open mind which derived from a limited
+knowledge of the metallurgy of war he attacked with impetuosity
+Within three weeks of his experiments in France he had applied for a
+patent for Improvements in the Manufacture of Iron and Steel14
+This covered the fusion of steel with pig or cast iron and though this
+must be regarded as only the first practical step toward the Bessemer
+process15 it was his experiments with the furnace which provided
+Bessemer with the idea for his later developments
+13 British patent 2489 November 24 1854
+14 Bessemer op cit footnote 7 p 137 He received
+British patent 66 dated January 10 1855
+15 See James W Dredge Henry Bessemer 18131898
+Transactions of the American Society of Mechanical Engineers
+1898 vol 19 p 911
+These were described in his patent dated October 17 1855 British
+patent 2321 This patent is significant to the present study because
+his application for an American patent based on similar
+specifications led to the interference of William Kelly and to the
+subsequent denial of the American patent16 In British patent 2321
+Bessemer proposed to convert his steel in crucibles arranged in a
+suitable furnace and each having a vertical tuyere through which air
+under pressure was forced through the molten metal As Dredge17
+points out Bessemers association of the air blast with the increase
+in the temperature of the metal showed his appreciation of the end in
+view and the general way of attaining it though his mechanical
+details were still crude and imperfect
+16 See US Patent Office Decision of Commissioner of Patents
+dated April 13 1857 in Kelly vs Bessemer Interference This is
+further discussed below p 42
+17 Dredge op cit footnote 15 p 912
+Illustration Figure 1BESSEMERS DESIGN FOR A CONVERTER AS SHOWN
+IN US PATENT 16082 This patent dated November 11 1856 corresponds
+with British patent 356 dated February 12 1856 The more familiar
+design of converter appeared first in British patent 578 March 1
+1860 The contrast with Kellys schematic drawing in Fig 2 p 42 is
+noticeable
+Experiments were continued and several more British patents were
+applied for before Bessemer made his appearance before the British
+Association on August 13 185618 Bessemer described his first
+converter and its operation in some detail Although he was soon to
+realize that he too readily allowed myself to bring my inventions
+under public notice19 Bessemer had now thrown out a challenge which
+eventually had to be taken up regardless of the strength of the vested
+interests involved The provocation came from his claims that the
+product of the first stage of the conversion was the equivalent of
+charcoal iron the processes following the smelting being conducted
+without contact with or the use of any mineral fuel and that further
+blowing could be used to produce any quality of metal that is a steel
+with any desired percentage of carbon Yet the principal irritant to
+the complacency of the ironmaster must have been Bessemers attack on
+an industry which had gone on increasing the size of its smelting
+furnaces thus improving the uniformity of its pigiron without
+modifying the puddling process which at best could handle no more than
+400 to 500 pounds of iron at a time divided into the homeopathic
+doses of 70 or 80 pounds capable of being handled by human labor20
+Bessemers claim to do 800 pounds of metal in 30 minutes against the
+puddling furnaces output of 500 pounds in two hours was calculated to
+arouse the opposition of those who feared the loss of capital invested
+in puddling furnaces and of those who suspected that their jobs might
+be in jeopardy The ensuing criticism of Bessemer has to be
+interpreted therefore with this in mind not by any means was it
+entirely based on objective consideration of the method or the
+product21
+18 Bessemers paper was reported in The Times London August
+14 1856 By the time the Transactions of the British Association
+were prepared for publication the controversy aroused by
+Bessemers claim to manufacture malleable iron and steel without
+fuel had broken out and it was decided not to report the paper
+Dredge op cit footnote 15 p 915 describes this decision
+as sagacious
+19 Bessemer op cit footnote 7 p 164
+20 The Times London August 14 1856
+21 David Mushet recognized that Bessemers great feature was
+this effort to raise the after processes  to a level
+commensurate with the preceding case Mining Journal 1856 p
+599
+Within a month of his address Bessemer had sold licenses to several
+ironmasters outside Sheffield and so provided himself with capital
+with which to continue his development work but he refused to sell his
+patents outright to the Ebbw Vale Iron Works and by this action as
+will be seen he created an enemy for himself
+The three years between 1856 and 1859 when Bessemer opened his own
+steel works in Sheffield were occupied in tracing the causes of his
+initial difficulties There was continued controversy in the technical
+press Bessemer unless he used a nomdeplume took no part in it
+and remained silent until he made another public appearance before the
+Institution of Civil Engineers in London May 1859 By this time
+Bessemers process was accepted as a practical one and the claims of
+Robert Mushet to share in his achievement was becoming clamorous
+Robert Mushet
+Robert Forester Mushet 18111891 born in the Forest of Dean
+Gloucestershire of a Scots father David 17721847 himself a noted
+contributor to the metallurgy of iron and steel is like the American
+William Kelly considered by many to have been a victim of Bessemers
+astutenessor villainy Because of Robert Mushets preference for the
+quiet of Coleford many important facts about his career are lacking
+but even if his physical life was that of a recluse his frequent and
+verbose contributions to the correspondence columns of the technical
+press made him wellknown to the iron trade It is from these letters
+that he must be judged
+In view of his propensity to intervene pontifically in every discussion
+concerning the manufacture of iron and steel it is somewhat surprising
+that he refrained from comment on Bessemers British Association
+address of August 1856 for more than fourteen months The debate was
+opened over the signature of his brother David who shared the family
+facility with the pen22 Recognizing Bessemers invention as a
+congruous appendage to the now highly developed powers of the blast
+furnace which he describes as too convenient too powerful and too
+capable of further development to be superseded by any retrograde
+process David Mushet greeted Bessemers discovery as one of the
+greatest operations ever devised in metallurgy23 A month later
+however David Mushet had so modified his opinion of Bessemer as to
+come to the conclusion that the latter must indeed be classed with the
+most unfortunate inventors He gave as his reason for this turnabout
+his discovery that Joseph Martien had demonstrated his process of
+purifying metal successfully and had indeed been granted a
+provisional patent a month before Bessemer The sharp practice of
+Martiens patent lawyer Mushet claimed had deprived him of an
+opportunity of proving priority of invention against Bessemer Mushet
+was convinced that Martiens was the first in the field24
+22 See Mining Journal 1857 vol 27 pp 839 and 855 David
+Mushet withdrew from the discussion after 1858 and his relapse
+into obscurity is only broken by an appeal for funds for the
+family of Henry Cort A biographer of the Mushets is of the
+opinion that Robert Mushet wrote these letters and obtained
+Davids signature to them Fred M Osborn The story of the
+Mushets London 1952 p 44 footnote The similarity in the
+style of the two brothers is extraordinary enough to support this
+idea If this is so Robert Mushet who disagreed with himself as
+Sideros was also in controversy with himself writing as
+David
+23 Mining Journal 1856 vol 26 p 567
+24 Ibid pp 631 and 647 The case of Martien will be
+discussed below p 36 David Mushet had overlooked Bessemers
+patent of January 10 1855
+Robert Mushets campaign on behalf of his own claims to have made the
+Bessemer process effective was introduced in October 1857 two years
+after the beginning of Bessemers experiment and after one year of
+silence on Bessemers part Writing as Sideros25 he gave credit to
+Martien for the great discovery that pigiron can whilst in the fluid
+state be purified  by forcing currents of air under it  though
+Martien had failed to observe the use of temperature by the deflation
+of the iron itself and for discovering that
+when the carbon has been all or nearly all dissipated the
+temperature increases to an almost inconceivable extent so that
+the mass when containing only as much carbon as is requisite to
+constitute with it cast steel  still retains a perfect degree of
+fluidity
+25 Mining Journal 1857 vol 27 p 723 Robert Mushet was a
+constant correspondent of the Mining Journal from 1848 The
+adoption of a pseudonym peculiar apparently to 18571858 see
+Dictionary of national biography vol 39 p 429 enabled him
+to carry on two debates at a time and also to sing his own
+praises
+This says Sideros was no new observation it had been before the
+metallurgical world both practical and scientific for centuries but
+Bessemer was the first to show that this generation of heat could be
+attained by blowing cold air through the melted iron Mushet goes on to
+show however that the steel thus produced by Bessemer was not
+commercially valuable because the sulphur and phosphorous remained and
+the dispersion of oxide of iron through the mass imported to it the
+inveterate hotshort quality which no subsequent operation could
+expel Sideros concludes that Bessemers discovery was at least for
+a time now shelved and arrested in its progress and it had been left
+to an individual of the name of Mushet to show that if fluid
+metallic manganese were combined with the fluid Bessemer iron the
+portion of manganese thus alloyed would unite with the oxygen of the
+oxide and pass off as slag removing the hotshort quality of the iron
+Robert Mushet had demonstrated his product to Sideros and had
+patented his discovery though not one print literary or scientific
+had condescended to notice it
+Sideros viewed Mushets discovery as a spark amongst dry faggots
+that will one day light up a blaze which will astonish the world when
+the unfortunate inventor can no longer reap the fruits of his lifelong
+toil and unflinching perseverance In an ensuing letter he26 summed
+up the situation as he saw it
+Nothing that Mr Mushet can hereafter invent can entitle him to the
+merit of Mr Bessemers great discovery  and  nothing that Mr
+Bessemer may hereafter patent can deprive Mr Robert Mushet of having
+been the first to remove the obstacles to the success of Mr Bessemers
+process
+26 Ibid p 823 Mushets distinction between an inventor
+and a patentee is indicative of the disdain of a son of David
+Mushet for an amateur see also p 886
+Bessemer still did not intervene in the newspaper discussion nor had
+he had any serious supporters at least in the early stage27
+27 One William Green had commented extensively on David
+Mushets early praise of the Bessemer process and on his sudden
+reversal in favor of Martien soon after Bessemers British
+Association address Mechanics Magazine 1856 vol 65 p 373
+ff Green wrote from Caledonian Road and the proximity to
+Baxter House Bessemers London headquarters suggests the
+possibility that Green was writing for Bessemer
+Publication in the Mining Journal of a list of Mushets patents28
+evidently in response to Sideros complaint now presented Bessemer
+with notice of Robert Mushets activity even if he had not already
+observed his claims as they were presented to the Patent Office
+Mushet said the Mining Journal
+appears to intend to carry on his researches from the point where
+Mr J G Martien left off and is proceeding on the Bessemer plan
+of patenting each idea as it occurs to his imaginative brain He
+proposes to make both iron and steel but does not appear to have
+quite decided as to the course of action  to accomplish his
+object and therefore claims various processes some of which are
+never likely to realize the inventors expectations although
+decidedly novel whilst others are but slight modification of
+inventions which have already been tried and failed
+28 Mining Journal 1857 vol 27 p 764
+The contemporary attitude is reflected in another comment by the
+Mining Journal29
+Although the application of chemical knowledge to the manufacture
+of malleable iron cannot fail to produce beneficial results the
+quality of the metal depends more upon the mechanical than the
+chemical processes Without wishing in any way to discourage the
+iron chemists we have no hesitation in giving this as our opinion
+which we shall maintain until the contrary be actually proved With
+regard to steel there may be a large field for chemical research
+however we believe that unless the iron be of a nature adapted
+for the manufacture of steel by ordinary processes the purely
+chemical inventions will only give a metal of a very uniform
+quality
+29 Ibid p 764
+Another correspondent William Green was of the opinion that Mushets
+new compounds and alloys promised well as an auxiliary to the
+Bessemer process but that the evil which it was intended to remove was
+more visionary than real Bessemers chief difficulty was the
+phosphorus not the oxide of iron as Mr Mushet assumes This
+Bessemer no doubt would deal with in due course but meanwhile he did
+well to concentrate his energies upon the steel operations after
+which he would have time to tackle the difficulties which have so far
+retarded the iron operations30
+30 Ibid p 791
+Mushet31 claims to have taken out his patent of September 22 1856
+covering the famous triple compound after he
+had fully ascertained upon the ordinary scale of manufacture that
+airpurified castiron when treated as set forth in my
+specifications would afford tough malleable iron  I found
+however that the remelting of the coke pigiron in contact with
+coke fuel hardened the iron too much and it became evident that
+an airfurnace was more proper for my purpose  the
+difficulties arose not from any defect in my process but were
+owing to the small quantity of the metal operated upon and the
+imperfect arrangement of the purifying vessel which ought to be so
+constituted that it may be turned upon an axis the blast taken
+off the alloy added and the steel poured out through a spout
+Such a purifying vessel Mr Bessemer has delineated in one of his
+patents
+31 Ibid p 770 italics supplied
+Mushet also claimed to have designed his own purifying and mixing
+furnace of 20ton capacity which he had submitted to the Ebbw Vale
+Iron Works many months ago without comment from them There is an
+intriguing reference to the painful subject of two patents not
+proceeded with and not discussed in the avaricious hope that the
+parties connected with the patents will make me honorable amends
+these patents were suppressed without my knowledge or consent Lest
+his qualifications should be questioned Mushet concludes
+I do not profess to be an iron chemist but I have undoubtedly made
+more experiments upon the subject of iron and steel than any man
+now living and I am thereby enabled to say that all I know is but
+little in comparison with what has yet to be discovered
+So began Mushets claim to have solved Bessemers problem a claim
+which was to fill the correspondence columns of the engineering
+journals for the next ten years Interpretation of this correspondence
+is made difficult by our ignorance of the facts concerning the control
+of Mushets patents These have to be pieced together from his
+scattered references to the subject
+His experiments were conducted at least nearly up to the close of the
+year 1856 with the cooperation of Thomas Brown of the Ebbw Vale Iron
+Works32 The price of this assistance was apparently half interest in
+Mushets patents though for reasons which Mushet does not explain the
+deed prepared to effect the transfer was never executed33 Mushet
+continued however to regard the patents as wholly my own though at
+the same time I am bound in honor to take no unfair advantage of the
+nonexecution of that deed A possible explanation of this situation
+may be found in Ebbw Vales activities in connection with Martien and
+Bessemer as well as with an Austrian inventor Uchatius
+32 Ibid p 770
+33 Ibid p 823
+Ebbw Vale and the Bessemer Process
+After his British Association address in August 1856 Bessemer had
+received applications from several ironmasters for licenses which were
+issued in return for a down payment and a nominal royalty of 25 pence
+per ton Among those who started negotiations was Mr Thomas Brown of
