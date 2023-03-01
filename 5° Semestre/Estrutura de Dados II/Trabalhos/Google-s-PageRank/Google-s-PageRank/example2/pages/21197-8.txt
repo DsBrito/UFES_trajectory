@@ -1,0 +1,500 @@
+The Imperative of the First Conjugation                      125
+The Optative of the First Conjugation                        126
+The Subjunctive of the First Affirmative Conjugation         127
+The Infinitive                                               129
+The First Negative Conjugation                               131
+The Second Affirmative Conjugation                           134
+The Second Negative Conjugation                              135
+The Third Affirmative Conjugation                            135
+The Third Negative Conjugation                               136
+The Conjugation of the Negative Substantive Verb             137
+The Conditional Particles                                    139
+The Potential Verb                                           140
+The Conjugation of Irregular Verbs                           141
+The Aforementioned VerbsTheir Formation and Diversity      143
+Certain Verbs Which of Themselves Indicate Honor             147
+Cautionary Remarks on the Conjugations of the Verb           148
+The Adverbs First Section                                   156
+Adverbs of Place                                             156
+Adverbs of Interrogation and Response                        159
+Adverbs of Time                                              159
+Adverbs of Negation                                          160
+Adverbs of Affirmation                                       160
+Comparative Adverbs                                          161
+Superlative Adverbs                                          162
+Adverbs of Intensity and Exaggeration                        162
+Accumulative Adverbs                                         162
+Adverbs that Conclude and Claim Attention                    163
+The Case Prepositions                                        164
+Conjugation and Separation                                   166
+Interjections                                                167
+The Syntax and the Cases that are Governed by the Verbs      168
+Japanese Arithmetic and Numerical Matters Concerning Which
+Much Painful Labor Is Required                         174
+Some Rules on the Conjugation of the Verb in the Written
+Language                                               182
+IV WORKS CONSULTED                                               185
+V INDEX TO GRAMMATICAL CATEGORIES                                187
+VI INDEX TO GRAMMATICAL ELEMENTS                                 189
+Preface
+The purpose of this translation of Collados Ars Grammaticae Iaponicae
+Linguae of 1632 is to make more readily available to the scholarly
+community an annotated version of this significant document in the history
+of both Japanese language study and grammatical description in general
+Collados work derived in all its significant features from the Arte da
+lingoa de Iapam completed in 1608 by Joao Rodriguez is in a strict
+scholarly sense less valuable than its precursor However if used with the
+Arte as a simplified restatement of the basic structure of the language
+Collados Grammar offers to the student of the Japanese language an
+invaluable ancillary tool for the study of the colloquial language of the
+early 17th Century
+While less extensive and less carefully edited than the Arte Collados
+Grammar has much to recommend it as a document in the history of
+grammatical description It is an orthodox description attempting to fit
+simple Japanese sentences into the framework established for Latin by the
+great Spanish humanist Antonio Lebrija Thus as an application of
+preCartecian grammatical theory to the structure of a nonIndoEuropean
+language the Ars Grammaticae is an important document worthy of careful
+examination by those wishing insight into the origins of what three
+centuries later was to become the purview of descriptive linguistics
+The present translation was begun with the able assistance of Ms Roberta
+Galli whose contribution to my understanding of the Latin text is most
+gratefully acknowledged For his continued encouragement in this
+undertaking I am grateful to Professor Roy Andrew Miller Thanks are also
+due to the Graduate School of the University of Kansas for its support in
+the preparation of the manuscript and to Ms Sue Schumock whose capable
+typing turned a scribbled multilingual draft into a legible manuscript
+The imperfections are my own
+RLS
+Lawrence Kansas
+May 1975
+1
+Introduction
+In 1632 as the Christian Century in Japan was drawing swiftly to a close
+three works pertaining to the Japanese language were being published at
+Rome by the Congregation for the Propagation of the Faith These works were
+by the Spanish Dominican Father Diego Collado d 1638 who had spent the
+years from 1619 to 1622 in Japan Their publication clearly reflects the
+vitality of the missionary spirit in that age as well as the important
+place reserved for language study in the propagation of the faith
+The first two works whose manuscripts had been prepared in Madrid the year
+before were a grammar and a dictionary of Japanese The third prepared in
+1631 while the larger works were being seen through the press was a guide
+to the taking of confession written in both Latin and Japanese1 The
+grammar drafted in Spanish was published in Latin in 1632 under the title
+Ars Grammaticae Iaponicae Linguae It is this work that is translated
+here The dictionary only at the last moment supplied with Latin glosses
+to supplement those in Spanish was published in the same year with the
+title Dictionarium sive Thesauri Linguae Iaponicae Compendium2 Taken
+together these three works by Collado constitute the final extant efforts
+of those who studied the Japanese language first hand during the Christian
+Century3
+Two other grammatical works must be mentioned here as central to the proper
+assessment of Collados Grammar They are both by the great Jesuit scholar
+Father Joao Rodnguez 156116344 the Arte da Lingoa de Iapam
+Nagasaki 16048 hereafter the Arte and the Arte Breve da Lingoa
+Iapoa Macao 1620 hereafter Arte Breve The first 2 is by any
+standards the greatest grammatical study of Japanese made during the
+Christian Century It is further as we shall see the primary source for
+Collados Grammar The Arte Breve on the other hand is not directly
+related to Collados work Indeed it is clear that Rodriguez 1620 Macao
+publication was unknown to Collado Nevertheless since the Arte Breve is
+an abbreviated version of the Arte with a purpose similar to the Ars
+Grammaticae a comparison of these two books with respect to the way they
+systematize the material from the Arte is included in this introduction
+to contribute some insight into the treatment of the Japanese language at
+the beginning of the Tokugawa Period
+In presenting this translation two potential audiences are envisioned The
+first and more restricted group is that having an interest in the history
+of the Japanese language It is hoped that an English version of this work
+will make more readily available this significant material pertaining to
+the Japanese language as spoken in the early modern period I use the word
+significant here to avoid granting excessive value to a work which derives
+such a large portion of its material and insight from Rodriguez Arte
+The second and wider group for whom this translation is intended is that
+which has a need for an edited edition of an important document in the
+history of grammatical description In this area of scholarship Collados
+work is of more than moderate significance It was accepted for publication
+by the prestigious Propaganda Press and even if those more familiar with
+Japanese than the editorial board of that Press might have had serious
+reservations concerning the linguistic accuracy of the text it is
+reasonable to assume that the Press judged it to be a good example of
+grammatical description It thus represents a grammar of a nonEuropean
+language which suited the requirements of the day for publication at
+Rome5
+3
+In order to permit this translation of the Ars Grammaticae to be of use
+in both these areas of scholarship I have made an effort to reduce to a
+minimum those places where a knowledge of either Japanese or Latin is
+required for the comprehension of the translation It is sincerely hoped
+that the result is not an effort that is satisfying to neither and thus to
+no one
+Because of the derivative nature of the text this translation has put
+aside a number of important philological problems as better dealt with
+within the context of Rodriguez grammars This decision has its most
+obvious consequences in the section on the arithmetic where innumerable
+data require exposition However since a basic purpose of this translation
+is within the context of the history of descriptive grammar these
+tantalizing side roads have been left unexplored It is nevertheless
+hoped that this translation will serve as a convenient tool for those
+wishing to make a more detailed investigation into the philological
+questions raised by the text But I must caution those who would undertake
+such an inquiry that they had best begin with a careful study of the works
+of Father Rodriguez
+With its limitations acknowledged the Ars Grammaticae Iaponicae Linguae
+remains a document worthy of our interest and I offer this translation in
+order that Collados work may more easily find its proper place in the
+history of descriptive grammar
+The Grammatical Framework
+Collado perceived his task to be the presentation of a grammar of Japanese
+which would have sufficient scope to equip those dedicated to the
+propagation of the faith with a knowledge of the proper spoken language of
+his time While he concludes his grammar with a brief and rather
+presumptuous statement concerning the written language his purpose is
+clearly to train his students in the fundamentals of colloquial speech His
+sensitivity to this point is demonstrated by his carefully transforming
+those examples presented by Rodriguez in the written language in the Arte
+into correct colloquial expressions in his own grammar
+The description is of course prescriptive But given its age and its
+purpose this ought not to be construed in the contemporary pejorative 4
+sense Collado as Rodriguez and indeed all the grammarians of the period
+felt obligated to train their students in those patterns of speech which
+were appropriate to the most polite elements of society Particularly as
+they addressed themselves to missionaries they wished to warn them away
+from such illiteracies as might undermine their capacities to propagate the
+faith
+The description further reflects the traditional process conceptualization
+of language This is particularly obvious in the treatment of the verb
+Thus
+Praesens subiunctiui fit ex praesenti indicatiui mutato u in quo
+finitur in eba The present subjunctive is formed from the present
+indicative by changing the u in which it ends to eba p 23
+In general each of the verbal forms is conceived to be the result of a
+specified alteration of a basic form Likewise the nouns are treated within
+the framework of the declension of cases
+The treatment of Japanese forms is based upon a semantic framework within
+which the formal characteristics of the language are organized For
+example given the construction aguru coto aro p 31 and its gloss
+Erit hoc quod ist offere idest offeret It will be that he is to offer
+or he will offer it is clear that the aguru coto is classified as an
+infinitive because of its semantic equivalence to offere The same is
+true of the latter supine If the form in Latin is closely associated with
+such constructions as easy to or difficult to the semantically
+similar form which appears as the element iomi in iominicui difficult
+to read must be classed as the latter supine Rodriguez in his Arte
+Breve of 1620unknown to Colladomakes an attempt to classify the
+structural units of Japanese along more formal lines but in Collados
+treatment the semantic and for him logical and true classes established
+by the formal structure of Latin constitute the theoretical framework
+through which the Japanese language is to be described
+Collado makes reference to two specific sources of influence upon his
+grammar The first is included in the title to the first section of the
+grammar Antonius Nebrissensis It is to this great Spanish humanist 5
+better known as Antonio Lebrija 14441522 that Collado turns for the
+model of his description
+An examination of Lebrijas grammar the Introductiones Latinae
+Salamanca 1481 shows that from the basic outline of his presentation
+to the organization of subsections and the selection of terminology there
+is little departure by Collado from his predecessor
+Even in such stylistic devices as introducing the interrogatives by giving
+the form following it with to which one responds and then listing a
+number of characteristic answers Collado is faithful to the
+Introductiones
+But it is from his Jesuit colleague Father Joao Rodriguez that Collado
+receives his most significant influence There is no section of his grammar
+that does not reflect Rodriguez interpretation of the raw linguistic data
+of Japanese On the basis of the innumerable examples taken from
+Rodriguezmost of the substantive sentences are directly quoted from the
+Arteas well as the parallel listing of forms and identical descriptions
+of certain grammatical phenomena it is clear that the writing of the Ars
+Grammaticae Iaponicae Linguae consisted to no small degree of abridging
+the exhaustive material contained in Rodriguez grammar and arranging it
+within the framework of Lebrijas Introductiones
+To say that Collado followed Lebrija in the general structure of his
+description is not to imply that he fell heir to all of his precursors
+virtues The Salamanca grammar of 1481 is a masterpiece of orderly
+presentation Printed in lettera formata with carefully indented
+subdivisions it offers the student a clear display of the conjugational
+system as well as long columns of Latin examples of a given grammatical
+structure accompanied on the right side of the page with Spanish
+equivalents Collado makes little effort at copying this orderly display
+There are in his presentation no paradigms but instead only loosely
+connected sentences that talk the student through the various forms of the
+conjugation and there is no orderly array of examples Add to this the
+innumerable factual and typographical errors and one is left with a
+presentation that lacks most of the basic scholarly virtues of its
+precursor
+A similar criticism may be leveled against the work from the point 6 of
+view of Rodriguez influence Without matching the Introductiones in
+orderliness the Arte more than compensates for its casual format by
+containing a mass of exhaustively collected and scrupulously presented
+linguistic data6 There was available no better source than the Arte
+from which Collado might have culled his examples of Japanese
+One doubt that remains in assessing Collados use of Rodriguez material is
+that perhaps his presentation of the most readily understandable material
+in the Arte is not so much an effort on his part to simplify the learning
+of Japanese for his students as it is a reflection of his lack of adequate
+familiarity with the language he was teaching
+The Phonological System
+A study of the phonological data reveals the Ars Grammaticae Iaponicae
+Linguae to be of minimal historical value Any student of the phonology of
+early modern Japanese should turn to the far more reliable work of Father
+Rodriguez Nevertheless certain aspects of Collados transcription require
+our attention
+The most obvious innovation in the representation of the language is
+Collados transcription with an i of the palatal consonant which all his
+contemporaries record with a y Thus in the text we find iomi and
+coie terms for native words and Chinese borrowings where Rodriguez
+writes yomi and coye This change was affected while the text was being
+translated from the Spanish manuscript which uses y and Collado himself
+must have felt the innovation to be of dubious value since he retained y
+for the spellings in the Dictionarium7
+Collados handling of the nasal sounds is too inconsistent to be a reliable
+source for phonological data Given his rather awkward specification that
+nasalization is predictable before what we must assume he means to be the
+voiced stops and affricates8 his grammar presents an uncomfortably
+irregular pattern in the transcription of the phenomena Thus on page 39
+we find vo modori aro ca as well as 7 modori aro ca Again what he
+presents as the ending zuba in his description of the formation
+of the negative conditional p 34 appears in tovazunba in its only
+occurrence in a sample sentence p 62 To further confound the issue such
+forms as tovazunba and qinpen occur in contrast to sambiacu
+varambe and varabe
+In Chart 1 the traditional pattern of the gojuonzu chart of 50
+sounds is followed as a convenient framework in which to display the
+transcriptional system employed by Collado
+Chart 1
+COLLADOS TRANSCRIPTION SYSTEM
+The Simple Series
+k g s z t d n phi b p m y r w
+a    a  ca  ga  sa  za  ta  da  na    fa    ba  pa  ma  ia  ra  va
+i    i  qi  gui xi  ji  chi gi  ni    fi    bi  pi  mi     ri
+u    u  cu  gu  su  zu  tcu zzu nu    fu    bu  pu  mu  iu  ru
+e  ie qe  gue xe  je  te  de  ne    fe    be  pe  me  ie  re
+o  vo co  go  so  zo  to  do  no    fo    bo  po  mo  io  ro  vo
+The Long Series
+au vo co  go  so  zo  to  do  no    fo    bo po mo  io  ro  vo
+uu   u  cu gusu   tcu        fu   bupu    iu  ru
+ou vo co go so  zo  to  do  no   fo  bo po  mo  io  ro  vo
+The Palatal and Labial Series
+ky       sy    ty      ny      by      my       kw
+gy      zy     dy     phiy   py       ry     gw
+a  quaguia xa  ja  cha  gia nha fia  bia  pia mia ria qua gua
+u   qui guia xu  ju chugiunhufiu        miu riu
+o   qio  guio  xo jo cho  gio nhofiobio    mio rio
+au  qio  guio  xo  jo  cho  gio     fiobio     mio  rio quo guo
+uu qiuguiuxu ju chu giu  nhu                  riu
+ou  qio guio xo  jo  cho  gio  nho  fio bio pio mio rio
+gueo               geo  neo       beo             reo
+In this chart the phonemic grid is presented in a broad phonetic 8
+notation while the underlined entries are in the form used by the text
+Dashes indicate sequences which do not occur in the Christian material
+while the forms in parentheses are sequences which do not occur in the text
+but have been reconstructed on the basis of the overall system from
+sequences attested to elsewhere The forms ie vo vo and vo have
+been placed in brackets to indicate that neither e o oo or au
+occur in the syllable initial position and where in the modern language
+they do the text regularly spells that with an initial i or v The
+forms in eo at the foot of the chart represent sequences that are
+phonetically identical to the forms above them but which are transcribed
+differently to reflect morphological considerations eg the form agueo
+from the stem ague The phonetic values of au uu and ou are
+IPA Openmid back rounded vowel u and o
+Two aspects of the usage of q should be noticed First as in the Arte
+c is changed to q before o and u when the sequence occurs at a
+morphological juncture eg ioqu well and iqo I shall go This
+rule does not extend to a in such contexts cf iocatta was good
+Second in contrast to the system used by Rodriguez Collado does not feel
+compelled to follow q with u in all contexts Thus what Rodriguez
+spells as queredomo Collado spells as qeredomo Finally the text
+records one usage of the letter h in the exclamation ha
+The Morphological System
+Collados treatment of the morphology contains one quite obvious difference
+from those of his predecessors he isolates the particles of the language
+as separate elements of the structure While his effort is more or less
+carelessly maintained by the type setter his attempt to establish a
+division between the semantemes shi and the morphemes ji of
+Japanese by establishing formal distance between his verba and
+particula reflects his consciousness that the morphological elements in
+Japanese are of a different order than those in Latin At times such as
+when he describes the preterit subjunctive as agueta raba his divisions
+fly in the face of derivational history But he can claim a reasonable
+justification for his decision by citing Rodriguez rule for the formation
+of this form add raba to the preterit of the verb Arte 18v
+Perhaps it is a prejudice founded upon familiarity with 9 contemporary
+romanizations but I cannot help but consider this attempt to give greater
+independence to the particles as an improvement in the representation of
+the morphological system
+In all other significant facets of the morphology Collado follows the
+principles established by Rodriguez with the one exception that in the
+overall systematization of the verbal formation and conjugation he follows
+the classifications established in Lebrijas Introductiones rather than
+those which Rodriguez inherited from the Institutiones of Alverez The
+most significant difference between the two systems is the use by Lebrija
+of the term subjunctive in his description of the moods where Rodriguez
+gives independent status to the conjunctive conditional concessive and
+potential As we shall see after presenting the conjugational system of
+the verb within the framework of Lebrija Collado breaks the expected
+sequence of his description of the verb to interject a section on
+conditional constructions and another on those of the potential
+In the treatment of the tenses Collado breaks with Rodriguez in not
+attempting to establish an imperfect for Japanese but he does follow him
+in the overall classification of the conjugations Thus9
+1st Conjugation    verbs ending in e gi and     eg ague uru
+ji xi and maraxi
+2nd Conjugation    verbs ending in i                eg iomi u
+3rd Conjugation    verbs ending in ai oi and    eg narai o
+ui
+To the description of this general system Collado adds the treatment of the
+substantive verbs This section in many respects is the weakest in his
+grammar with a portion of his description lost in composing the final text
+Since Collado does not as Rodriguez present the conjugations in
+paradigmatic form I have extracted from his presentation the most
+representative forms of the verb ague uru for each of the categories of
+the system and presented them in Chart 2 for reference
+CHART 2
+THE CONJUGATIONAL SYSTEM
+Affirmative         Negative
+INDICATIVE MOOD
+Present           aguru                 aguenu
+Perfect           agueta                aguenanda
+10
+Pluperfect        aguete atta           aguenande atta
+Future            agueozu               aguru mai
+Future perfect    aguete arvozu
+IMPERATIVE MOOD
+Present           ague io               aguru na
+Future            agueozu               aguru mai
+OPTATIVE MOOD
+Present           avare ague io caxi    avare aguru na caxi
+Preterit          agueozu mono vo       aguru mai mono vo
+Future            avare ague io caxi    avare aguru na caxi
+SUBJUNCTIVE MOOD
+Present           agureba               agueneba
+Perfect           agueta reba           aguenanda reba
+Pluperfect        aguete atta reba
+Future            agueo toqi            aguru mai qereba
+PERMISSIVE SUBJUNCTIVE MOOD
+Present           agueredomo            aguenedomo
+Preterit          agueta redomo         aguenanda redomo
+Future            agueozu redomo        aguru mai qeredomo
+INFINITIVE
+Present           aguru coto            aguenu coto
+Preterit          agueta coto           aguenanda coto
+Future            agueo coto            aguru mai coto
+GERUND IN DI
+Present           aguru jibun         aguenu jibun
+Future            agueo jibun         aguru mai jibun
+GERUND IN DO
+aguete                agueide
+GERUND IN DUM
+Present           aguru tame            aguenu tame
+Future            agueo tame            aguru mai tame
+SUPINE IN TUM
+ague ni
+SUPINE IN TU
+ague
+PARTICIPLE
+Present           aguru fito            aguenu fito
+Preterit          agueta fito           aguenando fito
+Future            agueo fito            aguru mai fito
+The forms treated separately are
+THE CONDITIONAL
+Present           agueba                aguezuba
+Preterit          agueta raba           aguenanda raba
+Future            agueo naraba          aguru mai naraba
+THE POTENTIAL
+Present           aguru ro              aguenu coto mo arozu
+Preterit          aguetcu ro            aguenanzzu ro
+Future            agueozu ro            aguru mail coto mo arozu
+11
+The Structure of Collados and Rodriguez Descriptions Contrasted
+In every section of his description Collado is indebted to the material
+presented by Rodriguez in his Arte da Lingoa de Iapam The structure of
+the Ars Grammaticae however follows a much more simplistic design than
+that of the Arte As a consequence Collado found it necessary to assemble
+his data from various sections of Rodriguez description In the paragraphs
+which follow we will briefly sketch the structural relation between these
+two grammars
+As he clearly states in his title to the main portion of the grammar
+Collado bases his description on the Introductiones of Antonio Lebriya
+and more specifically upon that portion of the great Latin grammar which
+dealt with the parts of speech Further he limits himself to the spoken
+language rather than attempting as does Rodriguez an integrated treatment
+of both the spoken and written grammars
+Under these influences Collados grammar takes on the following form
+A Prologue including the phonology               35
+The Body of the Grammar by parts of speech       661
+A Brief Syntax                                    6166
+A Treatment of the Arithmetic                     6674
+A Note on the Written Language                    7475
+In contrast Rodriguez Arte prepared under the influence of Alvarez
+Institutiones develops its description over the span of three books
+which treat both the spoken and written grammar in progressively greater
+detail Thus
+The Introduction                          iiiv
+BOOK I
+The Declensions                             12v
+The Conjugations                           2v54
+The Parts of Speech Rudimenta          5580v
+BOOK II
+The Syntax of the Parts of Speech          83168
+Styles Pronunciation Poetics etc      168184
+BOOK III
+The Written Language                     184v206v
+Names Titles etc                      206v212v
+The Arithmetic                           212v239
+12
+Given these differing formats10 it is clear that Collado is unable to
+cope adequately with the more complex aspects of the grammar specifically
+those syntactic constructions to which Rodriguez devotes almost an entire
+book
+An analysis of Collados description and a listing of the portions of
+Rodriguez grammar from which material was taken yields the following
+Collado                        Rodriguez
+Phonology 35             Parts of Speech 5558
+Book III 173179v
+Nouns 613                Declensions 12v
+Parts of Speech 5961
+Adjectives 911 3233    Declensions 22v
+Conjugations 4752
+Parts of Speech 6167
+Pronouns 1318            Declensions 2v
+Parts of Speech 6768
+Verbs 1849               Conjugations 6v54v
+Parts of Speech 6973
+Syntax 83v112v
+Adverbs 4957             Parts of Speech 73v77
+Syntax 113125
+Prepositions 5759        Parts of Speech 7373v
+Syntax 140148v
+Conjunctions 5960        Parts of Speech 7676v
+Syntax 130137
+Exclamations 6061        Parts of Speech 7676v
+Syntax 125130
+Syntax 6166               Book II 83168
+Arithmetic 6675           Book III 212v239
+Written Language 7475     Book III 184v206v
+Two aspects of Japanese were not able to be described with any degree of
+satisfaction by Collado the adjectives adjectiva and the prepositions
+praepositio His difficulties attributable to the basic structural
+difference between Latin and Japanese were compounded by the fact that
+Rodriguez too was unable to find a satisfactory solution to their
+description
+With respect to the adjectives Collado attempts to deal with their
+functions in the manner appropriate to Latin that is as a subclass of
+13 nouns pp 911 He also recognizes their formal similarity to the
+verb and treats them briefly as a subclass of the substantive verb pp
+3233 but his heavy reliance upon the semantic categories of Latin does
+not permit him to follow Rodriguez who is able more clearly to recognize
+their formal as well as their functional distinctiveness
+Concerning prepositions Collado was confronted with an all but
+insurmountable taxonomic problem Here too Rodriguez was unable to develop
+a completely satisfactory descriptive framework In the Arte the term
+posposicao is used for those particles which function in a manner similar
+to the Latin prepositions eg tameni taixite and tomoni cf
+7373v and 140148v the term artigo is used for those particles having
+the functions of the inflectional endings of Latin eg ga ye and
+ni cf 12 78 and 137140 and the general term particula is used
+to cover the broad spectrum of particles that include adverbs
+conjunctions and exclamations as well as those otherwise unaccounted for

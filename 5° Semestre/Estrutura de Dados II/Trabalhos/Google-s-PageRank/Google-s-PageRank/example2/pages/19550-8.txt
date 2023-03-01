@@ -1,0 +1,500 @@
+Genus HylobatesThe Gibbons
+1 Hylobates hooluck Whitefronted Gibbon                   8
+2          lar Whitehanded Gibbon                       11
+3          syndactylus Siamang                           12
+Genus PresbytesCuviers Genus Semnopithecus
+4 Semnopithecus vel Presbytes entellus Bengal Langur    14
+5              vel P schistaceus Himalayan Langur     16
+6              vel P priamus Madras Langur            16
+7              vel P Johnii Malabar Langur            17
+8              vel P jubatus Nilgheri Langur          18
+9              vel P pileatus Capped Langur           18
+10              vel P Barbei Tipperah Langur           19
+11              vel P Phayrei SilveryLeaf Monkey      19
+12              vel P obscurus DuskyLeaf Monkey       20
+13              vel P cephalopterus Ceylon Langur      20
+14              vel P ursinus Great Wanderu            21
+15              vel P thersites                            22
+16              vel P albinus White Langur             23
+SUBFAMILY PAPIONINAE                                       24
+Genus Inuus
+17 Inuus vel Macacus silenus Lion Monkey                 24
+18      vel M rhesus Bengal Monkey                     25
+19      vel M pelops Hill Monkey                       26
+20      vel M nemestrinus Pigtailed Monkey            26
+21      vel M leoninus Longhaired Pigtailed Monkey   27
+22      vel M arctoides Brown Stumptailed Monkey      28
+23      vel M Thibetanus Thibetan Stumptailed Monkey  28
+Genus Macacus
+24 Macacus radiatus Madras Monkey                          28
+25        pileatus Capped Monkey                          29
+26        cynomolgus Crabeating Macacque                 30
+27        carbonarius Blackfaced Crabeating Monkey      31
+FAMILY LEMURIDAE                                            31
+Genus Nycticebus
+28 Nycticebus tardigradus Slowpaced Lemur                 31
+Genus Loris
+29 Loris gracilis Slender Lemur                            33
+SUBORDER PLEUROPTERAFAMILY GALAEOPITHECIDAE              33
+Genus Galaeopithecus
+30 Galaeopithecus volans Flying Lemur                      34
+ORDER CARNARIA                                              35
+CHEIROPTERA                                                 35
+MEGACHIROPTERASUBFAMILY PTEROPODIDAE                     36
+Genus Pteropus
+31 Pteropus Edwardsii vel medius Common Flying Fox       37
+32         Leschenaultii Cynonycteris amplexicaudata
+Fulvous FoxBat                              40
+Genus Cynopterus
+33 Cynopterus marginatus Small FoxBat                     40
+34 Macroglossus Pteropus minimus Tenasserim FoxBat      41
+Genus Eonycteris
+35 Eonycteris spelaea                                          41
+MICROCHIROPTERASUBFAMILY VAMPYRIDAE                      42
+Genus Megaderma
+36 Megaderma lyra Largeeared Vampire Bat                  42
+37          spectrum Cashmere Vampire                     43
+38          spasma                                            43
+RHINOLOPHINAE                                               44
+Genus Rhinolophus
+39 Rhinolophus perniger vel luctus Large LeafBat        44
+40            mitratus Mitred LeafBat                    44
+41            tragatus vel ferrumequinum Darkbrown
+LeafBat                                    45
+42            Pearsonii Pearsons LeafBat                46
+43            affinis Allied LeafBat                     46
+44            rouxi Rufous LeafBat                       46
+45            macrotis Largeeared LeafBat               47
+46            subbadius Bay LeafBat                     47
+47            rammanika                                       47
+48            Andamanensis                                    48
+49            minor                                           48
+50            coelophyllus                                    48
+51            Garoensis                                       48
+52            Petersii                                        49
+53            trifoliatus                                     49
+Genus Hipposideros vel Phyllorhina
+54 Hipposideros armiger Large Horseshoe Bat               50
+55             speoris Indian Horseshoe Bat              50
+56             murinus Little Horseshoe Bat              51
+57             cineraceus Ashy Horseshoe Bat             51
+58             larvatus                                       51
+59             vulgaris Common Malayan Horseshoe Bat     52
+60             Blythii                                        52
+61 Phyllorhina diadema                                         52
+62            Masoni                                          53
+63            Nicobarensis                                    53
+64            armigera                                        53
+65            leptophylla                                     54
+66            galerita                                        54
+67            bicolor                                         55
+Genus Coelops
+68 Coelops Frithii Friths Tailless Bat                    55
+Genus Rhinopoma
+69 Rhinopoma Hardwickii Hardwicks Longtailed LeafBat    56
+SUBFAMILY NOCTILIONIDAE                                    56
+Genus Taphozous
+70 Taphozous longimanus Longarmed Bat                     57
+71          melanopogon Blackbearded Bat                 57
+72          saccolaimus Whitebellied Bat                 58
+73          Theobaldi                                         58
+74          Kachhensis                                        58
+Genus Nyctinomus
+75 Nyctinomus plicatus Wrinklelipped Bat                  59
+76           tragatus                                         59
+SUBFAMILY VESPERTILIONIDAE                                 60
+Genus Plecotus
+77 Plecotus auritus vel homochrous                           60
+Genus Vesperugo
+78 Vesperugo noctula                                           61
+79          leucotis                                          61
+80          maurus                                            62
+81          affinis                                           62
+82          pachyotis                                         62
+83          atratus                                           62
+84          Tickelli                                          63
+85          pachypus                                          63
+86          annectans                                         63
+87          dormeri                                           63
+88 Vesperugo Scotophilus serotinus Silky Bat             63
+89                       Leisleri Hairyarmed Bat        64
+Scotophilus pachyomus                                       64
+90 Vesperugo Scotophilus Coromandelianus Coromandel Bat  64
+91                       lobatus Lobeeared Bat          65
+Genus Scotophilus
+92 Scotophilus fuliginosus Smoky Bat                       65
+93            Temminckii                                      65
+94            Heathii                                         66
+95            emarginatus                                     66
+96            ornatus                                         66
+97            pallidus                                        67
+Noctulinia noctula                                          67
+Nycticejus Heathii Large Yellow Bat                     67
+luteus Bengal Yellow Bat                     67
+Temminckii Common Yellow Bat                 67
+castaneus Chestnut Bat                       67
+atratus Sombre Bat                           67
+canus Hoary Bat                              67
+ornatus Harlequin Bat                        68
+98           nivicolus Alpine Bat                         68
+Genus Harpiocephalus
+99 Harpiocephalus harpia                                       69
+100               Murina suillus The PigBat             69
+101               auratus                                      70
+102               griseus                                      70
+103               leucogaster                                  70
+104               cyclotis                                     70
+Genus Kerivoula
+105 Kerivoula picta Painted Bat                             71
+pallida                                           72
+106          papillosa                                         72
+107          Hardwickii                                        72
+Genus Vespertilio
+108 Myotis Vespertilio murinus                                73
+109       Theobaldi                                            73
+110       parvipes                                             73
+111 Vespertilio longipes                                        73
+112            mystacinus                                      73
+113            muricola                                        73
+114            montivagus                                      74
+115            murinoides                                      74
+116            formosus                                        74
+117            Nepalensis                                      74
+118            emarginatus                                     75
+Genus Miniopterus
+119 Miniopterus Schreibersii                                    76
+Genus Barbastellus
+120 Barbastellus communis                                       76
+121 Nyctophilus Geoffroyi                                       76
+INSECTIVORA                                                 77
+FAMILY TALPIDAETHE MOLES                                  79
+Genus Talpa
+122 Talpa micrura Shorttailed Mole                         81
+123      macrura Longtailed Mole                          81
+124      leucura Whitetailed Mole                         81
+FAMILY SORECIDAE                                            82
+Genus Sorex
+125 Sorex caerulescens Common Musk Shrew better known as
+Muskrat                                          83
+126      murinus Mousecoloured Shrew                      85
+127      nemorivagus Nepal Wood Shrew                      85
+128      serpentarius Rufescent Shrew                      85
+129      saturatior Darkbrown Shrew                       86
+130      Tytleri Dehra Shrew                               86
+131      niger Neilgherry Wood Shrew                       86
+132      leucops Longtailed Shrew                         87
+133      soccatus Hairyfooted Shrew                       87
+134      montanus Ceylon Black Shrew                       87
+135      ferrugineus Ceylon Rufescent Shrew                87
+136      Griffithi Large Black Shrew                       88
+137      heterodon                                             88
+Genus Feroculus
+138 Feroculus macropus Largefooted Shrew                   88
+139 Sorex Hodgsoni Nepal PigmyShrew                        88
+140      Perroteti Neilgherry PigmyShrew                  89
+141      micronyx Smallclawed PigmyShrew                 89
+142      melanodon Blacktoothed PigmyShrew               89
+143      nudipes Nakedfooted Shrew                        89
+144      atratus Black PigmyShrew                         89
+Subgenus Soriculus
+145 Soriculus nigrescens Mousetailed Shrew                 90
+Genus Crossopus
+146 Crossopus Himalaicus Himalayan WaterShrew              90
+Genus Nyctogale
+147 Nyctogale elegans Thibet WaterShrew                    92
+Genus Corsira
+148 Corsira Alpina Alpine Shrew                             92
+Genus Anurosorex
+149 Anurosorex Assamensis Assam Burrowing Shrew             93
+FAMILY ERINACEIDAETHE HEDGEHOGS                           93
+Genus Erinaceus
+150 Erinaceus collaris Collared Hedgehog                    96
+151          micropus Smallfooted Hedgehog                96
+152          pictus Painted Hedgehog                       97
+153          Grayi                                             97
+154          Blanfordi                                         97
+155          Jerdoni                                           97
+156          megalotis Largeeared Hedgehog                98
+FAMILY HYLOMIDAE                                            99
+Genus Hylomys
+157 Hylomys Peguensis Shorttailed TreeShrew               99
+FAMILY TUPAIIDAE                                            99
+Genus Tupaia
+158 Tupaia Ellioti Elliots TreeShrew                     101
+159       Peguana vel Belangeri Pegu TreeShrew         101
+160       Chinensis                                           103
+161       Nicobarica                                          103
+162 Gymnura Rafflesii Bulau                                104
+CARNIVORA                                                  105
+ARCTOIDEAPLANTIGRADA                                     108
+URSIDAE                                                    108
+Genus Ursus
+163 Ursus Isabellinus Himalayan Brown Bear                 111
+164      Helarctos torquatus vel Tibetanus
+Himalayan Black Bear                           113
+165      Helarctos gedrosianus Baluchistan Bear         116
+166                Malayanus Bruang or Malayan Sun Bear  116
+167      Melursus labiatus Common Indian Sloth Bear     118
+AILURIDAE                                                  123
+Genus Ailuropus
+168 Ailuropus melanoleucos                                     124
+Genus Ailurus
+169 Ailurus fulgens Red CatBear                           128
+SEMIPLANTIGRADES                                          130
+MELIDIDAE OR BADGERLIKE ANIMALS                         130
+Genus Arctonyx
+170 Arctonyx collaris HogBadger                           131
+171         taxoides Assam Badger                         132
+Genus Meles Subgenus Taxidia
+172 Meles Taxidia leucurus Thibetan Whitetailed Badger  133
+173      albogularis Whitethroated Thibetan Badger       134
+Genus Mellivora
+174 Mellivora Indica Indian Ratel or HoneyBadger          134
+Genus GuloThe Glutton or Wolverene                              136
+Genus Helictis
+175 Helictis Nipalensis Nepal Wolverene                    138
+176         moschata Chinese Wolverene                    138
+MUSTELIDAEMARTENS AND WEASELS                            139
+Genus MartesThe Martens
+177 Martes flavigula Whitecheeked Marten                  141
+178       abietum Pine Marten                             142
+179       toufoeus                                            143
+Genus MustelaThe Weasels
+180 Mustela Vison Gray subhemachalana SubHemachal
+Weasel                                         145
+181        Gymnopus Gray kathiah Yellowbellied
+Weasel                                         145
+182        Gymnopus Gray strigidorsa Striped Weasel  146
+183        erminea Ermine or Stoat                        146
+184        Vison Gray canigula Hoary Rednecked
+Weasel                                         146
+185        Stoliczkana                                        147
+186        Vison Sibirica                                   147
+187        alpina Alpine Weasel                           147
+188        Hodgsoni                                           147
+189        Vison Horsfieldi                                 148
+190        Gymnopus nudipes                                 148
+Genus PutoriusThe Polecat
+191 Putorius larvatus vel Tibetanus Blackfaced
+Thibetan Polecat                             149
+192         Davidianus                                        149
+193         astutus                                           150
+194         Moupinensis                                       150
+LUTRIDAEThe Otters                                       150
+Genus Lutra
+195 Lutra nair Common Indian Otter                         153
+196      monticola vel simung                               155
+197      Ellioti                                              155
+198      aurobrunnea                                          155
+Genus AonyxClawless Otters
+199 Aonyx leptonyx Clawless Otter                          156
+AELUROIDEA                                                 156
+FELIDAEThe Cat Family
+Genus Felis
+200 Felis leo Lion                                         159
+201      tigris Tiger                                     161
+THE PARDS OR PANTHERS                                      175
+202 Felis pardus Pard                                      179
+203      panthera Panther                                 183
+204      uncia Ounce or Snow Panther                      184
+205      Diardii vel macrocelis Clouded Panther         185
+206      viverrina Large TigerCat                        187
+207      marmorata Marbled TigerCat                      188
+208      Bengalensis LeopardCat                          189
+209      Jerdoni Lesser LeopardCat                       191
+210      aurata Bay Cat                                   191
+211      rubiginosa Rustyspotted Cat                     192
+212      torquata Spotted WildCat                        193
+213      manul Blackchested WildCat                     193
+214      scripta                                              194
+215      Shawiana Yarkand Spotted WildCat                194
+216      chaus Common JungleCat                          195
+217      isabellina Thibetan Lynx                         197
+218      caracal Red Lynx                                 198
+219      jubata Hunting Leopard                           200
+HYAENIDAETHE HYAENAS                                     203
+Genus Hyaena
+220 Hyaena striata Striped Hyaena                          205
+VIVERRIDAETHE CIVET FAMILY                               207
+Genus Viverra
+221 Viverra zibetha Large Civet Cat                        208
+222        civettina Malabar CivetCat                    209
+223        megaspila                                          209
+224        Malaccensis Lesser CivetCat                   211
+Genus Prionodon
+225 Prionodon pardicolor Tiger Civet or Linsang            212
+226          maculosus Spotted Linsang                    213
+227          gracilis Malayan Linsang                     215
+Genus ParadoxurusThe Musangs
+228 Paradoxurus musanga Common Musang                      216
+229            Paguma of Gray Grayii Hill Musang      217
+230            bondar Terai Musang                        218
+231            trivirgatus Threestriped Musang           218
+232            leucotis Whiteeared Musang                219
+233            zeylanicus Golden Musang                   220
+234            Paguma laniger                               220
+Genus Arctictis
+235 Arctictis binturong Binturong                          221
+HERPESTIDAETHE ICHNEUMON OR MUNGOOSE FAMILY              222
+Genus Herpestes
+236 Herpestes pallidus vel griseus Common Grey Mungoose  223
+237        Jerdoni vel monticolus Longtailed Mungoose  225
+238        Smithii Ruddy Mungoose                         225
+239        auropunctatus Goldspeckled Mungoose           225
+240        fuscus Neilgherry Brown Mungoose               226
+241        Onychogale of Gray Maccarthiae                 226
+242        ferrugineus                                        226
+243        vitticollis Stripenecked Mungoose             227
+244 Urva cancrivora Crabeating Mungoose                   227
+CYNOIDEA                                                   228
+Genus CanisThe Dog
+245 Canis pallipes Indian Wolf                             232
+246      laniger Lupus chanco of Gray Thibetan Wolf   235
+247      lupus European Wolf                              237
+248      aureus Jackal                                    237
+Genus Cuon
+249 Canis Cuon rutilans Indian Wild Dog                  239
+Genus Vulpes
+250 Vulpes Bengalensis Indian Fox                          243
+251       leucopus Desert Fox                             244
+252       ferrilatus Thibetan Grey Fox                    245
+253       montanus Hill Fox                               245
+254       pusillus Punjab Fox                             245
+255       flavescens Persian Fox                          246
+256       Griffithii Afghanistan Fox                      246
+MARINE CARNIVORA                                           246
+ORDER CETACEATHE WHALES                                  247
+DenticeteThe Toothed Whales                                     248
+FAMILY DELPHINIDAETHE DOLPHINS OR PORPOISES              250
+Genus PlatanistaThe River Dolphins
+257 Platanista Gangetica Gangetic Porpoise                 251
+Genus OrcellaThe Roundheaded River Dolphins
+258 Orcella brevirostris Shortnosed Roundheaded
+River Dolphin                                  255
+259        fluminalis Freshwater Roundheaded Dolphin    255
+Genus DelphinusThe Marine Dolphins
+260 Delphinus perniger Black Dolphin                       258
+261          plumbeus Leadcoloured Dolphin               258
+262          gadamu                                           258
+263          lentiginosus Freckled Dolphin                259
+264          maculiventer Spotbellied Dolphin            259
+265          fusiformis Spindleshaped Dolphin            259
+266          pomeegra Black or Pomeegra Dolphin           260
+267          longirostris Longsnouted Dolphin            260
+268          velox                                            260
+Genus PhocaenaThe Porpoises                                     260
+Genus GlobicephalusThe Caing or Pilot Whale
+269 Globicephalus Indicus Indian Caing Whale              261
+PHYSETERIDAETHE CACHELOTS OR SPERM WHALES                261
+Genus Euphysetes
+270 Physeter or Euphysetes simus Snubnosed Cachelot     261
+MYSTICETEWHALEBONE OR BALEEN WHALES                      262
+Genus BalaenaThe Right Whales                                   262
+Genus BalaenopteraFinback Whales or Rorquals
+271 Balaenoptera Indica Indian Rorqual                     264
+SIRENIATHE MANATEES                                      267
+Genus HalicoreThe Dugong
+272 Halicore dugong Dugong                                 268
+ORDER RODENTIATHE GNAWERS                                269
+SUBORDER SIMPLICIDENTATASIMPLETOOTHED RODENTS          272
+SCIUROMORPHA                                               273
+SCIURIDAETHE SQUIRRELS                                   274
+Genus Sciurus
+273 Sciurus Indicus Bombay Squirrel of Pennant             276
+274        maximus Central Indian Red Squirrel            277
+275        macrourus Longtailed Forest Squirrel          278
+276        giganteus Black Hill Squirrel                  279
+277        lokriah Orangebellied Grey Squirrel           280
+278        lokroides Hoarybellied Grey Squirrel          280
+279        pygerythrus                                        282
+280        caniceps Goldenbacked Squirrel                282
+281        Phayrei Laterallybanded or Phayres Squirrel  282
+282        Blanfordii Blanfords Squirrel                 283
+283        atrodorsalis Blackbacked Squirrel             284
+284        erythraeus Assam Redbellied Squirrel          285
+285        Gordoni Gordons Squirrel                      285
+286        hippurus Chestnutbellied Assam Squirrel       285
+287        Sladeni Sladens Squirrel                      286
+288        ferrugineus Rustycoloured Squirrel            287
+289        palmarum Common Indian Ground Squirrel         287
+290        tristriatus Threestriped GroundSquirrel      289
+291        Layardi Layards Striped GroundSquirrel       289
+292        sublineatus Duskystriped GroundSquirrel      290
+293        McClellandi McClellands GroundSquirrel       290
+294        Berdmorei Berdmores GroundSquirrel           291
+295        quinquestriatus Stripebellied Squirrel        291
+296        Rhinosciurus tupaoides Longnosed Squirrel   292
+Genus Pteromys
+297 Pteromys oral Brown Flying Squirrel                    294
+298         cineraceus Ashy Flying Squirrel               296
+299         Yunnanensis Yunnan Flying Squirrel            296
+300         melanopterus Blackflanked Flying Squirrel    297
+301         alborufus Red and White Flying Squirrel       297
+302         magnificus Redbellied Flying Squirrel        298
+303         albiventer Whitebellied Flying Squirrel      299
+304         caniceps Greyheaded Flying Squirrel          299
+305         Pearsonii Hairyfooted Flying Squirrel        300
+306         fuscocapillus Small Travancore Flying
+Squirrel                                      300
+307         fimbriatus Grey Flying Squirrel               301
+308         alboniger Black and White Flying Squirrel     301
+309         spadiceus Red Flying Squirrel                 302
+ARCTOMYDINAETHE MARMOTS                                  302
+Genus Arctomys
+310 Arctomys bobac Bobac or Poland Marmot                 303
+311         caudatus Red Marmot                           304
+312         Hemachalanus Eastern Red Marmot               305
+313         aureus Golden Marmot                          305
+314         dichrous                                          306
+315         robustus                                          306
+MYOMORPHAMOUSELIKE RODENTS                              306
+FAMILY MURIDAE                                             307
+Genus Platacanthomys
+316 Platacanthomys lasiurus Longtailed Spiny Mouse        308
+SUBFAMILY GERBILLINAE                                     309
+Genus Gerbillus
+317 Gerbillus Indicus Indian JerboaRat or KangarooRat   309
+318          Hurrianae Desert JerboaRat                  311
+319          cryptorhinus Lobenosed JerboaRat           312
+320          erythrurus Redtailed JerboaRat             313
+321          nanus Dwarf JerboaRat                       313
+SUBFAMILY PHLOEMYINAE                                     314
+Genus Nesokia
+322 Nesokia Hardwickii Hardwicks FieldRat                315
+323        Huttoni Huttons FieldRat                     315
+324        Scullyi Scullys FieldRat                     315
+325        providens Southern India FieldRat             316
+326        Blythiana Bengal FieldRat                     317
+327        Barclayiana Barclays FieldRat                318
+328 Mus Nesokia Elliotanus Elliots FieldRat            318
+329             giganteus Bandicoot                      319
+SUBFAMILY CRICETINAE                                      320
+Genus CricetusThe Hamsters
+330 Cricetus phaeus Persian Hamster                        321
+331         fulvus Sandy Hamster                          321
+SUBFAMILY MURINAE                                         321
+Genus Mus
+332 Mus rattus Black Rat                                   322
+333    decumanus Brown Rat                                323
+334    Andamanensis Andaman Rat                           325
+335    robustulus Burmese Common Rat                      325
+336    Sladeni Sladens Rat                               326
+337    rubricosa Small Red Rat of the Kakhyen Hills       326
+338    Yunnanensis Common House Rat of Yunnan             327
+339    infralineatus Stripedbellied Rat                  327
+340    brunneus Tree Rat                                  327
+341    rufescens Rufescent Tree Rat                       328
+342    niveiventer Whitebellied House Rat                329
+343    nitidus Shining Brown Rat                          329
+344    caudatior Chestnut Rat                             329
+345    concolor Common Thatch Rat of Pegu                 330
+346    palmarum Nicobar Tree Rat                          330
+347    Ceylonus                                               330
+348    plurimammis                                            331
+349    aequicaudalis                                          331
+350    oleraceus Longtailed Tree Mouse                   331
+351    Nilagiricus Neilgherry Tree Mouse                  332
+352    badius Bay Tree Mouse                              332
+353    gliroides Cherrapoonjee Tree Mouse                 333
+354    Peguensis Pegu Tree Mouse                          333
+355    urbanus Common Indian Mouse                        333
