@@ -1,0 +1,5 @@
+a.txt 3 b.txt d.txt e.txt
+b.txt 1 c.txt
+c.txt 0
+d.txt 2 b.txt e.txt
+e.txt 2 b.txt d.txt
