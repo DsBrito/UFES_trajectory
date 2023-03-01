@@ -1,0 +1,500 @@
+there has been a difference of opinions among other authors Some
+parts have been quoted entirely but due credit has been given it is
+believed wherever such is the case
+It is not claimed that this little work covers the whole ground but
+it is intended to describe and explain thoroughly three or four of
+the more prominent styles of Truss leaving the other forms of Wooden
+Bridges to a subsequent volume
+Abutments and Piers as well as Box and Arch Culverts belonging more
+properly to masonry will be treated of hereafter under that head
+Iron Bridges form a distinct class and may be mentioned separately at
+some future period
+If this small volume should lead the student of Engineering to examine
+carefully the best Bridges of modern practice and study the larger
+scientific works on this art the author will feel satisfied that his
+efforts have not been entirely in vain
+Cambridge February 23 1874
+TOWERS
+Modern American Bridge Building
+BRIDGE BUILDING
+The simplest bridge that can be built is a single beam or stick of
+timber spanning the opening between the abutmentsbut this is only
+of very limited applicationonly for spans of 20 feet and less
+owing to the rapid increase in sectional dimensions which is required
+as the span becomes greater
+Next comes the single beam supported by an inclined piece from each
+abutment meeting each other at the middle point of the under side of
+the beamor another arrangement of two braces footing securely on
+the beam and meeting at a point above the middle point of the beam
+which is suspended from the apex of the triangle formed by them by
+means of an iron rodThese arrangements may be used up to 50 feet
+For any span beyond 50 feet modifications of this arrangement are
+used which will be described hereafter Now let us investigate shortly
+the different strains that the various parts of a bridge have to
+bearand the strength of the materials used The theory of strains in
+bridge trusses is merely that of the Composition and Resolution of
+Forces The various strains to which the materials of a bridge are
+subjectedare compression extension and detrusion
+Wood and Iron are the materials more generally employed in bridge
+constructionand in this pamphlet we shall take the following as the
+working strength of the materialsper square inch of section
+Tension  Compression  Detrusion
+Wood          2000       1000          150
+Wrot Iron   15000      11000
+Cast Iron     4500      25000
+Tension If a weight of 2000 lbs were hung to the lowest end of a
+vertical beam so that the line of action of the weight and axis of
+the beam formed one and the same straight linethe tension on the
+beam would be 2000 lbs But if the beam were inclined and the force
+acted in a vertical direction then the strain would be increased in
+the ratio of the increase of the diagonal of inclination over the
+verticalsuppose the beam is 20 ft long and inclined at an angle of
+45and let 2000 lbs as before be suspended from its lower end
+Now the diagonal being 20the vertical will be 14014 ftand the
+strain will be found as follows
+14014  20  2000  2854lbs
+The greater the angle of inclination from the horizontal the less the
+strain from a given loadand when the beam is vertical the weight
+causes the least strain
+Compression If we load a vertical post with a weight of 2000 lbs
+the strain of compression exerted upon the post will be 2000 lbs Now
+if we incline the postthe strain will be increased as we have shown
+above under the head of tension and in like manner dependent upon
+the inclination
+But when wood iron or any other material is used for a pillar or
+strut it has not only to resist a crushing force but also a force
+tending to bend or bulge it laterally
+A post of circular section with a length of 7 or 8 diameters will not
+bulge with any force applied longitudinally but will split But if
+the length exceeds this limitit will be destroyed by an action
+similar to that of a transverse strain
+A cast iron column of thirty diameters in length is fractured by
+bending when the length is less than this ratioby bending and
+splitting off of wedge shaped pieces But by casting the column
+hollow and swelling it in the middle its strength is greatly
+increased
+Barlows formula for finding the weight that can be sustained by any
+beam acting as a pillar or strut before bending is
+WL2                    bd3 x 80 E
+bd3 whence W
+80 E                       L2
+TeX fracWL280 E  bd3 whence W  fracbd3 x 80 EL2
+now having the weight given and assuming the dimensions of
+the crosssectionwe shall have
+WL2              WL2
+d   3   and b
+80 Eb           80 Ed3
+TeX d  sqrt3fracWL280 EB and b  fracWL280 ED3
+in the above formul
+W  weight in pounds
+L  length in feet
+E  a constant
+b  breadth in inches
+d  depth in inches
+Transverse Strains The strain caused by any weight applied
+transversely to a beam supported at both ends is directly as the
+breadth and square of the depth and inversely as the length It
+causes the beam to be depressed towards the middle of its length
+forming a curve concave to the horizontal and below it In assuming
+this formthe fibres of the upper part of the beam are compressed
+and those of the lower part are extendedconsequently there must be
+some line situated between the upper and lower surfaces of the beam
+where the fibers are subjected to neither of these two forces this
+line is called the neutral axis
+These two strains of compression and extension must be equal in
+amountand upon the relative strength of the material to resist these
+strains as well as its form and position the situation of this axis
+depends If wood resists a compression of 1000 lbs per square inch of
+section and a tension of 2000 lbs the axis will be twice as far from
+the top as from the bottom in a rectangular beam
+The following table by Mr GL Vose gives with sufficient accuracy
+for practice the relative resisting powers of wood wrought and cast
+iron with the corresponding positions of the axis
+Dist of axis
+Resistance  Resistance            from top in
+to          to                fracs of
+Material    Extension  Compression  Ratio  the depth
+Wrought Iron    90          66        9066   90156 or 058
+Cast Iron       20         111       20111   20131 or 015
+Wood             2           1          21    23 or 066
+Thus we see that the resistance of a beam to a cross strain as well
+as to tension and compression is affected by the incompressibility
+and inextensibility of the material
+The formula for the dimensions of any beam to support a strain
+transversely is
+4 bd2
+S
+l
+TeX S  frac4 bd2l
+S  the ultimate strength in lbs
+b  the breadth in inches
+d  the depth in inches
+l  the length in inches
+Detrusion Detrusion is the crushing against some fixed point such
+as obtains where a brace abuts against a chord or where a bridge
+rests on a bolster and the shearing of pins bolts and rivets also
+comes under this head
+General Abstract The resistance to the above mentioned strains
+varies as the area of the cross section so that by doubling the area
+we double the strength Any material will bear a much greater strain
+for a short time than for a long one The working strength of materials
+or the weight which does not injure them enough to render them unsafe
+is a mooted point and varies according to the authority from 13
+to 110 of the ultimate strength The ratio of the ultimate strength
+to the working strength is called the factor of safety
+The following is a table of ultimate and working strengths of
+materials and factors of safety
+Weight                Ult    Ult   Working Strengths Factor  Safety
+in lbs  Materials   Ext    Comp  Exten    Comp   Tension  Comp
+30    Wood        14000   7000   2000    1000      7      7
+480    Wrout Iron 60000  64000  15000   12000      4      533
+450    Cast Iron   18000 100000   4500   25000      4      4
+Lateral Adhesion Lateral adhesion is the resistance offered by the
+fibres to sliding past each other in the direction of the grain as
+when a brace is notched into a chord or tie beam at its foot it is
+prevented by the lateral adhesion of the fibres from crowding off the
+piece to the depth of the notch against which it toes Barlows
+experiments give the lateral adhesion of fir as 600 lbs per square
+inch and the factor of safety employed varies in practice from 4 to
+6 giving a working strength of from 150 to 100 lbs per square inch
+TABLE OF COMPRESSIVE RESISTANCE OF TIMBER
+Length      Safety       Length    Safety     Length    Safety
+given in    Weigt in   given in   Wt in    given in   Wt in
+Diameters  Pounds    Diameters  Pounds  Diameters  Pounds
+6         1000         24         440       42         203
+8          960         26         394       44         185
+10          910         28         358       46         169
+12          860         30         328       48         155
+14          810         32         299       50         143
+16          760         34         276       52         132
+18          710         36         258       54         122
+20          660         38         239       56         114
+22          570         40         224       58         106
+60          99
+In tensional strains the length of the beam does not affect the
+strength but in the beams submitted to compression the length is a
+most important element and in the table given above the safety
+strains to which beams may be subjected without crushing or bending
+has been given for lengths varying from 6 to 60 diameters
+PRACTICAL RULES
+Tensional Strain
+Let T  whole tensional strain
+S  strength per square inch
+a  sectional area in inches
+Then we have T  Sa
+Now to find the necessary sectional area for resisting any strain we
+have the following general formula
+T
+a
+S
+TeX a  fracTS
+or by substituting the working strengths for the various materials in
+the formula we have for wood
+a  T2000
+Wrought Iron   a  T1500
+Cast Iron      a  T4500
+But in practice cast iron is seldom used except to resist
+compression
+Strains of Compression Allowing the same letters to denote the
+same things as above we have for
+Wood a  T1000
+Wrought Iron a  T12000
+Cast Iron a  T25000
+As this pamphlet has to do with wooden bridges only nothing will be
+said of the proper relative dimensions of castiron columns to sustain
+the strains to which they may be subjected but a table of the
+strength of columns will be found further on
+Transverse Strains
+Let W  breaking weight in lbs
+s  constant in table
+b  breadth in inches
+d  depth in inches
+L  length in inches
+Then for the power of a beam to resist a transverse strain we shall
+have
+4 sbd2
+W
+L
+TeX W  frac4 sbd2L
+This formula has been derived from experiments made by the most
+reliable authorities
+The constant 1250 adopted for wood in the following formula is an
+average constant derived from the table of those woods more commonly
+used
+Now to reduce the formula to the most convenient shape for use we
+substitute the value of s and we have
+4 x 1250 bd2
+W
+L
+TeX W  frac4 times 1250 bd2L
+or
+5000 bd2
+W
+L
+TeX W  frac5000 bd2L
+But to reduce the load to the proper working strain we must divide
+this equivalent by 4 the factor of safety and we shall have
+5000 bd2
+W
+4L
+TeX W  frac5000 bd24 L
+Let us apply the formula
+Case I Given a span of 14 feet
+a breadth of 8 inches
+a depth of 14 inches
+Required the safe load
+5000 bd2
+The formula W
+4L
+TeX W  frac5000 bd24 L
+becomes by substitution
+5000 x 8 x 196
+W    11666 lbs
+4 x 8
+TeX W  frac5000 times 8 times 1964 times 168  11666 lbs
+Case II Given the safety load 18000 lbs
+the breadth 9 inches
+the length 14 feet
+Required the depth
+From the above formula we have
+W X 4L
+d
+5000 b
+TeX d  sqrtfracw times 4L5000 b
+substituting
+18000 x 168 x 4
+d          2688  16 inches nearly
+5000 x 9
+TeX d  sqrtfrac1800 times 168 times 45000 times 9
+sqrt2688  16
+Case III Given the safety load 22400 lbs
+the depth 18 inches
+the length 14 feet
+Required the breadth
+Deriving b from the foregoing we have
+W x 4L
+b
+5000 x d2
+TeX b  fracW times 4L5000 times d2
+substituting
+22400 x 4 x 168
+b    93 inches nearly
+5000 x 324
+TeX b  frac22400 times 4 times 1685000 times 324  93
+For a cast iron beam or girderMr Hodgkinson found from numerous
+carefully conducted experiments that by arranging the material in the
+form of an inverted Tthus creating a small top flange as well as the
+larger bottom one the resistance was increased per unit of section
+over that of a rectangular beam in the ratio of 40 to 23
+In this beam the areas of the top and bottom flanges are inversely
+proportional to the power of the iron to resist compression and
+extension Mr Hodgkinsons formula for the dimensions of his girder
+is
+26 ad
+W
+L
+TeX W  frac26 adL
+The factor of safety being 6 for cast iron beamsthe formula for the
+working load will be
+26 ad
+W
+6 L
+TeX W  frac26 ad6 L
+and to find area of lower flange we shall have
+6 WL
+a
+26 d
+TeX a  frac6 WL26 d
+The general proportions of his girders are as follows
+Length             16
+Height              1
+Area Top Flange     10
+Area Bottom Flange  61
+In the above formula for cast iron beams
+W  weight in tons
+a  area in square inches of bottom flange
+d  depth in inches
+h  length in inches
+The web uniting the two flanges must be made solidas any opening by
+causing irregularity in cooling would seriously affect the strength
+of the beam
+ExampleRequired the dimensions of a Hodgkinson girderfor a span
+of 60 feetwith a load of 10 tons in the centre
+6 x 10 x 60 x 12
+a    37 inches nearly
+60 x 12
+26 x
+16
+TeX a  frac6 times 10 times 60 times 1226 times frac60
+times 1216  37
+and the area of the top flange will be
+37
+616 inches
+6
+TeX frac376  616
+so that our dimensions will be as follows
+Length              30 feet
+Depth               45 inches
+Area Top Flange      616 inches
+Area Bottom Flange  37 inches
+Illustration Pl 1
+The thickness of web is usually a little greater at the bottom than
+at the top and varies from 114 to 124 of the depth of the girder
+The bottom rib is usually made from six to eight times as wide as it
+is thick and the top rib from three to six times as wide as thick so
+that in the example above given we could have as dimensions for the
+parts
+Top Flange     4 14 x 1 12 inches nearly
+Bottom Flange  6 x 2 12 inches nearly
+Web            1 12 inches thick
+The simplest bridge consisting of a single stick to span openings of
+20 feet and under is calculated according to the formula
+4WL
+d
+5000 b
+TeX d  sqrtfrac4 WL5000 b
+ExampleThe depth of a beam of 12 feet span and 12
+feet wide to support a load of 22400 lbs will be
+4WL         4 X 22400 x 12 x 12
+d                21504  15 in nearly
+5000 b           5000 x 12
+TeX d  sqrtfrac4 WL5000 b  sqrtfrac4 times 22400
+times 12 times 125000 times 12  sqrt21504  15
+The following Table was calculated by the above ruleand the
+dimensions altered according to the actual practice of the writer
+Span  Breadth  Depth
+4       10       12
+6       10       12
+8       12       12
+10       12       13
+12       12       15
+16       12       18
+18       12       20
+20       12       22
+These dimensions will give ample strength and stiffness Fig 1 Plate
+I gives an illustration of this kind of bridgein which a a are
+the bolsters or wall plates shown in section to which the bridge
+beams are notched and bolted Fig 1 A Plate I shows the method of
+diagonally bracing these beams by planks dimensions of which in
+general use are 6 to 8 by 2 to 3 inches The track should rest on
+ties about 6 inches by 8 or 10 inchesthe same bolt confining the
+ends of the ties and diagonal braces when practicable These ties
+should be notched on the string pieces 2 or 3 incheswithout cutting
+the stringers Below is a table giving general dimensions in inches
+of the several parts of a bridge of this description
+Span  Bolsters  Stringers   Ties   Braces   Diameter of Bolts
+4     12 x 12    10 x 12     6 x 8    2 x 8         1 inch
+10     12 x 12    12 x 13     6 x 8    2 x 8         1
+16     14 x 14    12 x 18     6 x 8    2 x 8         1
+20     14 x 14    12 x 22     6 x 8    2 x 8         1
+Each bolt must have a washer under the head and also under the nut
+For a span of from 15 to 30 feet we can use the combination shown in
+Plate II Fig 3 The piece A F must have the same dimensions as a
+simple string piece of a length A Bso that it may not yield between
+B and either of the points A or D The two braces D F and E F must be
+stiff enough to support the load coming upon them Suppose the weight
+on a pair of drivers of a Locomotive to be 10 tons then each side
+must bear 5 tons and each brace 212 tons  212 x 2240  5600 lbs
+Now to allow for sudden or extra strains call 8000 lbs the strain
+to be supported by each brace and accordingly 8 square inches of
+sectional area would be sufficient for compression only but as the
+brace is inclined the strain is increased Let the vertical distance
+from A to D be 10 ft and calling the span 30 ftA B will be 15
+ftfrom whence D F must be 18 ft then we shall have the proportion
+10  18  8000  14400 lbs
+which would require an area of about 15 square inches of section to
+resist compression or a piece 3x5 inches Now as this stick is more
+than 6 or 8 diameters in length it will yield by bendingand
+consequently its area must be increased The load which a piece of
+wood acting as a post or strut will safely sustain is found by the
+formula already given
+2240 bd3
+W
+L2
+TeX W  frac2240 bd3L2
+Now substituting 3 for b and 5 for d we have
+2240 x 3 x 125   840000
+W      2592 lbs
+324           324
+TeX Wfrac2240 times 3 times 125324frac8400003242592
+which is not enough Using 6 for b and 8 for d we have
+2240 x 6 x 512
+W    21238 lbs
+324
+TeX W  frac2240 times 6 times 512324  21238
+which is something larger than is actually required but it is no
+harm to have an excess of strength Now in many cases this arrangement
+would be objectionable as not affording sufficient head room on
+account of the bracesand we can as well use the form of structure
+given in Pl I Fig 3 since it is evidently immaterial whether the
+point B be supported on F or suspended from it provided we can
+prevent motion in the feet of the braces which is done by notching
+them into the stringer at that point This of course creates a
+tensional strain along the stringer which is found as
+followsRepresenting the applied weight by F B Pl II Fig 2 draw
+B D parallel to F C also D H parallel to A CD H is the tension
+This is the graphical construction and is near enough for practice
+Geometrically we have the two similar triangles A F B and D F H
+whence
+A F  D F  A B  D H
+D F x A B
+and D H
+A F
+TeX DH  fracDF times ABAF
+This style of structure may be used up to 50 feet but it is not
+employed for spans exceeding 30 feet in length It is very customary
+to make the braces in pairs so as to use smaller scantling and gain
+in lateral stiffnessthe two pieces forming one brace by being
+properly blocked and bolted together Below is given a table of
+dimensions for the various parts of this style of structure
+Span    Rise    Bolster    Stringer     Braces     Rod
+No Size
+15        6      12 x 12     12 x 12       25 x 6    118
+20        7      14 x 14     12 x 13       25 x 8    138
+25        8      14 x 14     12 x 15       26 x 8    112
+30       10      14 x 14     12 x 18       26 x 9    158
+Single Beams under each rail firmly braced laterally and trussed by
+an iron rod or preferably by two iron rods and a post on the under
+side of the beam The deflection of the rod is usually taken at 18 of
+the span Pl II Fig 1 represents this style of trussing a
+beamwhich is generally used for spans of from 15 to 30 ft Below is
+a table of dimensions for this truss with single and double rods if
+double rods are used only half the given section will be necessary for
+each one of the pair
+Span     Rise      Stringer    Post      Rod           Rods
+Feet    In Feet                          single      double
+15       178      12 x 12      6 x 8    218 diam or 112 diam
+20       212      12 x 14      7 x 8    212         134
+25       318      12 x 16      8 x 8    234         2
+30       334      13 x 18      9 x 9    3             218
+It is as well to tenon the post into the beam and also strap it
+firmly with iron platesand the end should be shod with iron to form
+a saddle for the rods to bear upon
+Now if we should make a bridge on the plan of Fig 3 Pl I 75 or
+100 feet or perhaps more in length the braces A F and F C would
+not only be very long but very large and heavy and one chief
+requisite in a good bridge is to have all the beams so proportioned
+that they will resist all the strains acting upon them without being
+unnecessarily large It now becomes necessary to have a different
+arrangement of the parts of the truss in order to obtain increased
+length of span
+Suppose we have a span of 40 feet as represented in Fig 2 Pl I
+Now instead of running the braces from A C until they meet in a point
+as before we stop them at a and c and place the straining beam a c
+between them to prevent those points from approaching suspend the
+points B and D from them and start the braces B b and D band if
+the truss were longer would continue on in the same manner as far as
+needful To prevent the truss from altering its form as shown by the
+dotted lines A b C and A E C by any passing load we insert the
+counter braces marked R
+The braces A a and C c must support all of the weight of the bridge
+and its load within the parallelogram B a c Dand the next set of
+braces B b and D b sustain that part of the load which comes over
+the centre of the bridge Consequently the braces must increase in
+size from the centre towards the abutments The rods resist the same
+pressure in amount as their bracesbut being vertical do not need
+the increase given to the braces on account of their inclinationbut
+increase simply with the strain upon them from the centre to the ends
+of the truss
+There are many forms of small bridges differing from those enumerated
+in various minor details but sufficient has been said to give the

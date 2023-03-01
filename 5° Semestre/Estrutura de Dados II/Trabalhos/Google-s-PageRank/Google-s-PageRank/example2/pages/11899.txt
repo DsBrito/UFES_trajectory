@@ -1,0 +1,500 @@
+H SLUIJTERS
+INHOUD
+VERKLARING VAN EENIGE TEEKENS TAFELS VAN MATEN
+EERSTE HOOFDDEEL
+DE MEETKUNST DER VLAKKEN OF OPPERVLAKTEN
+VOORAFGAANDE BEPALINGEN
+VIERKANTSWORTELTREKKING
+OVER DE VIERZIJDIGE VLAKKEN WAARVAN DE TEGENOVERSTAANDE ZIJDEN PARALLEL
+LOOPEN
+OVER DE DRIEHOEKEN
+OVER DE TRAPEZIUMS
+OVER DE VEELHOEKEN
+OVER DEN CIRKEL
+OVER DE GELIJKVORMIGE FIGUREN
+OVER DE VEELHOEKEN WELKE IN EN OM DEN CIRKEL BESCHREVEN
+ZIJN
+TWEEDE HOOFDDEEL
+OVER DE LIGCHAMEN
+VOORAFGAANDE BEPALINGEN
+KUBIEKWORTELTREKKING
+OVER DEN KUBIEK EN HET PARALLELEPIPEDUM
+OVER DE PRISMAAS EN PIRAMIDEN
+HET BEREKENEN VAN LIGCHAMEN TOEGEPAST OP DIJKEN GRACHTEN ENZ
+OVER DE CILINDERS EN KEGELS
+OVER DEN BOL
+GEMENGDE VOORSTELLEN
+VERKLARING VAN EENIGE TEEKENS BIJ DE MEETKUNST IN GEBRUIK
+plus of en genoemd duidt aan dat de grootheden of getallen
+tusschen welke dit teeken geplaatst is bij elkander moeten opgeteld
+worden Zoo geeft a  b te kennen dat de grootheid b bij de grootheid a
+moet opgeteld worden 9  6 beteekent de som van 9 en 6 of dat 6 bij 9
+moet worden gevoegd
+minus of min genoemd wijst aan dat de grootheid of het getal
+voor welke dit teeken staat van de voorgaande moet worden afgenomen
+Zoo beteekent a  b dat de grootheid a met de grootheid b moet
+verminderd worden 8  4 geeft te kennen dat 4 van 8 afgetrokken moet
+worden
+maal genoemd duidt aan dat de grootheden of getallen tusschen
+welke dit teeken geplaatst is met elkander moeten vermenigvuldigd
+worden Zoo beteekent a  b dat de grootheid a met de grootheid b moet
+vermenigvuldigd worden 8  6 geeft het product van 8 en 6 te kennen
+Ook wordt door eene stip  de vermenigvuldiging van twee grootheden of
+getallen uitgedrukt Men kan a  b ook dus a  b voorstellen
+gedeeld door genoemd wijst aan dat de grootheid of het getal voor
+dit teeken staande moet gedeeld worden door de grootheid of het getal
+achter hetzelve geplaatst a  b zegt de grootheid a gedeeld door de
+grootheid b en 8  4 het getal 8 gedeeld door het getal 4 Men kan het
+quotient van twee grootheden ook uitdrukken door den deeler onder het
+deeltal te plaatsen met een streepje tusschen beide aldus
+a      8
+en
+b      4
+gelijk genaamd geeft te kennen dat de grootheden of getallen die
+ter wederzijden van dit teeken staan gelijk of even groot zijn De
+uitdrukking a  b zegt dat de grootheid a juist zoo groot is als
+de grootheid b en 8  9  7  10 dat de som der getallen 8 en 9 even
+zoo veel is als de som van 7 en 10
+grooter dan genoemd wijst aan dat de grootheid die voor hetzelve
+staat grooter is dan de grootheid die achter hetzelve geplaatst is
+Aldus leest men a  b de grootheid a grooter dan de grootheid
+b
+kleiner dan genoemd geeft te kennen dat de grootheid die voor
+hetzelve staat kleiner is dan de grootheid die achter hetzelve
+geplaatst is Aldus leest men a  b de grootheid a kleiner dan
+de grootheid b
+Symbool beteekent hoek
+Symbool   regte hoek
+Symbool   driehoek
+Symbool   parallelogram
+Symbool   regt hoek
+Symbool   vierkant
+Symbool   cirkel
+Symbool   omtrek
+Symbool   cirkelboog of boog
+AB2 drukt uit het vierkant op AB beschreven
+AB3 drukt uit de kubiek op eenen lijn AB beschreven
+TAFEL DER LENGTEMATEN IN DE NEDERLANDEN
+BENAMINGEN          HOEGROOTHEID  AANMERKINGEN
+IN ELLEMAAT
+Mijl kilometer    1000 ellen  De eenheid der lengtematen
+hectometer    100       is een veertig millioenste
+Roede decameter     10       gedeelte van den
+El meter             1    el omtrek der aarde langs
+Palm decimeter       01     den middagcirkel van Parijs
+Duim centimeter      001    gemeten
+Streep millimeter    0001
+Dit stelsel is ook bekend
+onder den naam van
+het wijsgeerige stelsel van
+maten en gewigten
+VERGELIJKENDE TAFEL VAN DE NIEUWE MET DE OUDE IN NEDERLAND IN GEBRUIK
+GEWEEST ZIJNDE LENGTEMATEN
+PLAATSEN          LENGTE
+EN                IN NED   AANMERKINGEN
+BENAMINGEN       STREPEN
+roede      37674    De rijnlandsche maat was voorheen
+voet        3139    de meest gebruikelijke
+Rijnlduim         262    Eene rijnl roede bevat 12 voeten
+lijn          22    een voet 12 duimen een
+punt          02    duim 12 lijnen eene lijn 12
+punten
+roede      36807    Ook de amsterdamsche maat
+vadem van            werd voorheen veel gebruikt
+6 voeten  16988    vooral bij gebouwen De amst
+Amst voet        2831    roede bevat 13 voeten de voet
+duim         257    11 duimen en de duim 11 lijnen
+lijn          23
+Utrechtsche of              Voor het burgerlijk gebruik
+Stichtsche roede  37559    was deze roede in 14 bij de
+landmeters echter in 10 voeten
+verdeeld
+Geldersche roede  38073    Verdeeld in 15 voeten de
+voet in 10 duimen
+Groningsche roede 40908    Verdeeld in 14 voeten de
+voet in 12 duimen
+Koningsroede in             In 12 deelen verdeeld
+Vriesland       39128
+Amsterdamsche el   6878    Op vele plaatsen en alleen
+bij het meten van stoffen in
+Haagsche el        6943    gebruik
+VERDEELING VAN DEN CIRKELTREK
+Alle cirkeltrekken worden verdeeld in 360 gelijke deelen graden
+genoemd iedere graad bevat 60 minuten en elke minuut is 60
+seconden Om graden minuten en seconden te schrijven zijn bijzondere
+teekens in gebruik 21 graden 30 minuten 12 seconden drukt men met
+behulp van dezelve dus uit 25 30 12 Deze verdeeling is zeer oud en
+nog vrij algemeen in gebruik Er bestaat echter eene nieuwe verdeeling
+volgens welke de cirkeltrek 100 graden de graad 100 minuten en de
+minuut 100 seconden heeft Bij het bezigen van deze verdeeling vervallen
+de teekens  en  schrijvende men 25 graden 30 minuten 12 seconden
+alsdan 253012
+De geographische of duitsche mijl van 15 in eenen graad is  74074 el
+Eene zeemijl van 20 in eenen graad is  55556 el
+Eene oude fransche mijl van 25 in eenen graad is  44444 el
+Eene fransche en engelsche zeemijl van 60 in eenen graad is  18519
+el
+TAFEL DER OPPERVLAKTEMATEN IN DE NEDERLANDEN
+BENAMINGEN                            HOEGROOTHEID IN
+VIERKANTE ELLEN
+Bunder hectare               10000      vierk ellen
+Vierk roede are               100
+Vierk el vierk meter           1              el
+Vierk palm vierk decimeter     001
+Vierk duim vierk centimeter    00001
+Vierk streep vierk millimeter  0000001
+Voorts houdt
+Een vierk  rijnl roede  141930 vierk ned ellen
+voet    98562           palmen
+duim    68446           duimen
+amst  roede  135478           ellen
+voet    80164           palmen
+duim    66251           duimen
+rijnl morgen          08516 bunders
+vierk duitsche mijl  5487  vierk ned mijlen
+Om hoeken te meten heeft men den regten hoek als de hoofdmaat of
+eenheid aangenomen dezelve is verdeeld in 90 kleinere hoeken graden
+genoemd de graad weder in 60 minuten en de minuut in 60 seconden
+TAFEL DER LIGCHAAMSMATEN IN DE NEDERLANDEN
+BENAMINGEN                              HOEGROOTHEID
+IN KUB ELLEN
+Kubieke el of wisse stere       1           Kub el
+Kub palm kub decimeter        0001
+Kubieke duim kub centimeter    0000001
+Kubieke streep kub millimeter  0000000001
+Wijders bevat
+Een kub rijnl voet 30943322 kub ned palmen
+duim 17907015         duimen
+amst  voet 22697161         palmen
+voet 17052713         duimen
+Eindelijk houdt de schacht aarde van 144 kub rijnl voeten 445583837
+kub ellen
+MEETKUNDIG SCHOOLBOEK
+EERSTE HOOFDDEEL
+DE MEETKUNST DER VLAKKEN OF OPPERVLAKTEN
+VOORAFGAANDE BEPALINGEN
+S1 Meten is eene bewerking door middel van welke men eene grootheid
+met eene andere van dezelfde soort vergelijkt zoo vergelijkt men bij
+voorbeeld eene lijn met eene andere eene oppervlakte met eene andere
+den inhoud van een ligchaam met dien van een ander
+S2 De meetkunst is de kunst om te bepalen hoe de grootte van elke
+uitgebreidheid afhangt van de wijze op welke zij door hare grenzen
+bepaald is ten einde langs dien weg de regels te vinden om dezelve met
+uitgebreidheden van dezelfde soort te vergelijken
+S3 Er zijn drie soorten van uitgebreidheden namelijk lengte
+vlakte en ligchamelijke uitgebreidheden
+S4 De lengteuitgebreidheden worden voorgesteld onder den naam van
+lijnen De lijnen hebben dikte noch breedte Fig 1 stelt eene
+meetkundige lijn voor wanneer men alleen de lengte in aanmerking neemt
+S5 De uiteinden der lijnen zijn punten Een punt heeft geene de
+minste uitgebreidheid het is een ondeelbaar iets
+S6 Men onderscheidt twee soorten van lijnen namelijk regte en
+kromme Men verkrijgt van de regte lijn een duidelijk denkbeeld door
+te zeggen dat zij de kortste weg is om van het eene punt tot het
+andere punt te geraken Elke lijn welke niet regt is of niet uit
+regte lijnen is zamengesteld noemt men krom Er bestaat een oneindig
+getal verschillende kromme lijnen
+S7 De onderlinge helling of rigting van twee lijnen op of tot
+elkander die in hetzelfde vlak gelegen zijn en verlengd worden tot
+dat zij elkander in eenig punt snijden of ontmoeten wordt hoek
+genoemd Fig 2 De lijnen AB en AC dragen den naam van beenen van den
+hoek terwijl men het punt A waarin de beenen elkander ontmoeten het
+hoekpunt noemt
+S8 Wanneer eene lijn CD fig 3 op eene andere lijn zoodanig
+geplaatst is dat de hoeken ACD en BCD aan beide zijden gelijk zijn dan
+zegt men dat de lijn CD loodregt of perpendiculair op AB slaat en
+de hoeken ACD en BCD worden dan regte hoeken genaamd Alle regte
+hoeken zijn dus even groot
+S9 Een hoek die kleiner is dan een regte wordt scherpe hoek
+genoemd Zoo is de hoek BCE fig 3 scherp Elke hoek grooter dan een
+regte heet stompe hoek De hoek ACE fig 3 is dus een stompe hoek
+S10 Twee lijnen welke in hetzelfde vlak liggen en hoe ver ook
+verlengd elkander nimmer ontmoeten worden evenwijdig of parallel
+genoemd
+VIERKANTSWORTELTREKKING
+S1 Indien men een getal bij voorbeeld 10 met zich zelf
+vermenigvuldigt dan wordt het product 100 het kwadraat of vierkant
+van 10 genoemd Dit product draagt ook wel den naam van tweede magt
+van het getal
+S2 De vierkantswortel uit eenig getal bij voorbeeld uit 2116 te
+trekken is het getal 46 te vinden hetwelk met zich zelf
+vermenigvuldigd zijnde het getal 2116 weder voortbrengt De
+uitdrukkingen kwadraatswortel vierkantswortel en tweede magts
+wortel te trekken hebben dezelfde beteekenis
+S3 Door kwadraat vierkants of tweede magts wortel verstaat
+men het getal hetwelk met zich zelf vermenigvuldigd het gegeven
+kwadraat of vierkant weder te voorschijn brengt
+S4 Om den vierkantswortel uit een geheel getal ie trekken volgt men
+den volgenden algemeenen regel
+1e Deel het getal van twee tot twee cijfers van de regter naar de
+linkerhand af
+2e Neem den naasten wortel uit het eerste of uit de twee eerste
+cijfers en trek het vierkant van dien wortel daarvan af
+3e Schrijf achter dit verschil de twee volgende cijfers Deel dan dit
+gevondene getal uitgenomen het achterste cijfer door tweemaal den
+gevonden wortel Stel dit quotient hetwelk het tweede lid des wortels
+is achter den deeler beschouw dan dit getal als eenen deeler en
+vermenigvuldig dien vereenigden deeler met dien zelfden nu gevonden
+wortel en trek het product van het deeltal af
+4e Plaats achter de tweede rest weder de twee volgende cijfers en
+deel dan weder door twee maal de beide gevondene cijfers des wortels
+altijd het achterste cijfer des deeltals buiten aanmerking latende en
+ga zoo voort tot aan het einde toe
+S5 Ter opheldering van dezen regel laten wij hier een uitgewerkt
+voorbeeld volgen Nemen wij het getal 190969
+2  190969  437
+4  4    16
+3 09
+83  3     2 49
+60 69
+867  7       60 69
+Verklaring Men deelt het getal eerst af in vakken van twee cijfers
+te beginnen bij de regterhand dan heeft men 190969 Nu vraagt men
+welke is de naast kleinere vierkantswortel uit 19 en het antwoord zegt
+4 omdat 19 grooter dan 16  4  4 en kleiner 25  5  5 is De 4 is het
+eerste deel van den wortel Nu zeg ik 4  4  16 en trek die 16 van 19
+af dan blijft er 3 over Achter dit verschil 3 stel ik de twee volgende
+cijfers 09 die in het tweede vak staan waardoor ik 309 verkrijg Nu
+deel ik tweemaal den gevonden wortel of 8 in 30 want het derde cijfer 9
+komt niet in aanmerking en vind 3 welke het tweede lid van den wortel
+is en welke ik ook achter het dubbel van het eerste lid plaatse
+waardoor ik het getal 83 verkrijg deze 83 vermenigvuldig ik met het
+quotient 3 en trek het product 249 van 309 af de rest is dan 60
+Achter dit verschil schrijf ik de cijfers van het derde vak namelijk
+69 en dan heb ik 6069 Met weglating van het achterste cijfer vraag
+ik na alvorens het nu gevondene deel des wortels dat is 43 verdubbeld
+te hebben hoeveelmaal is dat dubbel 86 in 606 begrepen Ik vind 7 maal
+deze 7 is het derde deel van den wortel Dit derde deel schrijf ik
+achter 86 en verkrijg 867 dit getal vermenigvuldig ik nu met 7 dan
+bekom ik juist de resterende 6069
+VOORSTELLEN
+1 Trek den vierkantswortel uit 67600
+Antw 260
+2 Welke is de kwadraatswortel uit het getal 185761
+Antw 431
+3 Zeg nu ook eens hoe veel de tweede magtswortels zijn uit 152100
+160000 193600
+Antw 390 400 440
+4 Welke zijn de vierkantswortels uit 625681 564001 en 518400
+Antw 791 751 en 720
+5 Trek den kwadraatswortel uit 207025 222784 en 183184
+Antw 455 472 en 428
+6 Zeg ook welke de kwadraatswortel is uit 5740816
+Antw 2396
+7 Hoe veel is de tweede magtswortel uit 537009030481
+Antw 732809
+8 Zeg dat ook nog van 28404401658084
+Antw 5329578
+S6 In de voorgaande voorbeelden gaan de wortels juist op van de
+meeste getallen kan echter de wortel niet juist gevonden worden Van
+dien aard zijn 2 3 5 6 7 8 enz Men kan uit deze laatste getallen
+die men onvolkomene of wortellooze vierkants getallen noemt wel
+bij benadering maar niet volkomen den vierkantswortel in getallen
+voorstellen Om den vierkantswortel uit eenig getal bij benadering te
+vinden gaat men volgens den in S4 opgegeven regel te werk tot zoo
+lang de bewerking met de laatste cijfers van het gegeven getal is
+afgeloopen alsdan plaatst men achter den gevonden wortel een
+decimaalpunt en achter de rest twee nullen waarna men de bewerking op
+de gewone wijze voortzet tot zoo lang als de naauwkeurigheid vordert
+voegende bij elke nieuwe rest twee nullen Zie hiervan een voorbeeld
+2  555  23558
+2  2    4
+1 55
+43  3   1 29
+26 00
+465  5   23 25
+2 75 00
+4705  5   2 35 25
+39 75 00
+47108  8    37 68 64
+2 06 36 enz
+VOORSTELLEN
+1 Vind bij benadering den vierkantswortel uit 3
+Antw 173205
+2 Welke is de naaste vierkantswortel uit 5
+Antw 223606 enz
+3 Zeg dat ook van het getal 6
+Antw 244948 enz
+4 Vind bij benadering den vierkantswortel uit 7
+Antw 264575
+6 Welke is de naaste kwadraatswortel uit 10
+Antw 316227 enz
+7 Zeg dat ook nog van 17
+Antw 412316
+S7 Om den vierkantswortel uit eene tiendeelige breuk te vinden heeft
+men den volgenden regel
+Verdeel het scheiteeken tot grondslag nemende de geheelen indien die
+in het gegeven getal voorkomen van de regter naar de linkerhand in
+twee cijfers en de tiendeeligen insgelijks in twee cijfers doch van de
+linker naar de regterhand Gaat overigens op dezelfde wijze te werk
+als of het een geheel getal ware met in acht neming evenwel dat men
+het scheiteeken in den wortel plaatst daar waar men in de bewerking
+van de geheelen tot de tiendeeligen overgaat
+Voorbeeld ter opheldering Laat de vierkantswortel gevonden worden
+uit 13897984
+2  13897984  3728
+3  3  9
+4 89
+67  7  4 69
+20 79
+742  2    14 84
+5 95 84
+7448  8     5 95 84
+0
+VOORSTELLEN
+1 Welke zijn de kwadraatswortels van 256 676 en 841
+Antw 16 26 en 29
+2 Trek den vierkantswortel uit 1089 1521 en 10201
+Antw 33 39 en 101
+3 Hoe veel zijn de kwadraatswortels uit 11236 11881 en 416025
+Antw 106 109 en 645
+4 Trek den vierkantswortel uit 00000680625
+Antw 000825
+5 Welke is de tweede magtswortel uit 9628609
+Antw 3103
+S8 Om den vierkantswortel uit eene gewone breuk te vinden volgt men
+dezen regel
+Vermenigvuldig den teller met den noemer en deel den vierkantswortel
+uit het product door den noemer der gegevene breuk
+Om den wortel uit een gemengd getal te trekken moet men eerst dit
+gemengde getal tot eene breuk herleiden en voorts den bovenstaanden
+regel op deze breuk toepassen
+VOORSTELLEN
+4
+1 Zoek den kwadraatswortel uit
+9
+2
+Antw
+3
+9
+2 Welke is de vierkantswortel uit
+16
+3
+Antw
+4
+16
+3 Vind den tweeden magtswortel uit
+25
+4
+Antw
+5
+25
+4 Trek den vierkantswortel uit
+36
+5
+Antw
+6
+256
+5 Hoe veel is de kwadraatswortel uit
+625
+16
+Antw
+25
+24
+6 Vind den vierkantswortel uit 73
+25
+3
+Antw 8
+5
+20
+7 Trek den tweeden magtswortel uit 18029
+121
+3
+Antw 134
+11
+223
+8 Nu ook nog uit 88418
+289
+6
+Antw 297
+17
+S9 Om den wortel uit een gebroken of gemengd getal te vinden kan men
+hetzelve eerst tot eene tiendeelige breuk herleiden en uit deze den
+wortel trekken
+OVER DE VIERZIJDIGE VLAKKEN WAARVAN DE TEGENOVERSTAANDE ZIJDEN PARALLEL
+LOOPEN
+S1 Een vlak is eene uitgebreidheid die alleen in lengte en breedte
+is uitgestrekt en geene de minste dikte of hoogte heeft Men
+onderscheidt de vlakken in twee hoofdsoorten in platte en gebogene
+of kromme vlakken Het platte vlak onderscheidt zich hierdoor van
+alle andere vlakken dat eene regte lijn in alle rigtingen op hetzelve
+past Een stilstaand water vertoont een volmaakt plat vlak Er bestaat
+slechts eene soort van platte vlakken Elke oppervlakte die geen plat
+vlak of niet uit platte vlakken zamengesteld is wordt een gebogen of
+krom vlak genoemd
+S2 Elk plat vlak door vier regte lijnen begrensd wordt vierhoek
+genoemd
+S3 Een vierhoek waarvan de overstaande zijden evenwijdig zijn wordt
+parallelogram of raam genoemd Zie fig 4
+S4 Elke lijn welke van den eenen hoek tot zijnen tegenoverstaanden
+hoek kan getrokken worden noemt men diagonaal of hoekpuntslijn Zoo
+zijn AC en DB fig 4 diagonalen
+S5 Elke der diagonalen deelt een parallelogram in twee gelijke deelen
+S6 In een parellelogram zijn de overstaande zijden alsmede de
+overstaande hoeken gelijk
+S7 De inhoud van een parallelogram wordt gevonden wanneer de lengte
+met de loodregte hoogte wordt vermenigvuldigd
+S8 Een scheefhoekig parallelogram waarvan de zijden allen even groot
+zijn heet eene ruit Zie fig 5
+S9 Is een der hoeken van een parallelogram regt dan zijn al deszelfs
+hoeken regt In dit geval noemt men de figuur eenen regthoek Zie fig
+6
+S10 Een regthoek waarvan de zijden aan elkander gelijk zijn wordt
+vierkant of kwadraat genoemd Zie fig 7 In een vierkant zijn dus
+al de zijden aan elkander gelijk en al de hoeken regt
+S11 De inhoud van eenen regthoek gelijk ook die van een vierkant
+wordt gevonden indien men de zijden die om denzelfden hoek staan met
+elkander vermenigvuldigt
+S12 Van elk parallelogram elke ruit is de som der kwadraten van de
+zijden gelijk aan de som der kwadraten van de diagonalen
+VOORSTELLEN
+1 Van een vierkant stuk gronds is elke zijde 18 roeden lang hoe groot
+is de oppervlakte
+Antw 324 Vierk roeden
+2 Hoe veel bedraagt de oppervlakte van een stuk lands hetwelk de
+gedaante heeft van een kwadraat indien elke zijde 8 ellen 5 palmen en 6
+duimen lang is
+Antw 73 Vierk ellen 27 vierk palmen 36 vierk duimen
+3 Als een vierkant stuk lands 16384 vierkante ellen groot is hoe lang
+is dan elke zijde
+Antw 128 Ellen
+4 Van een vierkant stuk weiland is de vlakke inhoud 109561 vierkante
+ellen hoe veel ellen is deszelfs omtrek
+Antw 1324 Ellen
+5 Hoe veel is de inhoud van een langwerpig vierkant hetwelk 40 roeden
+lang en 30 roeden breed is
+Antw 1200 Vierkante roeden
+6 Van mijne school welke de gedaante heeft van eenen regthoek is de
+lengte 16 ellen en de breedte 8 ellen hoe groot is dezelve
+Antw 128 Vierkante ellen
+7 Eene regthoekige plaats is met 9128 vierkante steenen belegd zoo de
+breedte 28 steenen bevat hoe veel liggen er dan in de lengte
+Antw 326 Steenen
+8 Eene kamer welke 5 ellen 7 palmen 5 duimen lang is moet met planken
+belegd worden die dezelfde lengte hebben als de kamer Hoe veel planken
+zijn hiertoe noodig als de breedte van de kamer 5 ellen 4 palmen 1 duim
+5 strepen en die van elke plank 2 palmen 8 duimen 5 strepen breed zijn
+Antw 19 Planken
+9 Als een stuk weiland 72 roeden 8 ellen 6 palmen lang en 5 roeden 8
+palmen breed is hoe veel bunders is dan dit stuk groot
+Antw 3 Bunders 70 vierk roeden 12 vierk ellen 88 vierk palmen
+10 Een regthoekige hof ter grootte van 21 vierkante roeden 6 vierkante
+ellen en waarvan de lengte 54 ellen bedraagt wordt met boomen beplant
+die 5 ellen van elkander staan Hoe groot zal het getal boomen zijn
+wanneer de buitenste rijen 2 ellen van den kant afstaan
+Antw 88 Boomen
+11 Een metselaar moet eenen gang bevloeren met steenen welke 4 palmen
+lang en breed zijn hoe veel steenen zijn hiertoe noodig als de gang 16
+ellen lang en 2 ellen 4 palmen breed is
+Antw 240 Steenen
+12 Een boer beplantte een langwerpig stuk lands met boomen te weten 58
+in de lengte en 34 in de breedte Als nu elke boom op 37 en een halve
+cent wordt berekend hoe veel was dan het beloop hiervan
+Antw 739 Guld 50 cents
+13 Wanneer een stuk land dat tweemaal zoo lang als breed is 3200
+vierkante roeden inhoud heeft hoe lang en breed is hetzelve dan
+Antw 80 Ellen lang en 40 ellen breed
+14 Men wil eene kamer die 6 ellen 5 palmen lang en 5 ellen 4 palmen
+breed is en waarin eene plaat ligt van 2 ellen lengte en 6 palmen 2
+duimen 5 strepen breedte met een kleed beleggen en daartoe goed nemen
+van 1 el 5 palmen breed Hoe veel ellen zijn tot dit kleed noodig

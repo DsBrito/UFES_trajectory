@@ -1,0 +1,500 @@
+exemplaria in omnium manibus sunt nomen singulis locis facili negotio
+saepe emendatis non semper adscriberem ut autem paullo emendatiora haec
+fragmenta prodeant praesertim Henrici Keili liberalitati mea laude
+maiori debetur a quo facile Hermannus Vsener inpetrauit ut quae ad
+Varronis locos in grammaticis latinis obuios adnotauerat meum in usum
+describere sibi liceret de quibusdam uero locis ipse Keilius benigne
+certiorem me fecit praeterea Vsener Bernae duos Augustini de dialectica
+libros nitidissime mihi contulit et multos aliorum scriptorum locos a
+me rogatus inspexit Seruianorum locorum lectiones Georgius Thilo
+liberalissime mecum communicauit alias alii me instruxerunt quos suo
+quemque loco nominaui ne autem quidquam quod aliis debetur taceam
+conmemorandum est Vseneri et Curti Wachsmuthi amicorum beneficium qui
+me in Italiam profecto non solum plagularum accuratissime corrigendarum
+taedium susceperunt uerum etiam conplures locos medicina egentes felici
+sagacitate emendauerunt quibus omnibus gratias ago lectoresque mecum
+agent
+Romae in Capitolio mense Iulio 1864
+TABVLA DISPVTATIONIS
+Transcribers note
+To aid in searching for text the table of contents has been expanded
+with key phrases taken verbatim from the book The numbered items 1  8
+are the authors original tabula Sections marked with roman numerals
+appear in the text though not in the authors tabula
+I
+1 de libris de lingua latina
+Alexandrinorum grammaticorum
+de Varronis philosophia
+consilium totius operis
+hexas prima liber primus
+libro altero
+libro tertio
+altera triade  de uerborum originibus
+footnote 20 chart comparing books VIII and VIIII
+de relliquiis huc referendis
+libro undecimo declinationes
+de libro duodecimo
+librum decimum tertium
+poeticorum uocabulorum explicatione
+prooemium totum opus
+de postrema hexade
+2 de epitome librorum de lingua latina
+Epitomen de lingua latina
+II
+3 de libris de sermone latino
+a prosodiis uel accentibus
+de rebus metricis
+continentis sermonis uirtutes
+de uocis natura
+de uariis syllabarum generibus
+III
+4 liber de grammatica
+IIII
+5 de libris de antiquitate litterarum
+6 de libris de origine linguae latinae
+V
+7 de libris de similitudine verborum
+8 de libris de utilitate sermonis
+In Hieronymi catalogo omnis quaestionis de libris Varronianis
+fundamento cf F Ritschl d schriftstellerei des M Terentius Varro
+in nou mus Rhen VI p 481 sq XII p 150 hi tituli grammatici
+enumerantur de lingua latina libri XXV epitome de lingua latina
+e libris XXV libri VIIII de sermone latino libri V de origine
+linguae latinae libri III de similitudine uerborum libri III
+quibus accedit liber disciplinarum de grammatica praeterea
+occurrunt apud grammaticos liber II de antiquitate litterarum
+Prisc I p 7 Hertz libri ad Attium Pompei comm art Don
+p 9 27 liber IIII de utilitate sermonis Char p 123 K
+I
+Libros de lingua latina fuisse XXV et praeter quattuor priores
+cf de ll V 1 M p 12 Sp ad Ciceronem ut Caesaris de analogia
+opus scriptos esse constat illud ex Hieronymi indice et seuerae
+dispositionis lege qua Varro non solum in his libris utebatur1
+cf Ritschl nou mus rh VI p 525 hoc e Ciceronis Academ post I
+1 2 cp ad Attic XIII 12 3 cf O Muelleri praef Varr p 111
+e librorum de lingua latina VX codice Florentino initio libri III et
+in fine libri VIIII p 3 542 Sp e multis grammaticorum ueterum
+testimoniis Libro primo quem num Septimio miserit scriptor cum
+libris II III IIII incertum est quasi prooemio praemisso reliqui
+XXIIII libri quattuor effecerunt hexades quarum prima etymologiam
+altera declinationes tertia et quarta syntaxin tractabant ll VII
+110 p 390 VII 1 p 391 infra reiectis quae de singulis libris
+priorum hexadum dicenda sunt primum de posterioribus hexadibus agam
+duobus enim locis s s quibus totius operis dispositionem proponit
+Varro profitetur tertia parte se disputaturum esse VII 110 p 390
+quemadmodum uocabula coniungantur et VIII 1 p 391 ut uocabula
+inter se ratione coniuncta sententiam efferant quae quamquam
+certissimum ipsius scriptoris de consilio suo testimonium continent
+tamen de omnibus duodecim libris accipere dubitabant uiri docti
+incredibile enim uidebatur tam multos libros ei doctrinae destinatos
+fuisse cuius tam exigua uestigia in grammaticis latinis inuenirentur
+quam solus Priscianus multo posterioris aetatis scriptor diligentius
+explicaret ipse Apollonium secutus Hadriani aequalem qui primus
+omnium hanc prouinciam ad artem et praecepta reuocasset accedebat
+quod Varro neque in scribendi genere neque in eis quae occasione
+data de huiusmodi rebus monuit magnum subtilioris syntaxis studium
+ostendit et quod fere ubique ad res et facta siue ad historiam
+gentium et litterarum siue ad naturam spectent intentus et singula
+conponere atque ex his iudicare solitus eandem rationem in rebus
+grammaticis adhibuisse putabatur parum profecto consentaneum
+uidebatur talem scriptorem disciplinam tantis difficultatibus
+obstrictam quasi constituisse et condidisse neque hoc fecit id
+quod apparebit si breuiter qua conditione Varronis tempore studia
+grammatica fuerint in memoriam reuocauerimus
+Footnote 1 cf praeter libros de re rustica de antiquitatum
+libris Angustini de ciu del VI 3 fr antiquitatum human
+lib XX ap Non quadrifariam p 92 fr de uita populi
+Romani lib I ap Non uictuis p 494
+Alexandrinorum grammaticorum et Pergamenorum studia artissime cum
+arte critica conexa erant ut de singulis poetarum locis iudicare
+possent leges quae linguam regerent perscrutabantur et deliberationes
+suas in poetarum commentariis uariisque dissertationibus perscribebant
+et hoc modo immensa materia multorum sagacitate et diligentia
+paullatim pertractata uberrimum thesaurum singularum obseruationum de
+uerborum ui origine declinatione coniunctione coaceruabant ab his
+profecti singulas quaestiones ordine et in artis modum exponebant2
+scripsit iam Aristophanes Byzantius de analogia3 Apollodorus
+Atheniensis Aristarchi discipulus Suid Apollodoros peri
+etumologion Athen XI p 483 A II p 63 D al eiusque aequalis
+Demetrius Ixion etumologoumena Athen III p 74B al Dionysius
+Thrax hic quoque Aristarcho praeceptore usus cf M Schmidt philol
+VII p 366 sq technen grammatiken primis lineis ductis uarios
+poetas et dialectos diuersas percensebant et uerborum classes
+loquendique formulas separatis libris explicabant subtilioremque
+ita et certiorem earundem quaestionum tractationem incipiebant quam
+adsidua scriptorum peruestigatione amplificare studebant postremo
+ut rei natura ferebat syntaxin adgressi sunt neque ante magnum
+Apollonium quisquam totum argumentum conplexus est nam Tryphon
+eiusque discipulus Habron uterque ab Apollonio haud raro laudatus uel
+potius inpugnatus quorum ille Varronis fere aequalis erat cf A de
+Velsen Tryph gramm fragm p 1 33 non nisi de singularum orationis
+partium constructione scripserunt Tryphon de articulis aduerbiis
+coniunctionibus participiis praepositionibus pronominibus personis4
+Habron de pronomine Apoll de synt p 60 B Ab Alexandrinis
+igitur grammaticis Varro quorum opera eum diligenter tractasse
+testantur libri de lingua latina qui ad nos peruenerunt nec
+consilium neque argumentum syntaxis suae repetere potuit licet
+Tryphonis scripta in usum suum conuerterit quod neque adfirmari
+nec negari potest
+Footnote 2 Hoc loco haec tetigisse et contrariam rationem
+Alexandrinorum et stoicorum significasse satis est qua in re
+quanti momenti ad studia grammaticorum philosophorum inuenta
+fuerint me non fugit sed haec ut omnia longiora praetermittenda
+erant
+Footnote 3 cf A Nauck Aristoph Byz fragm p 267
+Charisii locum p 116 specialis analogia est quae
+spectatur nunc in rebus nunc in dictionibus Christ munchn
+gel anz 1859 p 221 e Donatiano rationibus cod Neap
+occupata cui Graeci modum istius modi condiderunt
+analogia estin sumploke logon akolouthon en lexei huic
+Aristophanes quinque rationes dedit uel ut alii putant sex
+primo ut eiusdem sint generis de quibus quaeritur dein
+casus tum exitus quarto numeri syllabarum item soni
+uereor ut recte Curtius Wachsmuth meus de Cratete Mall p 11
+explicuerit genus enim etiam in Varronis loco quem confert X
+21 p 556 ex Ed Luebberti emendatione thes V quaest
+pontif adn id est quod M Terentius interdum sexum uocat
+casus autem licet a Varrone nonnunquam generaliter positum
+sit a Romano multo posteriore nec indocto scriptore cui
+haec Charisius debet hoc modo usurpari non potuit si
+intellegi uoluit reliqua cum generalia sint et Varro
+quoque ls de nominum tantum analogia loquatur nullam
+dubitationem mouent de eadem cf Varr de ll VIII 13
+p 401 Aristophanem egisse quod si huius disciplinae
+progressus spectas non nullius momenti est
+Footnote 4 De singulis Tryphonis libris recte iudicauit
+A de Velsen ll p 24 sq Qui praeterea de his rebus
+scripserunt post Varronis immo Apolloni tempora uixerunt ut
+de Herodiano cf Michael Syncellus in Bachmanni anecd gr
+II p 424 cl E Egger Apoll Dyscole p 234 taceam
+Telephus Crateteus qui teste Suida peri suntaxeos logou
+Attikou biblia 5 edidit post Augustum floruit cf Preller
+ztschr f alterthw 1837 p 499 et L Veri praeceptor
+fuisse uidetur Iul Capitol Veri 2 Ebert dissert Sic I
+p 147 et Arcadius Antiochenus Herodiano inferior
+Choerob Bekk anecd gr III p 1193 qui peri suntaxeos
+ton tou logou meron scripsit reliqui praeter Byzantinos
+grammaticos de quibus Egger ll p 234 265 rhetores
+posterioris aetatis erant ut Gaianus Arabs Theon
+Alexandrinus Pausanias Caesariensis Suid qui uestigia
+Dionysi Halicarnasensis et auctoris libri peri hupsous qui
+duos libros peri suntaxeos conposuit p hupsous 39 1
+sequebantur
+Prorsus diuersa ratione stoici in grammaticis studiis uersabantur
+cf I Classen de gramm gr primord p 72 sq R Schmidt stoicorum
+gramm C Prantl gesch d logik I p 414 sq H Steinthal gesch d
+sprachw b d Griech u Roem p 278 sq quippe qui a philosophia
+profecti uniuersam hanc disciplinam ad dialecticam referrent
+idcircoque a principio ad leges generales quae de lingua ualerent
+animum intenderent dialectica eis secundum Posidonium episteme
+alethon kai pseudon kai oudeteron Laert Diog VII 62 erat itaque
+praecipuas quoque grammaticae partes etymologiam declinationes
+syntaxin cum linguam tamquam subsidium cognitionis haberent
+explorabant quatenus ad uerum percipiendum spectarent loqui ergo
+cum to ten tou nooumenou pragmatos semantiken propheresthai phonen
+Sext Emp adu math VIII 80 cf Augustini uerba princ dial V
+loqui est articulata uoce signum dare acciperent inde consecuntur
+quae de etymologia cf Orig contra Cels I 24 et anomalia cui
+patrocinabantur Varr de ll IX 1 p 456 docebant syntaxin
+illa dialecticae cum grammatica coniunctione posita tam arte cum
+praeceptis de iudiciis et conclusionibus datis coniunxerunt ut nullum
+fere inter utramque discrimen seruarent cf Prantl ll p 442
+duobus prioribus nunc missis de quibus uiri docti supra laudati bene
+meruerunt et mihi his illic infra dicendum est breuissime syntaxeos
+diuisionem in primis Laertium Diogenem secutus VII 55 sq percurram
+prae ceteris autem in hac re excelluit Chrysippus homo acutissimus
+cuius dialecticam dignam quae deorum esset putabant mirabili nimirum
+usus adsiduitate uel potius insatiabilitate scribendi plus trecentis
+libris quorum indicem apud Laert Diog VII 189 sq habes singulos
+locos solius dialecticae inlustrauit quorum plurimos ne dicam omnes
+cum tota haec dialectica e grammaticis rationibus penderet non minus
+ad dicendi quam ad cogitandi syntaxin pertinuisse in propatulo est
+Duas igitur fecerunt partes dialecticae quae secundum Senecam epist
+89 9 proprietates uerborum exigit et structuram et argumentationes
+ne pro uero falsa subrepant ton peri tes phones e ton semainonton
+topon quo de uoce de litteris de uocabulis eorumque pronuntiatione
+de orationis partibus de rhythmis de poematis de uirtutibus uitiisque
+orationis agebatur LD VII 44 55 sq alteram quae ad nos nunc
+pertinet ton peri ton pragmaton e ton semainomenon topon qui praeter
+ton peri ton phantasion topon LD VII 43 conplectebatur to
+lekton quod ab Ammonio ad Aristot p herm p 100a Br meson tou
+te noematos kai pragmatos a Sexto Empirico adu math VIII 70 cf
+LD VII 73 to kata logiken phantasian huphistamenon explicatur
+erant autem ta lekta aut ellipe aut autotele ellipe enuntiata
+erant ea quae e solo uerbo quod nominatiuum ut plenum uel autoteles
+fiat requirit constant ut peripatei LD VII 63 eademque et
+kategoremata et sumbamata adpellabant quibus praeter hoc simplex
+kategorema uerbum intransitiuum ut nostris terminis utar casu obliquo
+non egens etiam transitiuum uerbum adnumerabant sine accusatiuo
+positum elatton e kategorema et duas uerborum inpersonalium classes
+alteram quae unum casum obliquum poscit ut metamelei sc Sokratei
+parasumbama siue parakategorema alteram quae duos casus obliquos
+postulat ut melei sc Sokratei Alkibiadous elatton e
+parasumbama5 huic loco tribuebant cum uniuersam de uerborum
+generibus et speciebus doctrinam tum casuum obliquorum qui cum uerbis
+coniunguntur explicationem LD VII 64 sq Schmidt ll p 57 sq in
+plenis enuntiatis axiomata ponebant axioma de estin ho estin alethes
+e pseudos e pragma autoteles apophanton hoson eph heauto e kataphanton
+hos ho Chrusippos phesin en tois dialektikois horois hoion hemera esti
+Dion peripatei LD VII 65 haec iterum aut simplicia aut conposita
+esse existimabant LD VII 68 Sext Emp VIII 93 simplicibus
+adnumerabant erotema pusma prostaktikon horkikon aratikon hupothetikon
+ekthetikon thaumastikon epaporetikon pragma homoion axiomati quorum
+definitiones leguntur ap LD VII 66 sq Ammon ad Aristot p herm
+p 96a Br Geo Choerob p 1178 B p 739 Gaisf Anonym Coisl
+p 93a Br praeterea simplicium axiomaton erant alia apophantika
+katagoreutika kategoretika huperapophantika arnetika steretika
+LD VII 69 alia horismena aorista mesa Sext Emp VIII
+96 sq tractarunt igitur in hac parte modos et formulas loquendi
+ut interrogationem et adhortationem inter utrumque quidem non magis
+distinguentes quam Protagoras fecerat cf L Spengel art script
+p 44 deinde affirmationes et negationes enuntiata finita et
+infinita Conposita axiomata secundum coniunctiones quibus formantur
+cf CF Iahn grammaticor graec de coni doctr p 19 sq
+diuidebant quorum praecipua haec erant to sunemmenon ei to
+parasunnemenon epei to sumpeplegmenon kai kai to diexeugmenon e e
+to aitiodes dioti to diasaphoun to mallon mallon e to diasaphoun
+to hetton hetton e LD VII 69 71 sq Postremo sequebatur expositio
+ton logon kai sullogismon quorum ingentem diuisionem LD VII 76
+sq Seneca ll excribere longum nec necesse est nam id quod uolui
+satis elucere confiteor stoicos magna cum subtilitate argutaque
+sagacitate de his rebus disputasse uberrimamque materiam hoc argumentum
+tractantibus congessisse Vnum adicio Dionysi Halicarnasensis locum ita
+scribentis de comp uerb IIII p 70 Sch cf V p 84 Egog oun
+hote diegnon tauten ten hupothesin ezetoun ei ti tois proteron eiretai
+peri autes kai malista tois apo tes Stoas philosophois eidos tous
+andras ou mikran phrontida tou lektikou topou pepoiemenous dei gar
+autois talethe marturein oudame de ouden hup oudenos heuron ton goun
+onomatos exiomenon oute meizon oute elatton sunachthen eis hen ego
+proeremai pragmateian has de Chrusippos kataleloipe suntaxeis dittas
+epigraphen echousas peri tes suntaxeos ton tou logou meron ou
+rhetoriken theorian echousas alla dialektiken hos isasin hoi tas
+biblous anegnokotes huper axiomaton suntaxeos alethon te kai pseudon
+kai dunaton kai adunaton endechomenon te kai metapiptonton kai
+amphibolon kai allon tinon toioutotropon oudemian oute chreian out
+opheleian tois politikois logois sumballomenas eis goun hedonen kai
+kallos hermeneias hon dei stochazesthai ten sunthesin tautes men
+tes pragmateias apesten ktl quibus uerbis cum dialecticam stoicae
+syntaxeos rationem6 cognoscimus tum illo tempore unicuique qui de
+uerborum constructione siue rhetor siue grammaticus scribere uellet
+primum doctrinam stoicorum in mentem uenire illorum praecepta
+circumspici ab illorum studiis omnes huiusmodi quaestiones proficisci
+Footnote 5 In his secutus sum Porphyrium ap Amm in Arist
+p herm p 104b Br et Apoll d synt I 8 p 31 B III 32
+p 299 de pronom p 146 cf Lucian uit auct 21 R Schmidt
+ll p 64 Prantl ll p 439 sq Steinthal ll p 298 Suidas
+u sumbama nescio quem exscripsit non accuratius quam u
+kategorema Laertium Diog VII 63 sq in quo ipso lacunam esse
+diu intellectum est Priscianus uero XVIII 4 II p 211 H qui
+quidem locus tam turbatus est ut neque a librariis ita corruptum
+neque a scriptore rem tam male perspectam esse sed lectorem
+eumque non optime doctum haec adiecisse crediderim ita scribit
+et sciendum quod has quidem constructiones quae per nominatiuum
+absoluuntur stoici axiomata uel sumbamata id est dignitates
+uel congruitates uocabant ut ego Priscianus scribo Apollonius
+ambulat Plato philosophatur illas uero quibus transitiones ab
+alia ad aliam fiunt personam in quibus necesse est cum nominatiuo
+etiam obliquum aliquem casum proferri parasumbamata dicebant
+hoc est minus quam congruitates ut Cicero seruat patriam quando
+uero ex duobus obliquis constructio fit asumbama id est
+incongruitatem dicebant ut placet mihi uenire ad te siue
+nominibus ipsis tamen seu uerbis hoc exigentibus uides hic non
+solum axiomata et sumbamata confundi uerum etiam transitiua
+uerba de genere loquendi cf XIII 23 p 15 H cum nominatiuo et
+accusatiuo quae axiomata sunt parasumbamata dici praeterea
+tertiae constructionis quando ex duobus obliquis fit exemplum
+nullo modo aptum est expectares pudet me illius uel tale quid
+ceterum dummodo tali loco aliqua fides habenda esset a quibusdam
+stoicorum asumbama quod ab aliis elatton e parasumbama dictum
+est quod eo est incertius quia appellatio pessime in rem quadrat
+Footnote 6 Praeterea Dionysi loco euincitur et illos Chrysippi
+libros de rhetorica non egisse rhetoricam uero stoici ad
+dialecticam referebant LD VII 41 et si Dionysium bene elegisse
+credimus quod in conscribendo opere adhiberet in aliis quoque
+libris hanc a Chrysippo esse neglectam quod in plerisque factum
+esse index ille confirmat Laertianus
+Videamus nunc paucis de Varronis philosophia praemissis quae ratio
+inter Alexandrinorum et Stoicorum grammaticam et libros de lingua
+latina sit Varro erat auditor et familiaris Antiochi Ascalonitae
+Cic Acad post I 3 12 4 13 cuius placita postea quoque
+probauit Cic epist ad Att XIII 12 3 16 1 extremisque uitae
+lustris diligenter exposuit7 Augustin de ciu dei XVIIII 3 2
+Ciceronem qui academica et epistulas modo laudatas au DCCVIIII
+scripsit acriter inpugnat O Mueller praef Varr p V sq quod ne
+conpertum quidem habuerit Varronem ex Antiochi academia in stoam
+transmigrasse cuius philosophiam in libris de lingua latina eodem
+tempore conscriptis fere ubique secutus sit quod parum considerate
+posuit M Tullium enim licet antiquorum philosophorum graecorum
+sententias paullo neglegentius et cuiuis proximo scriptori se dedens
+exposuerit cf F Schleiermacher kritik d sittenl p 157 AB
+Krische forsch in alt phil I p 33 444 sq de amici et
+condiscipuli R Kuehner Cic in phil mer p 38 sensu et cogitandi
+ratione tam grauiter errasse idque publice professum esse nemo
+credet qui magnum discrimen inter scholas illas fuisse putet
+Antiochus uero Philonis qui ipse stoicis nonnulla concesserat
+auditor nouae academiae placitum nec sensibus nec ratione cognosci et
+perspici quidquam ab hominibus posse diu sustinuit ac defendit deinde
+de eiusdem infirmitate et peruersitate omnium philosophorum concursu
+conuictus stoicorum decreta de conprehensione et adprobatione ut
+Ciceronem katalepsin et sunkatathesin uertentem sequar adsumpsit
+cf Krische ll p 166 sq Grysar d academik Philo u Antioch
+p 25 et hanc uiam ingressus eo usque processit ut non solum
+Chrysippeam dialecticam toto pectore amplecteretur Cic acad post
+II 46 143 uerum etiam si perpauca mutauisset germanissimus
+stoicus fuisset Cic ll 43 132 Sext Emp hyp Pyrrh I 235
+nempe in philosophiae parte morali sibi constitit Cic ll 43
+133 in dialecticis autem non potuit stoicis primas non deferre
+quorum placita etiam in physicis probasse uidetur cuius uiri
+auditorem fidelemque sectatorem cum Varronem fuisse constet minime
+mirum esse adparet quod et in reliquis scriptis cf L Krahner ll
+p 8 sq grundl z gesch d verf d rom staatsrel p 51 CHI
+Francken fragm Varr quae inuen in libr S August de ciu dei p
+160 multa stoam redolent et in libris de lingua latina quorum pauca
+memorasse sufficiat cum eis quae ibi leguntur de loco V 14 p 24
+conferas Zenonem apud Stob ecl phys I 19 1 de tempore VI 3
+p 186 Apollodorum apud Stob ls I 9 42 de igni V 70 p 76
+Chrysippum apud Plut de stoic repugn p 1053 A de motu solis
+VI 4 p 186 sq Zenonem apud Stob ll I 26 3 de animae partibus
+VIIII 30 p 476 Laert Diog VII 110 157 quibus conlatis haec e
+stoicorum mente scripta esse uidebis et sic multa cf V 59 p 64
+sq quae ad rerum naturam spectant perinde non pauca ne dicam omnia
+ex eorum dialectica Varronem sumpsisse quae modo de Antiocho disputaui
+docent in rebus grammaticis eum saepe ab eisdem pendere itidem
+exemplis quibusdam ostendam Chrysippus inter nomina et uocabula
+distinxit Laert Diog VII 57 sq cf G Schoemann lehre v d
+redeth p 79 stoicorum nescio qui pronomina cum articulis
+articulos illa finitos hos infinitos adpellauerunt Apollon de
+pron p 48 utrumque habet Varro VIII 45 p 424 quorum alterum
+parum ad linguam latinam accommodatum esse uides stoicos secutus
+quinque casus VIII 16 p 4038 eorumque primum rectum posuit
+VIII 4 p 393 cf R Schmidt ls p 58 et ab eisdem temporum uerbi
+descriptionem VIIII 97 p 529 sq mutuatus est cf Herm Schmidt
+doctr temp uerbi gr et lat I p 14 R Schmidt ll p 68 sed
+nec talia neque uestigia quaedam intimae dialecticae stoicae cf VI
+56 p 232 cl Prantl ls p 438 519 X 59 p 578 LD VII 53 ut
+recte de libris nostris iudicemus sufficiunt nam stoici in multis
+rebus grammaticis auctores erant quorum inuenta omnes grammatici
+probarent et Varronem in his rebus in uniuersum eorum praeceptis
+obtemperasse supra uidimus
+Footnote 7 Non recte L Krahner de Varronis philos p 3
+Ciceronem illius libro de philosophia Augustin ll XVIIII
+1 1 usum esse et academicorum sententias illius uerbis
+introduxisse sibi persuasit nam primum si res ita esset
+Cicero Acad post I 1 3 dicere non potuit quaero cur cum
+multa scribis genus hoc praetermittas de rebus
+philosophicis loquens deinde Varro apud Ciceronem I 2 8
+saturas laudationes antiquitatum prooemia perhibet nihil de
+philosophico quodam libro memorat denique nonnisi ita fere
+ut ll I 2 4 sq Varro exponit de philosophia et his rebus
+latine scribendis re uera cogitauit aptus erat cuius exemplo
+Cicero ciues suos meliora edoceret accedit de quo optime
+AB Krische ueb Ciceros Acad in Goetting stud 1845
+p 175 iudicauit quod fragmentum ex illo Varronis libro ab
+Augustino seruatum libro Tulliano de finibus quinto
+respondet post annum igitur 709 scriptum esse oportet cf
+N Madvig praef Cic de finib p LVIIII
+Footnote 8 Verba sic leguntur in codice Florentino quantum
+sciamus propter eorum qui dicuntur sunt declinati casus
+uti is qui de altero diceret distinguere posset cum uocaret
+cum daret cum accusaret sic alia eiusmodi Sp eiusdem
+F discrimina quae nos et Graecos ad declinandum duxerunt
+sine controuersia sunt quinque legendum propter eorum qui
+dicunt naturam DICVNTVR pro DICNATVR cum haec
+superioribus 14 p 402 respondeant in sua discrimina
+declinantur nomina aut propter ipsius rei naturam de qua
+quo F dicitur aut propter illius qui dicit propter
+ipsius rei discrimina aut ab toto aut a parte eqs quo
+loco breuiter tractato ad alteram declinationum causam
+illius qui dicit naturam transit aliter statuit G Schoemann
+ls p 13 n 2 secuntur haec quis uocetur ut Hercules
+quemadmodum uocetur ut Hercule quo uocetur ut ad Herculem
+a quo uocetur ut ab Hercule cui uocetur ut Herculi cuius
+uocetur ut Herculis mirabere non quinque sed sex casus
+proferri quod eiectis uerbis a quo uocetur ut ab
+Hercule tollere uoluerunt sed haec omnia expellenda sunt
+primum enim haec casuum explicatio nulla ratione cum altera
+cum nocaret cum daret cum accusaret coniuncta et a
+Varrone aliena et per se absurda est deinde hoc loco non de
+eo qui uocetur agi debuit sed de eo qui vocet propter
+cuius naturam casus declinati sunt denique duplex haec
+casuum enumeratio ab hoc loco quo breuissime summam rerum
+perstringit abhorret
+Rationem et consilium totius operis perpendentibus longius nobis
+progrediendum est quod ad argumentum attinet eas quaestiones
+tractandas M Terentius sibi sumpsit quae ad interiores linguae leges
+spectant etymologiam declinationes quo uocabulo et declinationem
+proprie dictam et coniugationem et uocabulorum deriuationes
+conprehendit constructionem easque ita explicare uoluit ut et
+principia generalia diligenter examinaret et singula secundum ea quae
+uera esse sibi persuasisset persequeretur quem in finem singulas
+hexades in triades diuisit quarum prima leges generales altera
+copiam uerborum percenseret quod quamquam de prioribus tantum constat
+nescio an de omnibus probabile sit hoc consilium adparet non minus ad
+philosophos quam ad grammaticos pertinere scriptoremque utriusque
+partis disputationes suum in usum conuertisse exspectari potest9 et
+profecto in libris de lingua latina qui extant stoicorum praecepta eo
+modo memorantur uel significantur ut omnis dubitatio tollatur
+Priore triade hexadis primae quae de etymologia est cum priuati
+simus tamen ex altera stoicorum placita illic quoque fundamentum
+fuisse efficitur scribit enim Varro V 7 p 18
+nunc singulorum uerborum origines expediam quorum quatuor
+explanandi gradus primus is Muell in F quo etiam
+populus uenit quis enim non uidet unde aurifodinae et
+uiocurus secundus quo grammatica ascendit antiqua quae
+ostendit quemadmodum quodque poeta finxerit uerbum quod
+confinxerit quod declinarit hic Pacuui rudentum
+sibilus hic incuruiceruicum pecus hic chlamyde
+clypeat brachium tertius gradus quo philosophia
+ascendens peruenit atque ea quae in consuetudine communi
+essent aperire coepit ut a quo dictum esset oppidum uicus
+uia quartus ubi est aditus ad initia rerum Vertran
+regis F quo si non perueniam scientiam ad opinionem
+aucupabor quod etiam in salute nostra nonnunquam facit cum
+aegrotamus medicus quodsi summum gradum non attigero
+tamen secundum non praeteribo quod non solum ad
+Aristophanis lucernam sed etiam ad Cleanthis lucubraui
+et VI 1 p 183
+in hoc libro dicam de uocabulis temporum et earum rerum
+quae in agendo fiunt aut dicuntur cum tempore aliquo ut
+sedetur ambulatur loquontur atque si qua erunt ex diuerso
+genere adiuncta potius cognationi uerborum quam auditori
+calumnianti geremus morem huius rei auctor satis mihi
+Chrysippus et Antipater et illi in quibus si non
+tantum acuminis at plus litterarum in quo cf A Nauck
+Arist Byz fr p 269 L Spengel Emend Varr p 7 est
+Aristophanes et Apollodorus
+quae cum demonstrent praeter grammaticorum Varronem etiam Cleanthis
+quasi maiorum gentium stoici Cic acad post II 41 126 qui
+scripsit peri tou logou libros tres LD VII 175 Chrysippi
+Antipatri Tarsensis Diogenis Babylonii discipuli qui peri lexeon kai
+ton legomenon disputauit LD VII 58 cf PA Wuillot de Antip Tars
+p 69 42 libros lectitasse et in altera triade singulorum uerborum
+originibus destinata adhibuisse nonne sequitur multo magis eisdem eum
+usum fuisse in triade priore qua philosophicae etymologiae rationes
+examinandae erant De analogia et anomalia declinationum quas secunda
+hexas tractat Graeci Latinique libros fecerunt multos VIII 23 p
+408 et minus necessarium erat ad ipsos stoicorum thesauros confugere
+nihilo minus uelut e fonte primo e Chrysippi libris de anomalia Varronem
+hausisse testantur prima libri noni uerba
+in quo fuit Crates nobilis grammaticus qui fretus
+Chrysippo homine acutissimo qui reliquit peri
+anomalias IIII libros contra analogian atque Aristarchum
+est nixus sed ita ut scripta indicant eius ut neutrius
+uideatur peruidisse uoluntatem quod et Chrysippus de
+inaequabilite cum scribit sermonis propositum habet
+ostendere similis res dissimilibus uerbis et dissimilis
+similibus esse notatas id quod est uerum et Aristarchus
+de aequabilitate cum scribit et de add F uerborum
+similitudinem quodammodo Sp quarumdam F in
+declinatione Sp inclinationes F sequi iubet quoad
+patiatur consuetudo10
+e quo argumento librorum Chrysippeorum facilis est coniectura huic
+Varronem quae libro VIII 34 p 41743 p 423 de eadem re disputat
+debere alia quoque indidem fluxisse arbitror quod nunc non persequor
+In syntaxi uero stoici soli regnabant ad eos confugere qui se huic
+disciplinae darent Dionysi Varrone aetate paullo posterioris
+scriptoris exemplo supra uidimus eos igitur etiam Varro sequi
+debebat nec mirabere quod his rebus duodecim libros inpleuerit si
+uberrimam materiam et ingentem librorum a Chrysippo conscriptorum
+molem reputaueris habemus autem praeter ipsius Varronis dispositionem
+supra indicatam certum testimonium libro XXIIII talia exposita fuisse

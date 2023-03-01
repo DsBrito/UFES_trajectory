@@ -1,0 +1,500 @@
+PREFACE
+The publication in 1814 of a voyage commenced in 1801 and of which all
+the essential parts were concluded within three years requires some
+explanation Shipwreck and a long imprisonment prevented my arrival in
+England until the latter end of 1810 much had then been done to forward
+the account and the charts in particular were nearly prepared for the
+engraver but it was desirable that the astronomical observations upon
+which so much depended should undergo a recalculation and the lunar
+distances have the advantage of being compared with the observations made
+at the same time at Greenwich and in July 1811 the necessary authority
+was obtained from the Board of Longitude A considerable delay hence
+arose and it was prolonged by the Greenwich observations being found to
+differ so much from the calculated places of the sun and moon given in
+the Nautical Almanacks of 1801 2 and 3 as to make considerable
+alterations in the longitudes of places settled during the voyage and a
+reconstruction of all the charts becoming thence indispensable to
+accuracy I wished also to employ in it corrections of another kind
+which before had been adopted only in some particular instances
+A variety of observations with the compass had shown the magnetic needle
+to differ from itself sometimes as much as six and even seven degrees
+in or very near the same place and the differences appeared to be
+subject to regular laws but it was so extraordinary in the present
+advanced state of navigation that they should not have been before
+discovered and a mode of preventing or correcting them ascertained that
+my deductions and almost the facts were distrusted and in the first
+construction of the charts I had feared to deviate much from the usual
+practice Application was now made to the Admiralty for experiments to be
+tried with the compass on board different ships and the results in five
+cases being conformable to one of the three laws before deduced which
+alone was susceptible of proof in England the whole were adopted without
+reserve and the variations and bearings taken throughout the voyage
+underwent a systematic correction From these causes the reconstruction
+of the charts could not be commenced before 1813 which when the extent
+of them is considered will explain why the publication did not take
+place sooner but it is hoped that the advantage in point of accuracy
+will amply compensate the delay
+Besides correcting the lunar distances and the variations and bearings
+there are some other particulars both in the account of the voyage and
+in the Atlas where the practice of former navigators has not been
+strictly followed Latitudes longitudes and bearings so important to
+the seaman and uninteresting to the general reader have hitherto been
+interwoven in the text they are here commonly separated from it by
+which the one will be enabled to find them more readily and the other
+perceive at a glance what may be passed I heard it declared that a man
+who published a quarto volume without an index ought to be set in the
+pillory and being unwilling to incur the full rigour of this sentence a
+running title has been affixed to all the pages on one side is expressed
+the country or coast and on the opposite the particular part where the
+ship is at anchor or which is the immediate subject of examination this
+it is hoped will answer the main purpose of an index without swelling
+the volumes Longitude is one of the most essential but at the same time
+least certain data in hydrography the man of science therefore
+requires something more than the general result of observations before
+giving his unqualified assent to their accuracy and the progress of
+knowledge has of late been such that a commander now wishes to know the
+foundation upon which he is to rest his confidence and the safety of his
+ship to comply with this laudable desire the particular results of the
+observations by which the most important points on each coast are fixed
+in longitude as also the means used to obtain them are given at the end
+of the volume wherein that coast is described as being there of most
+easy reference
+The deviations in the Atlas from former practice or rather the
+additional marks used are intended to make the charts contain as full a
+journal of the voyage as can be conveyed in this form a chart is the
+seamans great and often sole guide and if the information in it can be
+rendered more complete without introducing confusion the advantage will
+be admitted by those who are not opposers of all improvement In closely
+following a track laid down upon a chart seamen often run at night
+unsuspicious of danger if none be marked but some parts of that track
+were run in the night also and there may consequently be rocks or
+shoals as near even as half a mile which might prove fatal to them it
+therefore seems proper that night tracks should be distinguished from
+those of the day and they are so in this Atlas I believe for the first
+time A distinction is made between the situations at noon where the
+latitude was observed and those in which none could be obtained and the
+positions fixed in longitude by the time keepers are also marked in the
+track as are the few points where a latitude was obtained from the moon
+It has appeared to me that to show the direction and strength of the
+winds with the kind of weather we had when running along these coasts
+would be an useful addition to the charts not only as it would enable
+those who may navigate by them alone to form a judgment of what is to be
+expected at the same season but also that it may be seen how far
+circumstances prevented several parts of the coast being laid down so
+correctly as others This has been done by single arrows wherever they
+could be marked without confusion they are more or less feathered
+proportionate to the strength of wind intended to be expressed and the
+arrows themselves give the direction Under each is a short or abridged
+word denoting the weather when this weather prevailed in a more than
+usual degree a line is drawn under the word and when in an excessive
+degree there are two lines Single arrows being thus appropriated to the
+winds the tides and currents are shown by double arrows between which
+is usually marked the rate per hour
+On the land the shading of the hills gives a general idea of their
+elevation and it has been assisted by saying how far particular hills
+and capes are visible from a ships deck in fine weather this will be
+useful to a seaman on first making the land be a better criterion to
+judge of its height and those hills not so marked may be more nearly
+estimated by comparison Behind different parts of the coast is given a
+short description of their appearance which it is conceived will be
+gratifying to scientific and useful to professional men The capes and
+hills whose positions are fixed by cross bearings taken on shore or from
+well ascertained points in the track as also the stations whence
+bearings were observed with a theodolite have distinguishing marks
+which with all others not before in common use are explained on the
+General Chart Plate I
+To have laid down no more than the lands and dangers seen in the
+Investigator and other vessels under my command would have left several
+open spaces and obliged the seaman to have recourse to other charts
+where the difference of positions might have perplexed the discoveries
+and examinations of former navigators which come within the sphere of
+each sheet are therefore incorporated with or added to mine but so
+marked as to be distinctly known In making the combination alterations
+in their longitudes were frequently necessary to agreement and that they
+might be made with every regard to accuracy the charts of the former
+discoveries were compared with the astronomical observations narratives
+or manuscript journals when such could be had and the alterations
+introduced where there seemed to be the best authority This has been
+done with the charts of the east coast of New South Wales published by
+Mr Dalrymple from the manuscripts as it should appear of captain Cook
+and since it may be thought presumptuous in me to have made alterations
+in any work of so great a master this case is selected for a more
+particular explanation
+Time keepers were in their infancy in 1768 when captain Cook sailed upon
+his first voyage and he was not then furnished with them his longitude
+was therefore regulated only by occasional observations of lunar
+distances and some few of Jupiters satellites which even in the present
+improved state of instruments and tables require to be connected by time
+keepers before satisfactory conclusions can be drawn Errors of greater
+or less magnitude were thence unavoidable at Cape Gloucester where I
+quitted the East Coast my longitude was 2012 greater than captain Cooks
+chartat Cape York where the survey was again resumed it was 5812 and
+to incorporate the intermediate parts it was necessary not only to carry
+his scale of longitude 2012 more west but also to reduce the extent of
+the coast The chart was compared with the narrative and chart in
+Hawkesworth and the log book of the Endeavour with them all when it was
+found that reductions might be made in various places upon one or more of
+the above authorities for differences between them were frequent and
+sometimes considerable and in one instance alone a reduction of 12 in
+the chart was obtained It is said in Hawkesworth III 202 As soon as
+we got within side the reef through Providential Channel we anchored in
+nineteen fathom and afterwards p 204 that the channel bore E N
+E distant ten or twelve miles In the first chart the distance is 1412
+miles and nearly the same in that which accompanies the narrative but
+in the log book it is said to be 212 miles only which corresponds with
+having anchored as soon as they got within the reef and has been
+adopted In some cases it was not easy to make a choice between these
+different authorities but I have commonly followed the narrative and log
+book when they were found to specify with precision and they generally
+produced such corrections to the chart as brought the longitudes of
+places nearer to my positions Captain Cooks track in Plates XI XII
+and XIII is laid down afresh from the log book and many soundings with
+some other useful particulars not to be found in the original chart are
+introduced for the benefit of any navigator who may follow the same
+route
+The reconstruction of the charts in the Atlas was done upon various
+scales but that no error might escape unseen the least was of ten
+inches to a degree of longitude they were then reduced by Mr Thomas
+Arrowsmith to four inches this being thought sufficiently large for a
+general sailing scale and each reduced sheet was scrupulously compared
+by me with the original before it went into the engravers hands and the
+proof impressions with the drawing until no errors were found To those
+who may read this voyage with a view to geographical information a
+frequent reference to the Atlas is earnestly recommended for many
+particulars are there marked which it would have been tedious to
+describe and should any thing appear obscure in the narrative the charts
+will generally afford an elucidation
+From the general tenour of the explanations here given it will perhaps
+be inferred that the perfection of the Atlas has been the principal
+object of concern in fact having no pretension to authorship the
+writing of the narrative though by much the most troublesome part of my
+labour was not that upon which any hope of reputation was founded a
+polished style was therefore not attempted but some pains have been
+taken to render it clearly intelligible The first quire of my manuscript
+was submitted to the judgment of a few literary friends and I hope to
+have profited by the corrections they had the kindness to make but
+finding these to bear more upon redundancies than inaccuracy of
+expression I determined to confide in the indulgence of the public
+endeavour to improve as the work advanced and give my friends no further
+trouble Matter rather than manner was the object of my anxiety and if
+the reader shall be satisfied with the selection and arrangement and not
+think the information destitute of such interest as might be expected
+from the subject the utmost of my hopes will be accomplished
+NB Throughout this narrative the variation has been allowed upon the
+bearings and also in the direction of winds tides etc the whole are
+therefore to be considered with reference to the true poles of the earth
+unless it be otherwise particularly expressed and perhaps in some few
+cases of the ships head when variations are taken where the expression
+by compass or magnetic may have been omitted
+A VOYAGE TO TERRA AUSTRALIS VOLUME I
+TABLE OF CONTENTS For both volumes
+IN THE FIRST VOLUME
+INTRODUCTION
+PRIOR DISCOVERIES IN TERRA AUSTRALIS
+SECTION I
+NORTH COAST
+Preliminary Remarks
+Discoveries of the Duyfhen of
+Torres
+Carstens
+Pool
+Pietersen
+Tasman and of
+three Dutch vessels
+Of Cook
+MCluer
+Bligh
+Edwards
+Bligh and Portlock and
+Bampton and Alt
+Conclusive Remarks
+SECTION II
+WESTERN COASTS
+Preliminary Observations
+Discoveries of Hartog
+Edel
+of the Ship Leeuwin
+the Vianen
+of Pelsert
+Tasman
+Dampier
+Vlaming
+Dampier
+Conclusive Remarks
+SECTION III
+SOUTH COAST
+Discovery of Nuyts
+Examination of Vancouver
+of DEntrecasteaux
+Conclusive Remarks
+SECTION IV
+EAST COAST WITH VAN DIEMENS LAND
+PART I
+Preliminary Observations
+Discoveries of Tasman
+of Cook
+Marion and Furneaux
+Observations of Cook
+Bligh and Cox
+Discovery of DEntrecasteaux
+Hayes
+PART II
+Preliminary Information
+Boat expeditions of Bass and Flinders
+Clarke
+Shortland
+Discoveries of Bass to the southward of Port Jackson
+of Flinders
+and of Flinders and Bass
+Examinations to the northward by Flinders
+Conclusive Remarks
+BOOK I
+TRANSACTIONS FROM THE BEGINNING OF THE VOYAGE
+TO THE DEPARTURE FROM PORT JACKSON
+CHAPTER I
+Appointment to the Investigator
+Outfit of the ship
+Instruments books and charts supplied with articles for presents and
+barter
+Liberal conduct of the Hon EastIndia Company
+Passage round to Spithead
+The Roar sand
+Instructions for the execution of the voyage
+French passport and orders in consequence
+Officers and company of the Investigator and men of science who
+embarked
+Account of the time keepers
+CHAPTER II
+Departure from Spithead
+Variation of the compass
+The Dezertas
+Arrival at Madeira
+Remarks on Funchal
+Political state of the island
+Latitude and longitude
+Departure from Madeira
+The island St Antonio
+Foul winds and remarks upon them
+The ship leaky
+Search made for Isle Sable
+Trinidad
+Saxemberg sought for
+Variation of the compass
+State of the ships company on arriving at the Cape of Good Hope
+Refitment at Simons Bay
+Observatory set Up
+The astronomer quits the expedition
+Rates Of the time keepers
+Some remarks on Simons Bay
+CHAPTER III
+Departure from False Bay
+Remarks on the passage to Terra Australis
+Gravity of seawater tried
+Cape Leeuwin and the coast from thence to King Georges Sound
+Arrival in the Sound
+Examination of the harbours
+Excursion inland
+Country soil and productions
+Native inhabitants Language and anatomical measurement
+Astronomical and nautical observations
+CHAPTER IV
+Departure from King Georges Sound
+Coast from thence to the Archipelago of the Recherche
+Discovery of Lucky Bay and Thistles Cove
+The surrounding country and islands of the Archipelago
+Astronomical and nautical observations
+GooseIsland Bay
+A salt lake
+Nautical observations
+Coast from the Archipelago to the end of Nuyts Land
+Arrival in a bay of the unknown coast
+Remarks on the preceding examination
+CHAPTER V
+Fowlers Bay
+Departure from thence
+Arrival at the Isles of St Francis
+Correspondence between the winds and the marine barometer
+Examination of the other parts of Nuyts Archipelago and of the main
+coast
+The Isles of St Peter
+Return to St Francis
+General remarks on Nuyts Archipelago
+Identification of the islands in the Dutch chart
+CHAPTER VI
+Prosecution of the discovery of the unknown coast
+Anxious Bay
+Anchorage at Waldegraves and at Flinders Islands
+The Investigators Group
+Coffins Bay
+Whidbeys Isles
+Differences in the magnetic needle
+Cape Wiles
+Anchorage at Thistles Island
+Thorny Passage
+Fatal accident
+Anchorage in Memory Cove
+Cape Catastrophe and the surrounding country
+Anchorage in Port Lincoln and refitment of the ship
+Remarks on the country and inhabitants
+Astronomical and nautical observations
+CHAPTER VII
+Departure from Port Lincoln
+Sir Joseph Banks Group
+Examination of the coast northward
+The ship found to be in a gulph
+Anchorage near the head of the gulph
+Boat expedition
+Excursion to Mount Brown
+Nautical observations
+Departure from the head and examination of the east side of the gulph
+Extensive shoal
+Point Pearce
+Hardwicke Bay
+Verification of the time keepers
+General remarks on the gulph
+Cape Spencer and the Althorpe Isles
+New land discovered Anchorage there
+General remarks on Kangaroo Island
+Nautical observations
+CHAPTER VIII
+Departure from Kangaroo Island
+Examination of the main coast from Cape Spencer eastward
+The Investigators Strait
+A new gulph discovered Anchorage at and examination of the head
+Remarks on the surrounding land
+Return down the gulph
+Troubridge Shoal
+Yorkes Peninsula
+Return to Kangaroo Island
+Boat expedition to Pelican Lagoon
+Astronomical observations
+Kangaroo Island quitted
+Backstairs Passage
+The coast from Cape Jervis eastward
+Meeting and communication with Le Geographe
+Remarks upon the French discoveries on the South Coast
+CHAPTER IX
+Examination of the coast resumed
+Encounter Bay
+The capes Bernouilli and Jaffa
+Baudins Rocks
+Differences in the bearings on tacking
+Cape Buffon the eastern limit of the French discovery
+The capes Northumberland and Bridgewater of captain Grant
+Danger from a southwest gale
+Kings Island in Bass Strait Anchorage there
+Some account of the island
+Nautical observations
+New Years Isles
+Cape Otway and the northwest entrance to Bass Strait
+Anchorage in and examination of Port Phillip
+The country and inhabitants
+Nautical observations
+CHAPTER X
+Departure from Port Phillip
+Cape Schanck
+Wilsons Promontory and its isles
+Kents Groups and Furneauxs Isles
+Hills behind the Long Beach
+Arrival at Port Jackson
+Health of the ships company
+Refitment and supply of the ship
+Price of provisions
+Volunteers entered
+Arrangement for the succeeding part of the voyage
+French ships
+Astronomical and nautical observations
+CHAPTER XI
+Of the winds and currents on the south coast of Terra Australis
+and in Bass Strait
+Usual progress of the gales
+Proper seasons for sailing eastward
+and for going westward
+best places of shelter in each case
+with some instructions for the Strait
+APPENDIX
+Account of the observations by which the Longitudes of places on the
+north coast of Terra Australis have been settled
+IN THE SECOND VOLUME
+BOOK II
+TRANSACTIONS DURING THE CIRCUMNAVIGATION OF TERRA AUSTRALIS
+FROM THE TIME OF LEAVING PORT JACKSON TO THE RETURN TO THAT PORT
+CHAPTER I
+Departure from Port Jackson with the Lady Nelson
+Examination of various parts of the East Coast from thence to Sandy Cape
+Breaksea Spit
+Anchorage in Herveys Bay where the Lady Nelson joins after a separation
+Some account of the inhabitants
+Variations of the compass
+Run to Bustard Bay
+Port Curtis discovered and examined
+Some account of the surrounding country
+Arrival in Keppel Bay and examination of its branches
+one of which leads into Port Curtis
+Some account of the natives and of the country round Keppel Bay
+Astronomical and nautical observations
+CHAPTER II
+The Keppel Isles and coast to Cape Manifold
+A new port discovered and examined
+Harveys Isles
+A new passage into Shoalwater Bay
+View from Mount Westall
+A boat lost
+The upper parts of Shoalwater Bay examined
+Some account of the country and inhabitants
+General remarks on the bay
+Astronomical and nautical observations
+CHAPTER III
+Departure from Shoalwater Bay and anchorage in Thirsty Sound
+Magnetical observations
+Boat excursion to the nearest Northumberland Islands
+Remarks on Thirsty Sound
+Observations at West Hill Broad Sound
+Anchorage near Upper Head
+Expedition to the head of Broad Sound
+another round Long Island
+Remarks on Broad Sound and the surrounding country
+Advantages for a colony
+Astronomical observations and remarks on the high tides
+CHAPTER IV
+The Percy Isles anchorage at No 2
+Boat excursions
+Remarks on the Percy Isles with nautical observations
+Coral reefs courses amongst them during eleven days search
+for a passage through to sea
+Description of a reef
+Anchorage at an eastern Cumberland Isle
+The Lady Nelson sent back to Port Jackson
+Continuation of coral reefs
+and courses amongst them during three other days
+Cape Gloucester
+An opening discovered and the reefs quitted
+General remarks on the Great Barrier
+with some instruction relative to the opening
+CHAPTER V
+Passage from the Barrier Reefs to Torres Strait
+Reefs named Eastern Fields
+Pandoras Entrance to the Strait
+Anchorage at Murrays Islands
+Communication with the inhabitants
+Halfway Island
+Notions on the formation of coral islands in general
+Prince of Waless Islands with remarks on them
+Wallis Isles
+Entrance into the Gulph of Carpentaria
+Review of the passage through Torres Strait
+CHAPTER VI
+Examination of the coast on the east side of the Gulph of Carpentaria
+Landing at Coen River
+Head of the Gulph
+Anchorage at Sweers Island
+Interview with Indians at Horseshoe Island
+Investigators Road
+The ship found to be in a state of decay
+General remarks on the islands at the Head of the Gulph
+and their inhabitants
+Astronomical and nautical observations
+CHAPTER VII
+Departure from Sweers Island
+South side of C Van Diemen examined
+Anchorage at Bountiful Island turtle and sharks there
