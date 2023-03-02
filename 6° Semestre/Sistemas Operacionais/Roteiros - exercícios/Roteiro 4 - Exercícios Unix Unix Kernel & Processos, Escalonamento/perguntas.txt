@@ -1,0 +1,14 @@
+1.5 Como a diferenca entre a modalidade de kernel e a modalidade de usuario funciona como umtipo rudimentar de sistema de protecao (seguranca)?
+Resposta:A diferenca entre modalidade de kernel e modalidade de usuario fornece uma forma rudimentar deprotecao da maneira a seguir. Certas instrucoes so podem ser executadas quando a CPU esta emmodalidade de kernel. Da mesma forma, dispositivos de hardware so podem ser acessados quando oprograma  esta  sendo  executado  em  modalidade  de  kernel.  O  controle  de  quantas  interrupcoespodem ser habilitadas ou desabilitadas tambem so e possivel quando a CPU esta em modalidade dekernel.  Consequentemente,  a  CPU  tem  uma  capacidade  muito  limitada  quando  executando  emmodalidade de usuario, o que reforca a protecao de recursos criticos.
+
+
+Qual  e  o  objetivo  das  interrupcoes?  Em  que  uma  interrupcao  difere  de  uma  excecao?  Asexcecoes podem ser geradas intencionalmente por um programa de usuario? Caso possam, com quefinalidade?
+Resposta:Uma interrupcao e uma mudanca de fluxo gerada por hardware dentro do sistema. Um manipuladorde interrupcoes e convocado a lidar com a causa da interrupcao; o controle e depois retornado aocontexto e a instrucao interrompidos. Uma excecao e uma interrupcao gerada por software. Umainterrupcao  pode  ser  usada  para  sinalizar  a  conclusao  de  um  I/O  indicando  a  necessidade  deinquiricao do dispositivo. Uma excecao pode ser usada para chamar rotinas do sistema operacionalou para capturar erros aritmeticos.
+
+
+1. Argumente sobre a sentença: “O uso de memória virtual beneficia o uso da multiprogramação.”. (1,3 pto)
+A técnica de memória virtual permite que um programa entre em execução na CPU mesmo sem que todo o seu   espaço   de endereçamento esteja   em memória. Somente  partes   do código  que  estão  sendo executadas   necessitam   estar   em   memória,   o   que   permite   que   um   programa   ou   um   conjunto   de programas com necessidade de memória maior que a disponibilizada pelo SO possam executar. Dessa maneira,  a   memória   pode  ser  compartilhada   entre  um  número  maior   de   processos  o   que   ajuda  a aumentar a multiprogramação de um sistema
+
+2. O que é swapping? Cite uma vantagem e uma desvantagem dessa técnica.(1,2 pto)
+Swapping   é   uma   técnica   aplicada   à  gerência   de   memória,   onde   o  sistema  escolhe   um   programa residente que é levado da memória para o disco (swap out), retornando posteriormente para a memória principal como se nada tivesse ocorrido. Quando o programa tiver que ser executado novamente, então ele é novamente carregado para a memória principal (swap in). A principal vantagem é o aumento do  compartilhamento de memória. A desvantagem está no alto custo das operações de leitura/escrita em disco, além das fragmentações criadas nessa mídia.
+
