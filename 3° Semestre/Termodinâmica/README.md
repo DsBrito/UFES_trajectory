@@ -10,7 +10,7 @@ Sobre a Disciplina
   * Contém seminário.
   * Contém software para aplicação dos conceitos (pressão, escoamento, referencial).
   * Contém tabela de Vapor Online - https://www.steamtablesonline.com/steam97web.aspx?lang=pt -.
-  * Ministrada pelo professorYuri Nascimento Nariyoshi (currículo lattes abaixo).
+  * Ministrada pelo professor Yuri Nascimento Nariyoshi (currículo lattes abaixo).
 
 <div align="center">
     <a href="http://lattes.cnpq.br/2655730779144916" target="_blank"
