@@ -1,0 +1,18 @@
+sistema operacional	
+É um sistema que possibilita o uso eficiente e controlao os componentes e hardware (mémoria, despositivo de entrada e saida, unidade de processamento), implementando politicas e estrurutas de software de forma a gerar um melhor desempenho do sistema de computação.
+
+Monoprogramação
+os recursos computacionais sao dedicados a apenas uma tarefa
+UCP fica ociosa, enquanto aguarda evento externo
+Perifericos sao dedicados a um unico usuario
+Sem preocupação com o uso de memoria
+Complexidade na implementação é baixa
+
+
+Multiprogramaçã
+Objetivo e manter mais de um programa em execução simuntaneamente, para dar ilusão e que caa programa tem a maquina eicaa para si.
+UCP quando fica osiosa, enquanto espera a operação de entrada de dados, outro programa podem estar sendo processados nesse mesmo intervalo.
+tem maior uso do processador e da memoria
+redução de custos
+
+
