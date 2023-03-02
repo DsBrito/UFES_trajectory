@@ -1,0 +1,2400 @@
+INTRODUCTION
+-=-=-=-=-=-=
+
+Thank you for using Freelink, the free dynamic overlay linker
+with WarpLink (tm) version 2.5 technology.  We hope you like it.
+This file contains instructions for using the Freelink linker
+and its associated utilities.  Because Freelink shares a common
+ancestry with WarpLink, they share several of the same utilities
+that you will find included in the Freelink package, including
+WarpMod, WarpConv, and Interactive WarpLink.  PLEASE NOTE:
+Freelink is a fully-featured linker in its own right and not a
+crippled demonstration copy with the sole intention of pitching
+sales for WarpLink.
+
+But first, let's get the inevitable legal stuff out of the way.
+
+Freelink carries a copyright (Copyright 1989-92) by Michael
+Devore and hyperkinetix.  Use of code or proprietary algorithms
+within Freelink, or disassembly of Freelink code for purposes of
+using its code or determining the nature of its algorithms for
+use in competition with Freelink, is an infringement on
+Freelink's copyright.  Any suspected copyright infringements
+will be vigorously pursued.  All proven copyright infringements
+will be prosecuted to the fullest extent of the law.  Further
+copyright restrictions on Freelink are contained in the
+immediately following paragraph.
+
+Freelink may be distributed without charge, provided all of the
+original Freelink files are intact.  Distribution of partial or
+modified Freelink files is strictly forbidden.  Charging a fee
+for the use of Freelink or distribution of Freelink with other
+commercial products without the express permission of copyright
+holders is prohibited.  No charges may be levied to distribute
+Freelink with two exceptions:  1. User groups may charge a
+nominal disk copying and handling charge for redistribution; 2.
+Online services and bulletin board systems (BBS) may charge
+their standard connect rates or subscription fees to transfer
+the Freelink package to their users.  Files created by Freelink
+have no additional copyright restrictions, and may be freely
+used for both commercial and noncommercial purposes.
+
+Copyright holders make no claim as to Freelink's fitness for a
+specific purpose.  Under no conditions will copyright holders be
+held liable for damages of any kind arising out of the use of or
+inability to use Freelink.  If you do not accept these copyright
+restrictions your sole remedy is not to use and not to
+distribute Freelink.
+
+All right, that's the end of the boring legal statements.
+
+Why release a fully-featured copy of a dynamic linker to the
+public for free?  Two main reasons:
+
+1.  Times are tough for everyone.  This is an attempt to help
+out those "starving developers" that cannot afford expensive
+tools and those employees who must suffer with Scrooge-like
+corporate purchasing policies.
+
+2.  Some of you will probably want to purchase our commercial
+WarpLink product after trying Freelink.  Let's not toss around
+bafflegab.  Obviously, we hope a number of you will like
+Freelink so much you'll upgrade to WarpLink.  That's a big
+reason we are releasing Freelink to the public.  But we also
+know that for another large group of users, Freelink will meet
+all their needs and they need not spend a dime on a commercial
+linker.  That's fine with us too.  Given these economic times,
+we expect and encourage frugal allocation of financial
+resources.
+
+Bulletin board system (BBS) operators, please read the ORDER.FRM
+file.  It presents monetary incentives intended to reward your
+generosity in making Freelink available to your users.
+
+
+
+SHIPPING LIST
+-=-=-=-=-=-=-
+
+Before using Freelink, but sure you received the correct files.
+Freelink contains the following files:
+
+FREELINK.DOC    100233 11-08-92  10:14p
+FREELINK.EXE     83663 11-08-92  11:30p
+IW       EXE    184630 09-09-92  11:08a
+WARPCONV EXE     29478 07-09-91  11:38a
+WARPMOD  EXE     33640 09-30-92   4:24p
+ORDER    FRM      8071 11-07-92  10:27a
+READ     ME        205 11-04-92   1:46p
+C5OVLMGR OBJ     11739 09-02-92   2:57p
+OVLMGR   OBJ     10897 09-02-92   2:46p
+C501OVL  PRJ      2264 07-06-92   2:20p
+DBU      PRJ      1689 11-06-92   1:53p
+S87OVL   PRJ      2092 07-06-92   2:19p
+
+If you did not receive all the files list above with the size,
+date, and timestamp as shown, STOP!  DO NOT USE THESE FILES!
+You do not have a valid copy of the Freelink package.  The
+consequences of using files with unauthorized modifications or
+incomplete files in violation of Freelink's copyright can range
+from unstable program operation to software virus infections.
+Request that the person or BBS distributing Freelink give you
+the full, unmodified, Freelink package.
+
+
+
+INTRODUCTION TO FREELINK
+-=-=-=-=-=-=-=-=-=-=-=-=
+
+What is Freelink?
+
+Freelink is a DOS-compatible linker for use with any language
+that produces standard Microsoft Link-compatible .OBJ files.
+
+Freelink is much more than that, however.  It also supports:
+
+1. Dynamic overlays.  Your programs will use less memory by
+   leaving more of the program on disk and bringing only the
+   parts it needs into RAM.
+
+2. Improved functionality of your application.  Freelink allows
+   overlaid functions to call other overlaid functions, nesting
+   down to any level.  No more code modifications required
+   because of linker limitations.
+
+3. Fast linking.  Freelink is much faster than most linkers, so
+   you'll save time on linking jobs, especially on large
+   projects.  Freelink can handle many tasks that other linkers
+   just can't handle at all.
+
+4. Very specific error handling.  Freelink not only tells you
+   what's wrong, but also what the error means and what you
+   should do to fix the problem.
+
+5. No EXE2BIN.  Freelink can create .COM files directly from
+   .OBJ files, instead of making you go through the extra step
+   of running EXE2BIN.
+
+6. Real linking.  Some other programs that do dynamic overlays,
+   or any overlays at all, aren't actually linkers.  They are
+   merely overlay managers that require the use of Microsoft
+   LINK or a compatible linker.
+
+7. Clipper-specific functions.  Incremental linking dramatically
+   reduces your link time by re-linking only those modules which
+   have changed.  Freelink also has automatic compaction of your
+   Clipper program symbol tables.
+
+8. The ability to use extended memory or expanded memory during
+   link time to greatly improve linker performance.
+
+9. The ability to take advantage of extended memory or expanded
+   memory while your application is running for lower memory
+   requirements and faster program execution.
+
+10. Extraction of individual modules from a library file at
+    linktime to let you put some portions of a library into the
+    root and other portions into the overlay.  No need to use
+    library manager utilities.
+
+11. Extra utilities.  WarpMod allows you to modify certain link
+    parameters without relinking.  WarpConv converts existing
+    PLink-style response files into a Freelink-readable format.
+    Interactive WarpLink automates the linking process and builds
+    your link files for you.
+
+12. Other extras.  DOSSEG ordering to make your assembly
+    language programs smaller and more compatible with other
+    languages, a predefined $$_COM_END variable for use in a
+    .COM file that needs to determine its own size, a similar
+    variable for EXE files, support for four linker environment
+    variables to increase linking flexibility, and expanded .MAP
+    files for tracking down particularly nasty bugs.
+
+NOTE:  Freelink supports many languages, but does not support
+use of overlays with Microsoft Basic PDS 7.x (QuickBasic is
+fine).  Freelink may not properly link Microsoft C 7.0 programs
+(earlier versions work correctly with and without overlays) and
+Borland C programs in C++ mode (standard C programs without
+virtual functions should work correctly).  Use of overlays with
+Clarion and Quicksilver is not supported with Freelink (but is
+supported with WarpLink).  Other languages should link with
+Freelink provided they do not use obsolete or nonstandard object
+module records.
+
+
+USING FREELINK
+-=-=-=-=-=-=-=
+
+Large projects and memory use
+
+Freelink uses all available RAM memory when linking.  For most
+jobs, that's fine.  Sometimes there's not enough memory for the
+link.  In those cases Freelink creates a temporary file.  The
+directory for this file can be specified using the TMP
+environment variable.  If you don't use the TMP variable the
+file will be placed in the current directory.  The default name
+of the temporary file is VM.TMP in DOS versions prior to 3.0.
+In DOS 3.0 and later, it is a unique name.  This file will be
+deleted upon linking completion.
+
+
+Environment variables
+
+Freelink can make use of four environment variables: the LIB
+environment variable, OBJ environment variable, TMP environment
+variable, and the FREELINK environment variable.
+
+
+The LIB environment variable
+
+LIB is the name of a directory to search if a .LIB file isn't
+found in the current directory.
+
+For example, suppose you're in the C:\BUILDER directory.  You
+link like this:
+
+  freelink  /c  fs,,,bldtt
+
+This links FS.OBJ with the runtime library BLDTT.LIB.  /c means
+create .COM file.
+
+If BLDTT.LIB isn't in the \BUILDER directory, Freelink issues a
+"file not found" error.  But if you keep your library files
+in the C:\LIB directory, you can inform Freelink by setting the
+LIB variable:
+
+  SET LIB=C:\LIB
+
+That way, when BLDTT.LIB isn't found in the \BUILDER directory,
+Freelink searches C:\LIB too.
+
+NOTE:  The LIB environment variable can specify more than one
+directory, just like the PATH environment variable.
+
+You do not always have to specify a .LIB file when one is
+required.  This is because some languages, such as Microsoft C,
+embed the name of a default library in the .OBJ file while it's
+being created.  Freelink will use that default library name when
+linking.  A rule of thumb is, if your old linker didn't need the
+name of the default library, Freelink won't either.  You can
+override this behavior with the /nd command option, which allows
+you to disable the search for a default library.
+
+
+The OBJ environment variable
+
+OBJ is the name of a directory to search if a .OBJ file isn't
+found in the current directory.
+
+For example, suppose you're in the C:\BUILDER directory.  You
+link like this:
+
+  freelink  /c  fs,,,bldtt
+
+This links FS.OBJ with the runtime library BLDTT.LIB. /c means
+create .COM file.
+
+If FS.OBJ isn't in the \BUILDER directory, Freelink issues a
+"file not found" error.  But if you keep your object modules in
+the C:\OBJ directory, you can inform Freelink by setting the OBJ
+variable:
+
+  SET OBJ=C:\OBJ
+
+That way, when FS.OBJ isn't found in the \BUILDER directory,
+Freelink searches C:\OBJ too.
+
+NOTE:  The OBJ environment variable can specify more than one
+directory, just like the PATH environment variable.
+
+
+The TMP environment variable
+
+Freelink creates a temporary file when memory gets low.  That
+file is normally written to the current directory.  You can move
+it to another directory (for example, a RAM disk) by naming that
+directory in the TMP environment variable.  So, if you normally
+link in the C:\CLIPPER directory but want the spill (or
+temporary) file, if any, to be placed on your RAM disk on
+drive F, use:
+
+     SET TMP=F:
+
+
+The FREELINK environment variable
+
+Freelink also supports a FREELINK environment variable.  This
+allows you to preset Freelink command options.  If you are a
+Clipper developer only and you always need the /r option and
+wanted to change Freelink's default overlay pool value, you
+could put this statement in your AUTOEXEC.BAT file:
+
+  SET FREELINK=/r /op:m
+
+NOTE:  Any option specified at link time either in a response
+file or at the DOS command line will override any value set with
+the FREELINK environment variable.
+
+
+LINKING FROM THE COMMAND LINE
+
+You can operate Freelink from the DOS command line.  There are
+no menus or operating modes:  you simply type FREELINK, your
+specific command options, and one or more filenames.  If you've
+used TLINK or MS Link you'll find it very familiar.  Unlike MS
+link, Freelink doesn't prompt you for information it doesn't
+have.  Like TLINK, Freelink lets you create a .COM file directly
+and expects you to supply all necessary information on the
+command line (or from a response file, which is simply a file
+containing command line options and filenames).
+
+Use this format for running Freelink from the DOS prompt:
+
+  Freelink [command options] object_files[,[program_file]
+           [,[map_file][,[library_files]]]][;]
+
+The square brackets mean an item is optional.  The brackets
+themselves are not used.  For example, [command options] is
+replaced by any of the linker command options; you don't
+actually use the word options.  And since [command options] is
+surrounded by brackets, you don't need command options to run
+Freelink.
+
+Commas appear as shown.  In cases where you'd use several but
+not all of the filenames (for example, a program name, no map
+file, and a library name), use commas as separators.  Do not use
+commas as separators between the same file types, that is, do
+not place commas between different object or library files.
+
+
+FILE EXTENSIONS
+
+For the file options object_files, program_file, map_file, and
+library_files, a default extension is always assumed.  That
+means that you may omit a file extension and Freelink will look
+for a file by the name given, with a period followed by the
+default extension.
+
+The default extensions are:
+
+  File type              Default Extension
+  Program file                .EXE
+  Program file (with /c)      .COM
+  Map file                    .MAP
+  Library file                .LIB
+  Overlay file                .OVL
+
+In all cases except .OVL files, which are created automatically
+by Freelink, you can override the default extension by explicit
+use of a different file name and extension.  The .OVL extension
+can only be changed with WarpMod's on option.  See the WarpMod
+section for more details.
+
+object_files is a list of one or more object files.  More than
+one may be listed, in which case the names are separated by plus
+signs or spaces.  The default extension is .OBJ.  Overlaid
+object files are surrounded by parentheses or brackets.  You
+must specify at least one .OBJ file.
+
+program_file is the name of the .EXE or .COM file Freelink
+creates as its output.  A .EXE file is created by default, a
+.COM file is created if the /c option has been specified.  If
+you don't specify a program file, Freelink uses the name of the
+first object module, with an .EXE or .COM extension.
+
+map_file is the name of a text file Freelink will create with
+information about the .OBJ and .LIB files (for instance, a list
+of all public symbols).  The default extension is .MAP.  Map
+files are helpful debugging tools.  If you don't specify a
+program file Freelink uses the name of the first object module,
+with a .MAP extension, if you use the /m or /mx option.
+
+library_files is a list of zero or more library files.  More
+than one may be listed, in which case the names are separated by
+plus signs or spaces.  Overlaid library files are surrounded by
+parentheses or brackets.  The default extension is .LIB.
+
+
+GENERAL USE
+
+Here's how you will commonly use a linker.  Most high-level
+languages such as Clipper, Microsoft or Turbo C, or Microsoft
+BASIC require at least two files when you link a program:  the
+program you wrote, and at least one other file, which usually
+has the extension .LIB.  If the program you wrote is made up of
+several files, an .OBJ is created for each file and you still
+use the .LIB file.  You can also create your own .LIB files
+simply by running several .OBJ files through a library utility.
+The .LIB files supplied by the manufacturer of your language
+contain a large number of pre-written routines that the program
+frequently uses.  For example, the code to clear the screen, set
+the text mode, open a file, or save a file is used often enough
+by the compiler that it is usually collected with many other
+routines into a .LIB.  file.  Remember that a .LIB file is
+nothing more than one or more .OBJ files connected together into
+a single file, along with some indexing information to speed
+access to those .OBJ modules within the .LIB.  .LIB files are
+also known as runtime libraries.
+
+With high-level languages, you almost always use at least two
+other files to create a single executable:  an .OBJ file and a
+.LIB file.  The command will usually be something like this,
+where SOURCE is the filename SOURCE.OBJ, and LIB1 is the runtime
+library LIB1.LIB:
+
+  freelink source,,,lib1
+
+This creates the executable file SOURCE.EXE.
+
+If you had two .OBJ files and two .LIB files, the command line
+might look like this, where the object files are SOURCE1.OBJ and
+SOURCE.OBJ, and the library files are LIB1.LIB and LIB2.LIB:
+
+  freelink source1+source,,,lib1+lib2
+
+This creates the executable file SOURCE1.EXE.
+
+Short programs may not use a .LIB file.  In that case your
+command line could be as simple as this:
+
+  freelink showvol
+
+This creates the executable file SHOWVOL.EXE
+
+
+RESPONSE FILES
+
+Any command options and file names you type after FREELINK on
+the DOS command line can just as easily be contained in a
+response file (also called a link file, a command script, or a
+script file).  Response files let you localize information in a
+way that makes maintenance easier than using batch files.  They
+can also be used with a MAKE utility.
+
+Linking with a response file
+
+This is the format for running Freelink with a response file:
+
+  freelink @filename.ext
+
+The "@" is typed literally and indicates that the following
+identifier isn't an .OBJ file.
+
+NOTE:  When using response files, you must specify the file
+extension, if any.  Freelink does not assume a .LNK or .RSP file
+extension.
+
+Using a response file
+
+A response file takes the place of information typed after
+FREELINK on the DOS command line.  To distinguish between an
+object module name and a response file name, precede the name of
+a response file with the @ sign.  This "@" designates the file
+as a response file, not a .OBJ file.
+
+The contents of a response file are exactly what you'd type in
+after FREELINK on the DOS command line.  For example, assume you
+have a file called NEWDBU1.LNK containing the following two lines:
+
+  dbu+dbuview+dbustru+dbuedit+dbuindx+dbucopy+dbuutil+
+  dbuhelp,,,clipper+extend
+
+In this example, Freelink will look for the following .OBJ
+files:
+
+     DBU.OBJ             DBUINDX.OBJ
+     DBUVIEW.OBJ         DBUCOPY.OBJ
+     DBUSTRU.OBJ         DBUUTIL.OBJ
+     DBUEDIT.OBJ         DBUHELP.OBJ
+
+No program file is specified, so the file DBU.EXE will be
+created.  No map file or options are specified, so no map file
+will be created.  Freelink will look for two libraries,
+CLIPPER.LIB and EXTEND.LIB.
+
+Notice that in this example none of the .OBJ or .LIB files are
+encased in parentheses.  This means that no overlays are used --
+all .OBJ's and .LIB's will be in the root.
+
+NOTE:  Throughout this document, the term "root" will indicate
+code that is not overlaid.
+
+Clipper users will recognize this example as a link response
+file to create DBU.EXE, one of the example programs that comes
+with Clipper.  (The .OBJ files themselves don't come with
+Freelink, but you don't need them for the purposes of this
+example.  They're just shown to illustrate a real life use of
+response files.)
+
+To link and create the program DBU.EXE you would enter the
+following at the DOS command line:
+
+  freelink  @newdbu1.lnk
+
+NOTE:  A response file line length must be 127 characters or
+less.
+
+Mixing response files with the command line
+
+You can mix and match command line options with a response file.
+For example, assume you have a response file called NEWDBU2.LNK
+containing the following lines:
+
+  +(dbuview+dbustru+dbuedit+dbuindx+dbucopy+dbuutil+
+  dbuhelp) ovlmgr,,,clipper+extend
+
+The only difference from NEWDBU1.LNK is that the first filename,
+DBU, is missing and the overlay manager file is included.  To
+link DBU you'd use this command line:
+
+  freelink  /r /op:m dbu @newdbu2.lnk
+
+The response file picks up right where you left off, appending
+the first "+" to "dbu" as if the response file and command line
+were one.  No program file is specified, so the file DBU.EXE
+will be created.  No map file or options are specified, so no
+map file will be created.  Freelink will look for two libraries,
+CLIPPER.LIB and EXTEND.LIB.
+
+Notice that in this example all of the .OBJ files are in
+parentheses.  This means that they will be overlaid.  When
+overlaying, the overlay manager file OVLMGR.OBJ (or C5OVLMGR.OBJ
+for Clipper 5.01) must be included in the object file list.
+
+Multiple-line response files
+
+If you need to break up a response file into several lines, use
+the "+" separator at the end of a line for the lists of .OBJ and
+.LIB files.  Commas may be on their own lines.  The example
+shown below is a legal way to break up the first example:
+
+     dbu+dbuview+dbustru+dbuedit+
+     dbuindx+dbucopy+dbuutil+dbuhelp
+     ,
+     ,
+     clipper+
+     extend
+
+In this example, just like before, Freelink will look for the
+following .OBJ files:
+
+     DBU.OBJ             DBUINDX.OBJ
+     DBUVIEW.OBJ         DBUCOPY.OBJ
+     DBUSTRU.OBJ         DBUUTIL.OBJ
+     DBUEDIT.OBJ         DBUHELP.OBJ
+
+No program file is specified, so the file DBU.EXE will be
+created.  No map file or options are specified, so no map file
+will be created.  Freelink will look for two libraries,
+CLIPPER.LIB and EXTEND.LIB.
+
+Notice that in this example none of the .OBJ or .LIB files are
+encased in parentheses.  This means that no overlays are used --
+all .OBJ's and .LIB's will be in the root.
+
+Comments in a response file
+
+It is often desirable to put comments into a response file.
+This is especially helpful for large response files, sample
+response files, or response files which don't get used very
+often.  Comments can be inserted into a response file by using
+the pound sign ('#') in the first column.  The following
+indicates a legal way to break up the previous example:
+
+  #
+  # Here are my object modules
+  #
+  dbu+dbuview+dbustru+dbuedit+
+  dbuindx+dbucopy+dbuutil+dbuhelp
+  #
+  # End of object module list, the final
+  # line did not have a continuing '+'
+  #
+  # No executable file specified, use
+  # first .OBJ file by default
+  #
+  ,
+  #
+  # No map file created
+  #
+  ,
+  #
+  # Here are the library files
+  #
+  clipper+
+  extend
+
+No program file is specified, so the file DBU.EXE will be
+created.  No map file or options are specified, so no map file
+will be created.  Freelink will look for two libraries,
+CLIPPER.LIB and EXTEND.LIB.
+
+Notice that in this example none of the .OBJ or .LIB files are
+encased in parentheses.  This means that no overlays are used --
+all .OBJ's and .LIB's will be in the root.
+
+Direct Library Module Specification
+
+Libraries frequently contain modules that can be overlaid and
+modules which cannot be overlaid.  In these situations, to be
+safe, many developers will put the entire library into the root.
+Freelink does not require this practice because you can pull
+individual modules out of the library.  This is done by direct
+library module specification, also called module extraction.
+
+Module extraction is very simple to use.  Just list the name of
+the library and a colon, followed by the module name to extract
+a particular module from a library.  In the following example,
+MODULE1 of LIB1.LIB will be overlaid, while the rest of the
+library will be in the root:
+
+  /op:m /r (obj1+obj2)+ovlmgr,,, (lib1:module1)+lib1
+
+A couple of things to note about module extraction:
+
+First, the list of modules to be extracted must come before the
+corresponding library or object file to be effective.  Any time
+a module is declared twice in an object file list or a library
+list, the first reference will be in effect.  Having the library
+or object file before the module extraction would negate it's
+use.
+
+Do this:
+
+  /op:m /r (obj1+obj2)+ovlmgr,,, (lib1:module1)+lib1
+
+NOT this:
+
+  /op:m /r (obj1+obj2)+ovlmgr,,, lib1+(lib1:module1)
+
+Second, the list of modules to extract can be overlaid and the
+corresponding object or library file can be in the root; or the
+list of modules to extract can be in the root and the
+corresponding object or library file can be overlaid.  Study the
+following two examples to see how this works.
+
+Overlaying the library module MODULE1 ONLY:
+
+  /op:m /r (obj1+obj2)+ovlmgr,,, (lib1:module1)+lib1
+
+Overlaying all of the library EXCEPT MODULE1:
+
+  /op:m /r (obj1+obj2)+ovlmgr,,, lib1:module1+(lib1)
+
+Using module extraction will slow down the link process, since
+the linker must search the entire LIB file for each library
+name.  If you use direct library module specification often, you
+should consider either using the /ql option or breaking the
+overlayable and nonoverlayable portions of the library into
+separate libraries that can be overlaid and placed in the root
+without using module extraction.
+
+
+
+FREELINK OPTIONS
+-=-=-=-=-=-=-=-=
+
+This section explains Freelink's command options.  These options
+can be specified from the DOS command line, in a batch file, or
+in a Freelink response file.  The command options are described,
+one by one, in alphabetical order.  All options are case
+insensitive, e.g. both /c and /C refer to the create COM file
+option.
+
+NOTE:  The terms "options" and "switches" are synonymous and may
+be used interchangeably.
+
+Type FREELINK without parameters at the DOS command line for a
+summary of the linker options.  Immediately following is the the
+option summary you will see, followed by a alphabetic list of
+all options described in detail.
+
+Freelink 2.50 Copyright 1989-92 Michael Devore and hyperkinetix, inc.
+All rights reserved.
+
+SYNTAX:  FREELINK [options] object_files[,[program_file][,[map_file]
+           [,[library_files]]]][;]
+
+         (Items in brackets are optional)
+                   or
+         FREELINK @response_file
+
+NONOVERLAY OPTIONS:
+
+/as:<size>     maximum program Allocation Space in paragraphs
+/c             create COM file
+/clpf          automatic Full link after failed CLiPper incremental link
+/clpi          perform CLiPper Incremental link
+/clpp:<size>   CLiPper incremental link segment Pad length in bytes
+/i             display link process Information
+/m             create MAP file
+/mx            create MAP file eXpanded version
+/nd            No Default libraries
+/ql            perform QuickLinker link
+/sp            Symbol table Pack for Clipper code
+/st:<size>     program STack size in bytes
+/tf:<name>     Temporary File name
+/w0            Warnings generate an exit code of 0, instead of 1
+/xp            use eXPanded memory (EMS) during link
+/xt            use eXTended memory (XMS) during link
+
+OVERLAY OPTIONS:
+
+/clp5[:<name>] automatically overlay CLiPper 5.0x compiled CLIPPER.LIB modules
+/ohp:[-]<size> Overlay stasH in EMS exPanded memory, '-' leave free
+/oht:[-]<size> Overlay stasH in XMS exTended memory, '-' leave free
+/op:[-]<size>  Overlay Pool size in kilobytes, '-' leave free
+/op:m          automatically use Overlay Pool Minimum required size
+/orp           swap active Overlays at Runtime to EMS 4.0 exPanded memory
+/ort           swap active Overlays at Runtime to exTended (XMS) memory
+/ou            attempt to place Overlay pool in Upper Memory Block (UMB)
+/ox            place Overlay pool in eXpanded memory (EMS) page frame
+/ox:e-var      Only use /OX if environment variable set to specified value
+/r             Reload active overlays swapped out upon return at same address
+
+
+/as:<size>  Set maximum number of allocated paragraphs
+
+            <size> is the number of paragraphs.
+
+This corresponds to MS Link's CPARMAXALLOC option.  /as sets
+the number of paragraphs of memory allocated to a program after
+it loads.  Acceptable values are 0-65535, default is 65535.
+
+This value can be modified after linking with the WarpMod
+utility provided with the Freelink package.
+
+In most situations, the default value for the maximum number of
+allocated paragraphs (65535) is sufficient.  This value will
+rarely need to be modified, but this switch is available for
+those situations where it is needed.
+
+
+/c              create COM file
+
+Freelink generates .EXE files by default.  The /c option directs
+Freelink to create a .COM file directly.
+
+You can't just create a .COM file at will.  The compiler or
+assembler that generated the .OBJ file determines whether it can
+be a .COM or .EXE file.  When in doubt, assume .EXE.
+
+On the other hand, if you omit the /c option on a file that
+should have been linked as a .COM file, you'll get a no stack
+segment warning during the link as Freelink creates a .EXE file
+with no stack segment.
+
+You cannot use overlays with a .COM file.
+
+
+/clp5[:<name>]  Overlay clipper 5.0x compiled CLIPPER.LIB
+                modules automatically
+
+The /clp5 option automatically overlays selected portions of the
+CLIPPER.LIB library for Clipper 5.0x.  These portions are all
+those modules that contained compiled Clipper code.  Using this
+option can reduce your memory usage by 20-40K.  This is in
+addition to the savings created from overlayable CLIPPER.LIB
+modules written in C and assembly language that can be
+explicitly overlaid via direct library module specification.
+
+If the Clipper library has been renamed, <name> is the new name
+of the library to automatically overlay Clipper compiled modules
+from.  It is an optional parameter but must be preceded by a
+colon if it is supplied.
+
+The /clp5 switch must come before the library list.
+
+CLIPPER.LIB must be explicitly specified in the library list.
+In other words, if you use the /clp5 option and CLIPPER.LIB is
+specified implicitly through the default libraries Freelink will
+fail with an internal error.
+
+/clp5 also works with the Summer '87 version of Clipper, but it
+will only overlay the ERRORSYS module for a savings of 2K.
+
+
+/clpf       Perform full link if Clipper-specific
+            incremental link fails
+
+This option is used if you want to automatically perform a full
+link if a Clipper-specific incremental link fails.
+
+By default, Freelink will normally ask you if you would like to
+perform a full link if an incremental link fails.  The /clpf
+option tells Freelink to bypass the question and automatically
+perform a full link when an incremental link fails for any
+reason.
+
+
+/clpi       Use Clipper-specific incremental link
+
+This option is used to take advantage of Freelink's
+Clipper-specific incremental link capabilities.  Incremental
+linking is a tool for development.  It will drastically cut down
+on your linking time because only those object files which have
+been modified since the last link will be re-linked.
+
+Incremental linking is specified using the /clpi option.  During
+the first run of a link using /clpi, a full link is performed
+and an incremental link file is created.  The name of the
+incremental link file will be the name of the executable file,
+with a .ILF extension.  The .ILF file contains information used
+during later links of the application.
+
+Freelink will attempt to do an incremental link whenever the
+/clpi option is used and a .ILF file is present for the
+application.  If no .ILF file is present, a new one will be
+built for the next incremental link use
+
+Incremental link works only with Clipper .OBJ files.  If you
+change a non-Clipper object module or any library, the
+incremental link will fail and allow you the option of
+continuing with a full link.  This will create a new .ILF file.
+
+Freelink bases its decision to modify code using the incremental
+link based upon the time and date stamp of a file.  If the date
+or time stamp of a file has not changed since the last
+incremental link, Freelink will assume that no code changes were
+made.
+
+You can change a symbol name, rearrange variables in the symbol
+table, and do some limited addition or deletion of symbol names
+and still have a successful incremental link.  Exceeding the pad
+length with code changes, adding more than two new symbols, or
+changing the position of a procedure within a symbol table will
+fail the incremental link, requiring a full link.
+
+It is recommended that you perform a full link without the /clpi
+option on the final version of your software after development
+is complete.
+
+Using the /clpi switch will add to the size of your .EXE file.
+Freelink must make allowances for new code in your .EXE file, so
+it adds some free space for later changes.  See the explanation
+of the /clpp option for more complete information on this .EXE
+file "padding."
+
+.ILF files must be in the current directory or they will not be
+found.
+
+The /clpi and /sp options cannot be used together (you cannot
+perform symbol compaction on an incrementally linked file).
+Whichever one is specified last will be the one used.
+
+
+/clpp:<size>   Set "pad" size for Clipper-specific incremental
+               link
+
+               <size> is the size of the segment pad value for
+               incremental linking.
+
+This option changes the default value for the size of the
+segment pad.  This is the number of bytes that you can safely
+add to each Clipper procedure after the initial link without
+causing the incremental link to fail.
+
+The acceptable range is 0-255.  The default value is 48.
+
+A non-zero pad value will increase the size of the Clipper
+procedures (in an overlay or the root) in your program.  The
+larger your pad value, the greater the increase.
+
+
+/i          Display link process information
+
+This option provides information about what the linker is doing,
+as it is doing it.  It is useful if you want to assure yourself
+that the linker is really working during long links, like
+something to look at during the link, or just want to see what
+parts of the link process take the most time.
+
+Use of this option may help you troubleshoot any problems with
+Freelink.
+
+Entry to and exit from the main routines in the link process are
+displayed, as well as the file names of object files and library
+files currently being processed.  You'll probably notice that
+libraries take up much of the link time -- this is pretty
+typical.
+
+
+/m          Create map file
+
+A map file contains the size and placement of code, data, and
+stack segments in a program (in hex, or base 16) and program
+entry information.
+
+Freelink map files are compatible with those created by MS LINK.
+You can get more detailed information by using the /mx option,
+which gives you expanded map files.
+
+
+/mx         Create expanded map file
+
+The expanded map file option offers more detailed map
+information, useful for debugging and for seeing how space is
+used in each segment.  It's handy, for example, if you're an
+assembly language programmer and wonder why a segment is the
+wrong size.  This might show you that you left the trailing "h"
+off of a number that's supposed to be hex.  It's also good for
+detecting the source of a segment overflow (a segment larger
+than 64K).
+
+The extended map file also lists the names and addresses of
+public symbols.
+
+
+/nd         No default libraries
+
+Most high-level language translators/compilers/assemblers insert
+the standard name of a runtime library directly into the .OBJ
+file itself so that it doesn't have to be specified on the
+command line.  That .LIB is called the default library.  You
+can stop Freelink from using that library by using the /nd
+option.
+
+
+/ohp:[-]<size>  Overlay stash in EMS 4.0 expanded memory
+
+                '-' leave free
+                <size> can range from 0 to 16383.
+
+This option stashes the overlay file to EMS memory.  The
+overlays are stashed as they are loaded for the first time in
+the overlay pool, as memory allows.  Thereafter, if the overlay
+must be reloaded, it will be brought in from EMS memory rather
+than from disk.  Stashing can provide substantial speed
+increases in the executing program.  Partial stashing of some
+overlays in the overlay file may occur if there is not enough
+memory to stash all of them.  Overlays are placed in EMS on a
+first loaded, first stashed-as-fits, basis.
+
+/ohp logically follows the /op usage.  Values are in kilobytes.
+Because EMS pages are allocated in 16K pages, you should use a
+multiple of 16K.  (Odd amounts are rounded up, e.g. /ohp:120  is
+the same as /ohp:128.)  A minus sign means leave the amount
+free, e.g. /ohp:-1024  means leave 1024K (1M) for the executing
+program and take the rest for stashing overlays, up to the space
+required.  The overlay manager will not take more EMS memory
+than it needs even if you specify more with the /ohp option.
+For example, if you specify /ohp:4096  and the overlay manager
+only needs 640K to stash the entire overlay file, 640K of EMS is
+all that the overlay manager will allocate.
+
+/ohp detects EMS 4.0 automatically and uses an enhanced stashing
+algorithm if EMS 4.0 (supporting direct lower memory mapping) is
+available.  The direct memory mapping algorithm is more speed
+efficient than the EMS 3.x algorithm of copy-to-page,
+map-out-page, map-in-page, and copy-from-page.
+
+/ohp overlay file stashing will not occur if the overlay manager
+detects less than 80K free EMS or an EMS driver is not present.
+
+/ohp is more generically useful than /orp but both can be used
+simultaneously.  /orp will stash an exact image of a
+swapped-out, active overlay for return swap- in, thus
+eliminating the need for the overlay manager to process and fix
+up overlay offsets when the active overlay is brought back in.
+Typically, you will find a much greater speed increase with /ohp
+stashing, but /orp can also speed up an application if there are
+many active overlay swap-outs.  /ohp allocates EMS after /orp
+does its 128K fixed allocation.  If you have a small amount of
+EMS, it is recommended that you use /ohp rather than /orp.
+
+Use of /ox precludes EMS 3.x overlay file stashing.  The /ox
+option automatically shuts off stashing because EMS 3.x must map
+into the EMS page frame that /ox uses.  If you use /ohp and /ox,
+and the /ohp routines detect EMS 3.x usage, then stashing an
+overlay file to EMS will be automatically shut off at runtime.
+Note that it is always safe to specify both the /ox and /ohp
+options.  If /ohp detects EMS 4.0 support, then simultaneous use
+of the EMS page frame for the overlay pool and the stashing of
+the overlay files to EMS will occur.
+
+All EMS memory allocated for use by /ohp is automatically freed
+at program termination.  An initial setting of /ohp:-512  for
+Clipper applications is recommended.  This guarantees 512K of
+EMS remains for your application, plus whatever may be left over
+from stashing the overlay file.  In particular, it is not
+recommended that a Clipper 5.01 program have no EMS available to
+it during execution.  (You can quickly change the /ohp setting
+with WarpMod, if necessary or desired.)  If your application has
+no need for EMS, then use a large /ohp setting to stash the
+entire overlay file.  For example, use a setting of /ohp:16383.
+
+See also the /orp option.
+
+
+/oht:[-]<size>  Overlay stash size for XMS, extended memory,
+
+                '-' leave free
+                <size> can range from 0 to 16383.
+
+This option stashes the overlay file to XMS memory.  The
+overlays are stashed as they are loaded for the first time in
+the overlay pool, as memory allows.  Thereafter when reloaded,
+the overlay will be brought in from XMS memory rather than from
+disk.  Stashing can provide substantial speed increases in the
+executing program.  Partial stashing of some overlays in the
+overlay file may occur if there is not enough memory to stash
+all of them.  Overlays are stashed on a first loaded, first
+stashed-as-fits, basis.  /oht overlay file stashing will not
+occur if the overlay manager detects less than 80K free XMS or
+an XMS driver is not present.
+
+/oht logically follows the /op usage.  Values are in kilobytes.
+A minus sign (-) means leave the amount free, e.g. /oht:-1024
+means leave 1024K (1M) for the executing program and take the
+rest for stashing overlays, up to the space required.  The
+overlay manager will not take more XMS memory than it needs even
+if you specify more with the /oht option.  For example, if you
+specify /oht:4096  and the overlay manager only needs 640K to
+stash the entire overlay file, 640K of XMS is all that the
+overlay manager will allocate.
+
+/oht is more generically useful than /ort but both can be used
+simultaneously.  /ort will stash an exact image of a swapped-out
+active overlay for return swap-in, eliminating the need for the
+overlay manager to process and fix up overlay offsets when the
+active overlay is brought back in.  Typically, you will find a
+much greater speed increase with /oht stashing, but /ort can
+also speed up an application if there are many active overlay
+swap-outs.  /oht allocates XMS after /ort does its 128K fixed
+allocation.  If you have a small amount of XMS, it is
+recommended that you use /oht rather than /ort.
+
+All XMS memory allocated for use by /oht is automatically freed
+at program termination.
+
+An initial setting of oht:-512 for Clipper applications is
+recommended.  This guarantees 512K of XMS remains for your
+application, plus whatever may be left over from stashing the
+overlay file.  Clipper cannot use XMS directly, but many memory
+managers, such as QEMM and 386^Max, automatically convert XMS to
+EMS.  It is not recommended that a Clipper 5.01 program have no
+EMS available to it during execution.  (You can quickly change
+the /oht setting with WarpMod, if necessary.)  If your
+application has no need for XMS or converted EMS, then use a
+large /oht setting to stash the entire overlay file.  For
+example, use a setting of /oht:16383.
+
+See also the /ort option.
+
+
+/op:[-]<size>  Overlay pool size
+              <size> is the size of the overlay pool in
+              kilobytes.
+
+The /op option lets you control how much memory is used for
+overlays.  The section of memory in which overlay code is stored
+is known as the overlay pool.  Memory is allocated on startup.
+If you want to limit the amount of memory used or change the
+method currently employed, use this option.
+
+The overlay pool is a key piece of Freelink.  Overlaid functions
+are swapped in and out of this overlay pool area only.  A
+Freelink'd application will not wildly grab any available
+memory.  When the overlay pool area is full, functions will be
+swapped out of the overlay pool until they are needed again.
+
+The minus sign is optional and means let all except <size>
+kilobytes be used for the memory pool.  For example, /op:-100
+would mean that all except 100K of system memory is available
+for overlays.  The minus sign should not usually be used with
+Clipper applications.
+
+Omitting the minus sign means that only the specified amount of
+memory (in K) will be used.  So if you've used the /op:48 option
+your application will reserve 48K of RAM for the overlay pool at
+startup.  All overlaid functions will be swapped in and out of
+this area.
+
+Freelink is preset to use all except 144K for the overlay pool,
+as if you'd used the /op:-144 option.
+
+This value can be modified after linking with the WarpMod
+utility provided with the Freelink package.
+
+
+/op:m       Automatically use overlay pool minimum size
+
+The /op:m option is a variation of the /op option.  /op:m
+automatically sets the size of the overlay pool to be the
+minimum size, as calculated by Freelink during linking.  This
+option takes the guesswork out of having to calculate the
+smallest possible overlay pool size for your application.
+
+If the /r option is also used, the minimum required overlay pool
+size will be calculated and assigned.  (This will be roughly
+equivalent to two times the largest overlaid segment plus the
+second largest overlaid segment minus one.) Otherwise, the
+absolute minimum overlay pool size is used, that is, the size of
+the largest overlaid segment.
+
+The overlay pool size  value can be modified after linking with
+the WarpMod utility provided with the Freelink package, should
+you feel that program operation speed using overlays is too
+slow.  Often a minor increase in pool size of 5-15K can provide
+dramatic speed increases in applications slowed by overlays.
+Please see the WarpMod section for more information on this
+utility.
+
+
+/orp        Swap active overlays at runtime to EMS 4.0, expanded
+            memory
+
+The /orp option allocates a 128K swap area in expanded memory
+and swaps active overlays out to it.  The last swapped overlay
+has priority over earlier ones if more than 128K of active
+overlays are swapped-out.  As a result, self-modifying code or
+code segment relative data in an active swapped-out overlay
+keeps any transient changes if the total swap-outs don't
+overflow the 128K buffer, thereby forcing the overlay to be read
+from disk, EMS, or XMS stash.
+
+Because the /orp switch swaps directly to lower memory from EMS
+and not through the EMS page frame, it requires EMS 4.0 -- not
+3.2 -- compatibility.  All 80386s supporting EMS should have
+this capability, but many 80286s and 8088s may not.  It depends
+upon the EMS card or motherboard, as well as the age of the
+machine.
+
+The 128K of EMS memory allocated for use by /orp is
+automatically freed at program termination.
+
+If you use the /orp option, the Clipper 5.01 debugger CLD.EXE
+will not function with your program.  Use WarpMod to turn this
+option off and on quickly, if necessary.
+
+See also the /ohp option.
+
+
+/ort        Swap active overlays at runtime to XMS, extended
+            memory
+
+The /ort option allocates a 128K swap area in extended memory
+and swaps active overlays out to it.  The last swapped overlay
+has priority over earlier ones if more than 128K of active
+overlays are swapped-out.
+
+Applications using /orp may execute somewhat faster than those
+using /ort because /orp maps, rather than copies, the overlay
+image to memory.
+
+The 128K of XMS memory allocated for use by /ort is
+automatically freed at program termination.
+
+If you use the /ort option, the Clipper 5.01 debugger CLD.EXE
+will not function with your program.  Use WarpMod to turn this
+option off and on quickly, if necessary.
+
+See also the /oht option.
+
+
+/ou         Attempt to place overlay pool in Upper Memory Block
+           (UMB)
+
+This option places the overlay pool in an Upper Memory Block,
+using the specified overlay pool size (/op).  If there is not
+enough room or UMBs are not supported on the machine running the
+overlaid program, conventional memory will be used.
+
+All UMB memory allocated for use by /ou is automatically freed
+at program termination.
+
+If you use the /ou option, the Clipper 5.01 debuggger CLD.EXE
+will not function with your program.  Use WarpMod to turn the
+option on and off quickly, if necessary.
+
+
+/ox:[e-var]  Place overlay pool in EMS page frame, if
+             environment variable is set to specified value
+
+             [e-var] is the setting of an environment variable
+             that tells Freelink to use the EMS page frame ONLY
+             if the listed environment variable is set to the
+             specified value.
+
+Using the /ox option will tell the Freelink overlay manager to
+automatically put the overlay pool into expanded memory (EMS)
+when the application runs.  This allows applications to make the
+most efficient use of the memory available on the target
+machines.
+
+The /ox option supersedes the /op setting completely, placing a
+fixed 63K overlay pool at the EMS page frame.
+
+If no, or insufficient, EMS is present when the application
+starts up, then the overlay pool will be established in normal
+RAM with the pool size depending upon the size specified by the
+/op switch.  (If no /op switch was used, the default value of
+-144 will be used.)  This will be extremely helpful for
+applications that are running on a variety of platforms --
+Freelink can optimize the application depending on the memory
+configuration of each machine.  Therefore, it is a good idea to
+use both the /ox and /op switches if the application will be
+running on various machine configurations.
+
+If the application requires more than a 63K overlay pool, do not
+use the /ox option.
+
+The optional [e-var] parameter allows use of an environment
+variable to trigger EMS overlay pool area use.  For example, if
+you linked with /ox:OVLEMS=ON,  the EMS page frame would be used
+only if you had SET OVLEMS=ON.  Otherwise the specified (or
+default) /op overlay pool size used would be in conventional
+memory.
+
+The environment variable is case sensitive for the setting used.
+That is, /ox:OVLEMS=on  does not match SET OVLEMS=ON.  DOS will
+automatically capitalize the environment variable (but not its
+setting).  Therefore, using /ox with any lowercase environment
+variable will always cause the search to fail.  In other words,
+/ox:ovlems=ON will not match SET ovlems=ON; use SET OVLEMS=ON.
+
+The search ends successfully when the target environment string
+is located.  If the setting contains more characters than the
+option, the extras are ignored.  For example, if you SET
+OVLEMS=ONRIGHTNOW, and use /ox:OVLEMS=ON, it will still match
+the OVLEMS environment variable.
+
+You can use whatever environment names and settings you like.
+For example, /ox:COW=MOO is legitimate and will match SET
+COW=MOO.
+
+However, do not use blanks in the environment variable or
+setting.  The environment variable and setting, including the
+equal sign (=), must not exceed 31 characters or you will get an
+invalid option error message.
+
+Use of /ox precludes EMS 3.x overlay file stashing.  The /ox
+option automatically shuts off stashing because EMS 3.x must map
+into the EMS page frame that /ox uses.  If you use /ohp and /ox,
+and the /ohp routines detect EMS 3.x usage, then stashing an
+overlay file to EMS will be automatically shut off at runtime.
+Note that it is always safe to specify both the /ox and /ohp
+options.  If /ohp detects EMS 4.0 support, then simultaneous use
+of the EMS page frame for the overlay pool and the stashing of
+the overlay files to EMS will occur.
+
+All EMS memory allocated for use by /ox is automatically freed
+at program termination
+
+If you use the /ox option, the Clipper 5.01 debugger CLD.EXE
+will not function with your program.  Use WarpMod to turn this
+option off and on quickly, if necessary.  The /ox option
+requires using the BADCACHE setting with Clipper 5.01 programs
+and turning off EMS use (SET CLIPPER=E0) with Clipper Summer '87
+programs.
+
+
+/ql         Perform QuickLinker link
+
+This option creates a file with the extension QLK.  The file
+contains information about the library modules linked into the
+application.
+
+The first use of /ql will create a QLK file, causing a slightly
+slower link.  Subsequent links will use the existing QLK file
+and should link faster.  It is legitimate to alternate linking
+with and without using /ql.   The QLK file will only be accessed
+(or created) when /ql is specified, otherwise the link proceeds
+normally.
+
+Use of /ql presumes that you will not change your libraries
+(count, order, and version) between links.  Therefore, it is not
+recommended that you use /ql if you change libraries frequently.
+If you do change your library setup, delete the old .QLK file or
+else you may receive internal errors from the linker when using
+the /ql option as it tries to use old, invalid, library
+information.
+
+With direct library module specification, the speed increase
+gained by using /ql can be simply breathtaking.  Depending upon
+the number of libraries and modules specified, you may see the
+link speed increase up to three times the normal link speed.
+The more library modules specified, the greater the increase in
+speed by using /ql.  Without direct library module
+specification, speed increases are more modest, typically
+10%-40% increase in link speed.
+
+Over time, if your application links in new library modules,
+your QLK file will lose efficiency because it appends the new
+library module information at the end of the file, and causes
+more passes than a standard link.  Also, old library modules
+that are no longer used will continue to be linked, causing
+increased memory overhead.  To remedy either of these
+conditions, simply delete the QLK file and use the /ql option to
+build a new file containing your new library use structure.
+
+If you interrupt linking during the creation of a QLK file so
+that it is not completely built, you should delete the QLK file
+before re-linking or it may cause internal errors.
+(Interruption during access of a pre-existing QLK file does no
+harm.)
+
+If you use either the /ql or /clpi option with direct library
+module specification, you MUST place the option before the
+library list in the link file.  If these options are not placed
+before the library list, you will receive internal errors due to
+irreversible processing of the library modules that requires
+those options not be altered after libraries are processed.  For
+example, these options execute successfully:
+
+freelink /clpi /ql /op:m /r objmodule,exename,,lib1:mod1 lib2
+
+Do NOT use options in this order:
+
+freelink /op:m /r objmodule,exename,,lib1:mod1 lib2 /clpi /ql
+
+If you experience internal errors, unresolved external warning
+messages, or linking of unwanted library modules when using /ql,
+delete the old QLK file and relink using the /ql option.
+
+
+/r             Reload active overlays swapped out upon return at
+               same address
+
+The /r option forces swapped out, but still active, overlays to
+be reloaded at the same address when the overlay which swapped
+them out returns.  The /r option also allows an overlay calling
+the root, either directly or indirectly, to be safely swapped
+out by other overlays before the calling overlay is returned to.
+
+The reload overlay option is required for Clipper programs
+because Clipper uses executable code as data and parses data
+tokens in the executable code segment.  If an active overlay is
+swapped out and brought back in at a different address, Clipper
+may look at the original address where the routine was loaded
+for the next command and interpret whatever random values are
+there instead, with predictably poor results.
+
+The /r option should also be used in the following situation: if
+an application performs indirect far calls (i.e. through a
+pointer) from an overlay to the root and there is a possibility
+that the root code will in turn call other overlays which cause
+swapout of the original root-calling overlay.  This will keep
+the far address saved on the application stack as a valid return
+address.  Otherwise, the original overlay that called the root
+and was then swapped out may reload in a different area of the
+overlay pool.  This would cause program failure when the program
+attempts to return to the original overlay at the address saved
+on the stack.  This is not a problem with near calls since the
+offset of the address saved on the stack is always correct.
+
+
+/sp         Symbol table Pack for Clipper code
+
+This option automatically packs the symbol table for Clipper
+Summer '87 and Clipper 5.01 code.  Using /sp turns off the use
+incremental linking.  The option specified last will be used.
+
+/sp uses more memory than normal links.  If you have out of
+memory problems, you may have to free up memory by:  removing
+device drivers or TSRs, changing or not using a make utility or
+(worst case) using the stand-alone post-link symbol compaction
+utility, SP.EXE.  Note that SP.EXE is only available with the
+WarpLink package.
+
+
+/st:<size>  Set program stack
+
+            <size> is stack size, in bytes.
+
+This option allows you to modify the application's stack.  This
+will override the stack created by the compiler/assembler which
+created the .OBJ file.  It corresponds to the MS Link option of
+the same name.
+
+This value can be modified after linking with the WarpMod
+utility provided with the Freelink package.  Please see
+the WarpMod section for more information on this utility.
+
+In most situations, the default value for the program stack size
+that is set by your compiler is sufficient.  This value will
+rarely need to be modified, but this switch is available for
+those situations where it is needed, as in an application stack
+overflow or underflow situation.
+
+
+/tf:<name>  Temporary file name
+
+The /tf:<name> option allows you to specify, with optional full
+path and drive specification, the name of the temporary file to
+be created on disk.  A temporary file is necessary during the
+link when the program image is too large to fit in conventional
+memory and cannot fit into EMS or XMS, or the /xp and /xt switch
+is not used.
+
+This option is very useful if the development machine uses RAM
+disks or "fast" disks.
+
+This option is similar to the WORKFILE command of PLink and
+.RTLink.
+
+
+/w0         Set ERRORLEVEL to 0 for warnings
+
+Using this option will set the DOS ERRORLEVEL to 0 when warning
+messages are encountered.  In certain situations, especially
+when using some MAKE utilities, having a DOS ERRORLEVEL of
+anything greater than zero will cause the MAKE file to stop with
+an error.  This option allows you to override Freelink's default
+ERRORLEVEL of 1 for warnings so that your MAKE file can properly
+operate.  Fatal errors will continue to return ERRORLEVEL codes
+of 2 and above.
+
+
+/xp         Use expanded memory (EMS) during link
+
+The /xp option stashes the overlay file and the temporary file
+(if any) in expanded memory, assuming an EMS driver is present.
+This will speed up the link process considerably.
+
+To determine expanded memory requirements for the /xt option use
+the following formulas.  Take the overlay file size (OVL file)
+and round UP to the next 16K boundary.  This is the amount of
+EMS required by Freelink to stash the overlay file.  If there is
+enough free extended memory left over, /xp will stash the
+temporary file IF one is necessary -- otherwise the file image
+stays in regular memory and no temporary file is created.  To
+determine temporary file size, take the load image size of the
+EXE file, NOT the actual EXE size with or without internal
+overlays, and round UP to the next 16K boundary.
+
+This stash order used by Freelink for the /xp option is in
+accord with speedup priority, i.e.  stashing the overlay file
+typically speeds link times more than stashing the temporary
+file.  If the overlay file will not fit into expanded memory,
+but the temporary file will, then the temporary file will still
+be stashed.
+
+If you have a dual XMS and EMS driver, such as QEMM or 386^Max,
+you may want to choose the /xt option instead of the /xp option
+in lower free EMS/XMS memory circumstances.  Since the /xp
+starts by stashing object modules, it may run out free EMS
+before the temporary file and the overlay file are stashed,
+forcing a reflush of object modules situation.  However,
+stashing the temporary file and the overlay file provide the
+most dramatic performance increases.  Since the /xt option only
+stashes these two files, it applies all free memory to that
+task.  Also, extended memory is frequently slightly faster to
+access than expanded memory.  Of course, if you do have enough
+EMS to stash both object modules and the overlay and temporary
+file, using the /xp option will be faster than the /xt option.
+
+It is possible to use both the /xp and /xt options
+simultaneously, with Freelink giving preference for stashing the
+temporary and overlay file to XMS.  Remember though, that if you
+have a dual EMS/XMS driver, Freelink will eat all free memory
+through the /xp option and leave no free memory for the /xt
+option, effectively negating its use.  You need separate EMS and
+XMS allocations to use both the /xp and /xt options to any
+effect for the /xt option.
+
+                                   Option to Use
+      Memory Configuration         /xp       /xt
+      --------------------        -----     -----
+      EMS Only                     Yes       No
+      XMS Only                     No        Yes
+      EMS and XMS                  Yes       Yes
+      EMS or XMS*                  No        Yes
+
+* Note:  Having a "dual" EMS and XMS driver (such as QEMM or
+386^Max), you can use both options simultaneously.  However, it
+is recommended that the /xt option is used alone, as it is
+usually slightly faster.
+
+
+/xt         Use extended memory (XMS) during link
+
+The /xt option stashes the overlay file and the temporary file
+(if any) in extended memory, assuming an XMS driver is present.
+This will speed up link time significantly.
+
+This stash order used by Freelink for the /xt option is in
+accord with speedup priority.  For example, stashing the overlay
+file typically speeds link times more than stashing the
+temporary file.  But if the overlay file will not fit into
+extended memory, but the temporary file will, then the temporary
+file will still be stashed.
+
+If you have a dual XMS and EMS driver, such as QEMM or 386^Max,
+you will want to choose the /xt option instead of the /xp option
+in lower free EMS/XMS memory circumstances.  This will make the
+most efficient use of your memory configuration.
+
+It is possible to use both the /xp and /xt options
+simultaneously, with Freelink giving preference for stashing the
+temporary and overlay file to XMS.  Remember though, that if you
+have a dual EMS/XMS driver, Freelink will eat all free memory
+through the /xp option and leave no free memory to the /xt
+option, effectively negating its use.  You need separate EMS and
+XMS allocations to use both the /xp and /xt options to any
+effect for the /xt option.
+
+                                   Option to Use
+      Memory Configuration         /xp       /xt
+      --------------------        -----     -----
+      EMS Only                     Yes       No
+      XMS Only                     No        Yes
+      EMS and XMS                  Yes       Yes
+      EMS or XMS*                  No        Yes
+
+* Note:  Having a "dual" EMS and XMS driver (such as QEMM or
+386^Max), you can use both options simultaneously.  However, it
+is recommended that the /xt option is used alone, as it is
+usually slightly faster.
+
+
+
+WARPMOD UTILITY
+-=-=-=-=-=-=-=-
+
+WarpMod is a command-line utility program designed to allow
+"fine tuning" of overlaid or nonoverlaid .EXE programs created
+with the Freelink or WarpLink linker, without the need for
+complete re-linking.  This is especially helpful when
+adjustments must be made "in the field", and the necessary .OBJ
+files are not available for a re-link.
+
+WarpMod is very simple to use, and employs a command syntax very
+similar to Freelink's.  Modifiable environmental and Overlay
+Manager parameters from the target file are displayed, and
+optionally reset.  Additionally, the target's original date and
+time- stamp may be preserved if desired.
+
+WarpMod allows you to make interactive changes, supporting quick
+keys and cursor movement keys.
+
+WarpMod also accepts command line arguments, bypassing the
+interactive ability for batched or simple changes.  You can
+precede an option with '/'  or '-', or forego these symbols.
+Use a trailing plus (+) sign to turn on an option.  Use a
+trailing minus (-) sign to turn off an option.  For example:
+
+WARPMOD PROGRAM.EXE -d op:32 /ort-  orp+ /ox:A=B  st:3334 -ohp:0
+  ou oht:-512
+
+     *  preserves the original date of the EXE file,
+     *  gives an overlay pool size of 32K,
+     *  turns off the /ort option,
+     *  turns on the /orp option,
+     *  turns on the /ox option with environment variable A=B,
+     *  sets the stack to 3334 bytes,
+     *  turns off the /ohp option,
+     *  turns on the /ou option, and
+     *  turns on the /oht option with a value of -512.
+
+WARPMOD will prompt for the filename if none is supplied.
+
+Do not change the /ol or /os settings unless you are absolutely
+sure of the result.  The default settings should be maintained
+in almost all cases.
+
+This utility is identical to the one included with WarpLink.
+
+
+
+INTERACTIVE WARPLINK UTILITY
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Interactive WarpLink is a front-end, user interface for Freelink
+and WarpLink.  It is a heavily modified and debugged version of
+Al Stevens' D-Flat Version 6 application, as published in Dr.
+Dobb's Journal magazine.  Using Interactive WarpLink is similar
+to using other windowed user interfaces.  If a mouse is
+detected, it will automatically be enabled.
+
+Starting Interactive WarpLink
+
+Start Interactive WarpLink by entering IW at the DOS prompt.
+Four windows are visible upon start-up.  The left-most window
+(#1) contains the object modules to be linked.  The next window
+to the right (#2) contains libraries.  Note that it is not
+necessary to use plus (+) signs at the ends of lines in either
+window.  Interactive WarpLink will perform most housekeeping
+chores for you, including adding plus signs where needed.
+
+The window farthest to the right (#3) contains link options.
+Set or reset various link options in this window by using the
+cursor keys (or mouse) to select an option and then pressing the
+SPACEBAR.  Interactive WarpLink prompts you for additional
+settings with some link options.  Two link options have optional
+settings: /CLP5  and /OX.  Other options have required settings.
+All additional settings are retained once the corresponding
+options are turned off.  In the Link Options window, you may
+explicitly set the EXE (or COM) and MAP filename.  Note that
+since Interactive WarpLink is used by both Freelink and
+WarpLink, there are options available for selection that can
+only be used by WarpLink.  Do not select these Interactive
+WarpLink options with Freelink or else you will receive an error
+when attempting to link.  The options not supported by Freelink
+are:  /b, /wn /clps, /cla, /d, /ddl, /dm, /em, /s, /udl, /oc,
+/ohp3, /oi, /ol, /on, and /os.
+
+The window near the bottom of the screen, Link File Name (#4),
+contains the default link file name to which you save changes.
+
+A fifth window only appears after you link using Interactive
+WarpLink.  It will show any errors or warnings that occur during
+the link.  Following a link without errors, you will see an
+Information Box the states no errors were found.  Although the
+Error Log window (#5) is always present, it is not usually
+visible because the other four windows cover it.
+
+To restore any of the windows that are not (fully) visible, use
+the dropdown menus or the shortcut keys.  The window shortcut
+keys are ALT-1, ALT-2, ALT-3, ALT-4, and ALT-5.  (The number
+corresponds to the window number.)
+
+To move or resize the Interactive WarpLink environment, select
+the symbol of three lines (at the top left corner of the screen)
+by using the mouse or ALT '-'.
+
+Using Dropdown Menus
+
+Use the mouse, cursor control keys and shortcut keys (shown in
+parentheses) to select options on the five dropdown menus.
+
+The File menu (ALT-F) contains six options:
+
+Load         Select this option, (F3), to load and process a
+             link file.  Object modules, libraries, and link
+             options automatically appear within the
+             corresponding window.  You can load more than one
+             link file if desired.  Subsequent link file loads
+             are appended to pre-existing settings and text.
+
+New          Select this option to reset and remove the object
+             modules and libraries listed within the
+             corresponding windows.
+
+Save         Select this option (F2) to save the object modules,
+             libraries and options settings to the link file
+             specified in the Link File Name window
+             automatically.  If there is no link file specified,
+             Interactive WarpLink will prompt you for a name
+             (like the Save As menu option.)
+
+Save As      Select this option to have Interactive WarpLink
+             prompt you for a link file name and then execute
+             the Save option (above).
+
+DOS Shell    Select this option (ALT-D) to shell out to DOS.  A
+             memory image is written to disk in a temporary file
+             that conserves memory.  Type EXIT at the DOS prompt
+             to return to Interactive WarpLink.
+
+Exit         Select this option (ALT-X) to exit back to DOS.
+             This does not execute a DOS shell.  You will leave
+             Interactive WarpLink permanently.
+
+The Edit menu (ALT-E) contains six options:
+
+Object Files Select this option (ALT-1) to activate the Object
+             Files window.
+
+Libraries    Select this option (ALT-2) to activate the Library
+             window.
+
+Options      Select this option (ALT-3) to activate the Link
+             Options window.
+
+Link File    Select this option (ALT-4) to activate the Link
+             File Name window.
+
+Reformat     Select this option (F4) to clean up the object
+             module and library list.  The reformatting is
+             performed automatically when saving a link file
+             (F2) from the File menu.
+
+Error Log    Select this option (ALT-5) to display the Error
+             Log, a list of warnings or errors that occurred
+             during the last link.
+
+The Link menu (ALT-L) contains one option:
+
+Link         Select this option (F7) to shell to DOS and attempt
+             to link using the current settings.  Note that two
+             temporary files, IWTEMP.$$$ and IWTEMP2.$$$, are
+             created or overwritten during this linking process.
+             They can be safely deleted when the link is
+             completed.
+
+             This option does NOT save to the current Link File
+             Name in Window 4.  Since it uses a temporary file,
+             it can be used for testing purposes before saving
+             the linked file (using F2 from the File menu).
+
+When Interactive WarpLink shells to DOS and begins linking, the
+screen clears and a display a "Now linking...." message.
+
+Interactive WarpLink will notify you of any errors or warnings
+that occur during the link in the Error Log window (#5), which
+contains redirected output of all Freelink messages.  A
+successful link displays an information box upon return to
+Interactive WarpLink, instead of Error Log window #5.
+
+The Project menu (ALT-P) contains two options:
+
+Load         Select this option to load a previously saved
+             Project file in order to replace all current
+             settings with the settings contained in the Project
+             File.
+
+Save         Select this option to save all settings to a
+             Project file.  Interactive WarpLink will prompt you
+             for the desired name.
+
+Interactive WarpLink comes with three project files:  S87OVL.PRJ
+is for use with Clipper Summer '87, C501OVL.PRJ for Clipper
+5.01, and DBU.PRJ as a fully linking Clipper program example for
+either Clipper S'87 or 5.01.  The first two project files assume
+that you will use overlays with these languages and contain
+overlayable CLIPPER.LIB modules.  Each project file contains
+several, typical switch settings.  Note that Clipper users who
+experience difficulty or a significant slowdown when using these
+settings may wish to remove some of the overlayable CLIPPER.LIB
+modules.
+
+You can automatically load a project file on start-up by typing
+the project name after IW, that is, IW [project_file_name].  The
+default file extension .PRJ is used if none is supplied.
+
+You may need to use other options, in addition to those used in
+the project files, to speed up link or application execution
+times and free up memory.
+
+The Environment menu (ALT-E) has two options, each with two
+sub-options:
+
+Defaults     Select the Link File Extension sub-option to set
+             the default extension used with the Save and Load
+             options on the File menu.  The default is .LNK.
+
+             Select the Select Linker EXE Name/Path sub-option
+             to specify a new name and/or path for FREELINK.EXE
+             in case you renamed it previously or it isn't along
+             your PATH setting.
+
+Search Paths Select the Object Files sub-option to temporarily
+             set the OBJ environment variable when Interactive
+             WarpLink shells out to link.
+
+             Select the Library Files sub-option to temporarily
+             set the LIB environment variable when Interactive
+             WarpLink shells out to link.
+
+             Note that the OBJ and LIB environment variables in
+             the master environment will be superseded by using
+             the Search Paths options.  If you do not set these
+             options, the master environment variables will be
+             used.
+
+This utility is identical to the one included with WarpLink
+except that the default linker name has been changed to
+FREELINK.EXE and WarpLink-only options have been starred out.
+
+
+
+WARPCONV UTILITY
+-=-=-=-=-=-=-=-=
+
+WarpConv is a command-line utility program which converts
+existing PLink-compatible link files into a format used by
+Freelink and WarpLink.  Freelink uses a MSLink-compatible script
+file format.  Linkers such as PLink, .RTLink, and Blinker use or
+are based on a PLink-compatible script format.  If you are
+switching to Freelink from one of these products, this utility
+can shorten your learning curve.
+
+NOTE:  The terms "link script file" and "response file" are used
+interchangeably.  Although WarpConv uses the name WarpLink in
+its output, Freelink will work as well, since WarpConv supports
+both linkers.
+
+Like all of the other Freelink utilities, WarpConv is easy to
+use.  You specify an infile, an outfile, and some optional
+switches and your PLink script will be converted to the MSLink
+format.
+
+Type:
+
+WARPCONV ?
+
+at the DOS prompt to display the following help screen:
+
+WARPCONV, PLINK86/.RTLink script file to WarpLink response file converter
+Version 2.01, Copyright 1990-1991, Michael Devore.  All rights reserved.
+Type WARPCONV ? for options
+
+SYNTAX:   WARPCONV [options] [input_file] [output_file]
+
+          Items in brackets are optional, WARPCONV will prompt
+          for file names if necessary.  If no file extension is
+          supplied, WARPCONV will default to the extension .LNK.
+          End a file name with a period for no extension.
+
+OPTIONS:  /nc  Delete translator comments in WarpLink response file.
+          /no  Do not automatically add OVLMGR.OBJ to object module list.
+          /nw  Do not give any warnings following translation.
+
+A more detailed description of the options follows:
+
+  /nc  Delete translator comments in WarpLink response file.
+
+WarpConv automatically adds translation comments to the Freelink
+response file it generates.  The /nc option will eliminate these
+comments from the Freelink script.
+
+  /no  Do not automatically add OVLMGR.OBJ to the object module
+       list.
+
+WarpConv automatically adds the Freelink OVLMGR.OBJ overlay
+manager file to the list of object modules if overlay usage is
+detected.  The /no option will cause WarpConv to omit this file
+from the response file.
+
+  /nw  Do not give any warnings following translation.
+
+WarpConv automatically generates warning messages in certain
+situations where it detects possible incompatibilities.  The /nw
+switch will not display these messages.
+
+This utility is identical to the one included with WarpLink.
+
+
+
+WARPLINK INFORMATION
+-=-=-=-=-=-=-=-=-=-=
+
+Freelink is a fully-featured product in its own right, but we
+can't help telling you a bit about WarpLink, Freelink's "big
+brother".  This section describes several of the features found
+in the WarpLink commercial linker that are not in Freelink, and
+tells those interested how to order WarpLink.  We think a bit of
+a commercial is a small price to pay for a free fully-featured
+linker, but if you do not want to even put up with this much
+just skip past this section.  We won't hold it against you.  We
+won't even know if you do it.
+
+WarpLink is the world's first DOS-based multiple language
+dynamic overlay linker.  It is the first Clipper linker to
+support true incremental linking.  As the sincerest form of
+flattery, the incremental linking techniques pioneered by
+WarpLink are now in use by the competition almost unchanged.
+With the introduction of QuickLinker and overlay caching
+technologies, WarpLink 2.5 is often the fastest overlay linker
+you can purchase anywhere, both during linking and during your
+overlaid application's execution, without exception.  (Freelink
+shares much of the QuickLinker and caching technology).
+
+ADVANCED LINKER OPTIONS
+
+WarpLink supports the following advanced linker options:
+
+/b             Beep the speaker upon exit
+/clps          use SMARTMEM.XXX CLiPper SmartMem functions
+/d             use DOSSEG segment ordering
+/em            use Extended dictionary in Microsoft-compatible library
+/s             Symbol names are case sensitive
+/wn            Warnings are Not displayed
+
+ADVANCED OVERLAY OPTIONS
+
+WarpLink supports the following advanced overlay options:
+
+/oc:[.]<name>  Overlay Class name, leading '.' if exact match
+  (allows overlaying non-'CODE' class code, such as with
+  Quicksilver programs)
+
+/ohp3:[-]<size>  Overlay stasH in EMS, forced version 3.0
+                 compatibility
+  (forces EMS 3.x stashing algorithm, for EMS drivers that
+  report EMS 4.0 capability but in actuality do not support
+  direct lower memory mapping)
+
+/oi            make Overlays Internal to EXE file
+  (no OVL file created, overlays appended to EXE file)
+
+/ol:<count>    Overlay maximum Load count
+  (advanced overlay use only)
+
+/on:<name>     Overlay file Name
+  (specify a nondefault OVL file name)
+
+/os:<size>     Overlay manager internal Stack size in kilobytes
+  (advanced overlay use only)
+
+CLARION OVERLAY SUPPORT
+
+WarpLink supports Clarion overlays with a special Clarion
+overlay manager which allows all of the same overlay, EMS, and
+XMS functionality as other languages.
+
+PROFILER UTILITY
+
+WarpLink comes with a true profiler for both overlaid and
+nonoverlaid applications which allows you to get the following
+information about your application:
+
+  1.  Total execution time
+  2.  Time spent in DOS or BIOS calls
+  3.  Time spent in the overlay manager
+  4.  Time lost to the profiler
+  5.  Number of calls to overlaid functions
+  6.  Number of overlay loads
+  7.  Number of overlay reloads
+  8.  Average execution times for individual functions and
+      procedures
+  9.  Cumulative execution times for individual functions and
+      procedures
+
+The profiler is extremely flexible in selecting files or symbols
+to profile, and in its reporting capabilities supporting a
+variety of sorting options and output formats .
+
+DDL SUPPORT
+
+WarpLink supports DOS D-format Dynamic Link Libraries for any
+language that is compatible with WarpLink.
+
+NORTON GUIDES
+
+WarpLink comes with a Norton Guides Help System that allows
+online reference of WarpLink commands and details of WarpLink's
+operation.
+
+WARPHOG UTILITY
+
+Part of the WarpLink distribution package is a command-line TSR
+called WarpHog that allows a user to simulate a particular free
+memory setting on your machine.  With WarpHog you can set your
+free memory to various amounts for testing your application's
+operation under those conditions, then easily remove WarpHog
+from memory after your test is complete simply by running
+WarpHog without parameters.
+
+SP UTILITY
+
+Included with WarpLink is a stand-alone utility called SP that
+will pack a program's Clipper symbol table.  This is useful if
+you use incremental linking and want to pack the symbol table
+prior to release without relinking with the /sp option, or if
+the /sp option takes up too much memory at linktime.
+
+SETJMP/LONGJMP SUPPORT
+
+WarpLink has a available-on-request alternate overlay manager
+that supports setjmp() and longjmp() use with overlays in
+several situations.
+
+MANUAL AND SUPPLEMENT
+
+WarpLink comes with a 200 page manual and a version 2.5
+supplement.
+
+TECHNICAL SUPPORT
+
+Registered WarpLink users enjoy free technical support for
+WarpLink via telephone, FAX, BBS, and CompuServe, for as long as
+they own the product.
+
+See the file ORDER.FRM for information about ordering WarpLink,
+and a special promotion for all those who place an order as well
+as for BBS systems which carry the Freelink package.
+
+
+
+OTHER FREELINK FEATURES AND GENERAL COMMENTS
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+The $$_COM_END Variable
+
+An age-old problem with the way DOS deals with .COM files is its
+decision to leave memory management up to the .COM file.  When
+an .EXE program loads, DOS will automatically allocate to it only
+the memory it requests.  When a .COM file loads, all available
+memory is allocated to it.  In most situations, the DOS memory
+allocation procedure for a .EXE file is preferred to that for a
+.COM file.  That way other programs, such as TSRs, can make use
+of the memory the .COM file doesn't need.  $$_COM_END is a
+predefined public symbol that your program can use for just that
+purpose.
+
+$$_COM_END is a symbol which represents the linker computed
+amount of memory required by the code and data segments of your
+program.  Declare it as an EXTRN in your program and use it with
+int 21h function 4Ah to deallocate all but that amount, plus
+whatever stack you need.  $$_COM_END does consume 2 bytes for
+storage, so a COM file is two bytes larger than normal if you
+declare $$_COM_END as an external.  If $$_COM_END is declared as
+a public, the linker assumes that you wish to use the variable
+name for your own purposes and does not treat $$_COM_END as a
+special variable.
+
+$$_COM_END automatically adjusts for the Program Segment Prefix
+(PSP) size of 256 bytes when computing the required memory.
+
+$$_COM_END depends upon the first object module to have _TEXT
+(or corresponding class 'CODE' segment) as the very first SEGDEF
+(segment definition) record.  Most languages do this
+automatically.
+
+Here's an assembly language code fragment showing sample use of
+the $$_COM_END variable:
+
+EXTRN $$_COM_END:WORD
+   ...
+   mov ax, $$_COM_END ; Get program size.
+   add ax, StackSize  ; Add stack.
+   test al,1          ; Check if odd byte-aligned stack
+   je @@Even          ; No: even byte alignment.
+   inc ax             ; Yes it's odd.  Bump one.
+@@Even:
+   mov sp, ax         ; Initial stack = program size + stack size
+   shr ax, 1          ; Divide AX by 16.
+   shr ax, 1
+   shr ax, 1
+   shr ax, 1
+   inc ax             ; Round up a paragraph.
+   mov bx, ax         ; BX = new size of memory block in paragraphs
+   mov ah, 4Ah        ; Resize Memory Block, ES=PSP
+   int 21h            ; Returns w/ CF=1 on error.
+   jnc @@NoError      ; If CF=0, all is well.
+   mov ax, 4Ch        ; Error, exit to DOS
+   int 21h            ; via function 4Ch.
+@@NoError:
+   ...              ; Success.
+
+
+The $$_EXE_IMAGE_SIZE Variable
+
+If public symbol $$_EXE_IMAGE_SIZE is declared and the program
+is linked without the /c option (producing an EXE file),
+Freelink will place the doubleword load image size of the file
+in the $$_EXE_IMAGE_SIZE symbol.  Freelink will not create the
+symbol if it is not declared.  This feature is roughly analogous
+to the $$_COM_END variable created when the /c option is used,
+with somewhat different behavior that is consistent with the
+complex nature of EXE files.
+
+You MUST allocate at least four bytes for the variable
+$$_EXE_IMAGE_SIZE.  Otherwise, Freelink will write beyond the
+bounds of the variable, possibly causing program malfunction.
+Variable space is not automatically added to the program by the
+linker as is done with the $$_COM_END variable.
+
+Using the $$_EXE_IMAGE_SIZE variable provides the capability to
+easily determine the end of a program in memory in order to free
+up excess memory (for DOS or for other programming purposes).
+
+
+SMALL CODE MODEL OVERLAYS
+
+Brackets, '[' and ']', can be used instead of parentheses to
+indicate overlays.  This causes Freelink to act differently than
+when parentheses are used.  When brackets are used, calls from
+an overlay to the root are vectored through the overlay manager,
+rather than called directly as with overlays specified by
+parentheses.  This ensures that the overlay is loaded and in the
+same location after the program returns from the root function
+or procedure.  Overlay to root vectoring can occasionally cause
+a slight speed degradation in an operating program and is not
+recommended if it is not necessary.  Typically, if you use the
+/r option you need not use brackets as the overlay will always
+be loaded at the same address upon return, unless you are
+overlaying small code models (near calls between modules).
+
+If you are using small code model overlays, brackets must be
+used instead of parentheses to specify overlays.  The program
+will not work unless the brackets are used.
+
+FREELINK Q&A
+
+The following commonly asked questions and their answers may
+help you use Freelink.  They have has been compiled from
+experience with our user base and the application development
+community.
+
+  Q. HOW DO YOU CREATE AN OVERLAY WITH FREELINK?
+
+  A. In a response file or from the DOS command line, .OBJ files
+     and .LIB files that are surrounded by parentheses are put
+     into an overlay; those that are not surrounded by
+     parentheses are put into the root.  Remember that if you
+     are using overlays you need to include the OVLMGR.OBJ file
+     in your object file list, and it can never be overlaid.
+
+  Q. CAN LIBRARY FILES (.LIB FILES) BE OVERLAID?
+
+  A. Absolutely.  They are overlaid the same way that object
+     files are overlaid:  put parentheses around them.
+
+  Q. IS THERE ANY DIFFERENCE IF I HAVE ALL OF MY OBJECT FILES
+     WITHIN ONE SET OF PARENTHESES, VERSUS HAVING EACH
+     INDIVIDUAL OBJECT FILE IN ITS OWN SET OF PARENTHESES?
+
+  A. There is no difference whatsoever.  In either
+     case, Freelink will create a single .EXE file and a single
+     .OVL file.
+
+  Q. DOES FREELINK CREATE MULTIPLE .OVL FILES?
+
+  A. No.  If you are using overlays only one .OVL file will be
+     created.
+
+  Q. DOES FREELINK SUPPORT STATIC OVERLAYS?
+
+  A. No.  Freelink efficiently and effectively uses
+     dynamic overlays without any program changes.  Only dynamic
+     overlays are supported by Freelink.
+
+  Q. WHAT IS THE LEVEL OF GRANULARITY FOR SWAPPING OVERLAYS IN
+     AND OUT OF THE OVERLAY POOL?
+
+  A. Freelink swaps overlays into and out of the overlay pool at
+     the segment level.  For Clipper this means at the function
+     level, for other languages this usually means at the module
+     level.
+
+  Q. WHAT IS AN OVERLAY POOL?
+
+  A. An overlay pool is the separate area of RAM that Freelink
+     reserves when your application runs.  All of your overlaid
+     functions and procedures are swapped into and out of this
+     overlay pool only; no other memory is used.
+
+  Q. HOW CAN I USE LESS MEMORY IN MY PROGRAM?
+
+  A. Overlays are an obvious way for your program to use less
+     memory, but judicious use of .LIB files works well, too.
+     The nature of .OBJs is that everything in an .OBJ winds up
+     in the executable, whether the program needs it or not.  So
+     if you have a C module containing a 3K function that it
+     never calls, you'll get hit by a 3K code size penalty.
+     .LIBs, on the other hand, link in only the routines they
+     need from the .OBJs they contain.  If that 3K function were
+     in its own .OBJ file, which was then added to a .LIB, even
+     if that lib was specified on the command line, the function
+     would not be used.
+
+  Q. HOW DO I SPEED UP THE LINK PROCESS?
+
+  A. You can speed up linking by not using the /m (create map
+     file) or /mx (create expanded map file) options, and by
+     copying your .LIB files to a RAM disk and using the LIB
+     environment variable; to point to their new location.  You
+     can similarly use the TMP environment variable for
+     temporary files.  Also, be sure to use the /xp, /xt, /ql,
+     and incremental link options where possible to really speed
+     things up.
+
+  Q. DOES FREELINK USE INTERRUPTS FOR OVERLAYS LIKE MS LINK?
+
+  A. Freelink does not use an overlay manager interrupt so
+     there's no equivalent to MS Link's /O option.
+
+  Q. HOW DO I PUT COMMENTS IN A RESPONSE FILE?
+
+  A. Comments in a response file are denoted by a '#' in the
+     first column.  Putting a '#' in a different column will
+     result in an error.
+
+  Q. WHAT TYPE OF CODE CAN'T I OVERLAY?
+
+  A. Do not overlay any .OBJ or .LIB module which contains
+     interrupt handlers.  Do not overlay modules which call
+     other modules via an INDIRECT near call (Near calls within
+     an overlaid module are not a problem.)  You can overlay
+     modules which call other modules via a DIRECT near call if
+     you use brackets instead of parentheses on an overlay
+     (small code model overlaying).  Do not place startup code
+     in an overlay, the program must have a starting address
+     that is in the root.
+
+
+
+CUSTOM DEVELOPMENT AND DISTRIBUTION
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+hyperkinetix and Michael Devore perform custom development of
+the Freelink and WarpLink linker and the overlay managers for
+use in such areas as ROM-based systems, custom-designed error
+handlers, and overlay programmable interfaces.  If you have a
+situation that requires linking or overlay management expertise,
+we may be able to help.
+
+Special or custom copies of Freelink and WarpLink are available
+for bundling arrangements with vendors who wish to include a
+linker with their products.  An OEM version of WarpLink already
+enjoys successful marketing by a major third party vendor in one
+WarpLink-compatible language.
+
+Call hyperkinetix at 800-873-9993 or 714-573-2260, or send
+CompuServe mail to hyperkinetix support [75300,2010] or to
+Michael Devore [71540,62], for further details.
+
+
+
+TROUBLESHOOTING
+-=-=-=-=-=-=-=-
+
+Here are short explanations of the most common warning or error
+messages that you might see while using Freelink.
+
+Bad COM file format, program has invalid entry point:
+  Either the /c option (create .COM file) was used
+  inappropriately, the assembly language source is missing the
+  ORG 100h statement, or the ORG 100h came after code or data
+  was defined in the program.
+
+Bad COM file format.  Program has segment fixups:
+  Either this is supposed to be an .EXE program, or the program
+  contains a pseudo-op such as DD or @Data that requires
+  segment-relative information to be calculated by the
+  linker -- not valid in .COM programs.
+
+Bad COM file format.  Program has stack segment:
+  Either this is supposed to be an .EXE program, or the .Stack
+  directive appeared in a .COM program.  .COM programs can't
+  have a .Stack directive; the program must manipulate the stack
+  pointer directly.
+
+Bad COM file format.  Program larger than 64K:
+  This happens on those rare occasions where a .COM program gets
+  too big -- or the /c option was used on an .EXE file that
+  somehow passed as a .COM file.  If it's the former, try to
+  recompile in small model.
+
+DOS could not find a file needed by Freelink:
+  A specified file (or files) could not be found on the current
+  directory or on the path.  Make sure it has the correct
+  spelling, drive letter, or path specification.  Another
+  possibility is that an .OBJ file was not created at all due to
+  a compiler error.  This message will also appear if you don't
+  specify your link file extension when using response files.
+
+Externally declared symbol has no public definition:
+  This usually happens when an .OBJ or .LIB file was not
+  specified on the command line, or when the name of a function
+  or procedure has been misspelled in a program.  The linker
+  cannot find a symbol needed by the program.
+
+File access denied:
+  Some sort of network foul-up or DOS chicanery, such as
+  application of read-only status to a file that should be
+  disposable (such as an old .OBJ file) has taken place.
+
+Fixup overflow:
+  The most common cause of fixup overflows is when you're coding
+  in a high-level language, switch memory models in midstream,
+  and forget to delete old .OBJ  files.  Trying to link small
+  with large model code, for example, when you didn't plan for
+  it, can result in many of these messages.  Another cause is in
+  assembly, when an intersegment SHORT or NEAR jump or call is
+  made.
+
+Invalid Freelink option:
+  An invalid option was passed to Freelink either at the DOS
+  prompt or through a response file.  Refer to the Freelink
+  Options section, for a complete description of all valid
+  options.  This error most often occurs when using Interactive
+  WarpLink and specifying options only supported by WarpLink or
+  when running options together with a plus sign or an object
+  module name.
+
+Length of response file line exceeded 127 characters:
+  Response files can be any size, but the length of any
+  particular line can't be longer than a DOS command line.  Make
+  sure the text editor used to create the response file
+  terminates each line with a carriage return/linefeed, not just
+  at the end of a paragraph.
+
+Nested parentheses in link syntax:
+  There's an extra parenthesis somewhere.  Check the overlay
+  specifications and remove the offending set of parentheses..
+
+No object modules specified in link syntax:
+  There's no .OBJ file listed, but the command includes at least
+  one of the following:  .MAP file spec, executable name, or lib
+  name.
+
+No stack segment was found for the EXE file:
+  Most often caused when the /c option was omitted when linking
+  a tiny model assembly program.  An .EXE file must set up its
+  own stack; it may seem to work at times but the program will
+  assuredly fail if the .STACK directive isn't used.
+
+Not enough memory to operate Freelink:
+  Freelink needs about 250K to operate, more for larger
+  programs.  Use of the /sp option requires a good deal more
+  memory than usual, as Clipper symbol table information is
+  kept in memory.
+
+Segment size exceeds 64K:
+  Most often caused when the wrong memory model is used.
+  Typical of when a large array is declared in a model smaller
+  than compact.
+
+Symbol has more than one public definition:
+  This may have occurr in a program that has two globally
+  visible symbols by the same name.  Renaming one of the symbols
+  may solve this problem.
+
+Too many open files or handles:
+  Change the FILES= statement in your CONFIG.SYS file to allow
+  more files to be open at one time.
+
+Unexpected end of file:
+  The file ended before the end of a record was reached.  This
+  is usually due to file truncation caused by DOS error or
+  system reset.  Recreate the module and relink.
+
+
+In addition to the previous error and warning message
+explanations, the steps suggested below may help you resolve the
+following problem conditions:
+
+Clipper 5.01 debugger CLD.EXE does not work:
+  Do not use the runtime EMS or XMS options (/ox, /ohp, /oht,
+  /orp, /ort, /ou)  with Clipper 5.01's debugger.  Turn these
+  options off with WarpMod before running the debugger.  Turn
+  them on with WarpMod when you are done using the debugger.
+
+Intermittent or erratic application runtime problems when using
+the /ox option:
+  Use the SET CLIPPER=BADCACHE setting when using Clipper 5.01.
+  Use the SET CLIPPER=E0 setting (turn off Clipper's use of EMS)
+  when using Clipper Summer '87.
+
+No application speed increase when using the /ox and /ohp
+options, even though there is significant free EMS memory
+present:
+  The /ohp option has detected LIM EMS version 3.2 memory on the
+  machine being used.  For the /ox and /ohp options to work
+  together, use LIM EMS 4.0.
+
+Error 94h occurs when using Windows or OS/2 with the /ox option:
+  To use /ox safely under Windows and OS/2 you should lock the
+  EMS page frame.  Consult your Windows or OS/2 documentation
+  for more information about locking the EMS page frame.
+
+Program size increase when using /ql option:
+  Erase the old QLK file and let Freelink rebuild it.
+
+Internal errors when using /ql option:
+  Make sure that the /ql option is placed before the library
+  list.  Do not use the /ql option if you use direct library
+  modules in the object file list and the EXE name is different
+  from the first object file name.  Try deleting the QLK file
+  and relinking.
+
+Internal errors when using /clpi option:
+  Make sure the /clpi option is placed before the library list.
+
+
+If you continue to experience problems with Freelink, your
+remaining remedies are as follows:
+
+As a not-for-profit product, Freelink cannot and does not have
+the free technical support enjoyed by WarpLink owners.  Please
+do not contact Michael Devore or hyperkinetix for technical
+support except as described below.  Serial numbers for WarpLink
+will be checked for all technical support contacts.  No
+telephone, BBS, or CompuServe Mail support will be given for
+questions concerning Freelink's operation.  This does not mean,
+however, that we are uninterested in or do not care about your
+problems.  Although we are unable to offer standard technical
+support, we are able to offer limited support through
+hyperkinetix's forum on CompuServe ONLY.  GO CIS:PCVEND and post
+questions in section 9, the hyperkinetix section.
+
+Of necessity, this support will be lower priority than with
+paying commercial products such as WarpLink and resolution of
+specific problems cannot be guaranteed.
+
+If you experience what you feel is a serious error in Freelink's
+operation, you have carefully checked over the documentation,
+have unsucessfully tried various means to get around the
+problem, and you do not have access to CompuServe to post a
+message on PCVEND (GO CIS:PCVEND), then you can also use
+CompuServe's Internet mail capability to send CompuServe Mail to
+Michael Devore, CIS ID: [71540,62] (71540.62@compuserve.com)
+about the error.  PLEASE send Internet mail ONLY if all of the
+previous requirements are met and you are absolutely sure the
+problem lies with Freelink.  Internet mail costs me,
+Michael Devore, actual money both to send and receive through
+CompuServe.  This cost is not charged through to some nameless,
+faceless, rich corporation, but rather to the named, faced,
+unincorporated, not-incredibly-wealthy, me.  If Internet mail
+proves too burdensome, I will be forced to discontinue accepting
+it so please, for everyone's sake, exhaust all other avenues
+first.
+
+Last document revision 11/08/92, Michael Devore & Judy Cammelot
+Copyright 1992, Michael Devore.
+Portions of this document copyright 1991, hyperkinetix
