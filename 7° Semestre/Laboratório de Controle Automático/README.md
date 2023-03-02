@@ -7,7 +7,7 @@ Sobre a Disciplina
   * Contém notas de aula.
   * Contém material sobre o matlab.
   * Contém bateria de relatórios motivacionais.
-  * Ministrada pelo Celso José Munaro (currículo lattes abaixo).
+  * Ministrada pelo professor Celso José Munaro (currículo lattes abaixo).
 
 <div align="center">
     <a href="http://lattes.cnpq.br/5929530967371970" target="_blank"
