@@ -1,0 +1,13 @@
+Qual é a problematica por tras dos programadores que receberam o seu treinamento formal há anos, relacionando com a escolha de linguagens adequadas?
+R: Como o treinamento é antigo, a linguagem que aprenderam na época não é mais usada e quando vão construir um novo projeto tendo feita a escolha da linguagem, eles tendem a escolher a linguagem que estão mais familiarizada, mesmo nao sendo adequada ao projeto, se eles conhecessem uma gama maior de linguagem, iriam escolher a que inclui os recursos mais adequados para aquele problema.
+
+Quais são as linguagens presnetes na Word Wid Web ? (1.2.4)
+Estão presentes as linguagenns de marcaçao, como HTM (que não é de programação) e as linguagens de propositos gerais como Java.
+
+O que sao linguagens imperativas?
+Linguagem imperativas  é uma linguagem presente na arquitetura de von Neumann, em que t
+
+
+Do que se trata a arquitetura de von Neumann? (1.4.1)
+A arquitetura de von Neumann é uma arquitetura que possui linguagens imperativas, em que tanto os dados quanto os programas são armazenados 
+na mesma memória, tendo a unidade central de processamento (CPU) separado da memória, onde as instruçõe/operandos em expressões e dados são enviados da memória para a CPU e os resultados das avaliações são enviados de volta, da CPU para a memoria.

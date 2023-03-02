@@ -1,0 +1,6 @@
+Seções: 15.1 a 15.3, 15.10 e 15.11
+
+
+Segundo John Backus, qual é a razão por trás das  linguagens de programação puramente funcionais sererm melhores que linguagens imperativas?
+
+Segundo Backus, as linguagens de programação puramente funcionais são melhores que linguagens imperativas porque resultam em programas mais legíveis, mais confiáveis e mais propensos a serem corretos. A base do seu argumento é que os programas puramente funcionais são mais fáceis de entender, tanto durante quanto após o desenvolvimento, em grande parte porque os significados das expressões são independentes de seu contexto.

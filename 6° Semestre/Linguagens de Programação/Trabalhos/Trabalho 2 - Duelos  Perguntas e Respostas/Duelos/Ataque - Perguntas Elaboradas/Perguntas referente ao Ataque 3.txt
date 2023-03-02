@@ -1,0 +1,6 @@
+Pag 221
+
+
+Por que os programas de escopo dinâmico são menos confiáveis e usados,  ao se comparar com os de escopo estático?
+
+Porque, durante o período de início e fim do subprograma, as suas variáveis locais são todas visíveis para qualquer outro subprograma que esteja sendo executado, pois não possui uma forma de proteger as variáveis locais dessa acessibilidade. Juntamente com isso, o escopo dinâmico também torna os programas muito mais difíceis de serem lidos, e o  acesso a variáveis não locais em linguagens de escopo dinâmico demoram muito mais do que o acesso a não locais, ou seja, os programas em linguagens com escopo estáticos são mais usados pois são fáceis de ler, mais confiáveis e executam mais rapidamente do que programas equivalentes em linguagens com escopo dinâmico.

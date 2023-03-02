@@ -1,0 +1,7 @@
+8.2.2.2 Exemplos de seletores múltiplos, pag 335
+
+Qual é a função da setença 'break' em um switch e o seu problema de confiabilidade do projeto?
+O break em um switch é um tipo de desvio explícito, como se fosse um goto restrito, e é normalmente usada para sair de alguma setença presente no switch transfirindo o controle para a primera sentença após a setença composta na qual ele aparece.
+O problema de confiabilidade desse projeto surge quando a ausência errônea de um 
+sentença break em um segmento permite que o controle flua incorretamente para o
+próximo segmento.

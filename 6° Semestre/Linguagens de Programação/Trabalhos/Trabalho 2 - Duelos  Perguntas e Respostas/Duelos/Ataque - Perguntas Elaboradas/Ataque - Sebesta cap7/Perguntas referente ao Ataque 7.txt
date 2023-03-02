@@ -1,0 +1,13 @@
+
+7.4.3 erros em expressões pag 313
+
+Quais são os principais erros em tempo de execução e suas causas?
+
+sao os erros de transbordamento positivo (overflow) e transbordamento negativo (underflow), dependendo se o resultado foi 
+muito grande ou muito pequeno, e são causados quano o resultaod e uma operação aritimetica nao pode ser representado na célula para a qual ela foi alocado
+
+
+7.5  expressões relacionadas pag 313
+
+Oque é um operador relacional
+Um operador relacional, é um tipo de operador que compara os valores de dois operandos de uma expressão relacional [expressões com dois operandos e um operador relacional],

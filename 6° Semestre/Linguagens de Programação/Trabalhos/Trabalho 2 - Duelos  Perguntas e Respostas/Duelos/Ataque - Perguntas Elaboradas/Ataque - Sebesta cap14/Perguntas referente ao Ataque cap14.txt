@@ -1,0 +1,8 @@
+Quais são as diferenças entre Tratadores de exceção em C++ e em Java?
+
+Os tratadores de exceção de Java têm a mesma forma dos de C++, exceto que cada 
+catch deve ter um parâmetro e a classe do parâmetro deve ser um descendente da classe predefinida Throwable e a a sintaxe da construção try em Java é exatamente igual à de C++, exceto pela 
+cláusula finally, que é usado em situações nas quais um processo deve ser executado independentemente de uma cláusula try lançar uma exceção ou de a exceção ser tratada em um método.
+
+
+14.3.2 Tratadores de exceção e 14.3.6 A cláusula finally

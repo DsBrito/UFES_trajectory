@@ -1,0 +1,10 @@
+Qual é o problema por trás do cáculo de predicados em um sitema automatizado ?
+É a existencia de muitas formas para representar uma mesma preposição, ou seja, há muitas redundancias.
+
+
+Oque é o termo provar pela contradição´e qual é o seu problema/
+É quando um teorema é negado com a finalidade de que sua resolução seja usada para provar o teorema encontrando uma incosistencia. Esse métodp é bem útil, entretanto, o tempo necessário para encontrar uma inconsistência
+em uma grande base de dados de proposições pode ser imenso e isso é um problema.
+pag 694
+
+

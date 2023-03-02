@@ -1,0 +1,16 @@
+7.2.1 Coerção
+Dado o seguinte código em linguagem C:
+
+void converteTipos(float numf) {... }
+	main() {.
+		long numl;
+		converteTipos (numl);
+}
+
+Explique oque esta acontecendo no código acima, descrevendo o qual tipo de polimofismo utilizado e cite duas regras que uma LP fornece para definir-las ?
+
+
+
+Uma LP frequentemente fornece um conjunto de regras para definir as
+conversões implícitas de tipos válidas. Por exemplo, algumas das regras
+de C são

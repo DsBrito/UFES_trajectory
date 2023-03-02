@@ -1,0 +1,7 @@
+Qual a diferença entre as notações de sinal-magnitude, complemento de dois e complemento de um para tipos inteiros?
+A diferença está na forma de representar um inteiro negativo, na notação de sinal-magnitude o bit de
+sinal é usado para indicar números negativos e o restante da cadeia de bits representa
+o valor absoluto do número, no caso do complemento de dois, a representação de um inteiro
+negativo é formada ao tomarmos o complemento lógico da versão positiva do número e
+adicionarmos um, e na notação de um complemento, o negativo de um inteiro é armazenado como o complemento lógico de seu
+valor absoluto.

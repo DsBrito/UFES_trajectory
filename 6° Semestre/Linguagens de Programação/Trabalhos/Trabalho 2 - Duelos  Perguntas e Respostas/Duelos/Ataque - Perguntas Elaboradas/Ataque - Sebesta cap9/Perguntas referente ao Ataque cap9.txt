@@ -1,0 +1,15 @@
+Oque quer dizer a afirmação "As linguagens de programação funcionais puras, não possuem dados
+mutáveis" 
+As linguagens de programação funcionais puras, como Haskell, não possuem dados
+mutáveis; portanto, as funções nelas escritas são incapazes de alterar a memória de alguma maneira – elas simplesmente efetuam cálculos e retornam o valor resultante (ou uma
+função, pois funções são valores em uma linguagem funcional pura).
+pag 367
+
+
+9.5.4 Métodos de passagem de parâmetros de algumas linguagens comuns
+Pag 383  
+ 9.5.2.1 Passagem por valor 
+Pag 377
+
+Na linguagem C#, qual é o método de passagem padrão e  sua principal característica?
+C# possui o método de passagem de parâmetros por valor como padrão, utilizando esse método, os acessos  são mais estratégicos e eficientes, em termos de custo de vinculação como de tempo de acesso
