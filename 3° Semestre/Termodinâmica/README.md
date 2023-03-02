@@ -1,4 +1,4 @@
-## 📚UFES -  TERMOINÂMICA 📚
+## 📚UFES -  TERMODINÂMICA 📚
 <img align="right" width="16%" src="https://user-images.githubusercontent.com/80075307/220129072-48d5ff96-a10d-4e0b-9024-9374bee2c0c2.svg">
 
 Sobre a Disciplina
