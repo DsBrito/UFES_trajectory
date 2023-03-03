@@ -1,0 +1,9 @@
+4: program -> PROGRAM
+4: hello -> ID
+4: ; -> SEMI
+6: var -> VAR
+8: begin -> BEGIN
+9: write -> WRITE
+9: "Hello, world!\n" -> STR_VAL
+9: ; -> SEMI
+10: end -> END

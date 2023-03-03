@@ -1,0 +1,38 @@
+5: program -> PROGRAM
+5: writes -> ID
+5: ; -> SEMI
+6: var -> VAR
+8: begin -> BEGIN
+9: write -> WRITE
+9: "4 + 2 = " -> STR_VAL
+9: ; -> SEMI
+10: write -> WRITE
+10: 4 -> INT_VAL
+10: + -> PLUS
+10: 2 -> INT_VAL
+10: ; -> SEMI
+12: write -> WRITE
+12: "5 - 2 = " -> STR_VAL
+12: ; -> SEMI
+13: write -> WRITE
+13: 5 -> INT_VAL
+13: - -> MINUS
+13: 2 -> INT_VAL
+13: ; -> SEMI
+15: write -> WRITE
+15: "4 * 2 = " -> STR_VAL
+15: ; -> SEMI
+16: write -> WRITE
+16: 4 -> INT_VAL
+16: * -> TIMES
+16: 2 -> INT_VAL
+16: ; -> SEMI
+18: write -> WRITE
+18: "4 / 2 = " -> STR_VAL
+18: ; -> SEMI
+19: write -> WRITE
+19: 4 -> INT_VAL
+19: / -> OVER
+19: 2 -> INT_VAL
+19: ; -> SEMI
+20: end -> END

@@ -1,0 +1,13 @@
+5: program -> PROGRAM
+5: err -> ID
+5: ; -> SEMI
+6: var -> VAR
+8: begin -> BEGIN
+9: if -> IF
+9: 42 -> INT_VAL
+9: then -> THEN
+10: write -> WRITE
+10: "The answer!\n" -> STR_VAL
+10: ; -> SEMI
+11: end -> END
+12: end -> END

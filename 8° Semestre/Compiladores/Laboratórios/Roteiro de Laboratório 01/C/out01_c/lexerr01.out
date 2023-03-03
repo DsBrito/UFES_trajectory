@@ -1,0 +1,6 @@
+5: program -> PROGRAM
+5: err -> ID
+5: ; -> SEMI
+6: var -> VAR
+7: int -> INT
+LEXICAL ERROR (7): Unknown symbol _
