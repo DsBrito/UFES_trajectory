@@ -4,12 +4,7 @@
 
 Sobre a Disciplina
   * Contém aulas.
-  * Contém resumos.
-  * Contém laboratórios.
-  * Contém livros.
-  * Contém software (instruções).
-  * Contém exercícios.
-  * Contém provas.
+  * Contém leitura fichada.
   * Ministrada pelo professor Heldo Siqueira da Silva Junior (currículo lattes abaixo).
 
 <div align="center">
