@@ -1,0 +1,6 @@
+other
+if (0) other
+if (1) other
+if (0) other else other
+if (1) other else other
+if (0) if (1) other else other
