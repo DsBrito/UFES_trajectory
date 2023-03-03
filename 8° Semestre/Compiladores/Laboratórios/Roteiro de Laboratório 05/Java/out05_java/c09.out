@@ -1,0 +1,13 @@
+PARSE SUCCESSFUL!
+
+
+Strings table:
+Entry 0 -- "Silly program.\n"
+
+
+Variables table:
+Entry 0 -- name: xxxx, line: 7, type: int
+Entry 1 -- name: yyy, line: 8, type: int
+Entry 2 -- name: longidentifier, line: 9, type: int
+
+

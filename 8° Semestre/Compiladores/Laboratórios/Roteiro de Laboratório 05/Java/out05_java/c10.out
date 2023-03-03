@@ -1,0 +1,17 @@
+PARSE SUCCESSFUL!
+
+
+Strings table:
+Entry 0 -- "ABC"
+Entry 1 -- "D\n"
+Entry 2 -- "i = "
+Entry 3 -- "\n"
+
+
+Variables table:
+Entry 0 -- name: i, line: 7, type: int
+Entry 1 -- name: r, line: 8, type: real
+Entry 2 -- name: s, line: 9, type: string
+Entry 3 -- name: b, line: 10, type: bool
+
+
