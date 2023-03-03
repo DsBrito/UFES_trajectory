@@ -1,0 +1,459 @@
+
+*** Running vivado
+    with args -log uart_test.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source uart_test.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source uart_test.tcl -notrace
+Command: synth_design -top uart_test -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 146583 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1207.973 ; gain = 62.988 ; free physical = 947 ; free virtual = 5027
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'uart_test' [/home-temp/aluno/ex_cap7/list_ch07_05_uart_test.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'uart' [/home-temp/aluno/ex_cap7/list_ch07_04_uart.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'mod_m_counter' [/home-temp/aluno/ex_cap7/list_ch04_11_mod_m.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'mod_m_counter' (1#1) [/home-temp/aluno/ex_cap7/list_ch04_11_mod_m.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'uart_rx' [/home-temp/aluno/ex_cap7/list_ch07_01_uart_rx.vhd:18]
+WARNING: [Synth 8-614] signal 'sb_tick' is read in the process but is not in the sensitivity list [/home-temp/aluno/ex_cap7/list_ch07_01_uart_rx.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'uart_rx' (2#1) [/home-temp/aluno/ex_cap7/list_ch07_01_uart_rx.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'fifo' [/home-temp/aluno/ex_cap7/list_ch04_20_fifo.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'fifo' (3#1) [/home-temp/aluno/ex_cap7/list_ch04_20_fifo.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'uart_tx' [/home-temp/aluno/ex_cap7/list_ch07_03_uart_tx.vhd:18]
+WARNING: [Synth 8-614] signal 'dbit' is read in the process but is not in the sensitivity list [/home-temp/aluno/ex_cap7/list_ch07_03_uart_tx.vhd:77]
+WARNING: [Synth 8-614] signal 'sb_tick' is read in the process but is not in the sensitivity list [/home-temp/aluno/ex_cap7/list_ch07_03_uart_tx.vhd:77]
+INFO: [Synth 8-256] done synthesizing module 'uart_tx' (4#1) [/home-temp/aluno/ex_cap7/list_ch07_03_uart_tx.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'uart' (5#1) [/home-temp/aluno/ex_cap7/list_ch07_04_uart.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'debounce_fsmd_arch' [/home-temp/aluno/ex_cap7/list_ch06_01_02_debounce.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'debounce_fsmd_arch' (6#1) [/home-temp/aluno/ex_cap7/list_ch06_01_02_debounce.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'uart_test' (7#1) [/home-temp/aluno/ex_cap7/list_ch07_05_uart_test.vhd:18]
+WARNING: [Synth 8-3917] design uart_test has port sseg[7] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port sseg[5] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port sseg[4] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port sseg[2] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port sseg[1] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port sseg[0] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port an[3] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port an[2] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port an[1] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port an[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1249.504 ; gain = 104.520 ; free physical = 946 ; free virtual = 5028
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1249.504 ; gain = 104.520 ; free physical = 948 ; free virtual = 5029
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home-temp/aluno/Downloads/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]
+Finished Parsing XDC File [/home-temp/aluno/Downloads/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home-temp/aluno/Downloads/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/uart_test_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/uart_test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1591.770 ; gain = 0.000 ; free physical = 704 ; free virtual = 4786
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1591.770 ; gain = 446.785 ; free physical = 759 ; free virtual = 4841
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1591.770 ; gain = 446.785 ; free physical = 759 ; free virtual = 4841
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1591.770 ; gain = 446.785 ; free physical = 760 ; free virtual = 4843
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element r_reg_reg was removed.  [/home-temp/aluno/ex_cap7/list_ch04_11_mod_m.vhd:23]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'uart_rx'
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "array_reg_reg[3]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "array_reg_reg[2]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "array_reg_reg[1]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "array_reg_reg[0]" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'uart_tx'
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "db_tick" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+                   start |                              001 |                              001
+                    data |                              010 |                              010
+                  parity |                              011 |                              011
+                    stop |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'uart_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+                   start |                              001 |                              001
+                    data |                              010 |                              010
+                  parity |                              011 |                              011
+                    stop |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'uart_tx'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1591.770 ; gain = 446.785 ; free physical = 759 ; free virtual = 4842
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     21 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 4     
++---XORs : 
+	   7 Input      1 Bit         XORs := 2     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               21 Bit    Registers := 1     
+	                8 Bit    Registers := 10    
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 6     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   4 Input     21 Bit        Muxes := 2     
+	   2 Input     21 Bit        Muxes := 8     
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 2     
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 5     
+	   5 Input      4 Bit        Muxes := 2     
+	   5 Input      3 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 2     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 20    
+	   3 Input      1 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 12    
+	   4 Input      1 Bit        Muxes := 15    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module uart_test 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+Module mod_m_counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 2     
+Module uart_rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   7 Input      1 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   5 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 5     
+Module fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 4     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 4     
+Module uart_tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   7 Input      1 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   5 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   5 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 7     
+Module uart 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     12 Bit        Muxes := 1     
+Module debounce_fsmd_arch 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     21 Bit       Adders := 1     
++---Registers : 
+	               21 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     21 Bit        Muxes := 2     
+	   2 Input     21 Bit        Muxes := 8     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "btn_db_unit/db_tick" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/baud_gen_unit/r_reg_reg was removed.  [/home-temp/aluno/ex_cap7/list_ch04_11_mod_m.vhd:23]
+WARNING: [Synth 8-3917] design uart_test has port sseg[7] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port sseg[5] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port sseg[4] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port sseg[2] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port sseg[1] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port sseg[0] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port an[3] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port an[2] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port an[1] driven by constant 1
+WARNING: [Synth 8-3917] design uart_test has port an[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 1591.770 ; gain = 446.785 ; free physical = 737 ; free virtual = 4819
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:41 . Memory (MB): peak = 1591.770 ; gain = 446.785 ; free physical = 627 ; free virtual = 4710
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1591.770 ; gain = 446.785 ; free physical = 607 ; free virtual = 4690
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1599.777 ; gain = 454.793 ; free physical = 608 ; free virtual = 4690
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1599.777 ; gain = 454.793 ; free physical = 608 ; free virtual = 4690
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1599.777 ; gain = 454.793 ; free physical = 608 ; free virtual = 4690
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1599.777 ; gain = 454.793 ; free physical = 608 ; free virtual = 4690
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:42 . Memory (MB): peak = 1599.777 ; gain = 454.793 ; free physical = 608 ; free virtual = 4690
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:42 . Memory (MB): peak = 1599.777 ; gain = 454.793 ; free physical = 608 ; free virtual = 4690
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:42 . Memory (MB): peak = 1599.777 ; gain = 454.793 ; free physical = 608 ; free virtual = 4690
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    16|
+|3     |LUT1   |    28|
+|4     |LUT2   |    31|
+|5     |LUT3   |    23|
+|6     |LUT4   |    36|
+|7     |LUT5   |    52|
+|8     |LUT6   |    60|
+|9     |FDCE   |   150|
+|10    |FDPE   |     3|
+|11    |IBUF   |    10|
+|12    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+-------------------+------+
+|      |Instance          |Module             |Cells |
++------+------------------+-------------------+------+
+|1     |top               |                   |   426|
+|2     |  btn_db_unit     |debounce_fsmd_arch |    83|
+|3     |  uart_unit       |uart               |   294|
+|4     |    baud_gen_unit |mod_m_counter      |    41|
+|5     |    fifo_rx_unit  |fifo               |    75|
+|6     |    fifo_tx_unit  |fifo_0             |    61|
+|7     |    uart_rx_unit  |uart_rx            |    63|
+|8     |    uart_tx_unit  |uart_tx            |    53|
++------+------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:42 . Memory (MB): peak = 1599.777 ; gain = 454.793 ; free physical = 608 ; free virtual = 4690
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 1599.777 ; gain = 112.527 ; free physical = 664 ; free virtual = 4746
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:42 . Memory (MB): peak = 1599.785 ; gain = 454.793 ; free physical = 664 ; free virtual = 4746
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:44 . Memory (MB): peak = 1599.785 ; gain = 468.184 ; free physical = 647 ; free virtual = 4730
+INFO: [Common 17-1381] The checkpoint '/home-temp/aluno/ex_cap7/ex_cap7.runs/synth_1/uart_test.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file uart_test_utilization_synth.rpt -pb uart_test_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1623.789 ; gain = 0.000 ; free physical = 634 ; free virtual = 4716
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 19 10:44:00 2022...

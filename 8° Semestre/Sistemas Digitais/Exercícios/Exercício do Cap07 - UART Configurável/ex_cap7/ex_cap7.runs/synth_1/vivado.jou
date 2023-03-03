@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Aug 19 10:43:09 2022
+# Process ID: 146539
+# Current directory: /home-temp/aluno/ex_cap7/ex_cap7.runs/synth_1
+# Command line: vivado -log uart_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source uart_test.tcl
+# Log file: /home-temp/aluno/ex_cap7/ex_cap7.runs/synth_1/uart_test.vds
+# Journal file: /home-temp/aluno/ex_cap7/ex_cap7.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source uart_test.tcl -notrace
