@@ -1,1 +1,0 @@
-SEMANTIC ERROR (13): incompatible types for operator '<', LHS is 'bool' and RHS is 'str'.
