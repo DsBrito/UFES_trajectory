@@ -1,0 +1,2 @@
+line 7:8 extraneous input '_' expecting ID
+line 9:4 extraneous input '_' expecting {'if', 'read', 'repeat', 'write', ID}
