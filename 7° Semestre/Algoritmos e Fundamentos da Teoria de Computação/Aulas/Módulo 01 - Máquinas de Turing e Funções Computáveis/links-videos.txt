@@ -1,0 +1,14 @@
+Busy Beaver Code - Computerphile
+https://www.youtube.com/watch?v=ZiTeuZSDB0U
+
+Busy Beaver Turing Machines - Computerphile
+https://www.youtube.com/watch?v=CE8UhcyJS0I
+
+
+Turing Machine Primer - Computerphile
+https://www.youtube.com/watch?v=CE8UhcyJS0I
+
+
+Videoaula 01 - Máquinas de Turing e Funções Computáveis | Teoria da Computação
+https://www.youtube.com/watch?v=JyYsWeo60PY
+
