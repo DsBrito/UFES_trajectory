@@ -1,0 +1,28 @@
+digraph {
+graph [ordering="out"];
+node0[label="program"];
+node1[label="var_list"];
+node2[label="(int) x@0"];
+node1 -> node2;
+node0 -> node1;
+node3[label="block"];
+node4[label="read"];
+node5[label="(int) x@0"];
+node4 -> node5;
+node3 -> node4;
+node6[label=":="];
+node7[label="(int) x@0"];
+node6 -> node7;
+node8[label="(int) +"];
+node9[label="(int) x@0"];
+node8 -> node9;
+node10[label="(int) 1"];
+node8 -> node10;
+node6 -> node8;
+node3 -> node6;
+node11[label="write"];
+node12[label="(int) x@0"];
+node11 -> node12;
+node3 -> node11;
+node0 -> node3;
+}

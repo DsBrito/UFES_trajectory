@@ -1,0 +1,1 @@
+SEMANTIC ERROR (11): conditional expression in 'if' is 'int' instead of 'bool'.

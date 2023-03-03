@@ -1,0 +1,12 @@
+digraph {
+graph [ordering="out"];
+node0[label="program"];
+node1[label="var_list"];
+node0 -> node1;
+node2[label="block"];
+node3[label="write"];
+node4[label="(str) @0"];
+node3 -> node4;
+node2 -> node3;
+node0 -> node2;
+}
