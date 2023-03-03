@@ -1,0 +1,12 @@
+{ Sample program in EZ language -
+  adds one to the input
+}
+
+program addone;
+var
+    int x;
+begin
+    read x;
+    x := x + 1;
+    write x;
+end

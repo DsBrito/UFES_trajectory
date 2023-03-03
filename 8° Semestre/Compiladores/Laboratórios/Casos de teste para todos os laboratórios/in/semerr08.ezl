@@ -1,0 +1,12 @@
+{ Sample program in EZ language -
+  Program with semantic errors
+}
+
+program err;
+var
+
+begin
+    repeat
+        write "Looooop!\n";
+    until "forever" { SEMANTIC ERROR: repeat expression must have 'bool' type. }
+end

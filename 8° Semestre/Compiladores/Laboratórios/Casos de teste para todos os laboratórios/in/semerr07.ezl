@@ -1,0 +1,12 @@
+{ Sample program in EZ language -
+  Program with semantic errors
+}
+
+program err;
+var
+
+begin
+    if 42 then  { SEMANTIC ERROR: if expression must have 'bool' type. }
+        write "The answer!\n";
+    end
+end

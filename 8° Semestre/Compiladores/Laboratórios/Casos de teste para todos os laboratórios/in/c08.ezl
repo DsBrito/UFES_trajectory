@@ -1,0 +1,20 @@
+{ Sample program in EZ language -
+  basic mix of types in write
+}
+
+program writes;
+var
+
+begin
+    write "4 + 2 = ";
+    write 4 + 2;
+
+    write "5 - 2 = ";
+    write 5 - 2;
+
+    write "4 * 2 = ";
+    write 4 * 2;
+
+    write "4 / 2 = ";
+    write 4 / 2;
+end

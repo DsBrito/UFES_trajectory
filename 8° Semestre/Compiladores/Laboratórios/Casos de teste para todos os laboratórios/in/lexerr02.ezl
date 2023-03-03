@@ -1,0 +1,10 @@
+{ Sample program in EZ language -
+  Program with lexical errors
+}
+
+program err;
+var
+    real x;
+begin
+    x := 4,2; { LEXICAL ERROR: wrong constant, should be "." instead of "," }
+end

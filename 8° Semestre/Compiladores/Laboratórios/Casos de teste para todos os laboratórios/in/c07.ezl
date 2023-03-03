@@ -1,0 +1,22 @@
+{ Sample program in EZ language -
+  computes the GCD of two numbers
+}
+
+program gcd;
+var
+    int u;
+    int v;
+    int temp;
+begin
+    read u;
+    read v; { input two integers }
+    if v = 0 then v := 0; { do nothing }
+    else
+        repeat
+            temp := v;
+            v := u - u/v*v;
+            u := temp;
+        until v = 0
+    end
+    write u; { output gcd of original u & v }
+end

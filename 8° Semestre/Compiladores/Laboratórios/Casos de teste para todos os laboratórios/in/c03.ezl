@@ -1,0 +1,12 @@
+{ Sample program in EZ language -
+  basic arithmetic operations.
+}
+
+program arith;
+var
+begin
+    write 4 + 2;
+    write 5 - 2;
+    write 4 * 2;
+    write 4 / 2;
+end

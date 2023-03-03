@@ -1,0 +1,18 @@
+{ Sample program in EZ language -
+  silly program to handle some corner cases.
+}
+
+program silly;
+var
+    int xxxx;
+    int yyy;
+    int longidentifier;
+begin
+    write "Silly program.\n";
+    write 4 + 3 * 2;             { Should write 10 not 14. }
+    write "Silly program.\n";    { Should produce one entry in table. }
+    xxxx := 4;
+    longidentifier := 4;
+    yyy := longidentifier;
+    write (xxxx * yyy) / longidentifier; { Should write 4. }
+end

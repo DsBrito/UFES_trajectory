@@ -1,0 +1,10 @@
+{ The mandatory test program --
+  Prints "Hello, world!" to the screen }
+
+program hello;
+
+var { No variables needed }
+
+begin
+    write "Hello, world!\n";
+end

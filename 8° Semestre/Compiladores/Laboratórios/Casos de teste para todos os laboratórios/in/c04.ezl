@@ -1,0 +1,13 @@
+{ Sample program in EZ language -
+  Basic loop test 1.
+}
+
+program loop;
+var int x;
+begin
+    x := 5;
+    repeat
+        write x;
+        x := x - 1;
+    until x = 0
+end

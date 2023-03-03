@@ -1,0 +1,13 @@
+{ Sample program in EZ language -
+  Basic loop test 2.
+}
+
+program loop;
+var int x;
+begin
+    x := 1;
+    repeat
+        write x;
+        x := x + 1;
+    until 5 < x
+end

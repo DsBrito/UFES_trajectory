@@ -1,0 +1,13 @@
+{ Sample program in EZ language -
+  Program with syntax errors
+}
+
+program err;
+var
+    int x;
+begin
+    read x;
+    if x = 2 then
+        write x;
+    write 0; { SYNTAX ERROR: missing end of if statement }
+end

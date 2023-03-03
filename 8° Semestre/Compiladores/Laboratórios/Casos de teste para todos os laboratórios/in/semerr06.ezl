@@ -1,0 +1,14 @@
+{ Sample program in EZ language -
+  Program with semantic errors
+}
+
+program err;
+var
+    string s;
+    bool b;
+begin
+    s := "valid: " + false;
+    { SEMANTIC ERROR: Incompatible types for operator '<',
+      LHS is 'bool' and RHS is 'string'. }
+    b := b < s;
+end

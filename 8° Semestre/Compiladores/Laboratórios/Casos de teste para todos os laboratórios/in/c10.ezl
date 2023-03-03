@@ -1,0 +1,30 @@
+{ Sample program in EZ language -
+  tests with other types than int
+}
+
+program typemix;
+var
+    int i;
+    real r;
+    string s;
+    bool b;
+begin
+    i := 10;
+    r := 4.2;
+    s := "ABC";
+    b := true;
+
+    i := i + b;
+    write i;                    { Should write "11" }
+    r := r / 2;
+    write r;                    { Should write "2.1" }
+    s := s + "D\n";
+    write s;                    { Should write "ABCD\n" }
+
+    b := 20 < i;
+    write b;                    { Should write "false" }
+    s := "i = " + i + "\n";
+    write s;                    { Should write "i = 11\n" }
+    r := 4.2 + 2;
+    write r;                    { Should write "6.2" }
+end
