@@ -1,0 +1,9 @@
+CALL 0, 0
+STWi 0, 0
+LDWi 1, 0
+LDIi 2, 1
+ADDi 3, 1, 2
+STWi 0, 3
+LDWi 4, 0
+CALL 4, 4
+HALT

@@ -1,0 +1,30 @@
+CALL 0, 0
+STWi 0, 0
+CALL 0, 1
+STWi 1, 1
+LDWi 2, 1
+LDIi 3, 0
+EQUi 4, 2, 3
+BOFb 4, 4
+LDIi 5, 0
+STWi 1, 5
+JUMP 27
+LDWi 6, 1
+STWi 2, 6
+LDWi 7, 0
+LDWi 8, 0
+LDWi 9, 1
+DIVi 10, 8, 9
+LDWi 11, 1
+MULi 12, 10, 11
+SUBi 13, 7, 12
+STWi 1, 13
+LDWi 14, 2
+STWi 0, 14
+LDWi 15, 1
+LDIi 16, 0
+EQUi 17, 15, 16
+BOFb 17, -15
+LDWi 18, 0
+CALL 4, 18
+HALT

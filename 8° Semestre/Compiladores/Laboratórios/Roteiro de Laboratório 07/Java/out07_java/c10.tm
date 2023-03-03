@@ -1,0 +1,54 @@
+SSTR "ABC"
+SSTR "D\n"
+SSTR "i = "
+SSTR "\n"
+LDIi 0, 10
+STWi 0, 0
+LDIf 0, 1082549862
+STWf 1, 0
+LDIi 1, 0
+STWi 2, 1
+LDIi 2, 1
+STWi 3, 2
+LDWi 3, 0
+LDWi 4, 3
+ADDi 5, 3, 4
+STWi 0, 5
+LDWi 6, 0
+CALL 4, 6
+LDWf 1, 1
+LDIi 7, 2
+WIDf 2, 7
+DIVf 3, 1, 2
+STWf 1, 3
+LDWf 4, 1
+CALL 5, 4
+LDWi 8, 2
+LDIi 9, 1
+CATs 10, 8, 9
+STWi 2, 10
+LDWi 11, 2
+CALL 7, 11
+LDIi 12, 20
+LDWi 13, 0
+LTHi 14, 12, 13
+STWi 3, 14
+LDWi 15, 3
+CALL 6, 15
+LDIi 16, 2
+LDWi 18, 0
+I2Ss 17, 18
+CATs 19, 16, 17
+LDIi 20, 3
+CATs 21, 19, 20
+STWi 2, 21
+LDWi 22, 2
+CALL 7, 22
+LDIf 5, 1082549862
+LDIi 23, 2
+WIDf 6, 23
+ADDf 7, 5, 6
+STWf 1, 7
+LDWf 8, 1
+CALL 5, 8
+HALT

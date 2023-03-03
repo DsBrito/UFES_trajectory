@@ -1,0 +1,29 @@
+SSTR "4 + 2 = "
+SSTR "5 - 2 = "
+SSTR "4 * 2 = "
+SSTR "4 / 2 = "
+LDIi 0, 0
+CALL 7, 0
+LDIi 1, 4
+LDIi 2, 2
+ADDi 3, 1, 2
+CALL 4, 3
+LDIi 4, 1
+CALL 7, 4
+LDIi 5, 5
+LDIi 6, 2
+SUBi 7, 5, 6
+CALL 4, 7
+LDIi 8, 2
+CALL 7, 8
+LDIi 9, 4
+LDIi 10, 2
+MULi 11, 9, 10
+CALL 4, 11
+LDIi 12, 3
+CALL 7, 12
+LDIi 13, 4
+LDIi 14, 2
+DIVi 15, 13, 14
+CALL 4, 15
+HALT
