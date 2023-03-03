@@ -1,0 +1,314 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Aug 19 11:30:04 2022
+# Process ID: 681447
+# Current directory: /home-temp/aluno/Downloads/font_test/font_test.runs/synth_1
+# Command line: vivado -log font_test_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source font_test_top.tcl
+# Log file: /home-temp/aluno/Downloads/font_test/font_test.runs/synth_1/font_test_top.vds
+# Journal file: /home-temp/aluno/Downloads/font_test/font_test.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source font_test_top.tcl -notrace
+Command: synth_design -top font_test_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 681465 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1206.973 ; gain = 62.000 ; free physical = 1420 ; free virtual = 5245
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'font_test_top' [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/font_test_top.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'vga_sync' [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/vga_sync.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'vga_sync' (1#1) [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/vga_sync.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'font_test_gen' [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/font_test_gen.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'font_rom' [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/font_rom.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'font_rom' (2#1) [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/font_rom.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'font_test_gen' (3#1) [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/font_test_gen.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'font_test_top' (4#1) [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/font_test_top.vhd:13]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1249.504 ; gain = 104.531 ; free physical = 1441 ; free virtual = 5266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1249.504 ; gain = 104.531 ; free physical = 1442 ; free virtual = 5267
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1257.508 ; gain = 112.535 ; free physical = 1442 ; free virtual = 5267
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "pixel_tick" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "v_end" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "h_end" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element v_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/vga_sync.vhd:40]
+WARNING: [Synth 8-6014] Unused sequential element h_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/vga_sync.vhd:41]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/font_rom.vhd:2203]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1273.523 ; gain = 128.551 ; free physical = 1441 ; free virtual = 5266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module font_test_top 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module vga_sync 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module font_rom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module font_test_gen 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "vga_sync_unit/h_end" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vga_sync_unit/v_end" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element font_gen_unit/font_unit/data_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/font_rom.vhd:2203]
+WARNING: [Synth 8-6014] Unused sequential element vga_sync_unit/h_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/vga_sync.vhd:41]
+WARNING: [Synth 8-6014] Unused sequential element vga_sync_unit/v_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/vga_sync.vhd:40]
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[0]' (FDE) to 'rgb_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[1]' (FDE) to 'rgb_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[2]' (FDE) to 'rgb_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[3]' (FDE) to 'rgb_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[4]' (FDE) to 'rgb_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[5]' (FDE) to 'rgb_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[6]' (FDE) to 'rgb_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[8]' (FDE) to 'rgb_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[9]' (FDE) to 'rgb_reg_reg[10]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[10]' (FDE) to 'rgb_reg_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\rgb_reg_reg[11] )
+WARNING: [Synth 8-3332] Sequential element (rgb_reg_reg[11]) is unused and will be removed from module font_test_top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1399.891 ; gain = 254.918 ; free physical = 1238 ; free virtual = 5082
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++--------------+----------------------------------+---------------+----------------+
+|Module Name   | RTL Object                       | Depth x Width | Implemented As | 
++--------------+----------------------------------+---------------+----------------+
+|font_rom      | data_reg                         | 2048x8        | Block RAM      | 
+|font_test_top | font_gen_unit/font_unit/data_reg | 2048x8        | Block RAM      | 
++--------------+----------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1399.891 ; gain = 254.918 ; free physical = 1238 ; free virtual = 5082
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance font_gen_unit/font_unit/data_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1399.891 ; gain = 254.918 ; free physical = 1236 ; free virtual = 5081
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1399.891 ; gain = 254.918 ; free physical = 1236 ; free virtual = 5081
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1399.891 ; gain = 254.918 ; free physical = 1236 ; free virtual = 5081
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1399.891 ; gain = 254.918 ; free physical = 1236 ; free virtual = 5081
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1399.891 ; gain = 254.918 ; free physical = 1236 ; free virtual = 5081
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1399.891 ; gain = 254.918 ; free physical = 1236 ; free virtual = 5081
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1399.891 ; gain = 254.918 ; free physical = 1236 ; free virtual = 5081
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |LUT1     |     2|
+|3     |LUT2     |     4|
+|4     |LUT3     |     2|
+|5     |LUT4     |    10|
+|6     |LUT5     |    11|
+|7     |LUT6     |    13|
+|8     |RAMB18E1 |     1|
+|9     |FDCE     |    24|
+|10    |FDRE     |     1|
+|11    |IBUF     |     2|
+|12    |OBUF     |    14|
++------+---------+------+
+
+Report Instance Areas: 
++------+----------------+--------------+------+
+|      |Instance        |Module        |Cells |
++------+----------------+--------------+------+
+|1     |top             |              |    85|
+|2     |  font_gen_unit |font_test_gen |     2|
+|3     |    font_unit   |font_rom      |     2|
+|4     |  vga_sync_unit |vga_sync      |    65|
++------+----------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1399.891 ; gain = 254.918 ; free physical = 1236 ; free virtual = 5081
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1399.891 ; gain = 254.918 ; free physical = 1254 ; free virtual = 5098
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1399.898 ; gain = 254.918 ; free physical = 1254 ; free virtual = 5098
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+34 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 1499.902 ; gain = 368.301 ; free physical = 1206 ; free virtual = 5051
+INFO: [Common 17-1381] The checkpoint '/home-temp/aluno/Downloads/font_test/font_test.runs/synth_1/font_test_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file font_test_top_utilization_synth.rpt -pb font_test_top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1523.914 ; gain = 0.000 ; free physical = 1205 ; free virtual = 5050
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 19 11:30:35 2022...

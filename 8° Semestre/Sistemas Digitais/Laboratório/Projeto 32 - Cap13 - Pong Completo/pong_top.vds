@@ -1,0 +1,416 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Aug 19 11:36:51 2022
+# Process ID: 684952
+# Current directory: /home-temp/aluno/Downloads/pong_complete_test/pong_complete_test.runs/synth_1
+# Command line: vivado -log pong_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pong_top.tcl
+# Log file: /home-temp/aluno/Downloads/pong_complete_test/pong_complete_test.runs/synth_1/pong_top.vds
+# Journal file: /home-temp/aluno/Downloads/pong_complete_test/pong_complete_test.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source pong_top.tcl -notrace
+Command: synth_design -top pong_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 684994 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1207.965 ; gain = 63.000 ; free physical = 546 ; free virtual = 3706
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'pong_top' [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_top.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'vga_sync' [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/vga_sync.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'vga_sync' (1#1) [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/vga_sync.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'pong_text' [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_text.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'font_rom' [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/font_rom.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'font_rom' (2#1) [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/font_rom.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'pong_text' (3#1) [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_text.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'pong_graph' [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_graph.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'pong_graph' (4#1) [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_graph.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'timer' [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_timer.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'timer' (5#1) [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_timer.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'm100_counter' [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_counter.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'm100_counter' (6#1) [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_counter.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'pong_top' (7#1) [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_top.vhd:14]
+WARNING: [Synth 8-3331] design pong_text has unconnected port reset
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1249.496 ; gain = 104.531 ; free physical = 549 ; free virtual = 3709
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1249.496 ; gain = 104.531 ; free physical = 552 ; free virtual = 3712
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1257.500 ; gain = 112.535 ; free physical = 552 ; free virtual = 3712
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "pixel_tick" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "v_end" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "h_end" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element v_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/vga_sync.vhd:40]
+WARNING: [Synth 8-6014] Unused sequential element h_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/vga_sync.vhd:41]
+WARNING: [Synth 8-6014] Unused sequential element data_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/font_rom.vhd:2203]
+INFO: [Synth 8-5544] ROM "char_addr_l" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element bar_y_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_graph.vhd:64]
+WARNING: [Synth 8-6014] Unused sequential element ball_x_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_graph.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element ball_y_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_graph.vhd:66]
+INFO: [Synth 8-5546] ROM "timer_up" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "dig1_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1281.523 ; gain = 136.559 ; free physical = 539 ; free virtual = 3698
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 6     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
+	   3 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 7     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 7     
+	   3 Input     12 Bit        Muxes := 1     
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 7     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	  14 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 8     
+	   2 Input      3 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 15    
+	   4 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module pong_top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 4     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+Module vga_sync 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module font_rom 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module pong_text 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 3     
+	   3 Input     12 Bit        Muxes := 1     
+	  14 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 3     
+Module pong_graph 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 4     
+	   3 Input      3 Bit       Adders := 2     
++---Registers : 
+	               10 Bit    Registers := 5     
++---Muxes : 
+	   4 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 5     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+Module timer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module m100_counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                4 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "vga_sync_unit/h_end" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vga_sync_unit/v_end" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "timer_unit/timer_up" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element text_unit/font_unit/data_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/font_rom.vhd:2203]
+WARNING: [Synth 8-6014] Unused sequential element vga_sync_unit/h_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/vga_sync.vhd:41]
+WARNING: [Synth 8-6014] Unused sequential element vga_sync_unit/v_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/vga_sync.vhd:40]
+WARNING: [Synth 8-6014] Unused sequential element graph_unit/bar_y_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_graph.vhd:64]
+WARNING: [Synth 8-6014] Unused sequential element graph_unit/ball_y_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_graph.vhd:66]
+WARNING: [Synth 8-6014] Unused sequential element graph_unit/ball_x_reg_reg was removed.  [/home-temp/aluno/Downloads/ch13_Artix7-20220819T142608Z-001/ch13_Artix7/pong_graph.vhd:65]
+INFO: [Synth 8-3886] merging instance 'graph_unit/ball_vy_reg_reg[3]' (FDCE) to 'graph_unit/ball_vy_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'graph_unit/ball_vy_reg_reg[4]' (FDCE) to 'graph_unit/ball_vy_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'graph_unit/ball_vy_reg_reg[5]' (FDCE) to 'graph_unit/ball_vy_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'graph_unit/ball_vy_reg_reg[6]' (FDCE) to 'graph_unit/ball_vy_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'graph_unit/ball_vy_reg_reg[7]' (FDCE) to 'graph_unit/ball_vy_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'graph_unit/ball_vy_reg_reg[8]' (FDCE) to 'graph_unit/ball_vy_reg_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\graph_unit/ball_vy_reg_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\graph_unit/ball_vx_reg_reg[0] )
+INFO: [Synth 8-3886] merging instance 'graph_unit/ball_vx_reg_reg[3]' (FDCE) to 'graph_unit/ball_vx_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'graph_unit/ball_vx_reg_reg[4]' (FDCE) to 'graph_unit/ball_vx_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'graph_unit/ball_vx_reg_reg[5]' (FDCE) to 'graph_unit/ball_vx_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'graph_unit/ball_vx_reg_reg[6]' (FDCE) to 'graph_unit/ball_vx_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'graph_unit/ball_vx_reg_reg[7]' (FDCE) to 'graph_unit/ball_vx_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'graph_unit/ball_vx_reg_reg[8]' (FDCE) to 'graph_unit/ball_vx_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[0]' (FDCE) to 'rgb_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[1]' (FDCE) to 'rgb_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[2]' (FDCE) to 'rgb_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[4]' (FDCE) to 'rgb_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[5]' (FDCE) to 'rgb_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[6]' (FDCE) to 'rgb_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[8]' (FDCE) to 'rgb_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[9]' (FDCE) to 'rgb_reg_reg[10]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[10]' (FDCE) to 'rgb_reg_reg[11]'
+WARNING: [Synth 8-3332] Sequential element (graph_unit/bar_y_reg_reg[0]) is unused and will be removed from module pong_top.
+WARNING: [Synth 8-3332] Sequential element (graph_unit/ball_vx_reg_reg[0]) is unused and will be removed from module pong_top.
+WARNING: [Synth 8-3332] Sequential element (graph_unit/ball_vy_reg_reg[0]) is unused and will be removed from module pong_top.
+WARNING: [Synth 8-3332] Sequential element (graph_unit/ball_x_reg_reg[0]) is unused and will be removed from module pong_top.
+WARNING: [Synth 8-3332] Sequential element (graph_unit/ball_y_reg_reg[0]) is unused and will be removed from module pong_top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.906 ; gain = 273.941 ; free physical = 391 ; free virtual = 3550
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------------------------+---------------+----------------+
+|Module Name | RTL Object                   | Depth x Width | Implemented As | 
++------------+------------------------------+---------------+----------------+
+|font_rom    | data_reg                     | 2048x8        | Block RAM      | 
+|pong_text   | RULE_ROM[0]                  | 64x7          | LUT            | 
+|pong_top    | text_unit/RULE_ROM[0]        | 64x7          | LUT            | 
+|pong_top    | text_unit/font_unit/data_reg | 2048x8        | Block RAM      | 
++------------+------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.906 ; gain = 273.941 ; free physical = 391 ; free virtual = 3549
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance text_unit/font_unit/data_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.906 ; gain = 273.941 ; free physical = 390 ; free virtual = 3549
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.906 ; gain = 273.941 ; free physical = 390 ; free virtual = 3549
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.906 ; gain = 273.941 ; free physical = 390 ; free virtual = 3549
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.906 ; gain = 273.941 ; free physical = 390 ; free virtual = 3549
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.906 ; gain = 273.941 ; free physical = 390 ; free virtual = 3549
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.906 ; gain = 273.941 ; free physical = 390 ; free virtual = 3549
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.906 ; gain = 273.941 ; free physical = 390 ; free virtual = 3549
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    23|
+|3     |LUT1     |     3|
+|4     |LUT2     |    28|
+|5     |LUT3     |    57|
+|6     |LUT4     |    82|
+|7     |LUT5     |    60|
+|8     |LUT6     |   102|
+|9     |MUXF7    |     4|
+|10    |RAMB18E1 |     1|
+|11    |FDCE     |    70|
+|12    |FDPE     |    10|
+|13    |IBUF     |     4|
+|14    |OBUF     |    14|
++------+---------+------+
+
+Report Instance Areas: 
++------+----------------+-------------+------+
+|      |Instance        |Module       |Cells |
++------+----------------+-------------+------+
+|1     |top             |             |   459|
+|2     |  counter_unit  |m100_counter |    17|
+|3     |  graph_unit    |pong_graph   |   216|
+|4     |  text_unit     |pong_text    |     3|
+|5     |    font_unit   |font_rom     |     3|
+|6     |  timer_unit    |timer        |    17|
+|7     |  vga_sync_unit |vga_sync     |   177|
++------+----------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.906 ; gain = 273.941 ; free physical = 390 ; free virtual = 3549
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 18 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.906 ; gain = 273.941 ; free physical = 383 ; free virtual = 3542
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 1418.914 ; gain = 273.941 ; free physical = 383 ; free virtual = 3542
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 32 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+57 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 1510.918 ; gain = 379.324 ; free physical = 350 ; free virtual = 3509
+INFO: [Common 17-1381] The checkpoint '/home-temp/aluno/Downloads/pong_complete_test/pong_complete_test.runs/synth_1/pong_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file pong_top_utilization_synth.rpt -pb pong_top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1534.930 ; gain = 0.000 ; free physical = 340 ; free virtual = 3500
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 19 11:37:23 2022...

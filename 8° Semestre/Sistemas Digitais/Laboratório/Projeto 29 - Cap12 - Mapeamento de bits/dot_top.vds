@@ -1,0 +1,387 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Aug 19 11:19:57 2022
+# Process ID: 679251
+# Current directory: /home-temp/aluno/Downloads/dot_test2/dot_test2.runs/synth_1
+# Command line: vivado -log dot_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dot_top.tcl
+# Log file: /home-temp/aluno/Downloads/dot_test2/dot_test2.runs/synth_1/dot_top.vds
+# Journal file: /home-temp/aluno/Downloads/dot_test2/dot_test2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source dot_top.tcl -notrace
+Command: synth_design -top dot_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 679300 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1207.977 ; gain = 63.000 ; free physical = 398 ; free virtual = 4406
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'dot_top' [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/dot_top.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'vga_sync' [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'vga_sync' (1#1) [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'bitmap_gen' [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/dot_gra.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'debounce_fsmd_arch' [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/debounce_all.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'debounce_fsmd_arch' (2#1) [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/debounce_all.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'sync_dual_port_ram' [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/sync_dual_port_ram.vhd:24]
+	Parameter ADDR_WIDTH bound to: 14 - type: integer 
+	Parameter DATA_WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sync_dual_port_ram' (3#1) [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/sync_dual_port_ram.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'bitmap_gen' (4#1) [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/dot_gra.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'dot_top' (5#1) [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/dot_top.vhd:14]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1249.508 ; gain = 104.531 ; free physical = 436 ; free virtual = 4444
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1249.508 ; gain = 104.531 ; free physical = 439 ; free virtual = 4447
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1257.512 ; gain = 112.535 ; free physical = 439 ; free virtual = 4447
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "pixel_tick" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "v_end" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "h_end" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element v_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync.vhd:40]
+WARNING: [Synth 8-6014] Unused sequential element h_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync.vhd:41]
+INFO: [Synth 8-5546] ROM "db_tick" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "v_x_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "v_y_next" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element dot_x_reg_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/dot_gra.vhd:75]
+WARNING: [Synth 8-6014] Unused sequential element dot_y_reg_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/dot_gra.vhd:75]
+INFO: [Synth 8-3971] The signal ram_reg was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1273.527 ; gain = 128.551 ; free physical = 438 ; free virtual = 4446
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     22 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               22 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                7 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---RAMs : 
+	              48K Bit         RAMs := 1     
++---Muxes : 
+	   4 Input     22 Bit        Muxes := 2     
+	   2 Input     22 Bit        Muxes := 8     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 2     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   4 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module dot_top 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module vga_sync 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module debounce_fsmd_arch 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     22 Bit       Adders := 1     
++---Registers : 
+	               22 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     22 Bit        Muxes := 2     
+	   2 Input     22 Bit        Muxes := 8     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 3     
+Module sync_dual_port_ram 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 2     
++---RAMs : 
+	              48K Bit         RAMs := 1     
+Module bitmap_gen 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "vga_sync_unit/h_end" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vga_sync_unit/v_end" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bitmap_unit/debounce_unit/db_tick" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "v_x_reg0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bitmap_unit/v_x_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "v_y_reg0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "bitmap_unit/v_y_next" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element vga_sync_unit/h_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync.vhd:41]
+WARNING: [Synth 8-6014] Unused sequential element vga_sync_unit/v_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync.vhd:40]
+WARNING: [Synth 8-6014] Unused sequential element bitmap_unit/dot_x_reg_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/dot_gra.vhd:75]
+WARNING: [Synth 8-6014] Unused sequential element bitmap_unit/dot_y_reg_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/dot_gra.vhd:75]
+WARNING: [Synth 8-6014] Unused sequential element bitmap_unit/video_ram_unit/dout_a_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/sync_dual_port_ram.vhd:36]
+WARNING: [Synth 8-6014] Unused sequential element bitmap_unit/video_ram_unit/ram_reg was removed. 
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\bitmap_unit/v_x_reg_reg[0] )
+INFO: [Synth 8-3886] merging instance 'bitmap_unit/v_x_reg_reg[1]' (FDCE) to 'bitmap_unit/v_x_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'bitmap_unit/v_x_reg_reg[2]' (FDCE) to 'bitmap_unit/v_x_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'bitmap_unit/v_x_reg_reg[3]' (FDCE) to 'bitmap_unit/v_x_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'bitmap_unit/v_x_reg_reg[4]' (FDCE) to 'bitmap_unit/v_x_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'bitmap_unit/v_x_reg_reg[5]' (FDCE) to 'bitmap_unit/v_x_reg_reg[6]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\bitmap_unit/v_y_reg_reg[0] )
+INFO: [Synth 8-3886] merging instance 'bitmap_unit/v_y_reg_reg[1]' (FDCE) to 'bitmap_unit/v_y_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'bitmap_unit/v_y_reg_reg[2]' (FDCE) to 'bitmap_unit/v_y_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'bitmap_unit/v_y_reg_reg[3]' (FDCE) to 'bitmap_unit/v_y_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'bitmap_unit/v_y_reg_reg[4]' (FDCE) to 'bitmap_unit/v_y_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'bitmap_unit/v_y_reg_reg[5]' (FDCE) to 'bitmap_unit/v_y_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[0]' (FDE) to 'rgb_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[1]' (FDE) to 'rgb_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[2]' (FDE) to 'rgb_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[4]' (FDE) to 'rgb_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[5]' (FDE) to 'rgb_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[6]' (FDE) to 'rgb_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[8]' (FDE) to 'rgb_reg_reg[9]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[9]' (FDE) to 'rgb_reg_reg[10]'
+INFO: [Synth 8-3886] merging instance 'rgb_reg_reg[10]' (FDE) to 'rgb_reg_reg[11]'
+WARNING: [Synth 8-3332] Sequential element (bitmap_unit/v_x_reg_reg[0]) is unused and will be removed from module dot_top.
+WARNING: [Synth 8-3332] Sequential element (bitmap_unit/v_y_reg_reg[0]) is unused and will be removed from module dot_top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1408.895 ; gain = 263.918 ; free physical = 646 ; free virtual = 4653
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++--------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name         | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|sync_dual_port_ram: | ram_reg    | 16 K x 3(READ_FIRST)   | W | R | 16 K x 3(READ_FIRST)   | W | R | Port A and B     | 1      | 1      | 
++--------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The tale above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1408.895 ; gain = 263.918 ; free physical = 646 ; free virtual = 4654
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping  Report
++--------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name         | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|sync_dual_port_ram: | ram_reg    | 16 K x 3(READ_FIRST)   | W | R | 16 K x 3(READ_FIRST)   | W | R | Port A and B     | 1      | 1      | 
++--------------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance bitmap_unit/video_ram_unit/ram_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance bitmap_unit/video_ram_unit/ram_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1408.895 ; gain = 263.918 ; free physical = 645 ; free virtual = 4653
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1408.895 ; gain = 263.918 ; free physical = 647 ; free virtual = 4655
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1408.895 ; gain = 263.918 ; free physical = 647 ; free virtual = 4655
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1408.895 ; gain = 263.918 ; free physical = 647 ; free virtual = 4655
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1408.895 ; gain = 263.918 ; free physical = 647 ; free virtual = 4655
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1408.895 ; gain = 263.918 ; free physical = 647 ; free virtual = 4655
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1408.895 ; gain = 263.918 ; free physical = 647 ; free virtual = 4655
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    10|
+|3     |LUT1     |    23|
+|4     |LUT2     |    22|
+|5     |LUT3     |     7|
+|6     |LUT4     |    23|
+|7     |LUT5     |    34|
+|8     |LUT6     |    20|
+|9     |RAMB18E1 |     1|
+|10    |RAMB36E1 |     1|
+|11    |FDCE     |    64|
+|12    |FDRE     |     3|
+|13    |IBUF     |     6|
+|14    |OBUF     |    14|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------------+-------------------+------+
+|      |Instance           |Module             |Cells |
++------+-------------------+-------------------+------+
+|1     |top                |                   |   229|
+|2     |  bitmap_unit      |bitmap_gen         |   138|
+|3     |    debounce_unit  |debounce_fsmd_arch |   106|
+|4     |    video_ram_unit |sync_dual_port_ram |     2|
+|5     |  vga_sync_unit    |vga_sync           |    67|
++------+-------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1408.895 ; gain = 263.918 ; free physical = 647 ; free virtual = 4655
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1408.895 ; gain = 263.918 ; free physical = 665 ; free virtual = 4673
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 1408.902 ; gain = 263.918 ; free physical = 665 ; free virtual = 4673
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+56 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1502.906 ; gain = 371.301 ; free physical = 619 ; free virtual = 4627
+INFO: [Common 17-1381] The checkpoint '/home-temp/aluno/Downloads/dot_test2/dot_test2.runs/synth_1/dot_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file dot_top_utilization_synth.rpt -pb dot_top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1526.918 ; gain = 0.000 ; free physical = 632 ; free virtual = 4641
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 19 11:20:28 2022...
