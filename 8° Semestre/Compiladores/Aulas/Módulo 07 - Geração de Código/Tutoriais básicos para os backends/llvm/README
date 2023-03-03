@@ -1,0 +1,20 @@
+** TUTORIAL BÁSICO PARA GERAÇÃO DE CÓDIGO ALVO PARA LLVM **
+
+* Suponha que você está fazendo um compilador para C:
+    - O arquivo hello.c é um exemplo da linguagem de entrada
+    - O arquivo hello.ll é um exemplo da saída na linguagem alvo ("assembly" da LLVM)
+
+* Para executar o programa você precisa da ferramenta 'lli', um interpretador do
+  assembly da LLVM. Procure pelo pacote 'llvm' na sua disto Linux e instale.
+
+* Passos do processo de execução:
+
+1) Rode o seu compilador para produzir a saída na linguagem alvo. Exemplo:
+    $ ./ccompiler < hello.c > hello.ll
+
+2) Rode o interpretador:
+    $ lli hello.ll
+    Hello, World!
+
+* Veja os comandos da LLVM em:
+    - https://llvm.org/docs/LangRef.html#instruction-reference

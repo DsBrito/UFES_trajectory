@@ -1,0 +1,20 @@
+Videoaula 00 - Introdução | Compiladores
+https://www.youtube.com/watch?v=lagg2nTPpDI
+
+
+Bootstrapping with T-Diagrams - Computerphile
+https://www.youtube.com/watch?v=PjeE8Bc96HY
+
+
+Improving Intermediate Codes - Computerphile
+https://www.youtube.com/watch?v=TiJn9D6lZ-Y
+
+
+Self Compiling Compilers - Computerphile
+https://www.youtube.com/watch?v=lJf2i87jgFA
+
+
+Porting Compilers - Computerphile
+https://www.youtube.com/watch?v=9W0Vxa6eqjA
+
+

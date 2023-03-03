@@ -1,0 +1,18 @@
+Videoaula 06 - Ambientes de Execução | Compiladores
+https://www.youtube.com/watch?v=m8jM8V-VF-U
+
+
+Programming Loops vs Recursion - Computerphile
+https://www.youtube.com/watch?v=HXNhEYqFo0o
+
+
+Wheeler Jump - Computerphile
+https://www.youtube.com/watch?v=zR8V0lq029c
+
+
+Reverse Polish Grows on Trees - Computerphile
+https://www.youtube.com/watch?v=TrfcJCulsF4
+
+
+Reverse Polish Notation and The Stack - Computerphile
+https://www.youtube.com/watch?v=7ha78yWRDlE

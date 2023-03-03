@@ -1,0 +1,19 @@
+Videoaula 02 - Análise Sintática | Compiladores
+https://www.youtube.com/watch?v=XskBsiX4oCI
+
+
+Parsing Explained - Computerphile
+https://www.youtube.com/watch?v=bxpc9Pp5pZM
+
+
+EXTRA BITS: How Chomsky Fits In - Computerphile
+https://www.youtube.com/watch?v=Airi85CPdPk
+
+
+Parsing Bottom Up - Computerphile
+https://www.youtube.com/watch?v=tH5AOX9929g
+
+
+EXTRA BITS: YACC & LEX background - Computerphile
+https://www.youtube.com/watch?v=jzpYiuD2ffo
+

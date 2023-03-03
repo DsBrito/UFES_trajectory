@@ -1,0 +1,14 @@
+Videoaula 01 - Análise Léxica | Compiladores
+https://www.youtube.com/watch?v=E8tFfCmNwFo
+
+
+Regular Expressions - Computerphile
+https://www.youtube.com/watch?v=528Jc3q86F8
+
+
+Using Regular Expressions - Computerphile
+https://www.youtube.com/watch?v=6gddK-cOxYc
+
+
+EXTRA BITS - History of Regular Expressions - Computerphile
+https://www.youtube.com/watch?v=4uMS2ZPsoVw

@@ -1,0 +1,25 @@
+** TUTORIAL BÁSICO PARA GERAÇÃO DE CÓDIGO ALVO PARA JVM **
+
+* Suponha que você está fazendo um compilador para Python:
+    - O arquivo 01-print.py é um exemplo da linguagem de entrada
+    - O arquivo 01-print.j é um exemplo da saída na linguagem alvo ("assembly" da JVM)
+
+* Para criar o arquivo .class com o bytecode, use a ferramenta Jasmin ("assembler"):
+    - http://jasmin.sourceforge.net/
+
+* Passos do processo de execução:
+
+1) Rode o seu compilador para produzir a saída na linguagem alvo. Exemplo:
+    $ ./pythoncompiler < 01-print.py > 01-print.j
+
+2) Rode o "assembler":
+    $ java -jar jasmin.jar 01-print.j
+
+3) Rode a JVM para executar o programa. O nome da classe gerada no arquivo .j é 'pythontest', então:
+    $ java pythontest
+    --- EXEMPLO 01: PRINT ---
+    Hello, World!
+    15
+
+* Veja as instruções que o Jasmin aceita em:
+    - http://jasmin.sourceforge.net/instructions.html
