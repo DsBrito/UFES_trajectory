@@ -1,0 +1,12 @@
+PARSE SUCCESSFUL!
+
+
+Strings table:
+Entry 0 -- "valid: "
+
+
+Variables table:
+Entry 0 -- name: s, line: 7, type: string
+Entry 1 -- name: b, line: 8, type: bool
+
+
