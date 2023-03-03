@@ -1,0 +1,24 @@
+SSTR "Silly program.\n"
+LDIi 0, 0
+CALL 7, 0
+LDIi 1, 4
+LDIi 2, 3
+LDIi 3, 2
+MULi 4, 2, 3
+ADDi 5, 1, 4
+CALL 4, 5
+LDIi 6, 0
+CALL 7, 6
+LDIi 7, 4
+STWi 0, 7
+LDIi 8, 4
+STWi 2, 8
+LDWi 9, 2
+STWi 1, 9
+LDWi 10, 0
+LDWi 11, 1
+MULi 12, 10, 11
+LDWi 13, 2
+DIVi 14, 12, 13
+CALL 4, 14
+HALT
