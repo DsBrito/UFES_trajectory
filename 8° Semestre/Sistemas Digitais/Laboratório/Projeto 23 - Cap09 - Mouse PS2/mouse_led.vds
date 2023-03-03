@@ -1,0 +1,402 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Jul 13 11:23:16 2022
+# Process ID: 47903
+# Current directory: /home-temp/aluno/Downloads/vivado/23/23.runs/synth_1
+# Command line: vivado -log mouse_led.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mouse_led.tcl
+# Log file: /home-temp/aluno/Downloads/vivado/23/23.runs/synth_1/mouse_led.vds
+# Journal file: /home-temp/aluno/Downloads/vivado/23/23.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mouse_led.tcl -notrace
+Command: synth_design -top mouse_led -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 47920 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1210.574 ; gain = 62.992 ; free physical = 1816 ; free virtual = 6203
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mouse_led' [/home-temp/aluno/Downloads/vivado/23/mouse_led.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'mouse' [/home-temp/aluno/Downloads/vivado/23/mouse.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'ps2_rxtx' [/home-temp/aluno/Downloads/vivado/23/ps2_rxtx.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'ps2tx' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap17_ps2/hdl/ps2tx.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'ps2tx' (1#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap17_ps2/hdl/ps2tx.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'ps2rx' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap17_ps2/hdl/ps2rx.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ps2rx' (2#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap17_ps2/hdl/ps2rx.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ps2_rxtx' (3#1) [/home-temp/aluno/Downloads/vivado/23/ps2_rxtx.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'mouse' (4#1) [/home-temp/aluno/Downloads/vivado/23/mouse.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'mouse_led' (5#1) [/home-temp/aluno/Downloads/vivado/23/mouse_led.vhd:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1252.105 ; gain = 104.523 ; free physical = 1828 ; free virtual = 6216
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1252.105 ; gain = 104.523 ; free physical = 1828 ; free virtual = 6216
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]
+Finished Parsing XDC File [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mouse_led_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mouse_led_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1592.770 ; gain = 0.000 ; free physical = 1575 ; free virtual = 5963
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1652 ; free virtual = 6040
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1652 ; free virtual = 6040
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1654 ; free virtual = 6042
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'ps2tx'
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "n_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "n_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'mouse'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                           000001 |                              000
+                   waitr |                           000010 |                              001
+                     rts |                           000100 |                              010
+                   start |                           001000 |                              011
+                    data |                           010000 |                              100
+                    stop |                           100000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'one-hot' in module 'ps2tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   init1 |                              000 |                              000
+                   init2 |                              001 |                              001
+                   init3 |                              010 |                              010
+                   pack1 |                              011 |                              011
+                   pack2 |                              100 |                              100
+                   pack3 |                              101 |                              101
+                    done |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'mouse'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1645 ; free virtual = 6033
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   6 Input     13 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   6 Input      9 Bit        Muxes := 1     
+	   7 Input      9 Bit        Muxes := 4     
+	   6 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 5     
+	   6 Input      1 Bit        Muxes := 8     
+	   4 Input      1 Bit        Muxes := 4     
+	   7 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module mouse_led 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+Module ps2tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   6 Input     13 Bit        Muxes := 1     
+	   6 Input      9 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 8     
+Module ps2rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+Module mouse 
+Detailed RTL Component Info : 
++---Registers : 
+	                9 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   7 Input      9 Bit        Muxes := 4     
+	   7 Input      3 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element mouse_unit/y_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/23/mouse.vhd:41]
+INFO: [Synth 8-5546] ROM "mouse_unit/ps2_rxtx_unit/ps2_tx_unit/state_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\mouse_unit/ps2_rxtx_unit/ps2_tx_unit/b_reg_reg[8] )
+INFO: [Synth 8-3886] merging instance 'mouse_unit/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[7]' (FDC) to 'mouse_unit/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'mouse_unit/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[6]' (FDC) to 'mouse_unit/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'mouse_unit/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[5]' (FDC) to 'mouse_unit/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mouse_unit/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[4]' (FDC) to 'mouse_unit/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'mouse_unit/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[3]' (FDC) to 'mouse_unit/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'mouse_unit/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[2]' (FDC) to 'mouse_unit/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'mouse_unit/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[1]' (FDC) to 'mouse_unit/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'mouse_unit/ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[0]' (FDC) to 'mouse_unit/ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[0]'
+WARNING: [Synth 8-3332] Sequential element (mouse_unit/ps2_rxtx_unit/ps2_tx_unit/b_reg_reg[8]) is unused and will be removed from module mouse_led.
+WARNING: [Synth 8-3332] Sequential element (mouse_unit/ps2_rxtx_unit/ps2_rx_unit/b_reg_reg[0]) is unused and will be removed from module mouse_led.
+WARNING: [Synth 8-3332] Sequential element (mouse_unit/btn_reg_reg[2]) is unused and will be removed from module mouse_led.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1636 ; free virtual = 6024
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1524 ; free virtual = 5912
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1522 ; free virtual = 5910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1523 ; free virtual = 5911
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1523 ; free virtual = 5911
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1523 ; free virtual = 5911
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1523 ; free virtual = 5911
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1523 ; free virtual = 5911
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1523 ; free virtual = 5911
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1523 ; free virtual = 5911
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     6|
+|3     |LUT1   |    14|
+|4     |LUT2   |    18|
+|5     |LUT3   |    22|
+|6     |LUT4   |    25|
+|7     |LUT5   |    12|
+|8     |LUT6   |    25|
+|9     |FDCE   |    80|
+|10    |FDPE   |     1|
+|11    |IBUF   |     2|
+|12    |IOBUF  |     2|
+|13    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+---------+------+
+|      |Instance          |Module   |Cells |
++------+------------------+---------+------+
+|1     |top               |         |   224|
+|2     |  mouse_unit      |mouse    |   177|
+|3     |    ps2_rxtx_unit |ps2_rxtx |   134|
+|4     |      ps2_rx_unit |ps2rx    |    46|
+|5     |      ps2_tx_unit |ps2tx    |    88|
++------+------------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.770 ; gain = 445.188 ; free physical = 1523 ; free virtual = 5911
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1592.770 ; gain = 104.523 ; free physical = 1576 ; free virtual = 5965
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.777 ; gain = 445.188 ; free physical = 1576 ; free virtual = 5964
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:39 . Memory (MB): peak = 1592.777 ; gain = 458.574 ; free physical = 1567 ; free virtual = 5955
+INFO: [Common 17-1381] The checkpoint '/home-temp/aluno/Downloads/vivado/23/23.runs/synth_1/mouse_led.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mouse_led_utilization_synth.rpt -pb mouse_led_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1616.781 ; gain = 0.000 ; free physical = 1564 ; free virtual = 5952
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 13 11:24:02 2022...

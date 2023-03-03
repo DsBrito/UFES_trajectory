@@ -1,0 +1,298 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Aug 19 11:02:35 2022
+# Process ID: 673899
+# Current directory: /home-temp/aluno/Downloads/sync_test/sync_test.runs/synth_1
+# Command line: vivado -log vga_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source vga_test.tcl
+# Log file: /home-temp/aluno/Downloads/sync_test/sync_test.runs/synth_1/vga_test.vds
+# Journal file: /home-temp/aluno/Downloads/sync_test/sync_test.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source vga_test.tcl -notrace
+Command: synth_design -top vga_test -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 673936 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1207.973 ; gain = 62.992 ; free physical = 188 ; free virtual = 5738
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'vga_test' [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync_test.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'vga_sync' [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'vga_sync' (1#1) [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'vga_test' (2#1) [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync_test.vhd:15]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1249.504 ; gain = 104.523 ; free physical = 172 ; free virtual = 5720
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1249.504 ; gain = 104.523 ; free physical = 172 ; free virtual = 5720
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home-temp/aluno/Downloads/fpga_mcs_vhdl_src-20220819T135338Z-001/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]
+Finished Parsing XDC File [/home-temp/aluno/Downloads/fpga_mcs_vhdl_src-20220819T135338Z-001/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home-temp/aluno/Downloads/fpga_mcs_vhdl_src-20220819T135338Z-001/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vga_test_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/vga_test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1576.730 ; gain = 0.000 ; free physical = 139 ; free virtual = 5460
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1576.730 ; gain = 431.750 ; free physical = 149 ; free virtual = 5418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1576.730 ; gain = 431.750 ; free physical = 149 ; free virtual = 5418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1576.730 ; gain = 431.750 ; free physical = 151 ; free virtual = 5420
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "pixel_tick" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "v_end" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "h_end" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element v_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync.vhd:40]
+WARNING: [Synth 8-6014] Unused sequential element h_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync.vhd:41]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1576.730 ; gain = 431.750 ; free physical = 148 ; free virtual = 5417
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module vga_test 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+Module vga_sync 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "vga_sync_unit/h_end" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "vga_sync_unit/v_end" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element vga_sync_unit/h_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync.vhd:41]
+WARNING: [Synth 8-6014] Unused sequential element vga_sync_unit/v_count_reg_reg was removed.  [/home-temp/aluno/Downloads/ch12_Artix7-20220819T135312Z-001/ch12_Artix7/vga_sync.vhd:40]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1576.730 ; gain = 431.750 ; free physical = 139 ; free virtual = 5411
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 1576.730 ; gain = 431.750 ; free physical = 124 ; free virtual = 5358
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 1576.730 ; gain = 431.750 ; free physical = 144 ; free virtual = 5354
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 1578.746 ; gain = 433.766 ; free physical = 126 ; free virtual = 5336
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 1578.746 ; gain = 433.766 ; free physical = 123 ; free virtual = 5333
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 1578.746 ; gain = 433.766 ; free physical = 123 ; free virtual = 5333
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 1578.746 ; gain = 433.766 ; free physical = 123 ; free virtual = 5333
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 1578.746 ; gain = 433.766 ; free physical = 123 ; free virtual = 5333
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 1578.746 ; gain = 433.766 ; free physical = 123 ; free virtual = 5333
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 1578.746 ; gain = 433.766 ; free physical = 123 ; free virtual = 5333
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     2|
+|3     |LUT2 |     4|
+|4     |LUT3 |     2|
+|5     |LUT4 |     5|
+|6     |LUT5 |     7|
+|7     |LUT6 |    27|
+|8     |FDCE |    36|
+|9     |IBUF |    14|
+|10    |OBUF |    14|
++------+-----+------+
+
+Report Instance Areas: 
++------+----------------+---------+------+
+|      |Instance        |Module   |Cells |
++------+----------------+---------+------+
+|1     |top             |         |   112|
+|2     |  vga_sync_unit |vga_sync |    71|
++------+----------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 1578.746 ; gain = 433.766 ; free physical = 123 ; free virtual = 5333
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 1578.746 ; gain = 106.539 ; free physical = 178 ; free virtual = 5388
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:40 . Memory (MB): peak = 1578.754 ; gain = 433.766 ; free physical = 178 ; free virtual = 5388
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 14 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+21 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 1578.754 ; gain = 447.152 ; free physical = 177 ; free virtual = 5379
+INFO: [Common 17-1381] The checkpoint '/home-temp/aluno/Downloads/sync_test/sync_test.runs/synth_1/vga_test.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file vga_test_utilization_synth.rpt -pb vga_test_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.21 . Memory (MB): peak = 1602.758 ; gain = 0.000 ; free physical = 161 ; free virtual = 5368
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 19 11:03:25 2022...

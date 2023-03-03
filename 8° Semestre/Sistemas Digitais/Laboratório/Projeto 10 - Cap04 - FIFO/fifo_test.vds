@@ -1,0 +1,351 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Jun  8 13:35:45 2022
+# Process ID: 8231
+# Current directory: /home-temp/aluno/project_10/project_10.runs/synth_1
+# Command line: vivado -log fifo_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_test.tcl
+# Log file: /home-temp/aluno/project_10/project_10.runs/synth_1/fifo_test.vds
+# Journal file: /home-temp/aluno/project_10/project_10.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source fifo_test.tcl -notrace
+Command: synth_design -top fifo_test -part xa7a100tcsg324-1I
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8248 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1210.578 ; gain = 62.992 ; free physical = 2482 ; free virtual = 7029
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'fifo_test' [/home-temp/aluno/Downloads/DIonatas/fpga_vhdl_src/ch04/list_ch04_21_fifo_test.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'debounce_fsmd_arch' [/home-temp/aluno/Downloads/DIonatas/fpga_mcs_vhdl_src/chapter_listing/chap06_fsmd/debounce_all.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'debounce_fsmd_arch' (1#1) [/home-temp/aluno/Downloads/DIonatas/fpga_mcs_vhdl_src/chapter_listing/chap06_fsmd/debounce_all.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'fifo' [/home-temp/aluno/Downloads/DIonatas/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo.vhd:19]
+	Parameter ADDR_WIDTH bound to: 2 - type: integer 
+	Parameter DATA_WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'fifo_ctrl' [/home-temp/aluno/Downloads/DIonatas/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/fifo_ctrl.vhd:15]
+	Parameter ADDR_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fifo_ctrl' (2#1) [/home-temp/aluno/Downloads/DIonatas/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/fifo_ctrl.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'reg_file' [/home-temp/aluno/Downloads/DIonatas/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/reg_file.vhd:19]
+	Parameter ADDR_WIDTH bound to: 2 - type: integer 
+	Parameter DATA_WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_file' (3#1) [/home-temp/aluno/Downloads/DIonatas/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/reg_file.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'fifo' (4#1) [/home-temp/aluno/Downloads/DIonatas/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'fifo_test' (5#1) [/home-temp/aluno/Downloads/DIonatas/fpga_vhdl_src/ch04/list_ch04_21_fifo_test.vhd:13]
+WARNING: [Synth 8-3917] design fifo_test has port led[5] driven by constant 0
+WARNING: [Synth 8-3917] design fifo_test has port led[4] driven by constant 0
+WARNING: [Synth 8-3917] design fifo_test has port led[3] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1252.109 ; gain = 104.523 ; free physical = 2496 ; free virtual = 7043
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1252.109 ; gain = 104.523 ; free physical = 2495 ; free virtual = 7042
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xa7a100tcsg324-1I
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home-temp/aluno/Downloads/DIonatas/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]
+Finished Parsing XDC File [/home-temp/aluno/Downloads/DIonatas/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home-temp/aluno/Downloads/DIonatas/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fifo_test_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fifo_test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1591.359 ; gain = 0.000 ; free physical = 2229 ; free virtual = 6776
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2298 ; free virtual = 6854
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7a100tcsg324-1I
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2298 ; free virtual = 6854
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2300 ; free virtual = 6856
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "db_tick" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2291 ; free virtual = 6846
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     22 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               22 Bit    Registers := 2     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     22 Bit        Muxes := 4     
+	   2 Input     22 Bit        Muxes := 16    
+	   7 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module debounce_fsmd_arch 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     22 Bit       Adders := 1     
++---Registers : 
+	               22 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     22 Bit        Muxes := 2     
+	   2 Input     22 Bit        Muxes := 8     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 3     
+Module fifo_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "btn_db_unit0/db_tick" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "btn_db_unit1/db_tick" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design fifo_test has port led[5] driven by constant 0
+WARNING: [Synth 8-3917] design fifo_test has port led[4] driven by constant 0
+WARNING: [Synth 8-3917] design fifo_test has port led[3] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2278 ; free virtual = 6834
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+---------------------------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object                            | Inference | Size (Depth x Width) | Primitives   | 
++------------+---------------------------------------+-----------+----------------------+--------------+
+|fifo_test   | fifo_unit/reg_file_unit/array_reg_reg | Implied   | 4 x 3                | RAM32M x 1   | 
++------------+---------------------------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2148 ; free virtual = 6704
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:37 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2143 ; free virtual = 6698
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+---------------------------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object                            | Inference | Size (Depth x Width) | Primitives   | 
++------------+---------------------------------------+-----------+----------------------+--------------+
+|fifo_test   | fifo_unit/reg_file_unit/array_reg_reg | Implied   | 4 x 3                | RAM32M x 1   | 
++------------+---------------------------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:37 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2142 ; free virtual = 6698
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2155 ; free virtual = 6711
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2155 ; free virtual = 6711
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2155 ; free virtual = 6711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2155 ; free virtual = 6711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2155 ; free virtual = 6711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2155 ; free virtual = 6711
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    12|
+|3     |LUT1   |    42|
+|4     |LUT2   |     3|
+|5     |LUT3   |     2|
+|6     |LUT4   |    12|
+|7     |LUT5   |    46|
+|8     |LUT6   |     8|
+|9     |RAM32M |     1|
+|10    |FDCE   |    53|
+|11    |FDPE   |     1|
+|12    |IBUF   |     7|
+|13    |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+---------------------+------+
+|      |Instance          |Module               |Cells |
++------+------------------+---------------------+------+
+|1     |top               |                     |   196|
+|2     |  btn_db_unit0    |debounce_fsmd_arch   |    82|
+|3     |  btn_db_unit1    |debounce_fsmd_arch_0 |    83|
+|4     |  fifo_unit       |fifo                 |    15|
+|5     |    ctrl_unit     |fifo_ctrl            |    14|
+|6     |    reg_file_unit |reg_file             |     1|
++------+------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1591.359 ; gain = 443.773 ; free physical = 2155 ; free virtual = 6711
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1591.359 ; gain = 104.523 ; free physical = 2209 ; free virtual = 6765
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1591.367 ; gain = 443.773 ; free physical = 2209 ; free virtual = 6765
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:39 . Memory (MB): peak = 1591.367 ; gain = 457.160 ; free physical = 2205 ; free virtual = 6760
+INFO: [Common 17-1381] The checkpoint '/home-temp/aluno/project_10/project_10.runs/synth_1/fifo_test.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fifo_test_utilization_synth.rpt -pb fifo_test_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1615.371 ; gain = 0.000 ; free physical = 2205 ; free virtual = 6761
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  8 13:36:31 2022...

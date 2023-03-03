@@ -1,0 +1,518 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Jul 13 14:03:12 2022
+# Process ID: 64639
+# Current directory: /home-temp/aluno/Downloads/vivado/21/21.runs/synth_1
+# Command line: vivado -log kb_test.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source kb_test.tcl
+# Log file: /home-temp/aluno/Downloads/vivado/21/21.runs/synth_1/kb_test.vds
+# Journal file: /home-temp/aluno/Downloads/vivado/21/21.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source kb_test.tcl -notrace
+Command: synth_design -top kb_test -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 64658 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1210.578 ; gain = 62.988 ; free physical = 1320 ; free virtual = 6131
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'kb_test' [/home-temp/aluno/Downloads/vivado/21/kb_test.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'kb_code' [/home-temp/aluno/Downloads/vivado/21/kb_code.vhd:16]
+	Parameter W_SIZE bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ps2rx' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap17_ps2/hdl/ps2rx.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ps2rx' (1#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap17_ps2/hdl/ps2rx.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'fifo' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo.vhd:19]
+	Parameter ADDR_WIDTH bound to: 2 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'fifo_ctrl' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo_ctrl.vhd:15]
+	Parameter ADDR_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fifo_ctrl' (2#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo_ctrl.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'reg_file' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/reg_file.vhd:19]
+	Parameter ADDR_WIDTH bound to: 2 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_file' (3#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/reg_file.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'fifo' (4#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'kb_code' (5#1) [/home-temp/aluno/Downloads/vivado/21/kb_code.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'uart' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart.vhd:25]
+	Parameter DBIT bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+	Parameter FIFO_W bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'baud_gen' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/baud_gen.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'baud_gen' (6#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/baud_gen.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'uart_rx' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart_rx.vhd:18]
+	Parameter DBIT bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_rx' (7#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart_rx.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'uart_tx' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart_tx.vhd:19]
+	Parameter DBIT bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_tx' (8#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart_tx.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'fifo__parameterized0' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo.vhd:19]
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'fifo_ctrl__parameterized0' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo_ctrl.vhd:15]
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fifo_ctrl__parameterized0' (8#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo_ctrl.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'reg_file__parameterized0' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/reg_file.vhd:19]
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_file__parameterized0' (8#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/reg_file.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'fifo__parameterized0' (8#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'uart' (9#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'key2ascii' [/home-temp/aluno/Downloads/1ed_fpga_vhdl_src/fpga_vhdl_src/ch08/list_ch08_04_key2ascii.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'key2ascii' (10#1) [/home-temp/aluno/Downloads/1ed_fpga_vhdl_src/fpga_vhdl_src/ch08/list_ch08_04_key2ascii.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'kb_test' (11#1) [/home-temp/aluno/Downloads/vivado/21/kb_test.vhd:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1252.109 ; gain = 104.520 ; free physical = 1334 ; free virtual = 6145
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1252.109 ; gain = 104.520 ; free physical = 1333 ; free virtual = 6144
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]
+Finished Parsing XDC File [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/kb_test_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/kb_test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1592.766 ; gain = 0.000 ; free physical = 1072 ; free virtual = 5879
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1161 ; free virtual = 5969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1161 ; free virtual = 5969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1163 ; free virtual = 5971
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "n_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tick" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element r_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/baud_gen.vhd:22]
+INFO: [Synth 8-5546] ROM "rx_done_tick" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "n_next" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tx_done_tick" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "s_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "n_next" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element w_ptr_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo_ctrl.vhd:32]
+WARNING: [Synth 8-6014] Unused sequential element r_ptr_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo_ctrl.vhd:33]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1154 ; free virtual = 5962
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 9     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 5     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   4 Input      5 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 2     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 11    
+	   3 Input      1 Bit        Muxes := 5     
+	   4 Input      1 Bit        Muxes := 33    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ps2rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+Module fifo_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 2     
++---Registers : 
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 6     
+Module kb_code 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 3     
+Module baud_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module uart_rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 2     
+Module uart_tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 2     
+Module fifo_ctrl__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
++---Registers : 
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/fifo_rx_unit/reg_file_unit/array_reg_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/uart_rx_unit/b_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart_rx.vhd:49]
+INFO: [Synth 8-5546] ROM "uart_unit/baud_gen_unit/tick" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/baud_gen_unit/r_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/baud_gen.vhd:22]
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/fifo_rx_unit/ctrl_unit/r_ptr_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo_ctrl.vhd:33]
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/fifo_rx_unit/ctrl_unit/w_ptr_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo_ctrl.vhd:32]
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/fifo_tx_unit/ctrl_unit/r_ptr_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo_ctrl.vhd:33]
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/fifo_tx_unit/ctrl_unit/w_ptr_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap07_ram/fifo_ctrl.vhd:32]
+WARNING: [Synth 8-3332] Sequential element (kb_code_unit/ps2rx_unit/b_reg_reg[0]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/sync1_reg_reg) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/sync2_reg_reg) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/state_reg_reg[1]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/state_reg_reg[0]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/s_reg_reg[4]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/s_reg_reg[3]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/s_reg_reg[2]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/s_reg_reg[1]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/s_reg_reg[0]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/n_reg_reg[2]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/n_reg_reg[1]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/n_reg_reg[0]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/empty_reg_reg) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/r_ptr_reg_reg[3]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/r_ptr_reg_reg[2]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/r_ptr_reg_reg[1]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/r_ptr_reg_reg[0]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/w_ptr_reg_reg[3]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/w_ptr_reg_reg[2]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/w_ptr_reg_reg[1]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/w_ptr_reg_reg[0]) is unused and will be removed from module kb_test.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/full_reg_reg) is unused and will be removed from module kb_test.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1143 ; free virtual = 5951
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+-----------------------+---------------+----------------+
+|Module Name | RTL Object            | Depth x Width | Implemented As | 
++------------+-----------------------+---------------+----------------+
+|key2ascii   | ascii_code            | 256x7         | LUT            | 
+|kb_test     | key2a_unit/ascii_code | 256x7         | LUT            | 
++------------+-----------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+--------------------------------------------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object                                             | Inference | Size (Depth x Width) | Primitives   | 
++------------+--------------------------------------------------------+-----------+----------------------+--------------+
+|kb_test     | kb_code_unit/fifo_key_unit/reg_file_unit/array_reg_reg | Implied   | 4 x 8                | RAM32M x 2   | 
+|kb_test     | uart_unit/fifo_tx_unit/reg_file_unit/array_reg_reg     | Implied   | 16 x 7               | RAM32M x 2   | 
++------------+--------------------------------------------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1019 ; free virtual = 5827
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1019 ; free virtual = 5827
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+--------------------------------------------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object                                             | Inference | Size (Depth x Width) | Primitives   | 
++------------+--------------------------------------------------------+-----------+----------------------+--------------+
+|kb_test     | kb_code_unit/fifo_key_unit/reg_file_unit/array_reg_reg | Implied   | 4 x 8                | RAM32M x 2   | 
+|kb_test     | uart_unit/fifo_tx_unit/reg_file_unit/array_reg_reg     | Implied   | 16 x 7               | RAM32M x 2   | 
++------------+--------------------------------------------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:36 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1017 ; free virtual = 5825
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1017 ; free virtual = 5824
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1017 ; free virtual = 5824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1017 ; free virtual = 5824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1017 ; free virtual = 5824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1017 ; free virtual = 5824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1017 ; free virtual = 5824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |LUT1   |     2|
+|3     |LUT2   |    10|
+|4     |LUT3   |    18|
+|5     |LUT4   |    27|
+|6     |LUT5   |    14|
+|7     |LUT6   |    40|
+|8     |RAM32M |     4|
+|9     |FDCE   |    69|
+|10    |FDPE   |     3|
+|11    |IBUF   |     4|
+|12    |OBUF   |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------+--------------------------+------+
+|      |Instance            |Module                    |Cells |
++------+--------------------+--------------------------+------+
+|1     |top                 |                          |   193|
+|2     |  kb_code_unit      |kb_code                   |    59|
+|3     |    fifo_key_unit   |fifo                      |    16|
+|4     |      ctrl_unit     |fifo_ctrl                 |    14|
+|5     |      reg_file_unit |reg_file                  |     2|
+|6     |    ps2rx_unit      |ps2rx                     |    42|
+|7     |  key2a_unit        |key2ascii                 |    21|
+|8     |  uart_unit         |uart                      |   107|
+|9     |    baud_gen_unit   |baud_gen                  |    32|
+|10    |    fifo_tx_unit    |fifo__parameterized0      |    28|
+|11    |      ctrl_unit     |fifo_ctrl__parameterized0 |    25|
+|12    |      reg_file_unit |reg_file__parameterized0  |     3|
+|13    |    uart_tx_unit    |uart_tx                   |    47|
++------+--------------------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.766 ; gain = 445.176 ; free physical = 1017 ; free virtual = 5824
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1592.766 ; gain = 104.520 ; free physical = 1071 ; free virtual = 5878
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1592.773 ; gain = 445.176 ; free physical = 1071 ; free virtual = 5878
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+53 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:39 . Memory (MB): peak = 1592.773 ; gain = 458.566 ; free physical = 1063 ; free virtual = 5871
+INFO: [Common 17-1381] The checkpoint '/home-temp/aluno/Downloads/vivado/21/21.runs/synth_1/kb_test.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file kb_test_utilization_synth.rpt -pb kb_test_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1616.777 ; gain = 0.000 ; free physical = 1065 ; free virtual = 5872
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 13 14:03:58 2022...

@@ -1,0 +1,567 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Jul 13 11:15:55 2022
+# Process ID: 46030
+# Current directory: /home-temp/aluno/Downloads/vivado/22/22.runs/synth_1
+# Command line: vivado -log ps2_monitor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ps2_monitor.tcl
+# Log file: /home-temp/aluno/Downloads/vivado/22/22.runs/synth_1/ps2_monitor.vds
+# Journal file: /home-temp/aluno/Downloads/vivado/22/22.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ps2_monitor.tcl -notrace
+Command: synth_design -top ps2_monitor -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 46042 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1210.574 ; gain = 62.988 ; free physical = 1327 ; free virtual = 6160
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ps2_monitor' [/home-temp/aluno/Downloads/vivado/22/ps2_mon.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'debounce_fsmd_arch' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap06_fsmd/debounce_all.vhd:87]
+INFO: [Synth 8-256] done synthesizing module 'debounce_fsmd_arch' (1#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap06_fsmd/debounce_all.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'ps2_rxtx' [/home-temp/aluno/Downloads/vivado/22/ps2_rxtx.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'ps2tx' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap17_ps2/hdl/ps2tx.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'ps2tx' (2#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap17_ps2/hdl/ps2tx.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'ps2rx' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap17_ps2/hdl/ps2rx.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ps2rx' (3#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap17_ps2/hdl/ps2rx.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'ps2_rxtx' (4#1) [/home-temp/aluno/Downloads/vivado/22/ps2_rxtx.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'uart' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart.vhd:25]
+	Parameter DBIT bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+	Parameter FIFO_W bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'baud_gen' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/baud_gen.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'baud_gen' (5#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/baud_gen.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'uart_rx' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart_rx.vhd:18]
+	Parameter DBIT bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_rx' (6#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart_rx.vhd:18]
+INFO: [Synth 8-638] synthesizing module 'uart_tx' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart_tx.vhd:19]
+	Parameter DBIT bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_tx' (7#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart_tx.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'fifo' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/fifo.vhd:19]
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'fifo_ctrl' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/fifo_ctrl.vhd:15]
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'fifo_ctrl' (8#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/fifo_ctrl.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'reg_file' [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/reg_file.vhd:19]
+	Parameter ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'reg_file' (9#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/reg_file.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'fifo' (10#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/fifo.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'uart' (11#1) [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ps2_monitor' (12#1) [/home-temp/aluno/Downloads/vivado/22/ps2_mon.vhd:15]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1253.105 ; gain = 105.520 ; free physical = 1339 ; free virtual = 6173
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1253.105 ; gain = 105.520 ; free physical = 1339 ; free virtual = 6172
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]
+Finished Parsing XDC File [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap00_constraint/Nexys4_DDR_chu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ps2_monitor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ps2_monitor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1594.371 ; gain = 0.000 ; free physical = 1073 ; free virtual = 5906
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1163 ; free virtual = 5997
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1163 ; free virtual = 5997
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1165 ; free virtual = 5999
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "db_tick" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'ps2tx'
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "n_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "n_next" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tick" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element r_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/baud_gen.vhd:22]
+INFO: [Synth 8-5546] ROM "rx_done_tick" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "s_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "n_next" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tx_done_tick" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_next" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "s_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "n_next" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element w_ptr_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/fifo_ctrl.vhd:32]
+WARNING: [Synth 8-6014] Unused sequential element r_ptr_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/fifo_ctrl.vhd:33]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                           000001 |                              000
+                   waitr |                           000010 |                              001
+                     rts |                           000100 |                              010
+                   start |                           001000 |                              011
+                    data |                           010000 |                              100
+                    stop |                           100000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'one-hot' in module 'ps2tx'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1156 ; free virtual = 5990
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     22 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 10    
+	   2 Input      3 Bit       Adders := 2     
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               22 Bit    Registers := 1     
+	               13 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 6     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   4 Input     22 Bit        Muxes := 2     
+	   2 Input     22 Bit        Muxes := 8     
+	   6 Input     13 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   6 Input      9 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 3     
+	   4 Input      5 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 2     
+	   7 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 2     
+	   5 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 14    
+	   4 Input      1 Bit        Muxes := 32    
+	   3 Input      1 Bit        Muxes := 6     
+	   6 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ps2_monitor 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 2     
+Module debounce_fsmd_arch 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     22 Bit       Adders := 1     
++---Registers : 
+	               22 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     22 Bit        Muxes := 2     
+	   2 Input     22 Bit        Muxes := 8     
+	   7 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 3     
+Module ps2tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     13 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
++---Registers : 
+	               13 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   6 Input     13 Bit        Muxes := 1     
+	   6 Input      9 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 8     
+Module ps2rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+Module baud_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module uart_rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 2     
+Module uart_tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 2     
+Module fifo_ctrl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
++---Registers : 
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/fifo_rx_unit/reg_file_unit/array_reg_reg was removed. 
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/uart_rx_unit/b_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/uart_rx.vhd:49]
+INFO: [Synth 8-5546] ROM "btn_db_unit/db_tick" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ps2_rxtx_unit/ps2_tx_unit/state_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "uart_unit/baud_gen_unit/tick" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/baud_gen_unit/r_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/baud_gen.vhd:22]
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/fifo_rx_unit/ctrl_unit/r_ptr_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/fifo_ctrl.vhd:33]
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/fifo_rx_unit/ctrl_unit/w_ptr_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/fifo_ctrl.vhd:32]
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/fifo_tx_unit/ctrl_unit/r_ptr_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/fifo_ctrl.vhd:33]
+WARNING: [Synth 8-6014] Unused sequential element uart_unit/fifo_tx_unit/ctrl_unit/w_ptr_reg_reg was removed.  [/home-temp/aluno/Downloads/vivado/fpga_mcs_vhdl_src/chapter_listing/chap11_uart/hdl/fifo_ctrl.vhd:32]
+INFO: [Synth 8-3886] merging instance 'ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[7]' (FDC) to 'ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[6]' (FDC) to 'ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[5]' (FDC) to 'ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[4]' (FDC) to 'ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[3]' (FDC) to 'ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[2]' (FDC) to 'ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[1]' (FDC) to 'ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ps2_rxtx_unit/ps2_rx_unit/filter_reg_reg[0]' (FDC) to 'ps2_rxtx_unit/ps2_tx_unit/filter_reg_reg[0]'
+WARNING: [Synth 8-3332] Sequential element (ps2_rxtx_unit/ps2_rx_unit/b_reg_reg[0]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/sync1_reg_reg) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/sync2_reg_reg) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/state_reg_reg[1]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/state_reg_reg[0]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/s_reg_reg[4]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/s_reg_reg[3]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/s_reg_reg[2]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/s_reg_reg[1]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/s_reg_reg[0]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/n_reg_reg[2]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/n_reg_reg[1]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/uart_rx_unit/n_reg_reg[0]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/empty_reg_reg) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/r_ptr_reg_reg[3]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/r_ptr_reg_reg[2]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/r_ptr_reg_reg[1]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/r_ptr_reg_reg[0]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/w_ptr_reg_reg[3]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/w_ptr_reg_reg[2]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/w_ptr_reg_reg[1]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/w_ptr_reg_reg[0]) is unused and will be removed from module ps2_monitor.
+WARNING: [Synth 8-3332] Sequential element (uart_unit/fifo_rx_unit/ctrl_unit/full_reg_reg) is unused and will be removed from module ps2_monitor.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1144 ; free virtual = 5978
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+----------------------------------------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object                                         | Inference | Size (Depth x Width) | Primitives   | 
++------------+----------------------------------------------------+-----------+----------------------+--------------+
+|ps2_monitor | uart_unit/fifo_tx_unit/reg_file_unit/array_reg_reg | Implied   | 16 x 7               | RAM32M x 2   | 
++------------+----------------------------------------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1020 ; free virtual = 5853
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1015 ; free virtual = 5849
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+----------------------------------------------------+-----------+----------------------+--------------+
+|Module Name | RTL Object                                         | Inference | Size (Depth x Width) | Primitives   | 
++------------+----------------------------------------------------+-----------+----------------------+--------------+
+|ps2_monitor | uart_unit/fifo_tx_unit/reg_file_unit/array_reg_reg | Implied   | 16 x 7               | RAM32M x 2   | 
++------------+----------------------------------------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:37 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1014 ; free virtual = 5848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1014 ; free virtual = 5848
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1014 ; free virtual = 5848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1014 ; free virtual = 5848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1014 ; free virtual = 5848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1014 ; free virtual = 5848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1014 ; free virtual = 5848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     9|
+|3     |LUT1   |    37|
+|4     |LUT2   |    11|
+|5     |LUT3   |    39|
+|6     |LUT4   |    35|
+|7     |LUT5   |    46|
+|8     |LUT6   |    36|
+|9     |RAM32M |     2|
+|10    |FDCE   |   121|
+|11    |FDPE   |     3|
+|12    |IBUF   |    11|
+|13    |IOBUF  |     2|
+|14    |OBUF   |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------+-------------------+------+
+|      |Instance            |Module             |Cells |
++------+--------------------+-------------------+------+
+|1     |top                 |                   |   354|
+|2     |  btn_db_unit       |debounce_fsmd_arch |    85|
+|3     |  ps2_rxtx_unit     |ps2_rxtx           |   145|
+|4     |    ps2_rx_unit     |ps2rx              |    53|
+|5     |    ps2_tx_unit     |ps2tx              |    92|
+|6     |  uart_unit         |uart               |   106|
+|7     |    baud_gen_unit   |baud_gen           |    31|
+|8     |    fifo_tx_unit    |fifo               |    29|
+|9     |      ctrl_unit     |fifo_ctrl          |    26|
+|10    |      reg_file_unit |reg_file           |     3|
+|11    |    uart_tx_unit    |uart_tx            |    46|
++------+--------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 1594.371 ; gain = 446.785 ; free physical = 1014 ; free virtual = 5848
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1594.371 ; gain = 105.520 ; free physical = 1069 ; free virtual = 5903
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:38 . Memory (MB): peak = 1594.379 ; gain = 446.785 ; free physical = 1069 ; free virtual = 5903
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:40 . Memory (MB): peak = 1594.379 ; gain = 460.176 ; free physical = 1062 ; free virtual = 5895
+INFO: [Common 17-1381] The checkpoint '/home-temp/aluno/Downloads/vivado/22/22.runs/synth_1/ps2_monitor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ps2_monitor_utilization_synth.rpt -pb ps2_monitor_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1618.383 ; gain = 0.000 ; free physical = 1061 ; free virtual = 5895
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 13 11:16:41 2022...
