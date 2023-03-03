@@ -1,0 +1,486 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: vga_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "vga_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "vga_top"
+Output Format                      : NGC
+Target Device                      : xc3s1200e-4-fg320
+
+---- Source Options
+Top Module Name                    : vga_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/prova2_sisdig_Q1/list_ch13_01_font_rom.vhd" in Library work.
+Architecture arch of Entity font_rom is up to date.
+Compiling vhdl file "C:/Xilinx/prova2_sisdig_Q1/list_ch12_01_vga_sync.vhd" in Library work.
+Architecture arch of Entity vga_sync is up to date.
+Compiling vhdl file "C:/Xilinx/prova2_sisdig_Q1/vga_mult_result.vhd" in Library work.
+Architecture behavioral of Entity vga_mult_result is up to date.
+Compiling vhdl file "C:/Xilinx/prova2_sisdig_Q1/vga_top.vhd" in Library work.
+Architecture behavioral of Entity vga_top is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <vga_top> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <vga_sync> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <vga_mult_result> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <font_rom> in library <work> (architecture <arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <vga_top> in library <work> (Architecture <behavioral>).
+Entity <vga_top> analyzed. Unit <vga_top> generated.
+
+Analyzing Entity <vga_sync> in library <work> (Architecture <arch>).
+Entity <vga_sync> analyzed. Unit <vga_sync> generated.
+
+Analyzing Entity <vga_mult_result> in library <work> (Architecture <Behavioral>).
+Entity <vga_mult_result> analyzed. Unit <vga_mult_result> generated.
+
+Analyzing Entity <font_rom> in library <work> (Architecture <arch>).
+Entity <font_rom> analyzed. Unit <font_rom> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <vga_sync>.
+    Related source file is "C:/Xilinx/prova2_sisdig_Q1/list_ch12_01_vga_sync.vhd".
+    Found 10-bit up counter for signal <h_count_reg>.
+    Found 10-bit comparator greatequal for signal <h_sync_next$cmp_ge0000> created at line 90.
+    Found 10-bit comparator lessequal for signal <h_sync_next$cmp_le0000> created at line 90.
+    Found 1-bit register for signal <h_sync_reg>.
+    Found 1-bit register for signal <mod2_reg>.
+    Found 10-bit up counter for signal <v_count_reg>.
+    Found 10-bit comparator greatequal for signal <v_sync_next$cmp_ge0000> created at line 94.
+    Found 10-bit comparator lessequal for signal <v_sync_next$cmp_le0000> created at line 94.
+    Found 1-bit register for signal <v_sync_reg>.
+    Found 10-bit comparator less for signal <video_on$cmp_lt0000> created at line 99.
+    Found 10-bit comparator less for signal <video_on$cmp_lt0001> created at line 99.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+Unit <vga_sync> synthesized.
+
+
+Synthesizing Unit <font_rom>.
+    Related source file is "C:/Xilinx/prova2_sisdig_Q1/list_ch13_01_font_rom.vhd".
+    Found 2048x8-bit ROM for signal <data$rom0000> created at line 2213.
+    Found 11-bit register for signal <addr_reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred  11 D-type flip-flop(s).
+Unit <font_rom> synthesized.
+
+
+Synthesizing Unit <vga_mult_result>.
+    Related source file is "C:/Xilinx/prova2_sisdig_Q1/vga_mult_result.vhd".
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <pix_y<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <pix_x<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit 8-to-1 multiplexer for signal <font_bit>.
+    Found 6-bit comparator less for signal <score_on$cmp_lt0000> created at line 64.
+    Summary:
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <vga_mult_result> synthesized.
+
+
+Synthesizing Unit <vga_top>.
+    Related source file is "C:/Xilinx/prova2_sisdig_Q1/vga_top.vhd".
+    Found 8-bit register for signal <rgb_reg>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <vga_top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 2048x8-bit ROM                                        : 1
+# Counters                                             : 2
+ 10-bit up counter                                     : 2
+# Registers                                            : 5
+ 1-bit register                                        : 3
+ 11-bit register                                       : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 7
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator less                                : 2
+ 10-bit comparator lessequal                           : 2
+ 6-bit comparator less                                 : 1
+# Multiplexers                                         : 1
+ 1-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <font_rom>.
+INFO:Xst:3044 - The ROM <Mrom_data_rom0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <addr_reg>.
+INFO:Xst:3225 - The RAM <Mrom_data_rom0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 2048-word x 8-bit                   |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <addr>          |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <data>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <font_rom> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 2048x8-bit single-port block RAM                      : 1
+# Counters                                             : 2
+ 10-bit up counter                                     : 2
+# Registers                                            : 11
+ Flip-Flops                                            : 11
+# Comparators                                          : 7
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator less                                : 2
+ 10-bit comparator lessequal                           : 2
+ 6-bit comparator less                                 : 1
+# Multiplexers                                         : 1
+ 1-bit 8-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <vga_top> ...
+
+Optimizing unit <vga_sync> ...
+
+Optimizing unit <vga_mult_result> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <rgb_reg_0> in Unit <vga_top> is equivalent to the following FF/Latch, which will be removed : <rgb_reg_1> 
+INFO:Xst:2261 - The FF/Latch <rgb_reg_2> in Unit <vga_top> is equivalent to the following 5 FFs/Latches, which will be removed : <rgb_reg_3> <rgb_reg_4> <rgb_reg_5> <rgb_reg_6> <rgb_reg_7> 
+Found area constraint ratio of 100 (+ 5) on block vga_top, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 25
+ Flip-Flops                                            : 25
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : vga_top.ngr
+Top Level Output File Name         : vga_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 44
+
+Cell Usage :
+# BELS                             : 184
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 18
+#      LUT2                        : 27
+#      LUT2_D                      : 1
+#      LUT2_L                      : 4
+#      LUT3                        : 10
+#      LUT3_L                      : 4
+#      LUT4                        : 54
+#      LUT4_D                      : 6
+#      LUT4_L                      : 9
+#      MUXCY                       : 18
+#      MUXF5                       : 8
+#      VCC                         : 1
+#      XORCY                       : 20
+# FlipFlops/Latches                : 25
+#      FDC                         : 3
+#      FDCE                        : 22
+# RAMS                             : 1
+#      RAMB16_S9                   : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 43
+#      IBUF                        : 33
+#      OBUF                        : 10
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1200efg320-4 
+
+ Number of Slices:                       71  out of   8672     0%  
+ Number of Slice Flip Flops:             25  out of  17344     0%  
+ Number of 4 input LUTs:                136  out of  17344     0%  
+ Number of IOs:                          44
+ Number of bonded IOBs:                  44  out of    250    17%  
+ Number of BRAMs:                         1  out of     28     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 26    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 25    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.261ns (Maximum Frequency: 137.731MHz)
+   Minimum input arrival time before clock: 6.804ns
+   Maximum output required time after clock: 4.532ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.261ns (frequency: 137.731MHz)
+  Total number of paths / destination ports: 895 / 58
+-------------------------------------------------------------------------
+Delay:               7.261ns (Levels of Logic = 5)
+  Source:            vga_sync_unit/h_count_reg_8 (FF)
+  Destination:       rgb_reg_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: vga_sync_unit/h_count_reg_8 to rgb_reg_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            33   0.591   1.342  vga_sync_unit/h_count_reg_8 (vga_sync_unit/h_count_reg_8)
+     LUT4:I1->O            1   0.704   0.424  vga_mult_result_unit/bit_addr_and00001_SW1 (N19)
+     LUT4_D:I3->O         14   0.704   1.004  vga_mult_result_unit/bit_addr_and00001 (vga_mult_result_unit/bit_addr_and0000)
+     LUT4:I3->O            1   0.704   0.455  vga_mult_result_unit/Mmux_font_bit_6 (vga_mult_result_unit/Mmux_font_bit_6)
+     LUT4:I2->O            1   0.704   0.000  rgb_next<1>1_F (N64)
+     MUXF5:I0->O           1   0.321   0.000  rgb_next<1>1 (rgb_next<0>)
+     FDCE:D                    0.308          rgb_reg_0
+    ----------------------------------------
+    Total                      7.261ns (4.036ns logic, 3.225ns route)
+                                       (55.6% logic, 44.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 32 / 4
+-------------------------------------------------------------------------
+Offset:              6.804ns (Levels of Logic = 5)
+  Source:            a_bcd0<2> (PAD)
+  Destination:       vga_mult_result_unit/font_unit/Mrom_data_rom0000 (RAM)
+  Destination Clock: clk rising
+
+  Data Path: a_bcd0<2> to vga_mult_result_unit/font_unit/Mrom_data_rom0000
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.595  a_bcd0_2_IBUF (a_bcd0_2_IBUF)
+     LUT4:I0->O            1   0.704   0.455  vga_mult_result_unit/char_addr<2>18_SW0 (N36)
+     LUT4:I2->O            1   0.704   0.424  vga_mult_result_unit/char_addr<2>18 (vga_mult_result_unit/char_addr<2>18)
+     LUT4:I3->O            1   0.704   0.499  vga_mult_result_unit/char_addr<2>85 (vga_mult_result_unit/char_addr<2>85)
+     LUT3:I1->O            1   0.704   0.420  vga_mult_result_unit/char_addr<2>147 (vga_mult_result_unit/char_addr<2>)
+     RAMB16_S9:ADDR6           0.377          vga_mult_result_unit/font_unit/Mrom_data_rom0000
+    ----------------------------------------
+    Total                      6.804ns (4.411ns logic, 2.393ns route)
+                                       (64.8% logic, 35.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Offset:              4.532ns (Levels of Logic = 1)
+  Source:            rgb_reg_2 (FF)
+  Destination:       rgb<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: rgb_reg_2 to rgb<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             6   0.591   0.669  rgb_reg_2 (rgb_reg_2)
+     OBUF:I->O                 3.272          rgb_2_OBUF (rgb<2>)
+    ----------------------------------------
+    Total                      4.532ns (3.863ns logic, 0.669ns route)
+                                       (85.2% logic, 14.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.13 secs
+ 
+--> 
+
+Total memory usage is 4513616 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    4 (   0 filtered)
+

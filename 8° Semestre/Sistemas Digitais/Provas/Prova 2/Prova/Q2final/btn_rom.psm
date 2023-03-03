@@ -1,0 +1,310 @@
+;=========================================================
+; Data ram address alias
+;=========================================================
+constant a_8, 00
+constant a_4, 01
+    
+constant b_8, 02
+constant b_4, 03
+    
+constant p_lsb, 08
+constant p_msb, 10
+constant p_extra, 11 
+
+;=========================================================
+; Register alias
+;=========================================================
+;commonly used local variables
+namereg s0, data       ;reg for temporary data
+namereg s1, addr       ;reg for temporary mem & i/o port addr
+namereg s2, i          ;general-purpose loop index
+;global variables
+namereg sf, switch_a_b ;ram offset for current switch input 
+
+;=========================================================
+; Port alias
+;=========================================================
+;------------input port definitions---------------------
+constant rd_flag_port, 00  ;2 flags (xxxxxxsc):
+constant sw_port_lower, 01       ;8-bit switch
+constant sw_port_higher, 02       ;8-bit switch
+
+constant mult_prod0_port, 03   ;multiplication product 8
+constant mult_prod1_port, 04   ;multiplication product 8
+constant mult_prod2_port, 05   ;multiplication product 8
+;------------output port definitions---------------------
+constant a_bcd01_port, 00
+constant a_bcd2_port,  01
+constant b_bcd01_port, 02
+constant b_bcd2_port,  03
+constant p_bcd01_port, 04
+constant p_bcd23_port, 05
+constant p_bcd4_port,  06
+
+constant mult_src0_port_lower, 07    ;multiplier operand 0
+constant mult_src0_port_higher, 08    ;multiplier operand 0
+constant mult_src1_port_lower, 09    ;multiplier operand 1
+constant mult_src1_port_higher, 10    ;multiplier operand 1
+
+
+;=========================================================
+; Main program
+;=========================================================
+;Calling hierarchy:
+;
+;main
+;  - init
+;  - proc_btn
+;      - init
+;  - output_bcd (a e b)
+;  - bcd2bin (a e b)
+;  - mult_hard
+;  - bin2bcd (p)
+;  - output_p_bcd
+; =========================================================
+
+   call init               ;initialization
+forever:
+   ;main loop body
+   call proc_btn           ;check & process buttons
+   
+   ;output_a_bcd01
+   fetch data, a_8
+   output data, a_bcd01_port
+   
+   ;output_a_bcd2
+   fetch data, a_4
+   output data, a_bcd2_port
+   
+   ;output_b_bcd01
+   fetch data, b_8
+   output data, b_bcd01_port
+   
+   ;output_b_bcd2
+   fetch data, b_4
+   output data, b_bcd2_port
+   
+   ;converte a01 para binário
+   fetch data, a_8
+   call bcd2bin ;a01_bin está em s5
+   load sA, s5
+   
+   ;converte a2 para binário
+   fetch data, a_4
+   call bcd2bin ;a2_bin está em s5
+   load sB, s5
+   
+   ;converte b01 para binário
+   fetch data, b_8
+   call bcd2bin ;b01_bin está em s5
+   load sC, s5
+   
+   ;converte b2 para binário
+   fetch data, b_4
+   call bcd2bin ;b2_bin está em s5
+   load sD, s5
+   
+   call mult_hard;
+   
+   load s6, sA
+   load s5, sB
+   call bin2bcd
+   output s3, p_bcd23_port
+   output s4, p_bcd01_port
+   
+   load s6, sC
+   load s5, 0
+   call bin2bcd
+   output s3, p_bcd4_port
+	
+   jump forever
+
+;=========================================================
+;routine: init
+;  function: perform initialization, clear register/ram
+;  output register: 
+;    switch_a_b: cleared to 0
+;  temp register: data, i
+;=========================================================
+init:
+   ;clear memory
+   load i, 40              ;unitize loop index to 64
+   load data, 00
+clr_mem_loop:
+   store data, (i)
+   sub i, 01               ;dec loop index
+   jump nz, clr_mem_loop   ;repeat until i=0
+   ;clear register 
+   load switch_a_b, 00
+   return  
+
+;=========================================================
+;routine: proc_btn
+;  function: check two buttons and process the display
+;  input reg: 
+;     switch_a_b: ram offset (0 for a and 2 for b)   
+;  output register: 
+;     s3: store input port flag      
+;     switch_a_b: may be toggled
+;  temp register used: data, addr
+;=========================================================
+proc_btn:
+   input s3, rd_flag_port  ;get flag
+   ;check and process c button
+   test s3, 01             ;check c button flag
+   jump z, chk_btns        ;flag not set
+   call init               ;flag set, clear
+   jump proc_btn_done
+chk_btns:
+   ;check and process s button
+   test s3, 02             ;check s button flag
+   jump z, proc_btn_done   ;flag not set
+   input data, sw_port_lower     ;get switch
+   load addr, a_8        ;get addr of a
+   add addr, switch_a_b    ;add offset
+      
+   store data, (addr)      ;write data to ram
+   
+   input data, sw_port_higher     ;get switch
+   load addr, a_4        ;get addr of a
+   add addr, switch_a_b    ;add offset
+   
+   store data, (addr)      ;write data to ram
+   
+   ;update current disp position
+   xor switch_a_b, 02      ;toggle between 00, 02
+proc_btn_done:
+   return
+
+;=========================================================
+;routine: bcd2bin
+;  function: converte de BCD para binario
+;  input reg:
+;     data: numero em BCD com 2 dígitos (D1D0)
+;  output reg:
+;     s5: numero em binario
+; temp register: s7, i
+;=========================================================
+bcd2bin:
+    load i, 08 ; 8 passos
+    load s5, 00
+bcd2bin_1:
+    sr0 s5
+    sr0 data
+    jump nc, bcd2bin_2
+    add s5, 80
+bcd2bin_2:
+    compare i, 01
+    jump z, bcd2bin_5
+bcd2bin_3:
+    load s7, data
+    and s7, F0
+    compare s7, 70
+    jump c, bcd2bin_4
+    jump z, bcd2bin_4
+    sub data, 30 
+bcd2bin_4:
+    load s7, data
+    and s7, 0F
+    compare s7, 07
+    jump c, bcd2bin_5
+    jump z, bcd2bin_5
+    sub data, 03
+bcd2bin_5:
+    sub i, 01
+    compare i, 00
+    jump nz, bcd2bin_1
+    return
+	
+
+;=========================================================
+;routine: mult_hard
+;  function: 8-bit unsigned multiplication using
+;            external combinational multilplier;
+;  input register:
+;     sA: multiplicand_01
+;     sB: multiplicand_2
+;     sC: multiplier_01
+;     sD: multiplier_2
+;  output register:
+;     sA: 0 byte of product
+;     sB: 1 byte of product
+;     sC: 2 byte of product
+;  temp register: 
+;=========================================================
+mult_hard:
+   output sA, mult_src0_port_lower
+   output sB, mult_src0_port_higher
+   output sC, mult_src1_port_lower
+   output sD, mult_src1_port_higher
+   
+   input sA, mult_prod0_port
+   input sB, mult_prod1_port
+   input sC, mult_prod2_port
+   return
+
+
+;=========================================================
+;routine: bin2bcd
+;  function: converte de binario para BCD
+;  input reg:
+;     s5: upper byte do produto
+;     s6: lower byte do produto
+;  output reg:
+;     s3: primeiros 2 digitos em BCD (D3D2)
+;     s4: ultimos 2 digitos em BCD   (D1D0)
+; temp register: i, s7
+;=========================================================
+bin2bcd:
+    load i, 10; 16 passos
+    load s3, 00
+    load s4, 00
+bin2bcd_1:
+    sl0 s3
+    sl0 s4
+    addcy s3, 00
+    sl0 s5
+    addcy s4, 00
+    sl0 s6
+    addcy s5, 00
+bin2bcd_2:
+    compare i, 01
+    jump z, bin2bcd_7
+bin2bcd_3:
+    load s7, s4
+    and s7, F0
+    compare s7, 40
+    jump c, bin2bcd_4
+    jump z, bin2bcd_4
+    add s4, 30 
+bin2bcd_4:
+    load s7, s4
+    and s7, 0F
+    compare s7, 04
+    jump c, bin2bcd_5
+    jump z, bin2bcd_5
+    add s4, 03
+bin2bcd_5:
+    load s7, s3
+    and s7, F0
+    compare s7, 40
+    jump c, bin2bcd_6
+    jump z, bin2bcd_6
+    add s3, 30 
+bin2bcd_6:
+    load s7, s3
+    and s7, 0F
+    compare s7, 04
+    jump c, bin2bcd_7
+    jump z, bin2bcd_7
+    add s3, 03
+bin2bcd_7:
+    sub i, 01
+    compare i, 00
+    jump nz, bin2bcd_1
+    return
+
+
+
+
+
