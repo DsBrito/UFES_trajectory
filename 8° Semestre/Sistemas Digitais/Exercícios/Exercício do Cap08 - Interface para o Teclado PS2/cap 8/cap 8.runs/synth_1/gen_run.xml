@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1660146729">
+  <File Type="VDS-TIMING-PB" Name="k_interface_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="k_interface_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="k_interface.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="k_interface_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="k_interface_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="k_interface_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="k_interface.vds"/>
+  <File Type="REPORTS-TCL" Name="k_interface_reports.tcl"/>
+  <File Type="PA-TCL" Name="k_interface.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/list_ch08_01_ps2_rx.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/k_interface.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="k_interface"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

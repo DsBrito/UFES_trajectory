@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1660146729">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="k_interface.drc"/>
+  <File Type="BG-BGN" Name="k_interface.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="k_interface.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="k_interface.ltx"/>
+  <File Type="BITSTR-MMI" Name="k_interface.mmi"/>
+  <File Type="BITSTR-BMM" Name="k_interface_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="k_interface.nky"/>
+  <File Type="BITSTR-RBT" Name="k_interface.rbt"/>
+  <File Type="BITSTR-MSK" Name="k_interface.msk"/>
+  <File Type="BG-BIN" Name="k_interface.bin"/>
+  <File Type="BG-BIT" Name="k_interface.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="k_interface_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="k_interface_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="k_interface_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="k_interface_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="k_interface_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="k_interface_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="k_interface_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="k_interface_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="k_interface_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="k_interface_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="k_interface_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="k_interface_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="k_interface_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="k_interface_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="k_interface_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="k_interface_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="k_interface_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="k_interface_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="k_interface_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="k_interface_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="k_interface_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="k_interface_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="k_interface_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="k_interface_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="k_interface_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="k_interface_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="k_interface_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="k_interface_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="k_interface_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="k_interface_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="k_interface_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="k_interface_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="k_interface_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="k_interface_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="k_interface_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="k_interface_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="k_interface_io_placed.rpt"/>
+  <File Type="RDI-RDI" Name="k_interface.vdi"/>
+  <File Type="PWROPT-TIMING" Name="k_interface_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="k_interface_drc_pwropted.rpt"/>
+  <File Type="OPT-TIMING" Name="k_interface_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="k_interface.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="k_interface_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="k_interface_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="k_interface_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="k_interface_timing_summary_init.rpt"/>
+  <File Type="PWROPT-DCP" Name="k_interface_pwropt.dcp"/>
+  <File Type="REPORTS-TCL" Name="k_interface_reports.tcl"/>
+  <File Type="PLACE-DCP" Name="k_interface_placed.dcp"/>
+  <File Type="PA-TCL" Name="k_interface.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/list_ch08_01_ps2_rx.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/k_interface.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="k_interface"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

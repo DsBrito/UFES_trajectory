@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home-temp/aluno/cap 8/list_ch08_01_ps2_rx.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ps2_rx
+INFO: [VRFC 10-163] Analyzing VHDL file "/home-temp/aluno/cap 8/k_interface.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity k_interface

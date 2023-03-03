@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../list_ch08_01_ps2_rx.vhd" \
+"../../../../k_interface.vhd" \
+
+# Do not sort compile order
+nosort

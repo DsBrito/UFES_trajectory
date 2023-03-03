@@ -1,0 +1,4 @@
+Running: xsim.dir/k_interface_behav/xsimk -simmode gui -wdb k_interface_behav.wdb -simrunnum 0 -socket 41235
+Design successfully loaded
+Design Loading Memory Usage: 37276 KB (Peak: 37328 KB)
+Design Loading CPU Usage: 0 ms

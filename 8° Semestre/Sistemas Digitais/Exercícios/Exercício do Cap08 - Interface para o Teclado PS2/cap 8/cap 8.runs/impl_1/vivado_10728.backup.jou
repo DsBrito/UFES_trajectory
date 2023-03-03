@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Aug 10 12:47:00 2022
+# Process ID: 10728
+# Current directory: /home-temp/aluno/cap 8/cap 8.runs/impl_1
+# Command line: vivado -log k_interface.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source k_interface.tcl -notrace
+# Log file: /home-temp/aluno/cap 8/cap 8.runs/impl_1/k_interface.vdi
+# Journal file: /home-temp/aluno/cap 8/cap 8.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source k_interface.tcl -notrace

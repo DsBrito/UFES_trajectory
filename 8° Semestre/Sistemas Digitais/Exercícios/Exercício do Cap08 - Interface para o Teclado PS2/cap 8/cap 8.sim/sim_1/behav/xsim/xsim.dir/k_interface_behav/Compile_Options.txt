@@ -1,0 +1,1 @@
+-wto "76ff3159a5c14a909357ad710afbc308" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "k_interface_behav" "xil_defaultlib.k_interface" -log "elaborate.log" 
