@@ -5,13 +5,14 @@
 
 
 Sobre a Disciplina
-  * Contém aulas (com links de videos referente a cada módulo).
-  * Contém laboratórios (na linguagem C e Java).
-  * Contém projeto de compilador.
-  * Ministrada pelo professor Eduardo Zambon (currículo lattes abaixo).
+  * Contém aulas.
+  * Contém exercícios/listas.
+  * Contém laboratórios.
+  * Contém dois jogos de boxe (2d e 3d).
+  * Ministrada pelo professor Thiago Oliveira dos Santos (currículo lattes abaixo).
   
 <div align="center">
-    <a href="http://lattes.cnpq.br/3933360112881783" target="_blank"
+    <a href="http://lattes.cnpq.br/5117339495064254" target="_blank"
       ><img
         src="https://img.shields.io/badge/-Currículo Lattes-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
         target="_blank"
