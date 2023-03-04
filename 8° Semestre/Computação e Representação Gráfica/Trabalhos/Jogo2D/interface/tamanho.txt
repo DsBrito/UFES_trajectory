@@ -1,0 +1,99 @@
+
+
+//Definição de Distâncias
+#define DIST_NOSE
+
+//Definições de Tamanho
+#define SIZE_BARRIER 2.5 //area de contato da barreira e soco dos jogadores
+#define SIZE_NOSE 0.2 //tamanho da região do nariz dos jogadores
+#define SIZE_HAND 0.4 //tamanho das mãos dos jogadores
+
+//Definição de Amplitude
+#define AMPL_ARM 130 //Aproximadamente 3x maior que a amplitude do antebraço
+#define AMPL_FOREARM 45 //amplitude do braço/3
+
+//Definições de Altura
+#define LENG_ARM 2.2 // maior a altura do antebraço
+#define LENG_FOREARM 2// menor em 0.2 da altura do braço
+
+//Definições de Largura
+#define WIDT_ARM  0.25//dever ser igual a largura angular do antibraço
+#define WIDT_FOREARM 0.25//deve ser igual a largura do braço
+
+//Definições de Velocidade
+#define VEL_ANGULAR_FOREARM 0.8 //obrigatoriamente igual a velocidade do braço
+#define VEL_ANGULAR_ARM 0.8         //obrigatoriamente igual a velocidade angular do antibraço
+#define VEL_ANGULAR 0.2 //(-0.3 da velocidade linear)
+#define VEL_LINEAR 0.5
+
+
+
+
+void initialize(char *const fileName) {
+    TiXmlDocument doc(fileName);
+    bool loadOkay = doc.LoadFile();
+    if (loadOkay) {
+        printf("\n%s:\n", fileName);
+    } else {
+        printf("Failed to load file \"%s\"\n", fileName);
+        exit(0);
+    }
+
+    TiXmlNode *pParent = doc.FirstChild();
+    std::string p1Color = "green";
+    GLfloat cy1;
+
+    for (TiXmlNode *pChild = pParent->FirstChild(); pChild != nullptr; pChild = pChild->NextSibling()) {
+
+        TiXmlElement *element = pChild->ToElement();
+        std::string tag = element->Value();
+
+        if (tag == "rect") {
+            Width = std::stod(element->Attribute("width"));
+            Height = std::stod(element->Attribute("height"));
+
+            arena.initializeArena(
+                    std::stof(element->Attribute("x")),
+                    std::stof(copy->Attribute("y")),
+                    std::stof(element->Attribute("height")),
+                    std::stof(element->Attribute("width")),
+                    element->Attribute("fill")
+            );
+
+            printf("%s %s %s %s %s %s\n",
+                   tag.c_str(), element->Attribute("x"), element->Attribute("y"),
+                   element->Attribute("width"), element->Attribute("height"), element->Attribute("fill")
+            );
+        } else if (tag == "circle" && p1Color == element->Attribute("fill")) {
+            cy1 = arena.y + (arena.y + arena.height) - std::stof(element->Attribute("cy"));
+            p1.initializePlayer(
+                    std::stof(element->Attribute("cx")),
+                    cy1, 0,
+                    std::stof(element->Attribute("r")),
+                    element->Attribute("fill")
+            );
+
+            printf("p1 %s %s %s %s %s\n",
+                   tag.c_str(), element->Attribute("cx"), element->Attribute("cy"),
+                   element->Attribute("r"), element->Attribute("fill")
+            );
+        } else if (tag == "circle") {
+            cy1 = arena.y + (arena.y + arena.height) - std::stof(element->Attribute("cy"));
+            p2.initializePlayer(
+                    std::stof(element->Attribute("cx")),
+                    cy1, 0,
+                    std::stof(element->Attribute("r")),
+                    element->Attribute("fill")
+            );
+
+            printf("p2 %s %s %s %s %s\n",
+                   tag.c_str(), element->Attribute("cx"), element->Attribute("cy"),
+                   element->Attribute("r"), element->Attribute("fill")
+            );
+        }
+    }
+
+    double deg = Utils::radToDeg(std::atan2(p1.getY() - p2.getY(), p1.getX() - p2.getX()));
+    p1.setAngle(deg + 180);
+    p2.setAngle(deg);
+}
