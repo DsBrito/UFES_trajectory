@@ -9,10 +9,10 @@ Sobre a Disciplina
   * Contém exercícios/listas.
   * Contém laboratórios.
   * Contém 3 trabalhos (medição de rede, cliente-x-servior, roteamento).
-  * Ministrada pelo professor Thiago Oliveira dos Santos (currículo lattes abaixo).
+  * Ministrada pelo professor Magnos Martinello (currículo lattes abaixo).
   
 <div align="center">
-    <a href="http://lattes.cnpq.br/5117339495064254" target="_blank"
+    <a href="http://lattes.cnpq.br/7471111924336519" target="_blank"
       ><img
         src="https://img.shields.io/badge/-Currículo Lattes-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
         target="_blank"
