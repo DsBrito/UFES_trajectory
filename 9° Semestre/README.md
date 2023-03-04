@@ -3,4 +3,4 @@
 
 Bem Vindo ao meu nono semestre, aqui se encontra as seguintes disciplinas:
 
-* Aspectos Legais e Éticos da Engenharia
+* Economia da Engenharia II
