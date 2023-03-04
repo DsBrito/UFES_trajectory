@@ -1,0 +1,75 @@
+hostname [TR2]R2_dsbrito 
+buggy
+!
+!
+vrf definition v1
+ exit
+!
+router rip4 1
+ vrf v1
+ redistribute connected
+ exit
+!
+router rip6 1
+ vrf v1
+ redistribute connected
+ exit
+!
+interface ethernet1
+ description R2 -> R1
+ vrf forwarding v1
+ ipv4 address 192.23.1.2 255.255.255.252
+ ipv6 address 2019:23:1::2 ffff:ffff:ffff:ffff::
+ router rip4 1 enable
+ router rip6 1 enable
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet2
+ description R2 -> R3
+ vrf forwarding v1
+ ipv4 address 192.23.4.1 255.255.255.252
+ ipv6 address 2019:23:4::1 ffff:ffff:ffff:ffff::
+ router rip4 1 enable
+ router rip6 1 enable
+ no shutdown
+ no log-link-change
+ exit
+!
+interface ethernet3
+ description R2 -> R4
+ vrf forwarding v1
+ ipv4 address 192.23.5.1 255.255.255.252
+ ipv6 address 2019:23:5::1 ffff:ffff:ffff:ffff::
+ router rip4 1 enable
+ router rip6 1 enable
+ no shutdown
+ no log-link-change
+ exit
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+server telnet tel
+ security protocol telnet
+ exec timeout 10000000
+ exec logging
+ no exec authorization
+ no login authentication
+ login logging
+ vrf v1
+ exit
+!
+!
+end

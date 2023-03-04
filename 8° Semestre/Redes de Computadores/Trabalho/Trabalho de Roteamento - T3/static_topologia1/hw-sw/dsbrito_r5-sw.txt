@@ -1,0 +1,43 @@
+hostname  [TP1]R5_dsbrito 
+buggy
+!
+!
+vrf definition v1
+ exit
+!
+interface ethernet1
+ description R5-> R4
+ vrf forwarding v1
+ ipv4 address 192.23.4.2 255.255.255.252
+ ipv6 address 2019:23:4::2 ffff:ffff:ffff:ffff::
+ no shutdown
+ no log-link-change
+ exit
+!
+!
+ipv4 route v1 0.0.0.0 0.0.0.0 192.23.4.1
+!
+ipv6 route v1 :: :: 2019:23:4::1
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+server telnet tel
+ security protocol telnet
+ exec timeout 10000000
+ exec logging
+ no exec authorization
+ no login authentication
+ login logging
+ vrf v1
+ exit
+!
+!
+end
