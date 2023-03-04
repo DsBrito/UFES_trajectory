@@ -3,4 +3,4 @@
 
 Bem Vindo ao meu décimo semestre, aqui se encontra as seguintes disciplinas:
 
-* Economia da Engenharia II
+* Aspectos Legais e Éticos da Engenharia
