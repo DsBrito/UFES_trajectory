@@ -1,9 +1,7 @@
-# labs-cg
-Laboratórios da Disciplina de Computação Gráfica, na UFES
+## Laboratórios da Disciplina de Computação Gráfica
 
-## Dependências
 
-Há algumas dependências para executar os projetos. É possível instalá-las usando o apt com os seguintes comandos:
+ É necesário ter os seguites itens instalados na máquina:
 
 `sudo apt install freeglut3 freeglut3-dev binutils-gold`
 
@@ -16,7 +14,8 @@ make
 make run
 ```
 
-Em geral, o target `run` executa o binário associado. Alguns laboratórios possuem mais de um arquivo, e nesse caso é necessário usar o target apropriado especificado no Makefile, ou apenas executar um
+Em geral, o target `run` executa o binário associado. 
+Alguns laboratórios possuem mais de um arquivo, e nesse caso é necessário usar o target apropriado especificado no Makefile, ou apenas executar um
 
 `make all`
 
