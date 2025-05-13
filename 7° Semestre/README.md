@@ -5,5 +5,7 @@ Bem Vindo ao meu sétimo semestre, aqui se encontra as seguintes disciplinas:
 
 * Laboratório de Controle Automático 
 * Sistemas Embarcados I
-* Algoritmos e Fundamentos da Teoria de Computação 
+* Sistemas Realimentados
+* Algoritmos e Fundamentos da Teoria de Computação
+* Processos Estocásticos
 * Teleprocessamento
