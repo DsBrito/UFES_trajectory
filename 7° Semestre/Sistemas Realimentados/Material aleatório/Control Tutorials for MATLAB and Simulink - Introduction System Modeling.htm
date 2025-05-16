@@ -1,0 +1,1000 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+		<script async="" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/google-analytics_analytics.js"></script><script type="text/javascript" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/jquery.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/style.css"><script>console.log('example: Introduction	section: SystemModeling	aux: 	q: ');</script>
+		<script type="text/javascript">
+
+			var example = "Introduction";
+			var section = "SystemModeling";
+			var aux = "";
+			var effects = Boolean();
+			var tips = Boolean();
+			$.fx.off = !effects;
+
+			$(document).keydown(function(e){
+				if (!$("#search_field").is(":focus")){
+					if (e.keyCode == 39) {
+						window.location = "?example=Introduction&section=SystemAnalysis";
+					}
+					if (e.keyCode == 37) {
+						window.history.back()
+					}
+				}
+			});
+
+		</script>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="PRAGMA" content="NO-CACHE">
+
+		<title>Control Tutorials for MATLAB and Simulink - Introduction: System Modeling</title>
+
+	</head>
+
+	<body>
+		<!-- Google tag (gtag.js) -->
+<script async="" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/google-analytics_analytics_002.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LYF7BJYQHT');
+  
+  
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44773621-2', 'auto');
+  ga('send', 'pageview');
+</script>
+		<div id="container" style="opacity: 1;">
+
+			<form id="search_form"><input id="search_field" type="text" name="q" placeholder="Search Control Tutorials"></form>
+			<form class="option_form" method="post" onclick="submit()"><div>Effects</div><input type="hidden" name="effects" value="0"><input type="checkbox" name="effects" value="1"></form>
+			<form class="option_form" method="post" onclick="submit()"><div>Tips</div><input type="hidden" name="tips" value="0"><input type="checkbox" name="tips" value="1"></form>
+
+			<div style="clear:both"></div>
+
+			<div id="header" style="height: 26px;">
+
+				<div id="logo_container" style="padding-top: 5px;">
+					<a href="http://www.umich.edu/" title="University of Michigan"><img class="logo" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/UMich.png" style=""></a><a href="http://www.cmu.edu/" title="Carnegie Mellon University"><img class="logo" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/CMU.png"></a><a href="http://www.udmercy.edu/" title="University of Detroit Mercy"><img class="logo" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/UDMercy_new.png"></a>
+				</div>
+
+				<div id="menu_container">
+
+					<ul class="menu">
+						<li class="heading" id="Tips"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Extras_Tips">TIPS</a></li>
+						<div class="collapse"><div class="expand">
+						</div></div>
+					</ul>
+
+					<ul class="menu">
+						<li class="heading" id="About"><a>ABOUT</a></li>
+						<div class="collapse"><div class="expand">
+							<li class="item" id="About_Tutorials"><a href="https://ctms.engin.umich.edu/CTMS/?aux=About_Tutorials">Tutorials</a></li>
+							<li class="item" id="About_Contact"><a href="mailto:ControlTutorialsMatlabSimulink@gmail.com">Contact</a></li>
+						</div></div>
+					</ul>
+
+					<ul class="menu">
+						<li class="heading" id="Basics"><a>BASICS</a></li>
+						<div class="collapse"><div class="expand">
+							<li class="item" id="Basics_Matlab"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Basics_Matlab">MATLAB</a></li>
+							<li class="item" id="Basics_Simulink"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Basics_Simulink">Simulink</a></li>
+						</div></div>
+					</ul>
+
+					<ul class="menu">
+						<li class="heading" id="Index"><a>HARDWARE</a></li>
+						<div class="collapse"><div class="expand">
+							<li class="item" id="Index_Activities"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Index_Activities">Overview</a></li>
+							<li class="item" id="Activities_RCcircuitA"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Activities_RCcircuitA">RC circuit</a></li>
+							<li class="item" id="Activities_LRCcircuitA"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Activities_LRCcircuitA">LRC circuit</a></li>
+							<li class="item" id="Activities_Pendulum"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Activities_Pendulum">Pendulum</a></li>
+							<li class="item" id="Activities_Lightbulb"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Activities_Lightbulb">Lightbulb</a></li>
+							<li class="item" id="Activities_BoostcircuitA"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Activities_BoostcircuitA">BoostConverter</a></li>
+							<li class="item" id="Activities_DCmotorA"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Activities_DCmotorA">DC motor</a></li>
+						</div></div>
+					</ul>
+
+					<ul class="menu">
+						<li class="heading" id="Index"><a>INDEX</a></li>
+						<div class="collapse"><div class="expand">
+							<li class="item" id="Index_Tutorials"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Index_Tutorials">Tutorials</a></li>
+							<li class="item" id="Index_Commands"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Index_Commands">Commands</a></li>
+							<li class="item" id="Index_Animations"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Index_Animations">Animations</a></li>
+							<li class="item" id="Index_Extras"><a href="https://ctms.engin.umich.edu/CTMS/?aux=Index_Extras">Extras</a></li>
+						</div></div>
+					</ul>
+
+					<ul class="menu">
+						<li class="heading" id="Next"><a href="https://ctms.engin.umich.edu/CTMS/?example=Introduction&amp;section=SystemAnalysis">NEXT&nbsp;►</a></li>
+						<div class="collapse"><div class="expand">
+						</div></div>
+					</ul>
+
+				</div>
+
+			</div>
+
+			<div id="body_container">
+
+				<div id="gradient_container"></div>
+
+				<div id="top">
+
+					<a href="https://ctms.engin.umich.edu/CTMS/?aux=Home"><img id="CTMS_logo" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/CTMS_logo.png"></a>
+
+					<ul class="example" style="overflow-y: hidden;">
+
+						<li class="item" id="Introduction"><a href="https://ctms.engin.umich.edu/CTMS/?example=Introduction&amp;section=SystemModeling"><img class="icon" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_Icon_Selected.png"><div class="tab" style="background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.25) 100%);">INTRODUCTION</div></a></li>
+						<li class="item" id="CruiseControl"><a href="https://ctms.engin.umich.edu/CTMS/?example=CruiseControl&amp;section=SystemModeling"><img class="icon" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/CruiseControl_Icon.png"><div class="tab">CRUISE&nbsp;CONTROL</div></a></li>
+						<li class="item" id="MotorSpeed"><a href="https://ctms.engin.umich.edu/CTMS/?example=MotorSpeed&amp;section=SystemModeling"><img class="icon" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/MotorSpeed_Icon.png"><div class="tab">MOTOR&nbsp;SPEED</div></a></li>
+						<li class="item" id="MotorPosition"><a href="https://ctms.engin.umich.edu/CTMS/?example=MotorPosition&amp;section=SystemModeling"><img class="icon" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/MotorPosition_Icon.png"><div class="tab">MOTOR&nbsp;POSITION</div></a></li>
+						<li class="item" id="Suspension"><a href="https://ctms.engin.umich.edu/CTMS/?example=Suspension&amp;section=SystemModeling"><img class="icon" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Suspension_Icon.png"><div class="tab">SUSPENSION</div></a></li>
+						<li class="item" id="InvertedPendulum"><a href="https://ctms.engin.umich.edu/CTMS/?example=InvertedPendulum&amp;section=SystemModeling"><img class="icon" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/InvertedPendulum_Icon.png"><div class="tab">INVERTED&nbsp;PENDULUM</div></a></li>
+						<li class="item" id="AircraftPitch"><a href="https://ctms.engin.umich.edu/CTMS/?example=AircraftPitch&amp;section=SystemModeling"><img class="icon" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/AircraftPitch_Icon.png"><div class="tab">AIRCRAFT&nbsp;PITCH</div></a></li>
+						<li class="item" id="BallBeam"><a href="https://ctms.engin.umich.edu/CTMS/?example=BallBeam&amp;section=SystemModeling"><img class="icon" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/BallBeam_Icon.png"><div class="tab">BALL&nbsp;&amp;&nbsp;BEAM</div></a></li>
+
+					</ul>
+
+				</div>
+
+				<div id="content_container">
+					<div class="content">
+   <div class="content_fx" style="opacity: 1;">
+   <div class="introduction">
+      <h1>Introduction: System Modeling</h1>
+      <!--introduction-->
+      <p>The first step in the control design process is to develop 
+appropriate mathematical models of the system to be controlled.
+         These models may be derived either from physical laws or  
+experimental data. In this section, we introduce the state-space
+         and transfer function representations of dynamic systems. We 
+then review some basic approaches to modeling mechanical and
+         electrical systems and show how to generate these models in 
+MATLAB for further analysis.
+      </p>
+      <p>Key MATLAB commands used in this tutorial are: <a href="http://www.mathworks.com/help/toolbox/control/ref/ss.html"><tt>ss</tt></a> , <a href="http://www.mathworks.com/help/toolbox/control/ref/tf.html"><tt>tf</tt></a></p>
+      <a href="https://www.mathworks.com/campaigns/products/control-tutorials.html#system-modeling" style="color: white" class="button"> Run Live Script Version in MATLAB Online</a>
+	  </div>
+	<div class="related_links">
+      <h3>Related Tutorial Links</h3>
+      <ul>
+	    <li><a href="https://ctms.engin.umich.edu/CTMS/?aux=Basics_Matlab">MATLAB Basics</a></li>
+        <li><a href="https://ctms.engin.umich.edu/CTMS/?aux=Activities_RCcircuitA">RC Circuit Activity</a></li>
+        <li><a href="https://ctms.engin.umich.edu/CTMS/?aux=Activities_Pendulum">Pendulum Activity</a></li>
+      </ul>
+	  <h3>Related External Links</h3>
+      <ul>
+	 	<li><a href="http://www.mathworks.com/videos/state-space-models-part-1-creation-and-analysis-100815.html">MATLAB State Space Video</a></li>
+		<li><a href="https://www.youtube.com/watch?v=vwso-xHLNGc">Modeling Intro Video</a></li>
+      </ul>
+    </div>
+    <div class="clearboth"></div>
+	  <!--/introduction-->
+      <h2>Contents</h2>
+      <div>
+         <ul>
+            <li><a href="#1">Dynamic Systems</a></li>
+            <li><a href="#2">State-Space Representation</a></li>
+            <li><a href="#3">Transfer Function Representation</a></li>
+            <li><a href="#4">Mechanical Systems</a></li>
+            <li><a href="#5">Example: Mass-Spring-Damper System</a></li>
+            <li><a href="#6">Entering State-Space Models into MATLAB</a></li>
+            <li><a href="#10">Entering Transfer Function Models into MATLAB</a></li>
+            <li><a href="#14">Electrical Systems</a></li>
+            <li><a href="#15">Example: RLC Circuit</a></li>
+            <li><a href="#16">System Identification</a></li>
+            <li><a href="#17">System Conversions</a></li>
+         </ul>
+      </div>
+      <h2>Dynamic Systems<a name="1"></a></h2>
+      <p><b>Dynamic systems</b> are systems that change or evolve in time according to a fixed rule. For many physical systems, this rule can be stated as
+         a set of first-order differential equations:
+      </p>
+      <p><span class="eqn_num">(1)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq07152677502228928824.png" alt="$$
+\dot{\mathbf{x}} = \frac{d\mathbf{x}}{dt} = \mathbf{f}\left( \mathbf{x}(t), \mathbf{u}(t), t \right)
+$$"></p>
+      <p>In the above equation, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq09985378415569225246.png" alt="$\mathbf{x}(t)$"> is the <b>state vector</b>, a set of variables representing the configuration of the system at time <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq12656067504604335951.png" alt="$t$">. For instance, in a simple mechanical mass-spring-damper system, the two state variables could be the position and velocity
+         of the mass. <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq06539299073207981811.png" alt="$\mathbf{u}(t)$"> is the vector of external inputs to the system at time <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq12656067504604335951.png" alt="$t$">, and <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq15427371409597902919.png" alt="$\mathbf{f}$"> is a (possibly nonlinear) function producing the time derivative (rate of change) of the state vector, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq01428936986196313602.png" alt="$d\mathbf{x}/dt$">, for a particular instant of time.
+      </p>
+      <p>The state at any future time, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq01077183151038615521.png" alt="$\mathbf{x}(t_1)$">, may be determined exactly given knowledge of the initial state, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq16157820255151052285.png" alt="$\mathbf{x}(t_0)$">, and the time history of the inputs, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq06539299073207981811.png" alt="$\mathbf{u}(t)$">, between <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq08844374543483926125.png" alt="$t_0$"> and <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq04799111015042242890.png" alt="$t_1$">
+ by integrating Equation (1). Though the state variables themselves are 
+not unique, there is a minimum number of state variables,
+         <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq08984225997457563733.png" alt="$n$">, required in order to capture the "state" of a given system and to be able to predict the system's future behavior (solve
+         the state equations). <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq08984225997457563733.png" alt="$n$"> is referred to as the <b>system order</b> and determines the dimensionality of the <b>state-space</b>. The system order usually corresponds to the number of independent energy storage elements in the system.
+      </p>
+      <p>The relationship given in Equation (1) is very general and can 
+be used to describe a wide variety of different systems; unfortunately,
+         it may be very difficult to analyze. There are two common 
+simplifications which make the problem more tractable. First, if
+         the function <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq15427371409597902919.png" alt="$\mathbf{f}$"> does not depend explicitly on time, i.e. <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq17317540989244848573.png" alt="$\dot{\mathbf{x}} = \mathbf{f}(\mathbf{x},\mathbf{u})$">, then the system is said to be <b>time invariant</b>. This is often a very reasonable assumption because the underlying physical laws themselves do not typically depend on time.
+         For time-invariant systems, the parameters or coefficients of the function <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq15427371409597902919.png" alt="$\mathbf{f}$"> are constant. The state variables, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq09985378415569225246.png" alt="$\mathbf{x}(t)$">, and control inputs, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq06539299073207981811.png" alt="$\mathbf{u}(t)$">, however, may still be time dependent.
+      </p>
+      <p>The second common assumption concerns the linearity of the system. In reality, nearly every physical system is nonlinear.
+         In other words, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq15427371409597902919.png" alt="$\mathbf{f}$">
+ is typically some complicated function of the state and inputs. These 
+nonlinearities arise in many different ways, one of
+         the most common in control systems being "saturation" in which 
+an element of the system reaches a hard physical limit to its
+         operation. Fortunately, over a sufficiently small operating 
+range (think tangent line near a curve), the dynamics of most
+         systems are approximately <b>linear</b>. In this case, the system of first-order differential equations can be represented as a matrix equation, that is, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq13224231980289006993.png" alt="$\dot{\mathbf{x}} = A\mathbf{x} + B\mathbf{u}$">.
+      </p>
+      <p>Until the advent of digital computers (and to a large extent thereafter), it was only practical to analyze <b>linear time-invariant (LTI)</b>
+ systems. Consequently, most of the results of control theory are based 
+on these assumptions. Fortunately, as we shall see,
+         these results have proven to be remarkably effective and many 
+significant engineering challenges have been solved using LTI
+         techniques. In fact, the true power of feedback control systems
+ are that they work (are <b>robust</b>) in the presence of the unavoidable modeling uncertainty.
+      </p>
+      <h2>State-Space Representation<a name="2"></a></h2>
+      <p>For continuous linear time-invariant (LTI) systems, the standard state-space representation is given below:</p>
+      <p><span class="eqn_num">(2)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq11183280780182897823.png" alt="$$
+\dot{\mathbf{x}} = A\mathbf{x} + B\mathbf{u}
+$$"></p>
+      <p><span class="eqn_num">(3)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq06057185946016267980.png" alt="$$
+\mathbf{y} = C\mathbf{x} + D\mathbf{u}
+$$"></p>
+      <p>where <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq08291690262771002032.png" alt="$\mathbf{x}$"> is the vector of state variables (nx1), <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq04821192467806494927.png" alt="$\dot{\mathbf{x}}$"> is the time derivative of the state vector (nx1), <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq09258825031370906642.png" alt="$\mathbf{u}$"> is the input or control vector (px1), <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq01759449390978539805.png" alt="$\mathbf{y}$"> is the output vector (qx1), <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq05147331747641807187.png" alt="$A$"> is the system matrix (nxn), <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq10170753361147586657.png" alt="$B$"> is the input matrix (nxp), <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq03986222445007418011.png" alt="$C$"> is the output matrix (qxn), and <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq16171345478199012472.png" alt="$D$"> is the feedforward matrix (qxp).
+      </p>
+      <p>The output equation, Equation (3), is necessary because often there are state variables which are not directly observed or
+         are otherwise not of interest.  The output matrix, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq03986222445007418011.png" alt="$C$">, is used to specify which state variables (or combinations thereof) are available for use by the controller. Also, it is
+         often the case that the outputs do not directly depend on the inputs (only through the state variables), in which case <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq16171345478199012472.png" alt="$D$"> is the zero matrix.
+      </p>
+      <p>The state-space representation, also referred to as the time-domain representation, can easily handle <b>multi-input/multi-output (MIMO)</b> systems, systems with non-zero initial conditions, and nonlinear systems via Equation (1). Consequently, the state-space
+         representation is used extensively in "modern" control theory.
+      </p>
+      <h2>Transfer Function Representation<a name="3"></a></h2>
+      <p>LTI systems have the extremely important property that if the 
+input to the system is sinusoidal, then the output will also
+         be sinusoidal with the same frequency as the input, but with 
+possibly different magnitude and phase. These magnitude and phase
+         differences are a function of frequency and capture what is 
+known as the <b>frequency response</b> of the system.
+      </p>
+      <p>Using the <b>Laplace transform</b>, it is possible to convert a system's time-domain representation into a frequency-domain input/output representation, known
+         as the <b>transfer function</b>.  In so doing, it also transforms the governing differential equation into an algebraic equation which is often easier to
+         analyze.
+      </p>
+      <p>The Laplace transform of a time domain function, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq09478123530129115431.png" alt="$f(t)$">, is defined below:
+      </p>
+      <p><span class="eqn_num">(4)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq09062853644781800115.png" alt="$$
+F(s) = \mathcal{L}\{f(t)\} = \int_0^\infty e^{-st}f(t)dt
+$$"></p>
+      <p>where the parameter <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq01849069636965994613.png" alt="$s=\sigma+j\omega$">
+ is a complex frequency variable. It is very rare in practice that you 
+will have to directly evaluate a Laplace transform
+         (though you should certainly know how to). It is much more 
+common to look up the transform of a time function in a table such
+         as the one found here: <a href="http://en.wikipedia.org/wiki/Laplace_transform#Table_of_selected_Laplace_transforms">Laplace Transform Table</a></p>
+      <p>The Laplace transform of the nth derivative of a function is particularly important:</p>
+      <p><span class="eqn_num">(5)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq17691688511142561967.png" alt="$$
+\mathcal{L}\left\{ \frac{d^nf}{dt^n} \right\} = s^n F(s)- s^{n-1} f(0) - s^{n-2} \dot{f}(0) - ... - f^{(n-1)}(0)
+$$"></p>
+      <p>Frequency-domain methods are most often used for analyzing LTI <b>single-input/single-output (SISO)</b> systems, e.g. those governed by a constant coefficient differential equation, as shown below:
+      </p>
+      <p><span class="eqn_num">(6)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq17499219695120393388.png" alt="$$
+a_n \frac{d^ny}{dt^n} + ... + a_1 \frac{dy}{dt} + a_0 y(t) = b_m \frac{d^mu}{dt^m} + ... + b_1 \frac{du}{dt} + b_0 u(t)
+$$"></p>
+      <p>The Laplace transform of this equation is given below:</p>
+      <p><span class="eqn_num">(7)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq18270586212386797867.png" alt="$$
+a_n s^n Y(s) + ... + a_1 sY(s)+ a_0 Y(s) = b_m s^m U(s) + ... + b_1 sU(s)+ b_0 U(s)
+$$"></p>
+      <p>where <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq02334269718183958239.png" alt="$Y(s)$"> and <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq04928925248725872882.png" alt="$U(s)$"> are the Laplace Transforms of <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq10822186844117743572.png" alt="$y(t)$"> and <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq17794740544861059683.png" alt="$u(t)$">, respectively. Note that when finding transfer functions, we always assume that the each of the initial conditions, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq05276920792631117325.png" alt="$y(0)$">, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq08390934157129612721.png" alt="$\dot{y}(0)$">, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq06568704088170194151.png" alt="$u(0)$">, etc. is zero. The transfer function from input <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq04928925248725872882.png" alt="$U(s)$"> to output <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq02334269718183958239.png" alt="$Y(s)$"> is, therefore:
+      </p>
+      <p><span class="eqn_num">(8)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq12660891852868123317.png" alt="$$
+G(s) = \frac{Y(s)}{U(s)} = \frac{b_m s^m + b_{m-1} s^{m-1} + ... + b_1 s + b_0}{a_n s^n + a_{n-1} s^{n-1} + ... + a_1 s + a_0}
+$$"></p>
+      <p>It is useful to factor the numerator and denominator of the transfer function into what is termed <b>zero-pole-gain</b> form:
+      </p>
+      <p><span class="eqn_num">(9)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq07429855802436681626.png" alt="$$
+G(s) = \frac{N(s)}{D(s)} = K \frac{(s-z_1)(s-z_2)...(s-z_{m-1})(s-z_m)}{(s-p_1)(s-p_2)...(s-p_{n-1})(s-p_n)}
+$$"></p>
+      <p>The <b>zeros</b> of the transfer function, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq06249835392046833640.png" alt="$z_1,\ldots,z_m$">, are the roots of the numerator polynomial, i.e. the values of <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq17157792396909321071.png" alt="$s$"> such that <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq14129988598095697135.png" alt="$N(s)=0$">. The <b>poles</b> of the transfer function, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq02214996636705848826.png" alt="$p_1, \ldots,p_n$">, are the roots of the denominator polynomial, i.e. the values of <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq17157792396909321071.png" alt="$s$"> such that <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq09016562112336177479.png" alt="$D(s)=0$">. Both the zeros and poles may be complex valued (have both real and imaginary parts). The system <b>Gain</b> is <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq14394173257363418038.png" alt="$K = b_m/a_n$">.
+      </p>
+      <p>Note that we can also determine the transfer function directly from the state-space representation as follows:</p>
+      <p><span class="eqn_num">(10)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq11573141985881491198.png" alt="$$
+G(s) = \frac{Y(s)}{U(s)} = C(s\mathbf{I}-A)^{-1}B+D
+$$"></p>
+      <h2>Mechanical Systems<a name="4"></a></h2>
+      <p>Newton's laws of motion form the basis for analyzing mechanical systems. <b>Newton’s second law</b>, Equation (11), states that the sum of the forces acting on a body equals the product of its mass and acceleration. <b>Newton's third law</b>, for our purposes, states that if two bodies are in contact, then they experience the same magnitude contact force, just
+         acting in opposite directions.
+      </p>
+      <p><span class="eqn_num">(11)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq13108282630792191767.png" alt="$$
+\Sigma \mathbf{F} = m \mathbf{a} = m \frac{d^2 \mathbf{x}}{dt^2}
+$$"></p>
+      <p>When applying this equation, it is best to construct a <b>free-body diagram (FBD)</b> of the sysetm showing all of the applied forces.
+      </p>
+      <h2>Example: Mass-Spring-Damper System<a name="5"></a></h2>
+      <p><img class="figure" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/mass_spring_damper.png" alt="" vspace="5" hspace="5"> </p>
+      <p>The free-body diagram for this system is shown below.  The spring force is proportional to the displacement of the mass, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq12428413953531653171.png" alt="$x$">, and the viscous damping force is proportional to the velocity of the mass, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq05596267255838739417.png" alt="$v=\dot{x}$">.  Both forces oppose the motion of the mass and are, therefore, shown in the negative <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq12428413953531653171.png" alt="$x$">-direction.  Note also that <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq17014082639638836868.png" alt="$x=0$"> corresponds to the position of the mass when the spring is unstretched.
+      </p>
+      <p><img class="figure" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/mass_spring_damper_FBD.png" alt="" vspace="5" hspace="5"> </p>
+      <p>Now we proceed by summing the forces and applying Newton’s second law, Equation (11), in each direction.  In this case, there
+         are no forces acting in the <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq08830444604280721118.png" alt="$y$">-direction; however, in the <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq12428413953531653171.png" alt="$x$">-direction we have:
+      </p>
+      <p><span class="eqn_num">(12)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq15852514925254269968.png" alt="$$
+\Sigma F_x = F(t) - b \dot{x} - k x = m \ddot{x}
+$$"></p>
+      <p>This equation, known as the <b>governing equation</b>, completely characterizes the dynamic state of the system.  Later, we will see how to use this to calculate the response
+         of the system to any external input, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq12023782566688451389.png" alt="$F(t)$">, as well as to analyze system properties such as stability and performance.
+      </p>
+      <p>To determine the state-space representation of the 
+mass-spring-damper system, we must reduce the second-order governing 
+equation
+         to a set of two first-order differential equations. To this 
+end, we choose the position and velocity as our state variables.
+      </p>
+      <p><span class="eqn_num">(13)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq09265954000047774133.png" alt="$$
+\mathbf{x} = \left[ \begin{array}{c} x \\ \dot{x} \end{array}\right]
+$$"></p>
+      <p>The position variable captures the potential energy stored in 
+the spring, while the velocity variable captures the kinetic
+         energy stored by the mass. The damper only dissipates energy, 
+it doesn't store energy. Often when choosing state variables
+         it is helpful to consider what variables capture the energy 
+stored in the system.
+      </p>
+      <p>The state equation in this case is:</p>
+      <p><span class="eqn_num">(14)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq07631781795552767559.png" alt="$$
+\mathbf{\dot{x}} = \left[ \begin{array}{c} \dot{x} \\ \ddot{x} \end{array} \right] = \left[ \begin{array}{cc} 0 &amp; 1 \\ -\frac{k}{m}  &amp; -\frac{b}{m} \end{array} \right] \left[ \begin{array}{c} x \\ \dot{x} \end{array} \right] + \left[ \begin{array}{c} 0 \\ \frac{1}{m} \end{array} \right] F(t)
+$$"></p>
+      <p>If, for instance, we are interested in controlling the position of the mass, then the output equation is:</p>
+      <p><span class="eqn_num">(15)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq05041562303252715904.png" alt="$$
+y = \left[ \begin{array}{cc} 1 &amp; 0 \end{array} \right] \left[ \begin{array}{c} x \\ \dot{x} \end{array} \right]
+$$"></p>
+      <h2>Entering State-Space Models into MATLAB<a name="6"></a></h2>
+      <p>Now we will demonstrate how to enter the equations derived above into an <tt>m-file</tt> for MATLAB.  Let's assign the following numerical values to each of the variables.
+      </p><pre class="codeinput">m                   <span class="string">mass</span>                                    <span class="string">1.0</span> <span class="string">kg</span>
+k                   <span class="string">spring</span> <span class="string">constant</span>                         <span class="string">1.0</span> <span class="string">N/m</span>
+b                   <span class="string">damping</span> <span class="string">constant</span>                        <span class="string">0.2</span> <span class="string">Ns/m</span>
+F                   <span class="string">input</span> <span class="string">force</span>                             <span class="string">1.0</span> <span class="string">N</span>
+</pre><p>Create a new <tt>m-file</tt> and enter the following commands.
+      </p><pre class="codeinput">m = 1;
+k = 1;
+b = 0.2;
+F = 1;
+
+A = [0 1; -k/m -b/m];
+B = [0 1/m]';
+C = [1 0];
+D = [0];
+
+sys = ss(A,B,C,D)
+</pre><pre class="codeoutput">sys =
+ 
+  A = 
+         x1    x2
+   x1     0     1
+   x2    -1  -0.2
+ 
+  B = 
+       u1
+   x1   0
+   x2   1
+ 
+  C = 
+       x1  x2
+   y1   1   0
+ 
+  D = 
+       u1
+   y1   0
+ 
+Continuous-time state-space model.
+
+</pre><p>The Laplace transform for this system assuming zero initial conditions is</p>
+      <p><span class="eqn_num">(16)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq05967212898932072713.png" alt="$$
+m s^2 X(s) + b s X(s) + k X(s) = F(s)
+$$"></p>
+      <p>and, therefore, the transfer function from force input to displacement output is</p>
+      <p><span class="eqn_num">(17)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq10068234791325192287.png" alt="$$
+\frac{X(s)}{F(s)} = \frac{1}{m s^2 + b s + k}
+$$"></p>
+      <h2>Entering Transfer Function Models into MATLAB<a name="10"></a></h2>
+      <p>Now we will demonstrate how to create the transfer function model derived above within MATLAB. Enter the following commands
+         into the <tt>m-file</tt> in which you defined the system parameters.
+      </p><pre class="codeinput">s = tf(<span class="string">'s'</span>);
+sys = 1/(m*s^2+b*s+k)
+</pre><pre class="codeoutput">sys =
+ 
+         1
+  ---------------
+  s^2 + 0.2 s + 1
+ 
+Continuous-time transfer function.
+
+</pre><p>Note that we have used the symbolic <tt>s</tt> variable here to
+ define our transfer function model.  We recommend using this method 
+most of the time; however, in some circumstances,
+         for instance in older versions of MATLAB or when interfacing 
+with SIMULINK, you may need to define the transfer function model
+         using the numerator and denominator polynomial coefficients 
+directly.  In these cases, use the following commands:
+      </p><pre class="codeinput">num = [1];
+den = [m b k];
+sys = tf(num,den)
+</pre><pre class="codeoutput">sys =
+ 
+         1
+  ---------------
+  s^2 + 0.2 s + 1
+ 
+Continuous-time transfer function.
+
+</pre><h2>Electrical Systems<a name="14"></a></h2>
+      <p>Like Newton’s laws for mechanical systems, Kirchoff’s circuit laws are fundamental analytical tools for modeling electrical
+         systems.  <b>Kirchoff’s current law (KCL)</b> states that the sum of the electrical currents entering a node in a circuit must equal the sum of electrical currents exiting
+         the node. <b>Kirchoff’s voltage law (KVL)</b> states that the sum of voltage differences around any closed loop in a circuit is zero.  When applying KVL, the source voltages
+         are typically taken as positive and the load voltages are taken as negative.
+      </p>
+      <h2>Example: RLC Circuit<a name="15"></a></h2>
+      <p>We will now consider a simple series combination of three passive electrical elements: a resistor, an inductor, and a capacitor,
+         known as an <b>RLC Circuit</b>.
+      </p>
+      <p><img class="figure" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/RLC.png" alt="" vspace="5" hspace="5"> </p>
+      <p>Since this circuit is a single loop, each node only has one input and one output; therefore, application of KCL simply shows
+         that the current is the same throughout the circuit at any given time, <img class="inline_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq03981803244872317649.png" alt="$i(t)$">.  Now applying KVL around the loop and using the sign conventions indicated in the diagram, we arrive at the following <b>governing equation</b>.
+      </p>
+      <p><span class="eqn_num">(18)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq02493566991950906884.png" alt="$$
+V(t) - R i - L \frac{di}{dt} - \frac{1}{C} \int i dt = 0
+$$"></p>
+      <p>We note that that the governing equation for the RLC circuit 
+has an analogous form to the mass-spring-damper mechanical system.
+         In particular, they are both second-order systems where the 
+charge (integral of current) corresponds to displacement, the
+         inductance corresponds to mass, the resistance corresponds to 
+viscous damping, and the inverse capacitance corresponds to
+         the spring stiffness.  These analogies and others like them 
+turn out to be quite useful conceptually in understanding the
+         behavior of dynamical systems.
+      </p>
+      <p>The state-space representation is found by choosing the charge on the capacitor and current through the circuit (inductor)
+         as the state variables.
+      </p>
+      <p><span class="eqn_num">(19)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq08701823174311383105.png" alt="$$
+\mathbf{x} = \left[ \begin{array}{c} q \\ i \end{array}\right]
+$$"></p>
+      <p>where,</p>
+      <p><span class="eqn_num">(20)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq00389965511696745444.png" alt="$$
+q = \int i dt
+$$"></p>
+      <p>The state equation is, therefore:</p>
+      <p><span class="eqn_num">(21)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq03338303654879359047.png" alt="$$
+\mathbf{\dot{x}} = \left[ \begin{array}{c} i \\ \frac{di}{dt} \end{array} \right] = \left[ \begin{array}{cc} 0 &amp; 1 \\ -\frac{1}{LC} &amp; -\frac{R}{L} \end{array} \right] \left[ \begin{array}{c} q \\ i \end{array} \right] + \left[ \begin{array}{c} 0 \\ \frac{1}{L} \end{array} \right] V(t)
+$$"></p>
+      <p>We choose the current as ouput as follows:</p>
+      <p><span class="eqn_num">(22)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq16001618080529039463.png" alt="$$
+y = \left[ \begin{array}{cc} 0 &amp; 1 \end{array} \right] \left[ \begin{array}{c} q \\ i \end{array} \right]
+$$"></p>
+      <p>The transfer function representation may be found by taking the Laplace transform as we did for the mass-spring-damper or
+         from the state-space equation as follows:
+      </p>
+      <p><span class="eqn_num">(23)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq02754761522068543998.png" alt="$$
+\frac{I(s)}{V(s)} = C(s
+\mathbf{I}-A)^{-1}B+D
+= \left[ \begin{array}{cc} 0 &amp; 1 \end{array} \right]
+\left( s \left[ \begin{array}{cc} 1 &amp; 0 \\ 0 &amp; 1 \end{array} \right] - \left[
+\begin{array}{cc} 0 &amp; 1 \\ -\frac{1}{LC} &amp; -\frac{R}{L} \end{array} \right] \right)^{-1} \left[ \begin{array}{c} 0 \\ \frac{1}{L} \end{array} \right]
+$$"></p>
+      <p><span class="eqn_num">(24)</span><img class="display_eqn" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/Introduction_SystemModeling_eq04091513543306158315.png" alt="$$
+\Rightarrow \ \frac{I(s)}{V(s)} = \frac{s}{Ls^2+Rs+\frac{1}{C}}
+$$"></p>
+      <p>The RLC state-space and transfer function models can be entered into MATLAB using the same procedure as discussed for the
+         mass-spring-damper system above.
+      </p>
+      <h2>System Identification<a name="16"></a></h2>
+      <p>In this section, we have seen how to model systems using basic 
+physical principles; however, often this is not possible either
+         because the parameters of the system are uncertain, or the 
+underlying processes are simply not understood.  In these cases,
+         we must rely on experimental measurements and statistical 
+techniques to develop a system model, a process known as <b>system identification</b>.
+      </p>
+      <p>System identification may be performed using either time-domain or frequency-domain data, see the <a href="https://ctms.engin.umich.edu/CTMS/?aux=Extras_Identification">Introduction: System Identification</a> page for further details. A couple of system identification activities can also be found from the <b>Hardware</b> tab located at the top of this window.
+      </p>
+      <p>Also refer to MATLAB’s <a href="http://www.mathworks.com/products/sysid/">System Identification Toolbox</a> for more information on this subject.
+      </p>
+      <h2>System Conversions<a name="17"></a></h2>
+      <p>Most operations in MATLAB can be performed on either the 
+transfer function, the state-space model, or the zero-pole-gain form.
+         Furthermore, it is simple to transfer between these forms if 
+the other representation is required. If you need to learn how
+         to convert from one representation to another, see the <a href="https://ctms.engin.umich.edu/CTMS/?aux=Extras_Conversions">Introduction: System Conversions</a> page.
+      </p>
+      <p class="footer"><br>
+         Published with MATLAB® 9.2<br></p>
+   </div>
+</div>
+<!--
+##### SOURCE BEGIN #####
+%% Introduction: System Modeling
+%
+% The first step in the control design process is to develop appropriate
+% mathematical models of the system to be controlled. These models may be
+% derived either from physical laws or  experimental data. In this section,
+% we introduce the state-space and transfer function representations of
+% dynamic systems. We then review some basic approaches to modeling
+% mechanical and electrical systems and show how to generate these models
+% in MATLAB for further analysis. 
+%
+% Key MATLAB commands used in this tutorial are:
+% <http://www.mathworks.com/help/toolbox/control/ref/ss.html |ss|> , 
+% <http://www.mathworks.com/help/toolbox/control/ref/tf.html |tf|>
+%
+%% Dynamic Systems
+%
+% *Dynamic systems* are systems that change or evolve in time according to 
+% a fixed rule. For many physical systems, this rule can be stated as a set
+% of first-order differential equations:
+%
+% $$ 
+% \dot{\mathbf{x}} = \frac{d\mathbf{x}}{dt} = \mathbf{f}\left( \mathbf{x}(t), \mathbf{u}(t), t \right)
+% $$
+%
+% In the above equation, $\mathbf{x}(t)$ is the *state vector*, a set of 
+% variables representing the configuration of the system at time $t$. For 
+% instance, in a simple mechanical mass-spring-damper system, the two state 
+% variables could be the position and velocity of the mass. $\mathbf{u}(t)$ 
+% is the vector of external inputs to the system at time $t$, and $\mathbf{f}$ is a 
+% (possibly nonlinear) function producing the time derivative (rate of change) 
+% of the state vector, $d\mathbf{x}/dt$, for a particular instant of time.
+%
+% The state at any future time, $\mathbf{x}(t_1)$, may be determined exactly 
+% given knowledge of the initial state, $\mathbf{x}(t_0)$, and the time history 
+% of the inputs, $\mathbf{u}(t)$, between $t_0$ and $t_1$ by integrating Equation (1). 
+% Though the state variables themselves are not unique, there is a minimum 
+% number of state variables, $n$, required in order to capture the "state" of a
+% given system and to be able to predict the system's future behavior (solve the state equations). 
+% $n$ is referred to as the *system order* and determines the
+% dimensionality of the *state-space*. The system order usually corresponds 
+% to the number of independent energy storage elements in the system.
+%
+% The relationship given in Equation (1) is very general and can be used to describe 
+% a wide variety of different systems; unfortunately, it may be very
+% difficult to analyze. There are two common simplifications which 
+% make the problem more tractable. First, if the function $\mathbf{f}$ does not depend
+% explicitly on time, i.e. $\dot{\mathbf{x}} = \mathbf{f}(\mathbf{x},\mathbf{u})$,
+% then the system is said to be *time invariant*. This is often a very reasonable 
+% assumption because the underlying physical laws themselves do not typically 
+% depend on time. For time-invariant systems, the parameters or coefficients 
+% of the function $\mathbf{f}$ are constant. The state variables,
+% $\mathbf{x}(t)$, and control inputs, $\mathbf{u}(t)$, however, 
+% may still be time dependent. 
+%
+% The second common assumption concerns the linearity of the system. 
+% In reality, nearly every physical system is nonlinear. In other words, 
+% $\mathbf{f}$ is typically some complicated function of the state and inputs.
+% These nonlinearities arise in many different ways, one of the most
+% common in control systems being "saturation" in which an element
+% of the system reaches a hard physical limit to its operation. 
+% Fortunately, over a sufficiently small operating range (think tangent line near a curve), 
+% the dynamics of most systems are approximately *linear*. In this case,
+% the system of first-order differential equations can be represented as a
+% matrix equation, that is,
+% $\dot{\mathbf{x}} = A\mathbf{x} + B\mathbf{u}$. 
+%
+% Until the advent of digital computers (and to a large extent thereafter),
+% it was only practical to analyze *linear time-invariant (LTI)* systems.
+% Consequently, most of the results of control theory are based on these 
+% assumptions. Fortunately, as we shall see, these results have proven to be 
+% remarkably effective and many significant engineering challenges have been 
+% solved using LTI techniques. In fact, the true power of feedback control 
+% systems are that they work (are *robust*) in the presence of the unavoidable 
+% modeling uncertainty.
+%
+%% State-Space Representation
+%
+% For continuous linear time-invariant (LTI) systems, the standard state-space
+% representation is given below:
+%
+% $$ 
+% \dot{\mathbf{x}} = A\mathbf{x} + B\mathbf{u}
+% $$
+%
+% $$ 
+% \mathbf{y} = C\mathbf{x} + D\mathbf{u}
+% $$
+%
+% where $\mathbf{x}$ is the vector of state variables (nx1),
+% $\dot{\mathbf{x}}$ is the time derivative of the state vector (nx1),
+% $\mathbf{u}$ is the input or control vector (px1),
+% $\mathbf{y}$ is the output vector (qx1),
+% $A$ is the system matrix (nxn), 
+% $B$ is the input matrix (nxp), 
+% $C$ is the output matrix (qxn), and
+% $D$ is the feedforward matrix (qxp).	
+%	
+% The output equation, Equation (3), is necessary because often there are state 
+% variables which are not directly observed or are otherwise not of
+% interest.  The output matrix, $C$, is used to specify which
+% state variables (or combinations thereof) are available for use by the 
+% controller. Also, it is often the case that the outputs do not directly
+% depend on the inputs (only through the state variables), in which case 
+% $D$ is the zero matrix.
+%
+% The state-space representation, also referred to as the time-domain
+% representation, can easily handle *multi-input/multi-output (MIMO)* systems, 
+% systems with non-zero initial conditions, and nonlinear systems via Equation (1). 
+% Consequently, the state-space representation is used extensively in 
+% "modern" control theory. 
+%
+%% Transfer Function Representation
+%
+% LTI systems have the extremely important property that if the input to 
+% the system is sinusoidal, then the output will also be sinusoidal  
+% with the same frequency as the input, but with possibly different magnitude and phase.
+% These magnitude and phase differences are a function of frequency and capture what is known as the
+% *frequency response* of the system.
+%
+% Using the *Laplace transform*, it is possible to convert a system's 
+% time-domain representation into a frequency-domain input/output representation, 
+% known as the *transfer function*.  In so doing, it also transforms the governing 
+% differential equation into an algebraic equation which is often easier to 
+% analyze.
+%
+% The Laplace transform of a time domain function, $f(t)$, is defined below:
+%
+% $$
+% F(s) = \mathcal{L}\{f(t)\} = \int_0^\infty e^{-st}f(t)dt
+% $$
+%
+% where the parameter $s=\sigma+j\omega$ is a complex frequency variable. It is
+% very rare in practice that you will have to directly evaluate a Laplace
+% transform (though you should certainly know how to). It is much more common 
+% to look up the transform of a time function in a table
+% such as the one found here: <http://en.wikipedia.org/wiki/Laplace_transform#Table_of_selected_Laplace_transforms Laplace Transform Table>
+%
+% The Laplace transform of the nth derivative of a function is particularly
+% important:
+%
+% $$
+% \mathcal{L}\left\{ \frac{d^nf}{dt^n} \right\} = s^n F(s)- s^{n-1} f(0) - s^{n-2} \dot{f}(0) - ... - f^{(n-1)}(0)
+% $$
+%
+% Frequency-domain methods are most often used for analyzing LTI
+% *single-input/single-output (SISO)* systems, e.g. those governed by a
+% constant coefficient differential equation, as shown below:
+%
+% $$
+% a_n \frac{d^ny}{dt^n} + ... + a_1 \frac{dy}{dt} + a_0 y(t) = b_m \frac{d^mu}{dt^m} + ... + b_1 \frac{du}{dt} + b_0 u(t)
+% $$
+% 
+% The Laplace transform of this equation is given below:
+%
+% $$
+% a_n s^n Y(s) + ... + a_1 sY(s)+ a_0 Y(s) = b_m s^m U(s) + ... + b_1 sU(s)+ b_0 U(s)
+% $$
+%
+% where $Y(s)$ and $U(s)$ are the Laplace Transforms of $y(t)$ and $u(t)$,
+% respectively. Note that when finding transfer functions, we always assume
+% that the each of the initial conditions, $y(0)$, $\dot{y}(0)$, $u(0)$, etc.
+% is zero. The transfer function from input $U(s)$ to output $Y(s)$ is, therefore:
+%
+% $$
+% G(s) = \frac{Y(s)}{U(s)} = \frac{b_m s^m + b_{m-1} s^{m-1} + ... + b_1 s + b_0}{a_n s^n + a_{n-1} s^{n-1} + ... + a_1 s + a_0}
+% $$
+%
+% It is useful to factor the numerator and denominator of the transfer
+% function into what is termed *zero-pole-gain* form:
+%
+% $$
+% G(s) = \frac{N(s)}{D(s)} = K \frac{(s-z_1)(s-z_2)...(s-z_{m-1})(s-z_m)}{(s-p_1)(s-p_2)...(s-p_{n-1})(s-p_n)}
+% $$
+%
+% The *zeros* of the transfer function, $z_1,\ldots,z_m$, are the
+% roots of the numerator polynomial, i.e. the values of $s$ such that $N(s)=0$.
+% The *poles* of the transfer function, $p_1, \ldots,p_n$, are the
+% roots of the denominator polynomial, i.e. the values of $s$ such that
+% $D(s)=0$. Both the zeros and poles may be complex valued (have both real 
+% and imaginary parts). The system *Gain* is $K = b_m/a_n$.
+%
+% Note that we can also determine the transfer function directly from the
+% state-space representation as follows:
+%
+% $$
+% G(s) = \frac{Y(s)}{U(s)} = C(s\mathbf{I}-A)^{-1}B+D
+% $$
+%
+%% Mechanical Systems
+%
+% Newton's laws of motion form the basis for analyzing mechanical systems.  
+% *Newton’s second law*, Equation (11), states that the sum of the forces acting on
+% a body equals the product of its mass and acceleration. *Newton's third law*, for our
+% purposes, states that if two bodies are in contact, then they experience
+% the same magnitude contact force, just acting in opposite directions.
+%
+% $$
+% \Sigma \mathbf{F} = m \mathbf{a} = m \frac{d^2 \mathbf{x}}{dt^2}
+% $$
+%
+% When applying this equation, it is best to construct a *free-body diagram
+% (FBD)* of the sysetm showing all of the applied forces.
+%
+%% Example: Mass-Spring-Damper System
+%
+% <<Content/Introduction/System/Modeling/figures/mass_spring_damper.png>>
+% 
+% The free-body diagram for this system is shown below.  The spring force
+% is proportional to the displacement of the mass, $x$, and the viscous damping 
+% force is proportional to the velocity of the mass, $v=\dot{x}$.  Both forces 
+% oppose the motion of the mass and are, therefore, shown in the negative 
+% $x$-direction.  Note also that $x=0$ corresponds to the position of the mass 
+% when the spring is unstretched. 
+%
+% <<Content/Introduction/System/Modeling/figures/mass_spring_damper_FBD.png>>
+% 
+% Now we proceed by summing the forces and applying Newton’s second law,
+% Equation (11), in each direction.  In this case, there are no 
+% forces acting in the $y$-direction; however, in the $x$-direction we have:
+%
+% $$
+% \Sigma F_x = F(t) - b \dot{x} - k x = m \ddot{x}
+% $$
+%
+% This equation, known as the *governing equation*, completely characterizes
+% the dynamic state of the system.  Later, we will see how to use this to calculate 
+% the response of the system to any external input, $F(t)$, as well as to analyze 
+% system properties such as stability and performance. 
+%
+% To determine the state-space representation of the mass-spring-damper
+% system, we must reduce the second-order governing equation to a set of
+% two first-order differential equations. To this end, we choose the position and
+% velocity as our state variables. 
+%
+% $$
+% \mathbf{x} = \left[ \begin{array}{c} x \\ \dot{x} \end{array}\right]
+% $$
+%
+% The position variable captures the potential energy 
+% stored in the spring, while the velocity variable captures the kinetic
+% energy stored by the mass. The damper only dissipates energy, it doesn't
+% store energy. Often when 
+% choosing state variables it is helpful to consider what variables capture
+% the energy stored in the system.   
+%
+% The state equation in this case is:
+%
+% $$
+% \mathbf{\dot{x}} = \left[ \begin{array}{c} \dot{x} \\ \ddot{x} \end{array} \right] = \left[ \begin{array}{cc} 0 & 1 \\ -\frac{k}{m}  & -\frac{b}{m} \end{array} \right] \left[ \begin{array}{c} x \\ \dot{x} \end{array} \right] + \left[ \begin{array}{c} 0 \\ \frac{1}{m} \end{array} \right] F(t)
+% $$
+%
+% If, for instance, we are interested in controlling the position of the mass, 
+% then the output equation is:
+%
+% $$
+% y = \left[ \begin{array}{cc} 1 & 0 \end{array} \right] \left[ \begin{array}{c} x \\ \dot{x} \end{array} \right]
+% $$
+%
+%% Entering State-Space Models into MATLAB
+%
+% Now we will demonstrate how to enter the equations derived above into an
+% |m-file| for MATLAB.  Let's assign the following numerical values to each of the
+% variables.
+%
+%%
+%   m                   mass                                    1.0 kg
+%   k                   spring constant                         1.0 N/m
+%   b                   damping constant                        0.2 Ns/m
+%   F                   input force                             1.0 N
+%
+% Create a new |m-file| and enter the following commands.
+%
+%%
+
+m = 1;
+k = 1;
+b = 0.2;
+F = 1;
+
+A = [0 1; -k/m -b/m];
+B = [0 1/m]';
+C = [1 0];
+D = [0];
+
+sys = ss(A,B,C,D)
+
+%%
+% The Laplace transform for this system assuming zero initial conditions is
+%
+% $$
+% m s^2 X(s) + b s X(s) + k X(s) = F(s)
+% $$
+%
+% and, therefore, the transfer function from force input to displacement
+% output is
+%
+% $$
+% \frac{X(s)}{F(s)} = \frac{1}{m s^2 + b s + k}
+% $$
+%
+%% Entering Transfer Function Models into MATLAB
+%
+% Now we will demonstrate how to create the transfer function model derived above within MATLAB. 
+% Enter the following commands into the |m-file| in which you defined the
+% system parameters.
+%
+%%
+
+s = tf('s');
+sys = 1/(m*s^2+b*s+k)
+
+%%
+%
+% Note that we have used the symbolic |s| variable here to define our
+% transfer function model.  We recommend using this method most of the
+% time; however, in some circumstances, for instance in older versions of MATLAB or when interfacing
+% with SIMULINK, you may need to define the transfer
+% function model using the numerator and denominator polynomial
+% coefficients directly.  In these cases, use the following commands:
+%
+%%
+
+num = [1];
+den = [m b k];
+sys = tf(num,den)
+
+%% Electrical Systems
+%
+% Like Newton’s laws for mechanical systems, Kirchoff’s circuit laws are
+% fundamental analytical tools for modeling electrical systems.  *Kirchoff’s current law (KCL)* 
+% states that the sum of the electrical currents entering a node 
+% in a circuit must equal the sum of electrical currents exiting the node.
+% *Kirchoff’s voltage law (KVL)* states that the  
+% sum of voltage differences around any closed loop in a 
+% circuit is zero.  When applying KVL, the source voltages are typically taken 
+% as positive and the load voltages are taken as negative.
+% 
+%% Example: RLC Circuit
+%
+% We will now consider a simple series combination of three passive 
+% electrical elements: a resistor, an inductor, and a capacitor, known as an *RLC Circuit*.
+%
+% <<Content/Introduction/System/Modeling/figures/RLC.png>>
+% 
+% Since this circuit is a single loop, each node only has one input
+% and one output; therefore, application of KCL simply shows that the current 
+% is the same throughout the circuit at any given time, $i(t)$.  Now applying 
+% KVL around the loop and using the sign conventions indicated in the diagram, 
+% we arrive at the following *governing equation*.
+% 
+% $$
+% V(t) - R i - L \frac{di}{dt} - \frac{1}{C} \int i dt = 0
+% $$
+%
+% We note that that the governing equation for the RLC circuit
+% has an analogous form to the mass-spring-damper mechanical system. In 
+% particular, they are both second-order systems where the charge (integral of current) corresponds 
+% to displacement, the inductance corresponds to mass, the resistance corresponds to viscous damping, 
+% and the inverse capacitance corresponds to the spring stiffness.  These analogies and 
+% others like them turn out to be quite useful conceptually in understanding 
+% the behavior of dynamical systems.
+%
+% The state-space representation is found by choosing the charge on the capacitor and
+% current through the circuit (inductor) as the state variables.
+%
+% $$
+% \mathbf{x} = \left[ \begin{array}{c} q \\ i \end{array}\right]
+% $$
+%
+% where,
+%
+% $$
+% q = \int i dt
+% $$
+%
+% The state equation is, therefore:
+%
+% $$
+% \mathbf{\dot{x}} = \left[ \begin{array}{c} i \\ \frac{di}{dt} \end{array} \right] = \left[ \begin{array}{cc} 0 & 1 \\ -\frac{1}{LC} & -\frac{R}{L} \end{array} \right] \left[ \begin{array}{c} q \\ i \end{array} \right] + \left[ \begin{array}{c} 0 \\ \frac{1}{L} \end{array} \right] V(t)
+% $$
+%
+% We choose the current as ouput as follows:
+%
+% $$
+% y = \left[ \begin{array}{cc} 0 & 1 \end{array} \right] \left[ \begin{array}{c} q \\ i \end{array} \right]
+% $$
+%
+% The transfer function representation may be found by taking the Laplace 
+% transform as we did for the mass-spring-damper or from the state-space equation as follows:
+%
+% $$
+% \frac{I(s)}{V(s)} = C(s
+% \mathbf{I}-A)^{-1}B+D
+% = \left[ \begin{array}{cc} 0 & 1 \end{array} \right]
+% \left( s \left[ \begin{array}{cc} 1 & 0 \\ 0 & 1 \end{array} \right] - \left[
+% \begin{array}{cc} 0 & 1 \\ -\frac{1}{LC} & -\frac{R}{L} \end{array} \right] \right)^{-1} \left[ \begin{array}{c} 0 \\ \frac{1}{L} \end{array} \right]
+% $$
+%
+% $$
+% \Rightarrow \ \frac{I(s)}{V(s)} = \frac{s}{Ls^2+Rs+\frac{1}{C}}
+% $$
+%
+% The RLC state-space and transfer function models can be entered into
+% MATLAB using the same procedure as discussed for the mass-spring-damper
+% system above.
+
+%% System Identification
+%
+% In this section, we have seen how to model systems using basic physical
+% principles; however, often this is not possible either 
+% because the parameters of the system are uncertain, or 
+% the underlying processes are simply not understood.  In 
+% these cases, we must rely on experimental measurements and statistical 
+% techniques to develop a system model, a process known as *system identification*.   
+%
+% System identification may be performed using either time-domain or
+% frequency-domain data, see the
+% < ?aux=Extras_Identification Introduction: System Identification> page for
+% further details. A couple of system identification activities can also
+% be found from the *Hardware* tab located at the top of this window.
+% 
+% Also refer to MATLAB’s <http://www.mathworks.com/products/sysid/ System Identification Toolbox> for more information on this subject. 
+% 
+%% System Conversions
+%
+% Most operations in MATLAB can be performed on either the transfer
+% function, the state-space model, or the zero-pole-gain form. Furthermore, 
+% it is simple to transfer between these forms if the other representation 
+% is required. If you need to learn how to convert from one representation 
+% to another, see the < ?aux=Extras_Conversions Introduction: System
+% Conversions> page. 
+##### SOURCE END #####
+-->				</div>
+
+				<div id="left">
+
+					<ul class="section">
+						<li class="heading" id="System">SYSTEM<img class="section_heading_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_heading_arrow.png" style="top: 9px;"></li>
+						<li class="item" id="SystemModeling"><a href="https://ctms.engin.umich.edu/CTMS/?example=Introduction&amp;section=SystemModeling" style="background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%);">MODELING<img class="section_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_arrow.png" style="top: 9.5px;"></a></li>
+						<li class="item" id="SystemAnalysis"><a href="https://ctms.engin.umich.edu/CTMS/?example=Introduction&amp;section=SystemAnalysis">ANALYSIS<img class="section_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_arrow.png" style="top: 9.5px;"></a></li>
+					</ul>
+
+					<div class="section_break"></div>
+
+					<ul class="section">
+						<li class="heading" id="Control">CONTROL<img class="section_heading_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_heading_arrow.png" style="top: 9px;"></li>
+						<li class="item" id="ControlPID"><a href="https://ctms.engin.umich.edu/CTMS/?example=Introduction&amp;section=ControlPID">PID<img class="section_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_arrow.png" style="top: 9.5px;"></a></li>
+						<li class="item" id="ControlRootLocus"><a href="https://ctms.engin.umich.edu/CTMS/?example=Introduction&amp;section=ControlRootLocus">ROOT&nbsp;LOCUS<img class="section_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_arrow.png" style="top: 9.5px;"></a></li>
+						<li class="item" id="ControlFrequency"><a href="https://ctms.engin.umich.edu/CTMS/?example=Introduction&amp;section=ControlFrequency">FREQUENCY<img class="section_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_arrow.png" style="top: 9.5px;"></a></li>
+						<li class="item" id="ControlStateSpace"><a href="https://ctms.engin.umich.edu/CTMS/?example=Introduction&amp;section=ControlStateSpace">STATE-SPACE<img class="section_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_arrow.png" style="top: 9.5px;"></a></li>
+						<li class="item" id="ControlDigital"><a href="https://ctms.engin.umich.edu/CTMS/?example=Introduction&amp;section=ControlDigital">DIGITAL<img class="section_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_arrow.png" style="top: 9.5px;"></a></li>
+					</ul>
+
+					<div class="section_break"></div>
+
+					<ul class="section">
+						<li class="heading" id="Simulink">SIMULINK<img class="section_heading_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_heading_arrow.png" style="top: 9px;"></li>
+						<li class="item" id="SimulinkModeling"><a href="https://ctms.engin.umich.edu/CTMS/?example=Introduction&amp;section=SimulinkModeling">MODELING<img class="section_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_arrow.png" style="top: 9.5px;"></a></li>
+						<li class="item" id="SimulinkControl"><a href="https://ctms.engin.umich.edu/CTMS/?example=Introduction&amp;section=SimulinkControl">CONTROL<img class="section_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_arrow.png" style="top: 9.5px;"></a></li>
+						<li class="item" id="SimulinkSimscape"><a href="https://ctms.engin.umich.edu/CTMS/?example=Introduction&amp;section=SimulinkSimscape">SIMSCAPE<img class="section_arrow" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/section_arrow.png" style="top: 9.5px;"></a></li>
+					</ul>
+
+				</div>
+
+				<div style="clear:both"></div>
+
+				<div id="bottombar">
+					<a id="commons" href="http://www.creativecommons.org/" title="creative commons"><img src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/CCBYSA.png"></a>
+					<div id="copyright">All contents licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</div>
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="Control%20Tutorials%20for%20MATLAB%20and%20Simulink%20-%20Introduction%20System%20Modeling_arquivos/script.js"></script>
+
+	
+
+
+
+
+</div></body></html>
